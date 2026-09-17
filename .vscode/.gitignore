@@ -1,9 +1,0 @@
-# Compilados y ejecutables
-*.o
-*.exe
-programa
-
-# Archivos de salida temporales generados al ejecutar
-salida_temporal.json
-/build/
-/dist/
