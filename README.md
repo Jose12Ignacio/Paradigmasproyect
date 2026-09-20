@@ -74,9 +74,7 @@ reserva de memoria falla. Se verificó ausencia de fugas con
 
 ### Aporte al caso límite (2.2.2): el campo `dia`
 
-_(Nota: esta sección la redacta formalmente Integrante 2 según la división
-de trabajo, pero la dejamos documentada acá porque el hallazgo fue nuestro,
-para que la puedan copiar/fusionar con su parte.)_
+
 
 El catálogo se recibe como CSV generado a partir del Excel institucional.
 Ese script codifica cada día de la semana con una sola letra: `L, K, M, J,
