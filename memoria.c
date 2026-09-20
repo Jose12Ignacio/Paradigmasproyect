@@ -2,6 +2,20 @@
 #include <stdlib.h>
 #include "memoria.h"
 
+Dia letra_a_dia(char letra) {
+    switch (letra) {
+        case 'L': return LUNES;
+        case 'K': return MARTES;
+        case 'M': return MIERCOLES;
+        case 'J': return JUEVES;
+        case 'V': return VIERNES;
+        case 'S': return SABADO;
+        default:
+            fprintf(stderr, "Advertencia: letra de dia desconocida '%c', se asume LUNES\n", letra);
+            return LUNES;
+    }
+}
+
 Catalogo* crear_catalogo(int capacidad_inicial) {
     if (capacidad_inicial <= 0) {
         capacidad_inicial = 10; // valor por defecto razonable si mandan 0 o negativo

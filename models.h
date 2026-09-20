@@ -38,6 +38,7 @@ typedef struct {
  */
 typedef struct {
     int     numero_grupo;
+    char    profesor[MAX_PROFESOR];
     Horario horarios[MAX_BLOQUES_POR_GRUPO];
     int     Totalhorarios;   // tal cual lo escribió tu compañero
 } Grupo;
@@ -52,6 +53,7 @@ typedef struct {
     char codigo[MAX_CODIGO];
     char nombre[MAX_NOMBRE];
     int  creditos;
+    int  semestre;
 
     Grupo grupos[MAX_GRUPOS_POR_CURSO];
     int   total_grupos;
