@@ -1,0 +1,30 @@
+[INFO] ============================================================
+[INFO] CONVERSIÓN EXCEL -> CSV
+[INFO] Fecha: 2026-09-17 13:12:42
+[INFO] ============================================================
+[INFO] Cargando Plan de estudios CE y ATI (1).xlsx...
+[INFO] 
+--- PROCESANDO CE ---
+[OK] Hoja 'CE': 27 cursos leídos
+[OK] Hoja 'Grupos CE': 26 cursos con horarios leídos
+[WARN] Cursos sin horario en CE: ['CI-0205']
+[OK] CSV escrito: data\catalogo_CE.csv (316 filas)
+[INFO] 
+--- PROCESANDO ATI ---
+[OK] Hoja 'ATI': 27 cursos leídos
+[WARN] Corrección de código: 'TI4501' -> 'TI-4500'
+[WARN] Corrección de código: 'MA2404' -> 'MA-2404'
+[WARN] Corrección de código: 'MA2405' -> 'MA-2404'
+[WARN] Corrección de código: 'MA2406' -> 'MA-2404'
+[WARN] Corrección de código: 'MA2407' -> 'MA-2404'
+[WARN] Corrección de código: 'MA2408' -> 'MA-2404'
+[WARN] Corrección de código: 'MA2409' -> 'MA-2404'
+[OK] Hoja 'Grupos ATI': 26 cursos con horarios leídos
+[WARN] Cursos sin horario en ATI: ['CI-0200']
+[OK] CSV escrito: data\catalogo_ATI.csv (210 filas)
+[INFO] 
+============================================================
+[INFO] RESUMEN
+[INFO] CE  - Cursos: 27, con horario: 26
+[INFO] ATI - Cursos: 27, con horario: 26
+[INFO] ============================================================

@@ -1,0 +1,317 @@
+codigo,nombre,creditos,semestre,requisitos,correquisitos,grupo,profesor,dia,hora_inicio,hora_fin
+CE-1101,Introducción a la programación,3,1,,,1,Schmidt Peralta Jeff,J,07:30,09:20
+CE-1101,Introducción a la programación,3,1,,,1,Schmidt Peralta Jeff,K,07:30,09:20
+CE-1101,Introducción a la programación,3,1,,,2,Schmidt Peralta Jeff,J,09:30,11:20
+CE-1101,Introducción a la programación,3,1,,,2,Schmidt Peralta Jeff,K,09:30,11:20
+CE-1103,Algoritmos y estructuras de datos 1,4,2,CE-1101;CE-1104;MA-1403,,1,Ramirez Trejos Ellioth,M,17:00,18:50
+CE-1103,Algoritmos y estructuras de datos 1,4,2,CE-1101;CE-1104;MA-1403,,1,Ramirez Trejos Ellioth,V,17:00,18:50
+CE-1103,Algoritmos y estructuras de datos 1,4,2,CE-1101;CE-1104;MA-1403,,2,Gamboa Ramirez Santiago,J,15:00,16:50
+CE-1103,Algoritmos y estructuras de datos 1,4,2,CE-1101;CE-1104;MA-1403,,2,Gamboa Ramirez Santiago,K,15:00,16:50
+CE-1103,Algoritmos y estructuras de datos 1,4,2,CE-1101;CE-1104;MA-1403,,3,Barboza Artavia Luis,J,09:30,11:20
+CE-1103,Algoritmos y estructuras de datos 1,4,2,CE-1101;CE-1104;MA-1403,,3,Barboza Artavia Luis,K,09:30,11:20
+CE-1104,Fundamentos de sistemas computacionales,3,1,,CE-1101,1,Villegas Lemus Milton,J,07:30,09:20
+CE-1104,Fundamentos de sistemas computacionales,3,1,,CE-1101,1,Villegas Lemus Milton,K,07:30,09:20
+CE-1105,Principios de modelado en ingeniería,3,2,CE-1104,,1,Mora Rojas Diego,J,19:00,20:50
+CE-1105,Principios de modelado en ingeniería,3,2,CE-1104,,1,Mora Rojas Diego,K,19:00,20:50
+CE-1105,Principios de modelado en ingeniería,3,2,CE-1104,,2,Rivera Meneses Marco,M,17:00,18:50
+CE-1105,Principios de modelado en ingeniería,3,2,CE-1104,,2,Rivera Meneses Marco,V,17:00,18:50
+CE-1105,Principios de modelado en ingeniería,3,2,CE-1104,,3,Hernandez Vasquez Marco,J,19:00,20:50
+CE-1105,Principios de modelado en ingeniería,3,2,CE-1104,,3,Hernandez Vasquez Marco,K,19:00,20:50
+CE-1106,Paradigmas de programación,3,4,CE-2103,,1,Barboza Artavia Luis,M,09:30,11:20
+CE-1106,Paradigmas de programación,3,4,CE-2103,,1,Barboza Artavia Luis,V,09:30,11:20
+CE-1106,Paradigmas de programación,3,4,CE-2103,,2,Gamboa Ramirez Santiago,J,17:00,18:50
+CE-1106,Paradigmas de programación,3,4,CE-2103,,2,Gamboa Ramirez Santiago,K,17:00,18:50
+CE-2103,Algoritmos y estructuras de datos 2,4,3,CE-1103;CE-1105,,1,Ramirez Herrera Jose Isaac,J,07:30,09:20
+CE-2103,Algoritmos y estructuras de datos 2,4,3,CE-1103;CE-1105,,1,Ramirez Herrera Jose Isaac,K,07:30,09:20
+CE-2201,Laboratorio de circuitos eléctricos,1,4,FI-1202,,1,Araya Martinez Leonardo,L,09:30,11:20
+CE-2201,Laboratorio de circuitos eléctricos,1,4,FI-1202,,2,Araya Martinez Leonardo,L,07:30,09:20
+CI-0205,Prueba avanzada de inglés,0,0,,,,,,,
+CI-1407,Habilidades de Comunicación en Ingeniería,2,2,,,1,Godinez Rojas Paulette,L,09:30,12:20
+CI-1407,Habilidades de Comunicación en Ingeniería,2,2,,,2,Morales Solano Paola Natalia,J,13:00,15:50
+CI-1407,Habilidades de Comunicación en Ingeniería,2,2,,,3,Morales Garay Saray,K,13:00,15:50
+CI-1407,Habilidades de Comunicación en Ingeniería,2,2,,,4,Morales Solano Paola Natalia,V,07:30,10:20
+CS-1502,"Introducción a la técnica, ciencia y tecnología",1,2,,,1,Ortiz Acuña Leonardo,J,09:30,11:20
+CS-1502,"Introducción a la técnica, ciencia y tecnología",1,2,,,2,Bojorge Murillo Alexander,M,09:30,11:20
+CS-1502,"Introducción a la técnica, ciencia y tecnología",1,2,,,3,Bojorge Murillo Alexander,M,17:00,18:50
+CS-1502,"Introducción a la técnica, ciencia y tecnología",1,2,,,4,Bojorge Murillo Alexander,K,15:00,16:50
+CS-1502,"Introducción a la técnica, ciencia y tecnología",1,2,,,5,Garro Reyes Mauricio,M,09:30,11:20
+CS-2101,Ambiente humano,2,3,,,1,Ortiz Alvarez Jorge Isaac,V,09:30,12:20
+CS-2101,Ambiente humano,2,3,,,2,Rodriguez Morales Oscar,K,09:30,12:20
+CS-2101,Ambiente humano,2,3,,,3,Ortiz Alvarez Jorge Isaac,M,09:30,12:20
+CS-2101,Ambiente humano,2,3,,,4,Ortiz Alvarez Jorge Isaac,M,15:00,17:50
+CS-2101,Ambiente humano,2,3,,,5,Murillo Solis Javier,J,09:30,12:20
+CS-2101,Ambiente humano,2,3,,,6,Rodriguez Morales Oscar,L,07:30,10:20
+CS-2101,Ambiente humano,2,3,,,7,Rodriguez Morales Oscar,L,18:00,20:50
+CS-2101,Ambiente humano,2,3,,,8,Rojas Molina Betsy,K,18:00,20:50
+EL-2113,Circuitos Eléctricos en Corriente Continua,4,3,FI-1101;MA-1102,,1,Vega Castillo Paola,M,09:30,11:20
+EL-2113,Circuitos Eléctricos en Corriente Continua,4,3,FI-1101;MA-1102,,1,Vega Castillo Paola,V,09:30,11:20
+EL-2113,Circuitos Eléctricos en Corriente Continua,4,3,FI-1101;MA-1102,,2,Perez Rodriguez Javier,J,09:30,11:20
+EL-2113,Circuitos Eléctricos en Corriente Continua,4,3,FI-1101;MA-1102,,2,Perez Rodriguez Javier,K,09:30,11:20
+EL-2113,Circuitos Eléctricos en Corriente Continua,4,3,FI-1101;MA-1102,,3,Picado Garcia Fabian Alberto,L,07:30,11:20
+EL-2113,Circuitos Eléctricos en Corriente Continua,4,3,FI-1101;MA-1102,,4,Hernandez Rivera Miguel,L,07:30,09:20
+EL-2113,Circuitos Eléctricos en Corriente Continua,4,3,FI-1101;MA-1102,,4,Hernandez Rivera Miguel,M,07:30,09:20
+EL-2114,Circuitos eléctricos en corriente alterna,4,4,EL-2113,EL-2207,1,Chinchilla Vargas Erick Gustavo,M,17:00,18:50
+EL-2114,Circuitos eléctricos en corriente alterna,4,4,EL-2113,EL-2207,1,Chinchilla Vargas Erick Gustavo,V,17:00,18:50
+EL-2114,Circuitos eléctricos en corriente alterna,4,4,EL-2113,EL-2207,2,Quiros Solano William,J,09:30,11:20
+EL-2114,Circuitos eléctricos en corriente alterna,4,4,EL-2113,EL-2207,2,Quiros Solano William,K,09:30,11:20
+EL-2114,Circuitos eléctricos en corriente alterna,4,4,EL-2113,EL-2207,3,Valverde Gardela Heberth,M,07:30,09:20
+EL-2114,Circuitos eléctricos en corriente alterna,4,4,EL-2113,EL-2207,3,Valverde Gardela Heberth,V,07:30,09:20
+EL-2114,Circuitos eléctricos en corriente alterna,4,4,EL-2113,EL-2207,4,Herrero Chavarria Felipe,J,17:00,18:50
+EL-2114,Circuitos eléctricos en corriente alterna,4,4,EL-2113,EL-2207,4,Herrero Chavarria Felipe,K,17:00,18:50
+EL-2207,Elementos activos,4,4,EL-2113,,1,Segura Quiros Carlos,J,15:00,16:50
+EL-2207,Elementos activos,4,4,EL-2113,,1,Segura Quiros Carlos,K,15:00,16:50
+EL-2207,Elementos activos,4,4,EL-2113,,2,Montero Rodriguez Juan Jose,J,07:30,09:20
+EL-2207,Elementos activos,4,4,EL-2113,,2,Montero Rodriguez Juan Jose,K,07:30,09:20
+EL-2207,Elementos activos,4,4,EL-2113,,3,Vega Castillo Paola,M,15:00,16:50
+EL-2207,Elementos activos,4,4,EL-2113,,3,Vega Castillo Paola,V,15:00,16:50
+EL-2207,Elementos activos,4,4,EL-2113,,4,Pinnock Chacon Mac Alfred,M,17:00,18:50
+EL-2207,Elementos activos,4,4,EL-2113,,4,Pinnock Chacon Mac Alfred,V,09:30,11:20
+FI-1101,Física general 1,3,2,MA-1102,,1,Murillo Salazar Dennis,J,07:30,09:20
+FI-1101,Física general 1,3,2,MA-1102,,1,Murillo Salazar Dennis,K,07:30,09:20
+FI-1101,Física general 1,3,2,MA-1102,,11,Moya Serrano Roy David,M,07:30,09:20
+FI-1101,Física general 1,3,2,MA-1102,,11,Moya Serrano Roy David,V,07:30,09:20
+FI-1101,Física general 1,3,2,MA-1102,,13,Cambronero Cordero Michael,M,09:30,11:20
+FI-1101,Física general 1,3,2,MA-1102,,13,Cambronero Cordero Michael,V,09:30,11:20
+FI-1101,Física general 1,3,2,MA-1102,,14,Montero Zeledon Ernesto,M,09:30,11:20
+FI-1101,Física general 1,3,2,MA-1102,,14,Montero Zeledon Ernesto,V,09:30,11:20
+FI-1101,Física general 1,3,2,MA-1102,,15,Segura Zarate Ana Yancy,M,13:00,14:50
+FI-1101,Física general 1,3,2,MA-1102,,15,Segura Zarate Ana Yancy,V,13:00,14:50
+FI-1101,Física general 1,3,2,MA-1102,,17,Rojas Perez Francisco,M,15:00,16:50
+FI-1101,Física general 1,3,2,MA-1102,,17,Rojas Perez Francisco,V,15:00,16:50
+FI-1101,Física general 1,3,2,MA-1102,,18,Segura Zarate Ana Yancy,M,17:00,18:50
+FI-1101,Física general 1,3,2,MA-1102,,18,Segura Zarate Ana Yancy,V,17:00,18:50
+FI-1101,Física general 1,3,2,MA-1102,,19,Rojas Perez Francisco,J,09:30,11:20
+FI-1101,Física general 1,3,2,MA-1102,,19,Rojas Perez Francisco,K,09:30,11:20
+FI-1101,Física general 1,3,2,MA-1102,,2,Murillo Zumbado Gustavo,J,07:30,09:20
+FI-1101,Física general 1,3,2,MA-1102,,2,Murillo Zumbado Gustavo,K,07:30,09:20
+FI-1101,Física general 1,3,2,MA-1102,,20,Segura Zarate Ana Yancy,M,09:30,11:20
+FI-1101,Física general 1,3,2,MA-1102,,20,Segura Zarate Ana Yancy,V,09:30,11:20
+FI-1101,Física general 1,3,2,MA-1102,,3,Pineda Lizano Juan Jose,J,09:30,11:20
+FI-1101,Física general 1,3,2,MA-1102,,3,Pineda Lizano Juan Jose,K,09:30,11:20
+FI-1101,Física general 1,3,2,MA-1102,,4,Elizondo Zuñiga Jennifer,J,09:30,11:20
+FI-1101,Física general 1,3,2,MA-1102,,4,Elizondo Zuñiga Jennifer,K,09:30,11:20
+FI-1101,Física general 1,3,2,MA-1102,,5,Elizondo Zuñiga Jennifer,J,13:00,14:50
+FI-1101,Física general 1,3,2,MA-1102,,5,Elizondo Zuñiga Jennifer,K,13:00,14:50
+FI-1101,Física general 1,3,2,MA-1102,,6,Vargas Blanco Ivan,J,13:00,14:50
+FI-1101,Física general 1,3,2,MA-1102,,6,Vargas Blanco Ivan,K,13:00,14:50
+FI-1101,Física general 1,3,2,MA-1102,,7,Pineda Lizano Juan Jose,J,15:00,16:50
+FI-1101,Física general 1,3,2,MA-1102,,7,Pineda Lizano Juan Jose,K,15:00,16:50
+FI-1101,Física general 1,3,2,MA-1102,,8,Corrales Quesada Esteban,J,15:00,16:50
+FI-1101,Física general 1,3,2,MA-1102,,8,Corrales Quesada Esteban,K,15:00,16:50
+FI-1101,Física general 1,3,2,MA-1102,,9,Corrales Quesada Esteban,J,17:00,18:50
+FI-1101,Física general 1,3,2,MA-1102,,9,Corrales Quesada Esteban,K,17:00,18:50
+FI-1102,Física general 2,3,3,FI-1101,MA-1102,1,Lobo Zamora Juan Carlos,J,07:30,09:20
+FI-1102,Física general 2,3,3,FI-1101,MA-1102,1,Lobo Zamora Juan Carlos,K,07:30,09:20
+FI-1102,Física general 2,3,3,FI-1101,MA-1102,10,Soto Chinchilla Yerry,J,07:30,09:20
+FI-1102,Física general 2,3,3,FI-1101,MA-1102,10,Soto Chinchilla Yerry,K,07:30,09:20
+FI-1102,Física general 2,3,3,FI-1101,MA-1102,11,Murillo Zumbado Gustavo,J,09:30,11:20
+FI-1102,Física general 2,3,3,FI-1101,MA-1102,11,Murillo Zumbado Gustavo,K,09:30,11:20
+FI-1102,Física general 2,3,3,FI-1101,MA-1102,2,Soto Chinchilla Yerry,J,09:30,11:20
+FI-1102,Física general 2,3,3,FI-1101,MA-1102,2,Soto Chinchilla Yerry,K,09:30,11:20
+FI-1102,Física general 2,3,3,FI-1101,MA-1102,3,Amador Jara Alvaro,J,09:30,11:20
+FI-1102,Física general 2,3,3,FI-1101,MA-1102,3,Amador Jara Alvaro,K,09:30,11:20
+FI-1102,Física general 2,3,3,FI-1101,MA-1102,4,Pineda Lizano Juan Jose,J,13:00,14:50
+FI-1102,Física general 2,3,3,FI-1101,MA-1102,4,Pineda Lizano Juan Jose,K,13:00,14:50
+FI-1102,Física general 2,3,3,FI-1101,MA-1102,5,Pineda Lizano Juan Jose,J,13:00,14:50
+FI-1102,Física general 2,3,3,FI-1101,MA-1102,5,Pineda Lizano Juan Jose,K,13:00,14:50
+FI-1102,Física general 2,3,3,FI-1101,MA-1102,6,Murillo Zumbado Gustavo,M,07:30,09:20
+FI-1102,Física general 2,3,3,FI-1101,MA-1102,6,Murillo Zumbado Gustavo,V,07:30,09:20
+FI-1102,Física general 2,3,3,FI-1101,MA-1102,7,Perez Hidalgo Jose Esteban,M,09:30,11:20
+FI-1102,Física general 2,3,3,FI-1101,MA-1102,7,Perez Hidalgo Jose Esteban,V,09:30,11:20
+FI-1102,Física general 2,3,3,FI-1101,MA-1102,8,Oreamuno Madriz Rafael,M,13:00,14:50
+FI-1102,Física general 2,3,3,FI-1101,MA-1102,8,Oreamuno Madriz Rafael,V,13:00,14:50
+FI-1102,Física general 2,3,3,FI-1101,MA-1102,9,Corrales Quesada Esteban,M,15:00,16:50
+FI-1102,Física general 2,3,3,FI-1101,MA-1102,9,Corrales Quesada Esteban,V,15:00,16:50
+FI-1201,Laboratorio de física general 1,1,2,,FI-1101,10,Corrales Quesada Esteban,M,17:00,18:50
+FI-1201,Laboratorio de física general 1,1,2,,FI-1101,11,Alfaro Alvarado Jose Abrahan,J,07:30,09:20
+FI-1201,Laboratorio de física general 1,1,2,,FI-1101,12,Montero Zeledon Ernesto,J,09:30,11:20
+FI-1201,Laboratorio de física general 1,1,2,,FI-1101,14,Morales Muñoz Walter,J,15:00,16:50
+FI-1201,Laboratorio de física general 1,1,2,,FI-1101,15,Segura Carvajal Marcos,J,17:00,18:50
+FI-1201,Laboratorio de física general 1,1,2,,FI-1101,16,Morales Muñoz Walter,V,07:30,09:20
+FI-1201,Laboratorio de física general 1,1,2,,FI-1101,17,Morales Muñoz Walter,V,09:30,11:20
+FI-1201,Laboratorio de física general 1,1,2,,FI-1101,18,Corrales Quesada Esteban,V,13:00,14:50
+FI-1201,Laboratorio de física general 1,1,2,,FI-1101,19,Sevilla Quesada Evar,K,07:30,09:20
+FI-1201,Laboratorio de física general 1,1,2,,FI-1101,2,Jimenez Carballo Carlos Adrian,K,09:30,11:20
+FI-1201,Laboratorio de física general 1,1,2,,FI-1101,22,Elizondo Zuñiga Jennifer,M,09:30,11:20
+FI-1201,Laboratorio de física general 1,1,2,,FI-1101,23,Cambronero Cordero Michael,M,15:00,16:50
+FI-1201,Laboratorio de física general 1,1,2,,FI-1101,24,Cambronero Cordero Michael,M,17:00,18:50
+FI-1201,Laboratorio de física general 1,1,2,,FI-1101,25,Solano Piedra Ricardo Adolfo,J,09:30,11:20
+FI-1201,Laboratorio de física general 1,1,2,,FI-1101,26,Morales Muñoz Walter,J,13:00,14:50
+FI-1201,Laboratorio de física general 1,1,2,,FI-1101,27,Alfaro Alvarado Jose Abrahan,J,17:00,18:50
+FI-1201,Laboratorio de física general 1,1,2,,FI-1101,29,Oreamuno Madriz Rafael,K,13:00,14:50
+FI-1201,Laboratorio de física general 1,1,2,,FI-1101,3,Campos Rodriguez Melania,K,13:00,14:50
+FI-1201,Laboratorio de física general 1,1,2,,FI-1101,4,Campos Rodriguez Melania,K,15:00,16:50
+FI-1201,Laboratorio de física general 1,1,2,,FI-1101,5,Segura Carvajal Marcos,K,17:00,18:50
+FI-1201,Laboratorio de física general 1,1,2,,FI-1101,6,Perez Hidalgo Jose Esteban,M,07:30,09:20
+FI-1201,Laboratorio de física general 1,1,2,,FI-1101,7,Jimenez Carballo Carlos Adrian,M,09:30,11:20
+FI-1201,Laboratorio de física general 1,1,2,,FI-1101,8,Mayorga Espinoza Carlos,M,13:00,14:50
+FI-1201,Laboratorio de física general 1,1,2,,FI-1101,9,Segura Carvajal Marcos,M,15:00,16:50
+FI-1202,Laboratorio de física general 2,1,3,FI-1201,FI-1102,1,Araya Solano Luis Alonso,K,09:30,11:20
+FI-1202,Laboratorio de física general 2,1,3,FI-1201,FI-1102,2,Araya Solano Luis Alonso,K,13:00,14:50
+FI-1202,Laboratorio de física general 2,1,3,FI-1201,FI-1102,3,Sevilla Quesada Evar,K,17:00,18:50
+FI-1202,Laboratorio de física general 2,1,3,FI-1201,FI-1102,4,Jimenez Carballo Carlos Adrian,M,07:30,09:20
+FI-1202,Laboratorio de física general 2,1,3,FI-1201,FI-1102,5,Murillo Zumbado Gustavo,M,09:30,11:20
+FI-1202,Laboratorio de física general 2,1,3,FI-1201,FI-1102,6,Oreamuno Madriz Rafael,M,15:00,16:50
+FI-1202,Laboratorio de física general 2,1,3,FI-1201,FI-1102,7,Morales Muñoz Walter,J,09:30,11:20
+FI-1202,Laboratorio de física general 2,1,3,FI-1201,FI-1102,8,Morales Muñoz Walter,V,13:00,14:50
+FI-1202,Laboratorio de física general 2,1,3,FI-1201,FI-1102,9,Rojas Rojas Laura,M,13:00,14:50
+MA-0101,Matemática general,2,0,,,1,Solis Palma Angie,J,07:30,09:20
+MA-0101,Matemática general,2,0,,,1,Solis Palma Angie,K,07:30,10:20
+MA-0101,Matemática general,2,0,,,10,Azofeifa Cubero Roberto,M,15:00,17:50
+MA-0101,Matemática general,2,0,,,10,Azofeifa Cubero Roberto,V,15:00,16:50
+MA-0101,Matemática general,2,0,,,11,Prendas Rojas Juan Pablo,M,16:00,18:50
+MA-0101,Matemática general,2,0,,,11,Prendas Rojas Juan Pablo,V,17:00,18:50
+MA-0101,Matemática general,2,0,,,12,Solano Varela Daniel Jesus,S,07:30,12:20
+MA-0101,Matemática general,2,0,,,2,Vega Vasquez Arturo,J,09:30,11:20
+MA-0101,Matemática general,2,0,,,2,Vega Vasquez Arturo,K,09:30,12:20
+MA-0101,Matemática general,2,0,,,3,Cordero Quiros Marcial,J,13:00,14:50
+MA-0101,Matemática general,2,0,,,3,Cordero Quiros Marcial,K,13:00,15:50
+MA-0101,Matemática general,2,0,,,4,Jimenez Madrigal Jorge,J,15:00,17:50
+MA-0101,Matemática general,2,0,,,4,Jimenez Madrigal Jorge,K,15:00,16:50
+MA-0101,Matemática general,2,0,,,5,Rodriguez Castro Bryan,J,16:00,17:50
+MA-0101,Matemática general,2,0,,,5,Rodriguez Castro Bryan,K,16:00,18:50
+MA-0101,Matemática general,2,0,,,6,Cordero Quiros Marcial,J,18:00,19:50
+MA-0101,Matemática general,2,0,,,6,Cordero Quiros Marcial,K,18:00,20:50
+MA-0101,Matemática general,2,0,,,7,Sanchez Fernandez Ivonne,M,07:30,09:20
+MA-0101,Matemática general,2,0,,,7,Sanchez Fernandez Ivonne,V,07:30,10:20
+MA-0101,Matemática general,2,0,,,8,Marrero Calvo Marcela,M,09:30,12:20
+MA-0101,Matemática general,2,0,,,8,Marrero Calvo Marcela,V,09:30,11:20
+MA-0101,Matemática general,2,0,,,9,Quesada Villalobos Lourdes,M,13:00,15:50
+MA-0101,Matemática general,2,0,,,9,Quesada Villalobos Lourdes,V,13:00,14:50
+MA-1102,Cálculo diferencial e integral,4,1,MA-0101,,1,Quesada Villalobos Lourdes,J,07:30,09:20
+MA-1102,Cálculo diferencial e integral,4,1,MA-0101,,1,Quesada Villalobos Lourdes,K,07:30,10:20
+MA-1102,Cálculo diferencial e integral,4,1,MA-0101,,10,Fallas Monge Juan Jose,J,18:00,19:50
+MA-1102,Cálculo diferencial e integral,4,1,MA-0101,,10,Fallas Monge Juan Jose,K,18:00,20:50
+MA-1102,Cálculo diferencial e integral,4,1,MA-0101,,11,Paez Paez Cristian,M,07:30,09:20
+MA-1102,Cálculo diferencial e integral,4,1,MA-0101,,11,Paez Paez Cristian,V,07:30,10:20
+MA-1102,Cálculo diferencial e integral,4,1,MA-0101,,12,Jimenez Madrigal Jorge,M,07:30,10:20
+MA-1102,Cálculo diferencial e integral,4,1,MA-0101,,12,Jimenez Madrigal Jorge,V,07:30,09:20
+MA-1102,Cálculo diferencial e integral,4,1,MA-0101,,13,Parra Salazar Edward,M,10:30,12:20
+MA-1102,Cálculo diferencial e integral,4,1,MA-0101,,13,Parra Salazar Edward,V,09:30,12:20
+MA-1102,Cálculo diferencial e integral,4,1,MA-0101,,14,Mora Picado Luis Fernando,M,09:30,12:20
+MA-1102,Cálculo diferencial e integral,4,1,MA-0101,,14,Mora Picado Luis Fernando,V,10:30,12:20
+MA-1102,Cálculo diferencial e integral,4,1,MA-0101,,15,Nuñez Vanegas Felix,M,13:00,15:50
+MA-1102,Cálculo diferencial e integral,4,1,MA-0101,,15,Nuñez Vanegas Felix,V,13:00,14:50
+MA-1102,Cálculo diferencial e integral,4,1,MA-0101,,16,Mora Picado Luis Fernando,M,15:00,17:50
+MA-1102,Cálculo diferencial e integral,4,1,MA-0101,,16,Mora Picado Luis Fernando,V,15:00,16:50
+MA-1102,Cálculo diferencial e integral,4,1,MA-0101,,17,Gutierrez Montenegro Marco Vinicio,M,16:00,18:50
+MA-1102,Cálculo diferencial e integral,4,1,MA-0101,,17,Gutierrez Montenegro Marco Vinicio,V,16:00,17:50
+MA-1102,Cálculo diferencial e integral,4,1,MA-0101,,18,Parra Salazar Edward,M,17:00,19:50
+MA-1102,Cálculo diferencial e integral,4,1,MA-0101,,18,Parra Salazar Edward,V,17:00,18:50
+MA-1102,Cálculo diferencial e integral,4,1,MA-0101,,19,Mora Casasola Maria Fernanda,M,17:00,19:50
+MA-1102,Cálculo diferencial e integral,4,1,MA-0101,,19,Mora Casasola Maria Fernanda,V,17:00,18:50
+MA-1102,Cálculo diferencial e integral,4,1,MA-0101,,2,Cordero Quiros Marcial,J,07:30,10:20
+MA-1102,Cálculo diferencial e integral,4,1,MA-0101,,2,Cordero Quiros Marcial,K,07:30,09:20
+MA-1102,Cálculo diferencial e integral,4,1,MA-0101,,20,Lopez Mora Veronica,M,18:00,20:50
+MA-1102,Cálculo diferencial e integral,4,1,MA-0101,,20,Lopez Mora Veronica,V,18:00,19:50
+MA-1102,Cálculo diferencial e integral,4,1,MA-0101,,21,Jimenez Madrigal Jorge,S,07:30,12:20
+MA-1102,Cálculo diferencial e integral,4,1,MA-0101,,3,Masis Flores David,J,09:30,12:20
+MA-1102,Cálculo diferencial e integral,4,1,MA-0101,,3,Masis Flores David,K,09:30,11:20
+MA-1102,Cálculo diferencial e integral,4,1,MA-0101,,4,Paez Paez Cristian,J,10:30,12:20
+MA-1102,Cálculo diferencial e integral,4,1,MA-0101,,4,Paez Paez Cristian,K,09:30,12:20
+MA-1102,Cálculo diferencial e integral,4,1,MA-0101,,5,Rodriguez Granados Natalia,J,13:00,14:50
+MA-1102,Cálculo diferencial e integral,4,1,MA-0101,,5,Rodriguez Granados Natalia,K,13:00,15:50
+MA-1102,Cálculo diferencial e integral,4,1,MA-0101,,6,Parra Salazar Edward,J,15:00,17:50
+MA-1102,Cálculo diferencial e integral,4,1,MA-0101,,6,Parra Salazar Edward,K,15:00,16:50
+MA-1102,Cálculo diferencial e integral,4,1,MA-0101,,7,Masis Flores David,J,16:00,17:50
+MA-1102,Cálculo diferencial e integral,4,1,MA-0101,,7,Masis Flores David,K,16:00,18:50
+MA-1102,Cálculo diferencial e integral,4,1,MA-0101,,8,Quesada Villalobos Lourdes,J,16:00,17:50
+MA-1102,Cálculo diferencial e integral,4,1,MA-0101,,8,Quesada Villalobos Lourdes,K,15:00,17:50
+MA-1102,Cálculo diferencial e integral,4,1,MA-0101,,9,Esquivel Samudio Jeison,J,17:00,18:50
+MA-1102,Cálculo diferencial e integral,4,1,MA-0101,,9,Esquivel Samudio Jeison,K,17:00,19:50
+MA-1103,Cálculo y álgebra lineal,4,2,MA-1102,,1,Chavarria Molina Jeffry,J,07:30,09:20
+MA-1103,Cálculo y álgebra lineal,4,2,MA-1102,,1,Chavarria Molina Jeffry,K,07:30,09:20
+MA-1103,Cálculo y álgebra lineal,4,2,MA-1102,,10,Figueroa Mata Geovanni,J,18:00,19:50
+MA-1103,Cálculo y álgebra lineal,4,2,MA-1102,,10,Figueroa Mata Geovanni,K,18:00,19:50
+MA-1103,Cálculo y álgebra lineal,4,2,MA-1102,,11,Acuña Prado Luis,M,07:30,09:20
+MA-1103,Cálculo y álgebra lineal,4,2,MA-1102,,11,Acuña Prado Luis,V,07:30,09:20
+MA-1103,Cálculo y álgebra lineal,4,2,MA-1102,,12,Gutierrez Montenegro Marco Vinicio,M,09:30,11:20
+MA-1103,Cálculo y álgebra lineal,4,2,MA-1102,,12,Gutierrez Montenegro Marco Vinicio,V,09:30,11:20
+MA-1103,Cálculo y álgebra lineal,4,2,MA-1102,,13,Figueroa Mata Geovanni,M,13:00,14:50
+MA-1103,Cálculo y álgebra lineal,4,2,MA-1102,,13,Figueroa Mata Geovanni,V,13:00,14:50
+MA-1103,Cálculo y álgebra lineal,4,2,MA-1102,,14,Calderon Solano Manuel,M,15:00,16:50
+MA-1103,Cálculo y álgebra lineal,4,2,MA-1102,,14,Calderon Solano Manuel,V,15:00,16:50
+MA-1103,Cálculo y álgebra lineal,4,2,MA-1102,,15,Parra Rodriguez Emmanuelle,M,16:00,17:50
+MA-1103,Cálculo y álgebra lineal,4,2,MA-1102,,15,Parra Rodriguez Emmanuelle,V,16:00,17:50
+MA-1103,Cálculo y álgebra lineal,4,2,MA-1102,,16,Calderon Solano Manuel,M,17:00,18:50
+MA-1103,Cálculo y álgebra lineal,4,2,MA-1102,,16,Calderon Solano Manuel,V,17:00,18:50
+MA-1103,Cálculo y álgebra lineal,4,2,MA-1102,,17,Mora Picado Luis Fernando,M,18:00,19:50
+MA-1103,Cálculo y álgebra lineal,4,2,MA-1102,,17,Mora Picado Luis Fernando,V,18:00,19:50
+MA-1103,Cálculo y álgebra lineal,4,2,MA-1102,,18,Brenes Gomez Randall,S,07:30,11:20
+MA-1103,Cálculo y álgebra lineal,4,2,MA-1102,,19,Jimenez Madrigal Jorge,J,07:30,11:20
+MA-1103,Cálculo y álgebra lineal,4,2,MA-1102,,2,Chinchilla Valverde Jorge Luis,J,07:30,09:20
+MA-1103,Cálculo y álgebra lineal,4,2,MA-1102,,2,Chinchilla Valverde Jorge Luis,K,07:30,09:20
+MA-1103,Cálculo y álgebra lineal,4,2,MA-1102,,3,Chinchilla Valverde Jorge Luis,J,09:30,11:20
+MA-1103,Cálculo y álgebra lineal,4,2,MA-1102,,3,Chinchilla Valverde Jorge Luis,K,09:30,11:20
+MA-1103,Cálculo y álgebra lineal,4,2,MA-1102,,4,Chavarria Molina Jeffry,J,13:00,14:50
+MA-1103,Cálculo y álgebra lineal,4,2,MA-1102,,4,Chavarria Molina Jeffry,K,13:00,14:50
+MA-1103,Cálculo y álgebra lineal,4,2,MA-1102,,5,Jimenez Romero Alejandra,J,13:00,14:50
+MA-1103,Cálculo y álgebra lineal,4,2,MA-1102,,5,Jimenez Romero Alejandra,K,13:00,14:50
+MA-1103,Cálculo y álgebra lineal,4,2,MA-1102,,6,Figueroa Mata Geovanni,J,15:00,16:50
+MA-1103,Cálculo y álgebra lineal,4,2,MA-1102,,6,Figueroa Mata Geovanni,K,15:00,16:50
+MA-1103,Cálculo y álgebra lineal,4,2,MA-1102,,7,Brenes Gomez Randall,J,16:00,17:50
+MA-1103,Cálculo y álgebra lineal,4,2,MA-1102,,7,Brenes Gomez Randall,K,16:00,17:50
+MA-1103,Cálculo y álgebra lineal,4,2,MA-1102,,8,Gutierrez Montenegro Marco Vinicio,J,17:00,18:50
+MA-1103,Cálculo y álgebra lineal,4,2,MA-1102,,8,Gutierrez Montenegro Marco Vinicio,K,17:00,18:50
+MA-1103,Cálculo y álgebra lineal,4,2,MA-1102,,9,Alpizar Brenes Geisel,J,18:00,19:50
+MA-1103,Cálculo y álgebra lineal,4,2,MA-1102,,9,Alpizar Brenes Geisel,K,18:00,19:50
+MA-1403,Matemática discreta,4,1,,,1,Solis Arguedas Adriana,M,07:30,09:20
+MA-1403,Matemática discreta,4,1,,,1,Solis Arguedas Adriana,V,07:30,09:20
+MA-1403,Matemática discreta,4,1,,,2,Fallas Monge Juan Jose,M,09:30,11:20
+MA-1403,Matemática discreta,4,1,,,2,Fallas Monge Juan Jose,V,09:30,11:20
+MA-1403,Matemática discreta,4,1,,,3,Soto Quiros Juan Pablo,J,18:00,19:50
+MA-1403,Matemática discreta,4,1,,,3,Soto Quiros Juan Pablo,K,18:00,19:50
+MA-1403,Matemática discreta,4,1,,,4,Ramirez Arce Greivin,J,13:00,14:50
+MA-1403,Matemática discreta,4,1,,,4,Ramirez Arce Greivin,K,13:00,14:50
+MA-1403,Matemática discreta,4,1,,,5,Fallas Monge Juan Jose,J,15:00,16:50
+MA-1403,Matemática discreta,4,1,,,5,Fallas Monge Juan Jose,K,15:00,16:50
+MA-1403,Matemática discreta,4,1,,,6,Chaves Salas Leonel Rolando,M,07:30,09:20
+MA-1403,Matemática discreta,4,1,,,6,Chaves Salas Leonel Rolando,V,07:30,09:20
+MA-2104,Cálculo superior,4,3,MA-1103,,1,Monge Fallas Jorge,M,09:30,11:20
+MA-2104,Cálculo superior,4,3,MA-1103,,1,Monge Fallas Jorge,V,09:30,11:20
+MA-2104,Cálculo superior,4,3,MA-1103,,2,Borbon Alpizar Alexander,J,18:00,19:50
+MA-2104,Cálculo superior,4,3,MA-1103,,2,Borbon Alpizar Alexander,K,18:00,19:50
+MA-2104,Cálculo superior,4,3,MA-1103,,3,Valverde Sanchez Samuel,M,15:00,16:50
+MA-2104,Cálculo superior,4,3,MA-1103,,3,Valverde Sanchez Samuel,V,15:00,16:50
+MA-2104,Cálculo superior,4,3,MA-1103,,4,Jimenez Romero Alejandra,J,09:30,11:20
+MA-2104,Cálculo superior,4,3,MA-1103,,4,Jimenez Romero Alejandra,K,09:30,11:20
+MA-2104,Cálculo superior,4,3,MA-1103,,5,Oviedo Ugalde Norberto,M,18:00,19:50
+MA-2104,Cálculo superior,4,3,MA-1103,,5,Oviedo Ugalde Norberto,V,18:00,19:50
+MA-2104,Cálculo superior,4,3,MA-1103,,6,Esquivel Samudio Jeison,S,07:30,11:20
+MA-2104,Cálculo superior,4,3,MA-1103,,7,Chacon Vargas Erick,J,13:00,14:50
+MA-2104,Cálculo superior,4,3,MA-1103,,7,Chacon Vargas Erick,K,13:00,14:50
+PI-2609,Probabilidad y estadística,2,4,MA-2104,,1,Solano Leandro Paula,L,07:30,10:20
+PI-2609,Probabilidad y estadística,2,4,MA-2104,,2,Hasbum Fernandez Ivannia,M,13:00,15:50
+PI-2609,Probabilidad y estadística,2,4,MA-2104,,3,Hasbum Fernandez Ivannia,J,13:00,15:50
+QU-1102,Laboratorio de química básica 1,1,1,,QU-1106,1,Salas Jimenez Juan Carlos,K,07:30,09:20
+QU-1102,Laboratorio de química básica 1,1,1,,QU-1106,10,Quiros Bustos Noemi,J,09:30,11:20
+QU-1102,Laboratorio de química básica 1,1,1,,QU-1106,11,Calleja Amador Carlos Enrique,J,13:00,14:50
+QU-1102,Laboratorio de química básica 1,1,1,,QU-1106,13,Soto Cordoba Silvia,V,07:30,09:20
+QU-1102,Laboratorio de química básica 1,1,1,,QU-1106,15,Ledezma Espinoza Aura,V,13:00,14:50
+QU-1102,Laboratorio de química básica 1,1,1,,QU-1106,2,Calleja Amador Carlos Enrique,K,09:30,11:20
+QU-1102,Laboratorio de química básica 1,1,1,,QU-1106,3,Calleja Amador Carlos Enrique,K,13:00,14:50
+QU-1102,Laboratorio de química básica 1,1,1,,QU-1106,4,Mata Mata Alejandra,K,15:00,16:50
+QU-1102,Laboratorio de química básica 1,1,1,,QU-1106,5,Mora Molina Jesus,M,07:30,09:20
+QU-1102,Laboratorio de química básica 1,1,1,,QU-1106,6,Mora Molina Jesus,M,09:30,11:20
+QU-1102,Laboratorio de química básica 1,1,1,,QU-1106,7,Mora Molina Jesus,M,13:00,14:50
+QU-1102,Laboratorio de química básica 1,1,1,,QU-1106,8,Hernandez Alpizar Laura,M,15:00,16:50
+QU-1102,Laboratorio de química básica 1,1,1,,QU-1106,9,Quiros Bustos Noemi,J,07:30,09:20
+QU-1106,Química básica 1,3,1,,QU-1102,1,Porras Acosta Maria,J,07:30,09:20
+QU-1106,Química básica 1,3,1,,QU-1102,1,Porras Acosta Maria,K,07:30,09:20
+QU-1106,Química básica 1,3,1,,QU-1102,11,Villalta Romero Fabian,M,13:00,14:50
+QU-1106,Química básica 1,3,1,,QU-1102,11,Villalta Romero Fabian,V,13:00,14:50
+QU-1106,Química básica 1,3,1,,QU-1102,2,Calleja Amador Carlos Enrique,J,07:30,09:20
+QU-1106,Química básica 1,3,1,,QU-1102,2,Calleja Amador Carlos Enrique,K,07:30,09:20
+QU-1106,Química básica 1,3,1,,QU-1102,3,Porras Acosta Maria,J,09:30,11:20
+QU-1106,Química básica 1,3,1,,QU-1102,3,Porras Acosta Maria,K,09:30,11:20
+QU-1106,Química básica 1,3,1,,QU-1102,5,Soto Cordoba Silvia,J,13:00,14:50
+QU-1106,Química básica 1,3,1,,QU-1102,5,Soto Cordoba Silvia,K,13:00,14:50
+QU-1106,Química básica 1,3,1,,QU-1102,7,Quiros Bustos Noemi,J,15:00,16:50
+QU-1106,Química básica 1,3,1,,QU-1102,7,Quiros Bustos Noemi,K,15:00,16:50
+QU-1106,Química básica 1,3,1,,QU-1102,9,Porras Acosta Maria,M,09:30,11:20
+QU-1106,Química básica 1,3,1,,QU-1102,9,Porras Acosta Maria,V,09:30,11:20
+SO-4604,Seguridad y salud ocupacional,3,4,FI-1102,,1,Morales Martinez Gabriela,L,07:30,10:20
+SO-4604,Seguridad y salud ocupacional,3,4,FI-1102,,2,Carpio Chaves Monica,J,13:00,15:50
+SO-4604,Seguridad y salud ocupacional,3,4,FI-1102,,3,Morales Martinez Gabriela,J,17:00,19:50
+SO-4604,Seguridad y salud ocupacional,3,4,FI-1102,,4,Morales Martinez Gabriela,M,13:00,15:50
+SO-4604,Seguridad y salud ocupacional,3,4,FI-1102,,5,Morales Martinez Gabriela,V,07:30,10:20
