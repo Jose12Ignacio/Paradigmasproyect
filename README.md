@@ -100,3 +100,75 @@ dos cursos que chocan un martes se comparan como si fueran días distintos.
 **Solución:** `Dia` se definió como `enum` (no texto) en `models.h`, con la
 conversión letra→enum centralizada en una sola función (`letra_a_dia()`),
 para que la convención se corrija en un solo lugar si hace falta.
+
+## 2.4 Módulo I/O y Dataset 
+
+### 2.4.1 Recolección y limpieza del dataset
+
+El dataset se construyó a partir del **plan de estudios oficial del TEC** y la **Guía de Horarios institucional**, cubriendo los primeros 4 semestres de dos carreras:
+
+- **Ingeniería en Computadores (CE)**: 27 cursos
+- **Administración de Tecnologías de Información (ATI)**: 27 cursos
+
+La información se recolectó y limpió manualmente en un archivo Excel intermedio, que luego se convirtió a formato CSV mediante un script en Python (`convertir_excel.py`). Esta separación (Excel manual → CSV programático) permite auditar visualmente cada corrección aplicada al dataset y evita errores de transcripción directa.
+
+**Estructura del Excel fuente**:
+
+| Hoja | Contenido |
+|---|---|
+| `CE` | Plan de estudios de CE (cursos, créditos, requisitos, correquisitos) |
+| `ATI` | Plan de estudios de ATI (mismo formato) |
+| `Grupos CE` | Horarios y profesores de cada grupo de CE |
+| `Grupos ATI` | Horarios y profesores de cada grupo de ATI |
+
+**Resultado de la limpieza**: los CSV generados contienen 316 filas para CE y 210 filas para ATI, donde cada fila representa un bloque horario de un grupo específico.
+
+### 2.4.2 Formato de salida: justificación y contrato con Etapa 2
+
+**Decisión:** el formato de salida del módulo en C es **JSON**, con **un archivo por carrera** (`catalogo_CE.json` y `catalogo_ATI.json`).
+
+**Justificación técnica ligada al problema**:
+
+1. **La estructura de los datos es jerárquica, no tabular.** Un curso contiene múltiples grupos, y cada grupo contiene múltiples bloques horarios. Adicionalmente, cada curso tiene listas de requisitos y correquisitos de tamaño variable. Representar esta jerarquía en CSV obliga a duplicar la información del curso en cada fila o a inventar sub-formatos frágiles dentro de una celda (ej. `"1:L-07:30-09:20|2:K-13:30-15:20"`).
+
+2. **El consumidor es Racket.** La Etapa 2 lee este archivo con `(read-json)`, obteniendo directamente listas y hashes nativos. Con CSV, el parser tendría que reagrupar filas por código y parsear strings de horarios, reconstruyendo en la Etapa 2 la estructura que ya existía en la Etapa 1.
+
+3. **Fidelidad de tipos.** JSON distingue `true`/`false` booleanos de strings, y números de strings. En CSV todo es texto y el consumidor debe convertir. Los flags `tiene_choque` y `es_matriculable` se leen como `#t`/`#f` en Racket sin conversión.
+
+**Esquema del JSON**:
+
+```json
+{
+  "metadata": {
+    "carrera": "Ingeniería en Computadores",
+    "siglas": "CE",
+    "semestres_incluidos": [0, 1, 2, 3, 4],
+    "total_cursos": 27,
+    "version_esquema": "1.1",
+    "fecha_generacion": "2026-09-22"
+  },
+  "cursos": [
+    {
+      "codigo": "CE-1101",
+      "nombre": "Introducción a la Programación",
+      "creditos": 3,
+      "semestre": 1,
+      "requisitos": [],
+      "correquisitos": [],
+      "grupos": [
+        {
+          "numero": 1,
+          "profesor": "Schmidt Peralta Jeff",
+          "horarios": [
+            { "dia": "K", "hora_inicio": "07:30", "hora_fin": "09:20" },
+            { "dia": "J", "hora_inicio": "07:30", "hora_fin": "09:20" }
+          ]
+        }
+      ],
+      "tiene_choque": false,
+      "cursos_con_choque": [],
+      "es_matriculable": true,
+      "razon_no_matriculable": null
+    }
+  ]
+}
