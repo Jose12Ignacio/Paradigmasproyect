@@ -35,6 +35,7 @@ int grupo_choque(const Grupo *Gr1, const Grupo *Gr2) {
 
 // Evalúa todo el catálogo para marcar qué cursos presentan choques de horario
 void detectar_choques_catalogo(Curso catalogo[], int total_cursos) {
+    
     for (int i = 0; i < total_cursos; i++) {
         catalogo[i].tiene_choque = 0;
     }
@@ -42,39 +43,61 @@ void detectar_choques_catalogo(Curso catalogo[], int total_cursos) {
     for (int i = 0; i < total_cursos; i++) {
         for (int j = i + 1; j < total_cursos; j++) {
             
-            for (int gA = 0; gA < catalogo[i].total_grupos; gA++) {
-                for (int gB = 0; gB < catalogo[j].total_grupos; gB++) {
-                    
-                    // Se corrigió el nombre a grupo_choque
-                    if (grupo_choque(&catalogo[i].grupos[gA], &catalogo[j].grupos[gB])) {
-                        catalogo[i].tiene_choque = 1;
-                        catalogo[j].tiene_choque = 1;
-                    }
-                }
+            // Si los dos cursos chocan, marcamos ambos
+            if (cursos_chocan(&catalogo[i], &catalogo[j])) {
+                catalogo[i].tiene_choque = 1;
+                catalogo[j].tiene_choque = 1;
             }
         }
     }
 }
 
-// Determina si el estudiante cumple los requisitos según su historial
+// Determina si el estudiante cumple los requisitos y correquisitos 
 void evaluar_elegibilidad_curso(Curso *curso, char historial[][MAX_CODIGO], int total_aprobados) {
-    if (curso->total_requisitos == 0) {
-        curso->es_elegible = 1;
-        return;
-    }
-
     int requisitos_cumplidos = 0;
+    int correquisitos_cumplidos = 0;
 
-    for (int i = 0; i < curso->total_requisitos; i++) {
-        for (int j = 0; j < total_aprobados; j++) {
-            if (strcmp(curso->requisitos[i], historial[j]) == 0) {
-                requisitos_cumplidos++;
-                break;
+    
+    // Confirmación de requisitos
+    
+    if (curso->total_requisitos == 0) {
+        requisitos_cumplidos = 1; 
+    } else {
+        int req_encontrados = 0;
+        for (int i = 0; i < curso->total_requisitos; i++) {
+            for (int j = 0; j < total_aprobados; j++) {
+                if (strcmp(curso->requisitos[i], historial[j]) == 0) {
+                    req_encontrados++;
+                    break; 
+                }
             }
+        }
+        if (req_encontrados == curso->total_requisitos) {
+            requisitos_cumplidos = 1;
         }
     }
 
-    if (requisitos_cumplidos == curso->total_requisitos) {
+   
+    if (curso->total_correquisitos == 0) {
+        correquisitos_cumplidos = 1; 
+    } else {
+        int correq_encontrados = 0;
+        for (int i = 0; i < curso->total_correquisitos; i++) {
+            for (int j = 0; j < total_aprobados; j++) {
+                if (strcmp(curso->correquisitos[i], historial[j]) == 0) {
+                    correq_encontrados++;
+                    break; 
+                }
+            }
+        }
+        if (correq_encontrados == curso->total_correquisitos) {
+            correquisitos_cumplidos = 1;
+        }
+    }
+
+    
+    
+    if (requisitos_cumplidos && correquisitos_cumplidos) {
         curso->es_elegible = 1;
     } else {
         curso->es_elegible = 0;

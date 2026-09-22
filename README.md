@@ -33,6 +33,10 @@ Catalogo en memoria (structs de models.h)
         ▼
 Archivo de salida (contrato para la Etapa 2 en Racket)
 ```
+## 2.2 Algoritmos de manejo de información y modelo lógico
+Los algoritmos desarollados en Horarios_choques permiten verificar que los cursos que estén en catalogo no choquen por horarios y se tenga una verificación de los requisitos y correquisitos para poder matricular el curso deseado.
+La lógica del programa es encargarse de procesar el catálogo de cursos cargado en memoria para determinar dos aspectos críticos: la colisión de horarios entre asignaturas y la elegibilidad académica del estudiante según su historial.
+
 
 ## 2.3 Estructuras de datos desarrolladas
 
