@@ -1,0 +1,18 @@
+# Historial de prueba - Estudiante de ATI
+# Aprobó cursos de semestres 0, 1 y 2
+
+CI-0200
+CI-0202
+MA-0101
+CI-1106
+MA-1403
+TI-1102
+TI-1103
+TI-1400
+TI-1401
+CI-1107
+MA-1102
+TI-1201
+TI-2402
+TI-2404
+TI-4500
