@@ -3,7 +3,7 @@
 
 // --- Tamaños de texto ---
 #define MAX_CODIGO 10          // ej. "CE1103" + null terminator
-#define MAX_NOMBRE 100
+#define MAX_NOMBRE 200
 #define MAX_PROFESOR 60        // ej. "Schmidt Peralta Jeff"
 
 // --- Límites por curso/grupo (arreglos fijos: un curso no tiene decenas de grupos) ---
