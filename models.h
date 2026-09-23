@@ -66,6 +66,11 @@ typedef struct {
 
     int tiene_choque;   // 0 o 1, tal como lo asigna Horarios_choque.C
     int es_elegible;    // 0 o 1
+
+    // Motivo por el cual el curso no es matriculable.
+    // Cadena vacía si es_elegible == 1.
+    // Ej: "No cumple requisito: MA-1001"
+    char razon_no_matriculable[MAX_NOMBRE];
 } Curso;
 
 /*

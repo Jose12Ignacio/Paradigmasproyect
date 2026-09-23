@@ -53,4 +53,4 @@ desktop.ini
 # ============================================
 *[0-9].xlsx
 *-PC.txt
-*-LAPTOP.txt
+*-LAPTOP.txttests/test_io
