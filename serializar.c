@@ -76,11 +76,25 @@ static void escribir_string_json(FILE *f, const char *texto) {
 }
 
 /**
- * Escribe un arreglo JSON de strings a partir de un arreglo de códigos.
+ * Escribe un arreglo JSON de strings a partir de un arreglo de códigos (MAX_CODIGO).
  * Ej: ["CE-1101","CE-1104"]
  */
 static void escribir_array_strings(FILE *f,
                                    const char arreglo[][MAX_CODIGO],
+                                   int total) {
+    fputc('[', f);
+    for (int i = 0; i < total; i++) {
+        escribir_string_json(f, arreglo[i]);
+        if (i < total - 1) fputc(',', f);
+    }
+    fputc(']', f);
+}
+
+/**
+ * Escribe un arreglo JSON de strings para el detalle de choques (MAX_TEXTO_CHOQUE).
+ */
+static void escribir_array_choques(FILE *f,
+                                   const char arreglo[][MAX_TEXTO_CHOQUE],
                                    int total) {
     fputc('[', f);
     for (int i = 0; i < total; i++) {
@@ -189,8 +203,10 @@ static void escribir_curso(FILE *f, const Curso *curso, int indent) {
             indent + 2, "",
             curso->tiene_choque ? "true" : "false");
 
-    // cursos_con_choque (por ahora vacío; se puede calcular después)
-    fprintf(f, "%*s\"cursos_con_choque\": [],\n", indent + 2, "");
+    // cursos_con_choque (detallado con grupo)
+    fprintf(f, "%*s\"cursos_con_choque\": ", indent + 2, "");
+    escribir_array_choques(f, curso->cursos_con_choque, curso->total_choques);
+    fprintf(f, ",\n");
 
     // es_matriculable
     fprintf(f, "%*s\"es_matriculable\": %s,\n",
@@ -271,7 +287,6 @@ int exportar_json(const char *ruta_salida,
     fprintf(f, ",\n");
 
     fprintf(f, "    \"estudiante_historial\": ");
-    // El historial es un arreglo de strings (códigos)
     escribir_array_strings(f, historial, total_historial);
     fprintf(f, "\n");
 

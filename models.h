@@ -65,6 +65,8 @@ typedef struct {
     int  total_correquisitos;
 
     int tiene_choque;   // 0 o 1, tal como lo asigna Horarios_choque.C
+    char cursos_con_choque[MAX_CHOQUES][MAX_TEXTO_CHOQUE]; // Lista de códigos rivales
+    int  total_choques;
     int es_elegible;    // 0 o 1
 
     // Motivo por el cual el curso no es matriculable.
