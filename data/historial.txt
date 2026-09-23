@@ -1,0 +1,17 @@
+# Historial de prueba - Estudiante de CE
+# Aprobó cursos de semestres 0, 1 y 2
+
+MA-0101
+CE-1101
+CE-1104
+MA-1102
+MA-1403
+QU-1102
+QU-1106
+CE-1103
+CE-1105
+CI-1407
+CS-1502
+FI-1101
+FI-1201
+MA-1103

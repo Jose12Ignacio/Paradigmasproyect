@@ -360,27 +360,34 @@ int cargar_historial(const char *ruta_historial,
         return -1;
     }
 
-    char linea[MAX_CODIGO + 16];
+    // Buffer de lectura amplio para permitir comentarios largos.
+    // Si se usara MAX_CODIGO + 16, los comentarios largos se cortarían
+    // en pedazos y sus fragmentos se interpretarían como códigos válidos.
+    char linea[256];
     int count = 0;
 
     while (fgets(linea, sizeof(linea), f) != NULL && count < max_cursos) {
         // Quitar \n y \r
         linea[strcspn(linea, "\r\n")] = '\0';
 
-        // Quitar espacios al inicio y final
+        // Quitar espacios al inicio
         char *inicio = linea;
         while (*inicio == ' ' || *inicio == '\t') inicio++;
 
+        // Quitar espacios al final
         char *fin = inicio + strlen(inicio) - 1;
         while (fin > inicio && (*fin == ' ' || *fin == '\t')) {
             *fin = '\0';
             fin--;
         }
 
-        // Ignorar líneas vacías y comentarios
+        // Ignorar líneas vacías
         if (strlen(inicio) == 0) continue;
+
+        // Ignorar comentarios (líneas que empiezan con #)
         if (inicio[0] == '#') continue;
 
+        // Guardar el código en el historial
         strncpy(historial[count], inicio, MAX_CODIGO - 1);
         historial[count][MAX_CODIGO - 1] = '\0';
         count++;
