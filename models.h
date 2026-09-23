@@ -4,11 +4,11 @@
 #include "constants.h"
 
 /*
- * ---------------------------------------------------------------
+
  *  DIA: enum en vez de texto, porque Logic.h compara
  *  h1->dia != h2->dia directamente (comparación por valor).
  *  Si esto se define como texto, esa comparación se rompe.
- * ---------------------------------------------------------------
+
  */
 typedef enum {
     LUNES,
@@ -20,10 +20,10 @@ typedef enum {
 } Dia;
 
 /*
- * ---------------------------------------------------------------
+
  *  HORARIO: un bloque de tiempo (nombres exactos que usa
  *  horarios_choque en Horarios_choque.C)
- * ---------------------------------------------------------------
+
  */
 typedef struct {
     Dia dia;
@@ -32,9 +32,9 @@ typedef struct {
 } Horario;
 
 /*
- * ---------------------------------------------------------------
+
  *  GRUPO: nombres exactos que usa grupo_choque
- * ---------------------------------------------------------------
+
  */
 typedef struct {
     int     numero_grupo;
@@ -44,10 +44,10 @@ typedef struct {
 } Grupo;
 
 /*
- * ---------------------------------------------------------------
+
  *  CURSO: nombres exactos que usa detectar_choques_catalogo
  *  y evaluar_elegibilidad_curso
- * ---------------------------------------------------------------
+
  */
 typedef struct {
     char codigo[MAX_CODIGO];
@@ -76,9 +76,9 @@ typedef struct {
 } Curso;
 
 /*
- * ---------------------------------------------------------------
+
  *  CATALOGO: colección dinámica de cursos (tu parte: malloc/realloc)
- * ---------------------------------------------------------------
+
  */
 typedef struct {
     Curso *cursos;
