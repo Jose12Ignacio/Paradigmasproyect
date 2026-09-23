@@ -40,7 +40,7 @@ typedef struct {
     int     numero_grupo;
     char    profesor[MAX_PROFESOR];
     Horario horarios[MAX_BLOQUES_POR_GRUPO];
-    int     Totalhorarios;   // tal cual lo escribió tu compañero
+    int     Totalhorarios;   
 } Grupo;
 
 /*

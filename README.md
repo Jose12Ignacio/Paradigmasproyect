@@ -34,7 +34,7 @@ Catalogo en memoria (structs de models.h)
 Archivo de salida (contrato para la Etapa 2 en Racket)
 ```
 ## 2.2 Algoritmos de manejo de información y modelo lógico
-Los algoritmos desarollados en Horarios_choques permiten verificar que los cursos que estén en catalogo no choquen por horarios y se tenga una verificación de los requisitos y correquisitos para poder matricular el curso deseado.
+Los algoritmos desarollados en Horarios_choques permiten verificar que los cursos que estén en catalogo no choquen por horarios como  `horarios_choque` y `grupo_choque` y se tenga una verificación de los requisitos y correquisitos para poder matricular el curso con `evaluar_elegibilidad_curso`.
 La lógica del programa es encargarse de procesar el catálogo de cursos cargado en memoria para determinar dos aspectos críticos: la colisión de horarios entre asignaturas y la elegibilidad académica del estudiante según su historial.
 
 
@@ -172,3 +172,16 @@ La información se recolectó y limpió manualmente en un archivo Excel intermed
     }
   ]
 }
+```
+
+### 3.1 Manual de Usuario: Compilación y Ejecución
+
+Tener instalado el Compilador GCC (MinGW-w64 / MSYS2 en Windows) y configurar la terminal para decodificar UTF-8.
+
+Ejecutar en la terminal el siguiente comando gcc -Wall -Wextra -g3 main.c memoria.c Horarios_choque.c io.c serializar.c -o output/main.exe
+
+Luego ejecutar el siguiente comando .\output\main.exe
+
+# En PowerShell para garantizar caracteres UTF-8 en consola:
+chcp 65001 | Out-Null
+.\output\main.exe data/catalogo_CE.csv data/historial_CE.txt output/catalogo_CE.json
