@@ -3,9 +3,9 @@
     "carrera": "Ingeniería en Computadores",
     "siglas": "CE",
     "semestres_incluidos": [0, 1, 2, 3, 4],
-    "total_cursos": 27,
+    "total_cursos": 26,
     "version_esquema": "1.1",
-    "fecha_generacion": "2026-09-22",
+    "fecha_generacion": "2026-10-21",
     "estudiante_historial": ["MA-0101","CE-1101","CE-1104","MA-1102","MA-1403","QU-1102","QU-1106","CE-1103","CE-1105","CI-1407","CS-1502","FI-1101","FI-1201","MA-1103"]
   },
   "cursos": [
@@ -14,6 +14,7 @@
       "nombre": "Introducción a la programación",
       "creditos": 3,
       "semestre": 1,
+      "carrera": "CE",
       "requisitos": [],
       "correquisitos": [],
       "grupos": [
@@ -21,16 +22,16 @@
           "numero": 1,
           "profesor": "Schmidt Peralta Jeff",
           "horarios": [
-            { "dia": "J", "hora_inicio": "07:30", "hora_fin": "09:20" },
-            { "dia": "K", "hora_inicio": "07:30", "hora_fin": "09:20" }
+            { "dia": "K", "hora_inicio": "07:30", "hora_fin": "09:20" },
+            { "dia": "J", "hora_inicio": "07:30", "hora_fin": "09:20" }
           ]
         },
         {
           "numero": 2,
           "profesor": "Schmidt Peralta Jeff",
           "horarios": [
-            { "dia": "J", "hora_inicio": "09:30", "hora_fin": "11:20" },
-            { "dia": "K", "hora_inicio": "09:30", "hora_fin": "11:20" }
+            { "dia": "K", "hora_inicio": "09:30", "hora_fin": "11:20" },
+            { "dia": "J", "hora_inicio": "09:30", "hora_fin": "11:20" }
           ]
         }
       ],
@@ -44,31 +45,32 @@
       "nombre": "Algoritmos y estructuras de datos 1",
       "creditos": 4,
       "semestre": 2,
+      "carrera": "CE",
       "requisitos": ["CE-1101","CE-1104","MA-1403"],
       "correquisitos": [],
       "grupos": [
         {
-          "numero": 1,
-          "profesor": "Ramirez Trejos Ellioth",
+          "numero": 3,
+          "profesor": "Barboza Artavia Luis",
           "horarios": [
-            { "dia": "M", "hora_inicio": "17:00", "hora_fin": "18:50" },
-            { "dia": "V", "hora_inicio": "17:00", "hora_fin": "18:50" }
+            { "dia": "K", "hora_inicio": "09:30", "hora_fin": "11:20" },
+            { "dia": "J", "hora_inicio": "09:30", "hora_fin": "11:20" }
           ]
         },
         {
           "numero": 2,
           "profesor": "Gamboa Ramirez Santiago",
           "horarios": [
-            { "dia": "J", "hora_inicio": "15:00", "hora_fin": "16:50" },
-            { "dia": "K", "hora_inicio": "15:00", "hora_fin": "16:50" }
+            { "dia": "K", "hora_inicio": "15:00", "hora_fin": "16:50" },
+            { "dia": "J", "hora_inicio": "15:00", "hora_fin": "16:50" }
           ]
         },
         {
-          "numero": 3,
-          "profesor": "Barboza Artavia Luis",
+          "numero": 1,
+          "profesor": "Ramirez Trejos Ellioth",
           "horarios": [
-            { "dia": "J", "hora_inicio": "09:30", "hora_fin": "11:20" },
-            { "dia": "K", "hora_inicio": "09:30", "hora_fin": "11:20" }
+            { "dia": "M", "hora_inicio": "17:00", "hora_fin": "18:50" },
+            { "dia": "V", "hora_inicio": "17:00", "hora_fin": "18:50" }
           ]
         }
       ],
@@ -82,6 +84,7 @@
       "nombre": "Fundamentos de sistemas computacionales",
       "creditos": 3,
       "semestre": 1,
+      "carrera": "CE",
       "requisitos": [],
       "correquisitos": ["CE-1101"],
       "grupos": [
@@ -89,8 +92,8 @@
           "numero": 1,
           "profesor": "Villegas Lemus Milton",
           "horarios": [
-            { "dia": "J", "hora_inicio": "07:30", "hora_fin": "09:20" },
-            { "dia": "K", "hora_inicio": "07:30", "hora_fin": "09:20" }
+            { "dia": "K", "hora_inicio": "07:30", "hora_fin": "09:20" },
+            { "dia": "J", "hora_inicio": "07:30", "hora_fin": "09:20" }
           ]
         }
       ],
@@ -104,15 +107,24 @@
       "nombre": "Principios de modelado en ingeniería",
       "creditos": 3,
       "semestre": 2,
+      "carrera": "CE",
       "requisitos": ["CE-1104"],
       "correquisitos": [],
       "grupos": [
         {
+          "numero": 3,
+          "profesor": "Hernandez Vasquez Marco",
+          "horarios": [
+            { "dia": "K", "hora_inicio": "19:00", "hora_fin": "20:50" },
+            { "dia": "J", "hora_inicio": "19:00", "hora_fin": "20:50" }
+          ]
+        },
+        {
           "numero": 1,
           "profesor": "Mora Rojas Diego",
           "horarios": [
-            { "dia": "J", "hora_inicio": "19:00", "hora_fin": "20:50" },
-            { "dia": "K", "hora_inicio": "19:00", "hora_fin": "20:50" }
+            { "dia": "K", "hora_inicio": "19:00", "hora_fin": "20:50" },
+            { "dia": "J", "hora_inicio": "19:00", "hora_fin": "20:50" }
           ]
         },
         {
@@ -121,14 +133,6 @@
           "horarios": [
             { "dia": "M", "hora_inicio": "17:00", "hora_fin": "18:50" },
             { "dia": "V", "hora_inicio": "17:00", "hora_fin": "18:50" }
-          ]
-        },
-        {
-          "numero": 3,
-          "profesor": "Hernandez Vasquez Marco",
-          "horarios": [
-            { "dia": "J", "hora_inicio": "19:00", "hora_fin": "20:50" },
-            { "dia": "K", "hora_inicio": "19:00", "hora_fin": "20:50" }
           ]
         }
       ],
@@ -142,6 +146,7 @@
       "nombre": "Paradigmas de programación",
       "creditos": 3,
       "semestre": 4,
+      "carrera": "CE",
       "requisitos": ["CE-2103"],
       "correquisitos": [],
       "grupos": [
@@ -157,8 +162,8 @@
           "numero": 2,
           "profesor": "Gamboa Ramirez Santiago",
           "horarios": [
-            { "dia": "J", "hora_inicio": "17:00", "hora_fin": "18:50" },
-            { "dia": "K", "hora_inicio": "17:00", "hora_fin": "18:50" }
+            { "dia": "K", "hora_inicio": "17:00", "hora_fin": "18:50" },
+            { "dia": "J", "hora_inicio": "17:00", "hora_fin": "18:50" }
           ]
         }
       ],
@@ -172,6 +177,7 @@
       "nombre": "Algoritmos y estructuras de datos 2",
       "creditos": 4,
       "semestre": 3,
+      "carrera": "CE",
       "requisitos": ["CE-1103","CE-1105"],
       "correquisitos": [],
       "grupos": [
@@ -179,8 +185,8 @@
           "numero": 1,
           "profesor": "Ramirez Herrera Jose Isaac",
           "horarios": [
-            { "dia": "J", "hora_inicio": "07:30", "hora_fin": "09:20" },
-            { "dia": "K", "hora_inicio": "07:30", "hora_fin": "09:20" }
+            { "dia": "K", "hora_inicio": "07:30", "hora_fin": "09:20" },
+            { "dia": "J", "hora_inicio": "07:30", "hora_fin": "09:20" }
           ]
         }
       ],
@@ -194,6 +200,7 @@
       "nombre": "Laboratorio de circuitos eléctricos",
       "creditos": 1,
       "semestre": 4,
+      "carrera": "CE",
       "requisitos": ["FI-1202"],
       "correquisitos": [],
       "grupos": [
@@ -218,23 +225,11 @@
       "razon_no_matriculable": "No cumple requisito: FI-1202"
     },
     {
-      "codigo": "CI-0205",
-      "nombre": "Prueba avanzada de inglés",
-      "creditos": 0,
-      "semestre": 0,
-      "requisitos": [],
-      "correquisitos": [],
-      "grupos": [],
-      "tiene_choque": false,
-      "cursos_con_choque": [],
-      "es_matriculable": true,
-      "razon_no_matriculable": null
-    },
-    {
       "codigo": "CI-1407",
       "nombre": "Habilidades de Comunicación en Ingeniería",
       "creditos": 2,
       "semestre": 2,
+      "carrera": "CE",
       "requisitos": [],
       "correquisitos": [],
       "grupos": [
@@ -246,17 +241,17 @@
           ]
         },
         {
-          "numero": 2,
-          "profesor": "Morales Solano Paola Natalia",
-          "horarios": [
-            { "dia": "J", "hora_inicio": "13:00", "hora_fin": "15:50" }
-          ]
-        },
-        {
           "numero": 3,
           "profesor": "Morales Garay Saray",
           "horarios": [
             { "dia": "K", "hora_inicio": "13:00", "hora_fin": "15:50" }
+          ]
+        },
+        {
+          "numero": 2,
+          "profesor": "Morales Solano Paola Natalia",
+          "horarios": [
+            { "dia": "J", "hora_inicio": "13:00", "hora_fin": "15:50" }
           ]
         },
         {
@@ -277,16 +272,10 @@
       "nombre": "Introducción a la técnica, ciencia y tecnología",
       "creditos": 1,
       "semestre": 2,
+      "carrera": "CE",
       "requisitos": [],
       "correquisitos": [],
       "grupos": [
-        {
-          "numero": 1,
-          "profesor": "Ortiz Acuña Leonardo",
-          "horarios": [
-            { "dia": "J", "hora_inicio": "09:30", "hora_fin": "11:20" }
-          ]
-        },
         {
           "numero": 2,
           "profesor": "Bojorge Murillo Alexander",
@@ -314,6 +303,13 @@
           "horarios": [
             { "dia": "M", "hora_inicio": "09:30", "hora_fin": "11:20" }
           ]
+        },
+        {
+          "numero": 1,
+          "profesor": "Ortiz Acuña Leonardo",
+          "horarios": [
+            { "dia": "J", "hora_inicio": "09:30", "hora_fin": "11:20" }
+          ]
         }
       ],
       "tiene_choque": true,
@@ -326,21 +322,22 @@
       "nombre": "Ambiente humano",
       "creditos": 2,
       "semestre": 3,
+      "carrera": "CE",
       "requisitos": [],
       "correquisitos": [],
       "grupos": [
+        {
+          "numero": 5,
+          "profesor": "Murillo Solis Javier",
+          "horarios": [
+            { "dia": "J", "hora_inicio": "09:30", "hora_fin": "12:20" }
+          ]
+        },
         {
           "numero": 1,
           "profesor": "Ortiz Alvarez Jorge Isaac",
           "horarios": [
             { "dia": "V", "hora_inicio": "09:30", "hora_fin": "12:20" }
-          ]
-        },
-        {
-          "numero": 2,
-          "profesor": "Rodriguez Morales Oscar",
-          "horarios": [
-            { "dia": "K", "hora_inicio": "09:30", "hora_fin": "12:20" }
           ]
         },
         {
@@ -358,10 +355,10 @@
           ]
         },
         {
-          "numero": 5,
-          "profesor": "Murillo Solis Javier",
+          "numero": 2,
+          "profesor": "Rodriguez Morales Oscar",
           "horarios": [
-            { "dia": "J", "hora_inicio": "09:30", "hora_fin": "12:20" }
+            { "dia": "K", "hora_inicio": "09:30", "hora_fin": "12:20" }
           ]
         },
         {
@@ -396,15 +393,16 @@
       "nombre": "Circuitos Eléctricos en Corriente Continua",
       "creditos": 4,
       "semestre": 3,
+      "carrera": "CE",
       "requisitos": ["FI-1101","MA-1102"],
       "correquisitos": [],
       "grupos": [
         {
-          "numero": 1,
-          "profesor": "Vega Castillo Paola",
+          "numero": 4,
+          "profesor": "Hernandez Rivera Miguel",
           "horarios": [
-            { "dia": "M", "hora_inicio": "09:30", "hora_fin": "11:20" },
-            { "dia": "V", "hora_inicio": "09:30", "hora_fin": "11:20" }
+            { "dia": "L", "hora_inicio": "07:30", "hora_fin": "09:20" },
+            { "dia": "M", "hora_inicio": "07:30", "hora_fin": "09:20" }
           ]
         },
         {
@@ -423,11 +421,11 @@
           ]
         },
         {
-          "numero": 4,
-          "profesor": "Hernandez Rivera Miguel",
+          "numero": 1,
+          "profesor": "Vega Castillo Paola",
           "horarios": [
-            { "dia": "L", "hora_inicio": "07:30", "hora_fin": "09:20" },
-            { "dia": "M", "hora_inicio": "07:30", "hora_fin": "09:20" }
+            { "dia": "M", "hora_inicio": "09:30", "hora_fin": "11:20" },
+            { "dia": "V", "hora_inicio": "09:30", "hora_fin": "11:20" }
           ]
         }
       ],
@@ -441,6 +439,7 @@
       "nombre": "Circuitos eléctricos en corriente alterna",
       "creditos": 4,
       "semestre": 4,
+      "carrera": "CE",
       "requisitos": ["EL-2113"],
       "correquisitos": ["EL-2207"],
       "grupos": [
@@ -450,6 +449,14 @@
           "horarios": [
             { "dia": "M", "hora_inicio": "17:00", "hora_fin": "18:50" },
             { "dia": "V", "hora_inicio": "17:00", "hora_fin": "18:50" }
+          ]
+        },
+        {
+          "numero": 4,
+          "profesor": "Herrero Chavarria Felipe",
+          "horarios": [
+            { "dia": "J", "hora_inicio": "17:00", "hora_fin": "18:50" },
+            { "dia": "K", "hora_inicio": "17:00", "hora_fin": "18:50" }
           ]
         },
         {
@@ -467,14 +474,6 @@
             { "dia": "M", "hora_inicio": "07:30", "hora_fin": "09:20" },
             { "dia": "V", "hora_inicio": "07:30", "hora_fin": "09:20" }
           ]
-        },
-        {
-          "numero": 4,
-          "profesor": "Herrero Chavarria Felipe",
-          "horarios": [
-            { "dia": "J", "hora_inicio": "17:00", "hora_fin": "18:50" },
-            { "dia": "K", "hora_inicio": "17:00", "hora_fin": "18:50" }
-          ]
         }
       ],
       "tiene_choque": true,
@@ -487,17 +486,10 @@
       "nombre": "Elementos activos",
       "creditos": 4,
       "semestre": 4,
+      "carrera": "CE",
       "requisitos": ["EL-2113"],
       "correquisitos": [],
       "grupos": [
-        {
-          "numero": 1,
-          "profesor": "Segura Quiros Carlos",
-          "horarios": [
-            { "dia": "J", "hora_inicio": "15:00", "hora_fin": "16:50" },
-            { "dia": "K", "hora_inicio": "15:00", "hora_fin": "16:50" }
-          ]
-        },
         {
           "numero": 2,
           "profesor": "Montero Rodriguez Juan Jose",
@@ -507,19 +499,27 @@
           ]
         },
         {
-          "numero": 3,
-          "profesor": "Vega Castillo Paola",
-          "horarios": [
-            { "dia": "M", "hora_inicio": "15:00", "hora_fin": "16:50" },
-            { "dia": "V", "hora_inicio": "15:00", "hora_fin": "16:50" }
-          ]
-        },
-        {
           "numero": 4,
           "profesor": "Pinnock Chacon Mac Alfred",
           "horarios": [
             { "dia": "M", "hora_inicio": "17:00", "hora_fin": "18:50" },
             { "dia": "V", "hora_inicio": "09:30", "hora_fin": "11:20" }
+          ]
+        },
+        {
+          "numero": 1,
+          "profesor": "Segura Quiros Carlos",
+          "horarios": [
+            { "dia": "J", "hora_inicio": "15:00", "hora_fin": "16:50" },
+            { "dia": "K", "hora_inicio": "15:00", "hora_fin": "16:50" }
+          ]
+        },
+        {
+          "numero": 3,
+          "profesor": "Vega Castillo Paola",
+          "horarios": [
+            { "dia": "M", "hora_inicio": "15:00", "hora_fin": "16:50" },
+            { "dia": "V", "hora_inicio": "15:00", "hora_fin": "16:50" }
           ]
         }
       ],
@@ -533,127 +533,16 @@
       "nombre": "Física general 1",
       "creditos": 3,
       "semestre": 2,
+      "carrera": "CE",
       "requisitos": ["MA-1102"],
       "correquisitos": [],
       "grupos": [
-        {
-          "numero": 1,
-          "profesor": "Murillo Salazar Dennis",
-          "horarios": [
-            { "dia": "J", "hora_inicio": "07:30", "hora_fin": "09:20" },
-            { "dia": "K", "hora_inicio": "07:30", "hora_fin": "09:20" }
-          ]
-        },
-        {
-          "numero": 11,
-          "profesor": "Moya Serrano Roy David",
-          "horarios": [
-            { "dia": "M", "hora_inicio": "07:30", "hora_fin": "09:20" },
-            { "dia": "V", "hora_inicio": "07:30", "hora_fin": "09:20" }
-          ]
-        },
         {
           "numero": 13,
           "profesor": "Cambronero Cordero Michael",
           "horarios": [
             { "dia": "M", "hora_inicio": "09:30", "hora_fin": "11:20" },
             { "dia": "V", "hora_inicio": "09:30", "hora_fin": "11:20" }
-          ]
-        },
-        {
-          "numero": 14,
-          "profesor": "Montero Zeledon Ernesto",
-          "horarios": [
-            { "dia": "M", "hora_inicio": "09:30", "hora_fin": "11:20" },
-            { "dia": "V", "hora_inicio": "09:30", "hora_fin": "11:20" }
-          ]
-        },
-        {
-          "numero": 15,
-          "profesor": "Segura Zarate Ana Yancy",
-          "horarios": [
-            { "dia": "M", "hora_inicio": "13:00", "hora_fin": "14:50" },
-            { "dia": "V", "hora_inicio": "13:00", "hora_fin": "14:50" }
-          ]
-        },
-        {
-          "numero": 17,
-          "profesor": "Rojas Perez Francisco",
-          "horarios": [
-            { "dia": "M", "hora_inicio": "15:00", "hora_fin": "16:50" },
-            { "dia": "V", "hora_inicio": "15:00", "hora_fin": "16:50" }
-          ]
-        },
-        {
-          "numero": 18,
-          "profesor": "Segura Zarate Ana Yancy",
-          "horarios": [
-            { "dia": "M", "hora_inicio": "17:00", "hora_fin": "18:50" },
-            { "dia": "V", "hora_inicio": "17:00", "hora_fin": "18:50" }
-          ]
-        },
-        {
-          "numero": 19,
-          "profesor": "Rojas Perez Francisco",
-          "horarios": [
-            { "dia": "J", "hora_inicio": "09:30", "hora_fin": "11:20" },
-            { "dia": "K", "hora_inicio": "09:30", "hora_fin": "11:20" }
-          ]
-        },
-        {
-          "numero": 2,
-          "profesor": "Murillo Zumbado Gustavo",
-          "horarios": [
-            { "dia": "J", "hora_inicio": "07:30", "hora_fin": "09:20" },
-            { "dia": "K", "hora_inicio": "07:30", "hora_fin": "09:20" }
-          ]
-        },
-        {
-          "numero": 20,
-          "profesor": "Segura Zarate Ana Yancy",
-          "horarios": [
-            { "dia": "M", "hora_inicio": "09:30", "hora_fin": "11:20" },
-            { "dia": "V", "hora_inicio": "09:30", "hora_fin": "11:20" }
-          ]
-        },
-        {
-          "numero": 3,
-          "profesor": "Pineda Lizano Juan Jose",
-          "horarios": [
-            { "dia": "J", "hora_inicio": "09:30", "hora_fin": "11:20" },
-            { "dia": "K", "hora_inicio": "09:30", "hora_fin": "11:20" }
-          ]
-        },
-        {
-          "numero": 4,
-          "profesor": "Elizondo Zuñiga Jennifer",
-          "horarios": [
-            { "dia": "J", "hora_inicio": "09:30", "hora_fin": "11:20" },
-            { "dia": "K", "hora_inicio": "09:30", "hora_fin": "11:20" }
-          ]
-        },
-        {
-          "numero": 5,
-          "profesor": "Elizondo Zuñiga Jennifer",
-          "horarios": [
-            { "dia": "J", "hora_inicio": "13:00", "hora_fin": "14:50" },
-            { "dia": "K", "hora_inicio": "13:00", "hora_fin": "14:50" }
-          ]
-        },
-        {
-          "numero": 6,
-          "profesor": "Vargas Blanco Ivan",
-          "horarios": [
-            { "dia": "J", "hora_inicio": "13:00", "hora_fin": "14:50" },
-            { "dia": "K", "hora_inicio": "13:00", "hora_fin": "14:50" }
-          ]
-        },
-        {
-          "numero": 7,
-          "profesor": "Pineda Lizano Juan Jose",
-          "horarios": [
-            { "dia": "J", "hora_inicio": "15:00", "hora_fin": "16:50" },
-            { "dia": "K", "hora_inicio": "15:00", "hora_fin": "16:50" }
           ]
         },
         {
@@ -671,6 +560,118 @@
             { "dia": "J", "hora_inicio": "17:00", "hora_fin": "18:50" },
             { "dia": "K", "hora_inicio": "17:00", "hora_fin": "18:50" }
           ]
+        },
+        {
+          "numero": 4,
+          "profesor": "Elizondo Zuñiga Jennifer",
+          "horarios": [
+            { "dia": "J", "hora_inicio": "09:30", "hora_fin": "11:20" },
+            { "dia": "K", "hora_inicio": "09:30", "hora_fin": "11:20" }
+          ]
+        },
+        {
+          "numero": 5,
+          "profesor": "Elizondo Zuñiga Jennifer",
+          "horarios": [
+            { "dia": "J", "hora_inicio": "13:00", "hora_fin": "14:50" },
+            { "dia": "K", "hora_inicio": "13:00", "hora_fin": "14:50" }
+          ]
+        },
+        {
+          "numero": 14,
+          "profesor": "Montero Zeledon Ernesto",
+          "horarios": [
+            { "dia": "M", "hora_inicio": "09:30", "hora_fin": "11:20" },
+            { "dia": "V", "hora_inicio": "09:30", "hora_fin": "11:20" }
+          ]
+        },
+        {
+          "numero": 11,
+          "profesor": "Moya Serrano Roy David",
+          "horarios": [
+            { "dia": "M", "hora_inicio": "07:30", "hora_fin": "09:20" },
+            { "dia": "V", "hora_inicio": "07:30", "hora_fin": "09:20" }
+          ]
+        },
+        {
+          "numero": 1,
+          "profesor": "Murillo Salazar Dennis",
+          "horarios": [
+            { "dia": "J", "hora_inicio": "07:30", "hora_fin": "09:20" },
+            { "dia": "K", "hora_inicio": "07:30", "hora_fin": "09:20" }
+          ]
+        },
+        {
+          "numero": 2,
+          "profesor": "Murillo Zumbado Gustavo",
+          "horarios": [
+            { "dia": "J", "hora_inicio": "07:30", "hora_fin": "09:20" },
+            { "dia": "K", "hora_inicio": "07:30", "hora_fin": "09:20" }
+          ]
+        },
+        {
+          "numero": 3,
+          "profesor": "Pineda Lizano Juan Jose",
+          "horarios": [
+            { "dia": "J", "hora_inicio": "09:30", "hora_fin": "11:20" },
+            { "dia": "K", "hora_inicio": "09:30", "hora_fin": "11:20" }
+          ]
+        },
+        {
+          "numero": 7,
+          "profesor": "Pineda Lizano Juan Jose",
+          "horarios": [
+            { "dia": "J", "hora_inicio": "15:00", "hora_fin": "16:50" },
+            { "dia": "K", "hora_inicio": "15:00", "hora_fin": "16:50" }
+          ]
+        },
+        {
+          "numero": 17,
+          "profesor": "Rojas Perez Francisco",
+          "horarios": [
+            { "dia": "M", "hora_inicio": "15:00", "hora_fin": "16:50" },
+            { "dia": "V", "hora_inicio": "15:00", "hora_fin": "16:50" }
+          ]
+        },
+        {
+          "numero": 19,
+          "profesor": "Rojas Perez Francisco",
+          "horarios": [
+            { "dia": "J", "hora_inicio": "09:30", "hora_fin": "11:20" },
+            { "dia": "K", "hora_inicio": "09:30", "hora_fin": "11:20" }
+          ]
+        },
+        {
+          "numero": 15,
+          "profesor": "Segura Zarate Ana Yancy",
+          "horarios": [
+            { "dia": "M", "hora_inicio": "13:00", "hora_fin": "14:50" },
+            { "dia": "V", "hora_inicio": "13:00", "hora_fin": "14:50" }
+          ]
+        },
+        {
+          "numero": 18,
+          "profesor": "Segura Zarate Ana Yancy",
+          "horarios": [
+            { "dia": "M", "hora_inicio": "17:00", "hora_fin": "18:50" },
+            { "dia": "V", "hora_inicio": "17:00", "hora_fin": "18:50" }
+          ]
+        },
+        {
+          "numero": 20,
+          "profesor": "Segura Zarate Ana Yancy",
+          "horarios": [
+            { "dia": "M", "hora_inicio": "09:30", "hora_fin": "11:20" },
+            { "dia": "V", "hora_inicio": "09:30", "hora_fin": "11:20" }
+          ]
+        },
+        {
+          "numero": 6,
+          "profesor": "Vargas Blanco Ivan",
+          "horarios": [
+            { "dia": "J", "hora_inicio": "13:00", "hora_fin": "14:50" },
+            { "dia": "K", "hora_inicio": "13:00", "hora_fin": "14:50" }
+          ]
         }
       ],
       "tiene_choque": true,
@@ -683,9 +684,26 @@
       "nombre": "Física general 2",
       "creditos": 3,
       "semestre": 3,
+      "carrera": "CE",
       "requisitos": ["FI-1101"],
       "correquisitos": ["MA-1102"],
       "grupos": [
+        {
+          "numero": 3,
+          "profesor": "Amador Jara Alvaro",
+          "horarios": [
+            { "dia": "J", "hora_inicio": "09:30", "hora_fin": "11:20" },
+            { "dia": "K", "hora_inicio": "09:30", "hora_fin": "11:20" }
+          ]
+        },
+        {
+          "numero": 9,
+          "profesor": "Corrales Quesada Esteban",
+          "horarios": [
+            { "dia": "M", "hora_inicio": "15:00", "hora_fin": "16:50" },
+            { "dia": "V", "hora_inicio": "15:00", "hora_fin": "16:50" }
+          ]
+        },
         {
           "numero": 1,
           "profesor": "Lobo Zamora Juan Carlos",
@@ -695,11 +713,11 @@
           ]
         },
         {
-          "numero": 10,
-          "profesor": "Soto Chinchilla Yerry",
+          "numero": 6,
+          "profesor": "Murillo Zumbado Gustavo",
           "horarios": [
-            { "dia": "J", "hora_inicio": "07:30", "hora_fin": "09:20" },
-            { "dia": "K", "hora_inicio": "07:30", "hora_fin": "09:20" }
+            { "dia": "M", "hora_inicio": "07:30", "hora_fin": "09:20" },
+            { "dia": "V", "hora_inicio": "07:30", "hora_fin": "09:20" }
           ]
         },
         {
@@ -711,19 +729,19 @@
           ]
         },
         {
-          "numero": 2,
-          "profesor": "Soto Chinchilla Yerry",
+          "numero": 8,
+          "profesor": "Oreamuno Madriz Rafael",
           "horarios": [
-            { "dia": "J", "hora_inicio": "09:30", "hora_fin": "11:20" },
-            { "dia": "K", "hora_inicio": "09:30", "hora_fin": "11:20" }
+            { "dia": "M", "hora_inicio": "13:00", "hora_fin": "14:50" },
+            { "dia": "V", "hora_inicio": "13:00", "hora_fin": "14:50" }
           ]
         },
         {
-          "numero": 3,
-          "profesor": "Amador Jara Alvaro",
+          "numero": 7,
+          "profesor": "Perez Hidalgo Jose Esteban",
           "horarios": [
-            { "dia": "J", "hora_inicio": "09:30", "hora_fin": "11:20" },
-            { "dia": "K", "hora_inicio": "09:30", "hora_fin": "11:20" }
+            { "dia": "M", "hora_inicio": "09:30", "hora_fin": "11:20" },
+            { "dia": "V", "hora_inicio": "09:30", "hora_fin": "11:20" }
           ]
         },
         {
@@ -743,35 +761,19 @@
           ]
         },
         {
-          "numero": 6,
-          "profesor": "Murillo Zumbado Gustavo",
+          "numero": 2,
+          "profesor": "Soto Chinchilla Yerry",
           "horarios": [
-            { "dia": "M", "hora_inicio": "07:30", "hora_fin": "09:20" },
-            { "dia": "V", "hora_inicio": "07:30", "hora_fin": "09:20" }
+            { "dia": "J", "hora_inicio": "09:30", "hora_fin": "11:20" },
+            { "dia": "K", "hora_inicio": "09:30", "hora_fin": "11:20" }
           ]
         },
         {
-          "numero": 7,
-          "profesor": "Perez Hidalgo Jose Esteban",
+          "numero": 10,
+          "profesor": "Soto Chinchilla Yerry",
           "horarios": [
-            { "dia": "M", "hora_inicio": "09:30", "hora_fin": "11:20" },
-            { "dia": "V", "hora_inicio": "09:30", "hora_fin": "11:20" }
-          ]
-        },
-        {
-          "numero": 8,
-          "profesor": "Oreamuno Madriz Rafael",
-          "horarios": [
-            { "dia": "M", "hora_inicio": "13:00", "hora_fin": "14:50" },
-            { "dia": "V", "hora_inicio": "13:00", "hora_fin": "14:50" }
-          ]
-        },
-        {
-          "numero": 9,
-          "profesor": "Corrales Quesada Esteban",
-          "horarios": [
-            { "dia": "M", "hora_inicio": "15:00", "hora_fin": "16:50" },
-            { "dia": "V", "hora_inicio": "15:00", "hora_fin": "16:50" }
+            { "dia": "J", "hora_inicio": "07:30", "hora_fin": "09:20" },
+            { "dia": "K", "hora_inicio": "07:30", "hora_fin": "09:20" }
           ]
         }
       ],
@@ -785,16 +787,10 @@
       "nombre": "Laboratorio de física general 1",
       "creditos": 1,
       "semestre": 2,
+      "carrera": "CE",
       "requisitos": [],
       "correquisitos": ["FI-1101"],
       "grupos": [
-        {
-          "numero": 10,
-          "profesor": "Corrales Quesada Esteban",
-          "horarios": [
-            { "dia": "M", "hora_inicio": "17:00", "hora_fin": "18:50" }
-          ]
-        },
         {
           "numero": 11,
           "profesor": "Alfaro Alvarado Jose Abrahan",
@@ -803,66 +799,10 @@
           ]
         },
         {
-          "numero": 12,
-          "profesor": "Montero Zeledon Ernesto",
-          "horarios": [
-            { "dia": "J", "hora_inicio": "09:30", "hora_fin": "11:20" }
-          ]
-        },
-        {
-          "numero": 14,
-          "profesor": "Morales Muñoz Walter",
-          "horarios": [
-            { "dia": "J", "hora_inicio": "15:00", "hora_fin": "16:50" }
-          ]
-        },
-        {
-          "numero": 15,
-          "profesor": "Segura Carvajal Marcos",
+          "numero": 27,
+          "profesor": "Alfaro Alvarado Jose Abrahan",
           "horarios": [
             { "dia": "J", "hora_inicio": "17:00", "hora_fin": "18:50" }
-          ]
-        },
-        {
-          "numero": 16,
-          "profesor": "Morales Muñoz Walter",
-          "horarios": [
-            { "dia": "V", "hora_inicio": "07:30", "hora_fin": "09:20" }
-          ]
-        },
-        {
-          "numero": 17,
-          "profesor": "Morales Muñoz Walter",
-          "horarios": [
-            { "dia": "V", "hora_inicio": "09:30", "hora_fin": "11:20" }
-          ]
-        },
-        {
-          "numero": 18,
-          "profesor": "Corrales Quesada Esteban",
-          "horarios": [
-            { "dia": "V", "hora_inicio": "13:00", "hora_fin": "14:50" }
-          ]
-        },
-        {
-          "numero": 19,
-          "profesor": "Sevilla Quesada Evar",
-          "horarios": [
-            { "dia": "K", "hora_inicio": "07:30", "hora_fin": "09:20" }
-          ]
-        },
-        {
-          "numero": 2,
-          "profesor": "Jimenez Carballo Carlos Adrian",
-          "horarios": [
-            { "dia": "K", "hora_inicio": "09:30", "hora_fin": "11:20" }
-          ]
-        },
-        {
-          "numero": 22,
-          "profesor": "Elizondo Zuñiga Jennifer",
-          "horarios": [
-            { "dia": "M", "hora_inicio": "09:30", "hora_fin": "11:20" }
           ]
         },
         {
@@ -880,34 +820,6 @@
           ]
         },
         {
-          "numero": 25,
-          "profesor": "Solano Piedra Ricardo Adolfo",
-          "horarios": [
-            { "dia": "J", "hora_inicio": "09:30", "hora_fin": "11:20" }
-          ]
-        },
-        {
-          "numero": 26,
-          "profesor": "Morales Muñoz Walter",
-          "horarios": [
-            { "dia": "J", "hora_inicio": "13:00", "hora_fin": "14:50" }
-          ]
-        },
-        {
-          "numero": 27,
-          "profesor": "Alfaro Alvarado Jose Abrahan",
-          "horarios": [
-            { "dia": "J", "hora_inicio": "17:00", "hora_fin": "18:50" }
-          ]
-        },
-        {
-          "numero": 29,
-          "profesor": "Oreamuno Madriz Rafael",
-          "horarios": [
-            { "dia": "K", "hora_inicio": "13:00", "hora_fin": "14:50" }
-          ]
-        },
-        {
           "numero": 3,
           "profesor": "Campos Rodriguez Melania",
           "horarios": [
@@ -922,17 +834,31 @@
           ]
         },
         {
-          "numero": 5,
-          "profesor": "Segura Carvajal Marcos",
+          "numero": 10,
+          "profesor": "Corrales Quesada Esteban",
           "horarios": [
-            { "dia": "K", "hora_inicio": "17:00", "hora_fin": "18:50" }
+            { "dia": "M", "hora_inicio": "17:00", "hora_fin": "18:50" }
           ]
         },
         {
-          "numero": 6,
-          "profesor": "Perez Hidalgo Jose Esteban",
+          "numero": 18,
+          "profesor": "Corrales Quesada Esteban",
           "horarios": [
-            { "dia": "M", "hora_inicio": "07:30", "hora_fin": "09:20" }
+            { "dia": "V", "hora_inicio": "13:00", "hora_fin": "14:50" }
+          ]
+        },
+        {
+          "numero": 22,
+          "profesor": "Elizondo Zuñiga Jennifer",
+          "horarios": [
+            { "dia": "M", "hora_inicio": "09:30", "hora_fin": "11:20" }
+          ]
+        },
+        {
+          "numero": 2,
+          "profesor": "Jimenez Carballo Carlos Adrian",
+          "horarios": [
+            { "dia": "K", "hora_inicio": "09:30", "hora_fin": "11:20" }
           ]
         },
         {
@@ -950,10 +876,87 @@
           ]
         },
         {
+          "numero": 12,
+          "profesor": "Montero Zeledon Ernesto",
+          "horarios": [
+            { "dia": "J", "hora_inicio": "09:30", "hora_fin": "11:20" }
+          ]
+        },
+        {
+          "numero": 14,
+          "profesor": "Morales Muñoz Walter",
+          "horarios": [
+            { "dia": "J", "hora_inicio": "15:00", "hora_fin": "16:50" }
+          ]
+        },
+        {
+          "numero": 16,
+          "profesor": "Morales Muñoz Walter",
+          "horarios": [
+            { "dia": "V", "hora_inicio": "07:30", "hora_fin": "09:20" }
+          ]
+        },
+        {
+          "numero": 17,
+          "profesor": "Morales Muñoz Walter",
+          "horarios": [
+            { "dia": "V", "hora_inicio": "09:30", "hora_fin": "11:20" }
+          ]
+        },
+        {
+          "numero": 26,
+          "profesor": "Morales Muñoz Walter",
+          "horarios": [
+            { "dia": "J", "hora_inicio": "13:00", "hora_fin": "14:50" }
+          ]
+        },
+        {
+          "numero": 29,
+          "profesor": "Oreamuno Madriz Rafael",
+          "horarios": [
+            { "dia": "K", "hora_inicio": "13:00", "hora_fin": "14:50" }
+          ]
+        },
+        {
+          "numero": 6,
+          "profesor": "Perez Hidalgo Jose Esteban",
+          "horarios": [
+            { "dia": "M", "hora_inicio": "07:30", "hora_fin": "09:20" }
+          ]
+        },
+        {
+          "numero": 5,
+          "profesor": "Segura Carvajal Marcos",
+          "horarios": [
+            { "dia": "K", "hora_inicio": "17:00", "hora_fin": "18:50" }
+          ]
+        },
+        {
           "numero": 9,
           "profesor": "Segura Carvajal Marcos",
           "horarios": [
             { "dia": "M", "hora_inicio": "15:00", "hora_fin": "16:50" }
+          ]
+        },
+        {
+          "numero": 15,
+          "profesor": "Segura Carvajal Marcos",
+          "horarios": [
+            { "dia": "J", "hora_inicio": "17:00", "hora_fin": "18:50" }
+          ]
+        },
+        {
+          "numero": 19,
+          "profesor": "Sevilla Quesada Evar",
+          "horarios": [
+            { "dia": "K", "hora_inicio": "07:30", "hora_fin": "09:20" }
+          ]
+        },
+        {
+          "numero": 25,
+          "profesor": "Solano Piedra Ricardo Adolfo",
+          "horarios": [
+            { "dia": "J", "hora_inicio": "09:30", "hora_fin": "11:20" }
           ]
         }
       ],
@@ -967,6 +970,7 @@
       "nombre": "Laboratorio de física general 2",
       "creditos": 1,
       "semestre": 3,
+      "carrera": "CE",
       "requisitos": ["FI-1201"],
       "correquisitos": ["FI-1102"],
       "grupos": [
@@ -985,17 +989,24 @@
           ]
         },
         {
-          "numero": 3,
-          "profesor": "Sevilla Quesada Evar",
-          "horarios": [
-            { "dia": "K", "hora_inicio": "17:00", "hora_fin": "18:50" }
-          ]
-        },
-        {
           "numero": 4,
           "profesor": "Jimenez Carballo Carlos Adrian",
           "horarios": [
             { "dia": "M", "hora_inicio": "07:30", "hora_fin": "09:20" }
+          ]
+        },
+        {
+          "numero": 7,
+          "profesor": "Morales Muñoz Walter",
+          "horarios": [
+            { "dia": "J", "hora_inicio": "09:30", "hora_fin": "11:20" }
+          ]
+        },
+        {
+          "numero": 8,
+          "profesor": "Morales Muñoz Walter",
+          "horarios": [
+            { "dia": "V", "hora_inicio": "13:00", "hora_fin": "14:50" }
           ]
         },
         {
@@ -1013,24 +1024,17 @@
           ]
         },
         {
-          "numero": 7,
-          "profesor": "Morales Muñoz Walter",
-          "horarios": [
-            { "dia": "J", "hora_inicio": "09:30", "hora_fin": "11:20" }
-          ]
-        },
-        {
-          "numero": 8,
-          "profesor": "Morales Muñoz Walter",
-          "horarios": [
-            { "dia": "V", "hora_inicio": "13:00", "hora_fin": "14:50" }
-          ]
-        },
-        {
           "numero": 9,
           "profesor": "Rojas Rojas Laura",
           "horarios": [
             { "dia": "M", "hora_inicio": "13:00", "hora_fin": "14:50" }
+          ]
+        },
+        {
+          "numero": 3,
+          "profesor": "Sevilla Quesada Evar",
+          "horarios": [
+            { "dia": "K", "hora_inicio": "17:00", "hora_fin": "18:50" }
           ]
         }
       ],
@@ -1044,46 +1048,16 @@
       "nombre": "Matemática general",
       "creditos": 2,
       "semestre": 0,
+      "carrera": "CE",
       "requisitos": [],
       "correquisitos": [],
       "grupos": [
-        {
-          "numero": 1,
-          "profesor": "Solis Palma Angie",
-          "horarios": [
-            { "dia": "J", "hora_inicio": "07:30", "hora_fin": "09:20" },
-            { "dia": "K", "hora_inicio": "07:30", "hora_fin": "10:20" }
-          ]
-        },
         {
           "numero": 10,
           "profesor": "Azofeifa Cubero Roberto",
           "horarios": [
             { "dia": "M", "hora_inicio": "15:00", "hora_fin": "17:50" },
             { "dia": "V", "hora_inicio": "15:00", "hora_fin": "16:50" }
-          ]
-        },
-        {
-          "numero": 11,
-          "profesor": "Prendas Rojas Juan Pablo",
-          "horarios": [
-            { "dia": "M", "hora_inicio": "16:00", "hora_fin": "18:50" },
-            { "dia": "V", "hora_inicio": "17:00", "hora_fin": "18:50" }
-          ]
-        },
-        {
-          "numero": 12,
-          "profesor": "Solano Varela Daniel Jesus",
-          "horarios": [
-            { "dia": "S", "hora_inicio": "07:30", "hora_fin": "12:20" }
-          ]
-        },
-        {
-          "numero": 2,
-          "profesor": "Vega Vasquez Arturo",
-          "horarios": [
-            { "dia": "J", "hora_inicio": "09:30", "hora_fin": "11:20" },
-            { "dia": "K", "hora_inicio": "09:30", "hora_fin": "12:20" }
           ]
         },
         {
@@ -1095,22 +1069,6 @@
           ]
         },
         {
-          "numero": 4,
-          "profesor": "Jimenez Madrigal Jorge",
-          "horarios": [
-            { "dia": "J", "hora_inicio": "15:00", "hora_fin": "17:50" },
-            { "dia": "K", "hora_inicio": "15:00", "hora_fin": "16:50" }
-          ]
-        },
-        {
-          "numero": 5,
-          "profesor": "Rodriguez Castro Bryan",
-          "horarios": [
-            { "dia": "J", "hora_inicio": "16:00", "hora_fin": "17:50" },
-            { "dia": "K", "hora_inicio": "16:00", "hora_fin": "18:50" }
-          ]
-        },
-        {
           "numero": 6,
           "profesor": "Cordero Quiros Marcial",
           "horarios": [
@@ -1119,11 +1077,11 @@
           ]
         },
         {
-          "numero": 7,
-          "profesor": "Sanchez Fernandez Ivonne",
+          "numero": 4,
+          "profesor": "Jimenez Madrigal Jorge",
           "horarios": [
-            { "dia": "M", "hora_inicio": "07:30", "hora_fin": "09:20" },
-            { "dia": "V", "hora_inicio": "07:30", "hora_fin": "10:20" }
+            { "dia": "J", "hora_inicio": "15:00", "hora_fin": "17:50" },
+            { "dia": "K", "hora_inicio": "15:00", "hora_fin": "16:50" }
           ]
         },
         {
@@ -1135,11 +1093,58 @@
           ]
         },
         {
+          "numero": 11,
+          "profesor": "Prendas Rojas Juan Pablo",
+          "horarios": [
+            { "dia": "M", "hora_inicio": "16:00", "hora_fin": "18:50" },
+            { "dia": "V", "hora_inicio": "17:00", "hora_fin": "18:50" }
+          ]
+        },
+        {
           "numero": 9,
           "profesor": "Quesada Villalobos Lourdes",
           "horarios": [
             { "dia": "M", "hora_inicio": "13:00", "hora_fin": "15:50" },
             { "dia": "V", "hora_inicio": "13:00", "hora_fin": "14:50" }
+          ]
+        },
+        {
+          "numero": 5,
+          "profesor": "Rodriguez Castro Bryan",
+          "horarios": [
+            { "dia": "J", "hora_inicio": "16:00", "hora_fin": "17:50" },
+            { "dia": "K", "hora_inicio": "16:00", "hora_fin": "18:50" }
+          ]
+        },
+        {
+          "numero": 7,
+          "profesor": "Sanchez Fernandez Ivonne",
+          "horarios": [
+            { "dia": "M", "hora_inicio": "07:30", "hora_fin": "09:20" },
+            { "dia": "V", "hora_inicio": "07:30", "hora_fin": "10:20" }
+          ]
+        },
+        {
+          "numero": 12,
+          "profesor": "Solano Varela Daniel Jesus",
+          "horarios": [
+            { "dia": "S", "hora_inicio": "07:30", "hora_fin": "12:20" }
+          ]
+        },
+        {
+          "numero": 1,
+          "profesor": "Solis Palma Angie",
+          "horarios": [
+            { "dia": "J", "hora_inicio": "07:30", "hora_fin": "09:20" },
+            { "dia": "K", "hora_inicio": "07:30", "hora_fin": "10:20" }
+          ]
+        },
+        {
+          "numero": 2,
+          "profesor": "Vega Vasquez Arturo",
+          "horarios": [
+            { "dia": "J", "hora_inicio": "09:30", "hora_fin": "11:20" },
+            { "dia": "K", "hora_inicio": "09:30", "hora_fin": "12:20" }
           ]
         }
       ],
@@ -1153,15 +1158,24 @@
       "nombre": "Cálculo diferencial e integral",
       "creditos": 4,
       "semestre": 1,
+      "carrera": "CE",
       "requisitos": ["MA-0101"],
       "correquisitos": [],
       "grupos": [
         {
-          "numero": 1,
-          "profesor": "Quesada Villalobos Lourdes",
+          "numero": 2,
+          "profesor": "Cordero Quiros Marcial",
           "horarios": [
-            { "dia": "J", "hora_inicio": "07:30", "hora_fin": "09:20" },
-            { "dia": "K", "hora_inicio": "07:30", "hora_fin": "10:20" }
+            { "dia": "J", "hora_inicio": "07:30", "hora_fin": "10:20" },
+            { "dia": "K", "hora_inicio": "07:30", "hora_fin": "09:20" }
+          ]
+        },
+        {
+          "numero": 9,
+          "profesor": "Esquivel Samudio Jeison",
+          "horarios": [
+            { "dia": "J", "hora_inicio": "17:00", "hora_fin": "18:50" },
+            { "dia": "K", "hora_inicio": "17:00", "hora_fin": "19:50" }
           ]
         },
         {
@@ -1173,11 +1187,11 @@
           ]
         },
         {
-          "numero": 11,
-          "profesor": "Paez Paez Cristian",
+          "numero": 17,
+          "profesor": "Gutierrez Montenegro Marco Vinicio",
           "horarios": [
-            { "dia": "M", "hora_inicio": "07:30", "hora_fin": "09:20" },
-            { "dia": "V", "hora_inicio": "07:30", "hora_fin": "10:20" }
+            { "dia": "M", "hora_inicio": "16:00", "hora_fin": "18:50" },
+            { "dia": "V", "hora_inicio": "16:00", "hora_fin": "17:50" }
           ]
         },
         {
@@ -1189,67 +1203,10 @@
           ]
         },
         {
-          "numero": 13,
-          "profesor": "Parra Salazar Edward",
+          "numero": 21,
+          "profesor": "Jimenez Madrigal Jorge",
           "horarios": [
-            { "dia": "M", "hora_inicio": "10:30", "hora_fin": "12:20" },
-            { "dia": "V", "hora_inicio": "09:30", "hora_fin": "12:20" }
-          ]
-        },
-        {
-          "numero": 14,
-          "profesor": "Mora Picado Luis Fernando",
-          "horarios": [
-            { "dia": "M", "hora_inicio": "09:30", "hora_fin": "12:20" },
-            { "dia": "V", "hora_inicio": "10:30", "hora_fin": "12:20" }
-          ]
-        },
-        {
-          "numero": 15,
-          "profesor": "Nuñez Vanegas Felix",
-          "horarios": [
-            { "dia": "M", "hora_inicio": "13:00", "hora_fin": "15:50" },
-            { "dia": "V", "hora_inicio": "13:00", "hora_fin": "14:50" }
-          ]
-        },
-        {
-          "numero": 16,
-          "profesor": "Mora Picado Luis Fernando",
-          "horarios": [
-            { "dia": "M", "hora_inicio": "15:00", "hora_fin": "17:50" },
-            { "dia": "V", "hora_inicio": "15:00", "hora_fin": "16:50" }
-          ]
-        },
-        {
-          "numero": 17,
-          "profesor": "Gutierrez Montenegro Marco Vinicio",
-          "horarios": [
-            { "dia": "M", "hora_inicio": "16:00", "hora_fin": "18:50" },
-            { "dia": "V", "hora_inicio": "16:00", "hora_fin": "17:50" }
-          ]
-        },
-        {
-          "numero": 18,
-          "profesor": "Parra Salazar Edward",
-          "horarios": [
-            { "dia": "M", "hora_inicio": "17:00", "hora_fin": "19:50" },
-            { "dia": "V", "hora_inicio": "17:00", "hora_fin": "18:50" }
-          ]
-        },
-        {
-          "numero": 19,
-          "profesor": "Mora Casasola Maria Fernanda",
-          "horarios": [
-            { "dia": "M", "hora_inicio": "17:00", "hora_fin": "19:50" },
-            { "dia": "V", "hora_inicio": "17:00", "hora_fin": "18:50" }
-          ]
-        },
-        {
-          "numero": 2,
-          "profesor": "Cordero Quiros Marcial",
-          "horarios": [
-            { "dia": "J", "hora_inicio": "07:30", "hora_fin": "10:20" },
-            { "dia": "K", "hora_inicio": "07:30", "hora_fin": "09:20" }
+            { "dia": "S", "hora_inicio": "07:30", "hora_fin": "12:20" }
           ]
         },
         {
@@ -1261,42 +1218,11 @@
           ]
         },
         {
-          "numero": 21,
-          "profesor": "Jimenez Madrigal Jorge",
-          "horarios": [
-            { "dia": "S", "hora_inicio": "07:30", "hora_fin": "12:20" }
-          ]
-        },
-        {
           "numero": 3,
           "profesor": "Masis Flores David",
           "horarios": [
             { "dia": "J", "hora_inicio": "09:30", "hora_fin": "12:20" },
             { "dia": "K", "hora_inicio": "09:30", "hora_fin": "11:20" }
-          ]
-        },
-        {
-          "numero": 4,
-          "profesor": "Paez Paez Cristian",
-          "horarios": [
-            { "dia": "J", "hora_inicio": "10:30", "hora_fin": "12:20" },
-            { "dia": "K", "hora_inicio": "09:30", "hora_fin": "12:20" }
-          ]
-        },
-        {
-          "numero": 5,
-          "profesor": "Rodriguez Granados Natalia",
-          "horarios": [
-            { "dia": "J", "hora_inicio": "13:00", "hora_fin": "14:50" },
-            { "dia": "K", "hora_inicio": "13:00", "hora_fin": "15:50" }
-          ]
-        },
-        {
-          "numero": 6,
-          "profesor": "Parra Salazar Edward",
-          "horarios": [
-            { "dia": "J", "hora_inicio": "15:00", "hora_fin": "17:50" },
-            { "dia": "K", "hora_inicio": "15:00", "hora_fin": "16:50" }
           ]
         },
         {
@@ -1308,6 +1234,86 @@
           ]
         },
         {
+          "numero": 19,
+          "profesor": "Mora Casasola Maria Fernanda",
+          "horarios": [
+            { "dia": "M", "hora_inicio": "17:00", "hora_fin": "19:50" },
+            { "dia": "V", "hora_inicio": "17:00", "hora_fin": "18:50" }
+          ]
+        },
+        {
+          "numero": 14,
+          "profesor": "Mora Picado Luis Fernando",
+          "horarios": [
+            { "dia": "M", "hora_inicio": "09:30", "hora_fin": "12:20" },
+            { "dia": "V", "hora_inicio": "10:30", "hora_fin": "12:20" }
+          ]
+        },
+        {
+          "numero": 16,
+          "profesor": "Mora Picado Luis Fernando",
+          "horarios": [
+            { "dia": "M", "hora_inicio": "15:00", "hora_fin": "17:50" },
+            { "dia": "V", "hora_inicio": "15:00", "hora_fin": "16:50" }
+          ]
+        },
+        {
+          "numero": 15,
+          "profesor": "Nuñez Vanegas Felix",
+          "horarios": [
+            { "dia": "M", "hora_inicio": "13:00", "hora_fin": "15:50" },
+            { "dia": "V", "hora_inicio": "13:00", "hora_fin": "14:50" }
+          ]
+        },
+        {
+          "numero": 4,
+          "profesor": "Paez Paez Cristian",
+          "horarios": [
+            { "dia": "J", "hora_inicio": "10:30", "hora_fin": "12:20" },
+            { "dia": "K", "hora_inicio": "09:30", "hora_fin": "12:20" }
+          ]
+        },
+        {
+          "numero": 11,
+          "profesor": "Paez Paez Cristian",
+          "horarios": [
+            { "dia": "M", "hora_inicio": "07:30", "hora_fin": "09:20" },
+            { "dia": "V", "hora_inicio": "07:30", "hora_fin": "10:20" }
+          ]
+        },
+        {
+          "numero": 6,
+          "profesor": "Parra Salazar Edward",
+          "horarios": [
+            { "dia": "J", "hora_inicio": "15:00", "hora_fin": "17:50" },
+            { "dia": "K", "hora_inicio": "15:00", "hora_fin": "16:50" }
+          ]
+        },
+        {
+          "numero": 13,
+          "profesor": "Parra Salazar Edward",
+          "horarios": [
+            { "dia": "M", "hora_inicio": "10:30", "hora_fin": "12:20" },
+            { "dia": "V", "hora_inicio": "09:30", "hora_fin": "12:20" }
+          ]
+        },
+        {
+          "numero": 18,
+          "profesor": "Parra Salazar Edward",
+          "horarios": [
+            { "dia": "M", "hora_inicio": "17:00", "hora_fin": "19:50" },
+            { "dia": "V", "hora_inicio": "17:00", "hora_fin": "18:50" }
+          ]
+        },
+        {
+          "numero": 1,
+          "profesor": "Quesada Villalobos Lourdes",
+          "horarios": [
+            { "dia": "J", "hora_inicio": "07:30", "hora_fin": "09:20" },
+            { "dia": "K", "hora_inicio": "07:30", "hora_fin": "10:20" }
+          ]
+        },
+        {
           "numero": 8,
           "profesor": "Quesada Villalobos Lourdes",
           "horarios": [
@@ -1316,11 +1322,11 @@
           ]
         },
         {
-          "numero": 9,
-          "profesor": "Esquivel Samudio Jeison",
+          "numero": 5,
+          "profesor": "Rodriguez Granados Natalia",
           "horarios": [
-            { "dia": "J", "hora_inicio": "17:00", "hora_fin": "18:50" },
-            { "dia": "K", "hora_inicio": "17:00", "hora_fin": "19:50" }
+            { "dia": "J", "hora_inicio": "13:00", "hora_fin": "14:50" },
+            { "dia": "K", "hora_inicio": "13:00", "hora_fin": "15:50" }
           ]
         }
       ],
@@ -1334,25 +1340,10 @@
       "nombre": "Cálculo y álgebra lineal",
       "creditos": 4,
       "semestre": 2,
+      "carrera": "CE",
       "requisitos": ["MA-1102"],
       "correquisitos": [],
       "grupos": [
-        {
-          "numero": 1,
-          "profesor": "Chavarria Molina Jeffry",
-          "horarios": [
-            { "dia": "J", "hora_inicio": "07:30", "hora_fin": "09:20" },
-            { "dia": "K", "hora_inicio": "07:30", "hora_fin": "09:20" }
-          ]
-        },
-        {
-          "numero": 10,
-          "profesor": "Figueroa Mata Geovanni",
-          "horarios": [
-            { "dia": "J", "hora_inicio": "18:00", "hora_fin": "19:50" },
-            { "dia": "K", "hora_inicio": "18:00", "hora_fin": "19:50" }
-          ]
-        },
         {
           "numero": 11,
           "profesor": "Acuña Prado Luis",
@@ -1362,19 +1353,26 @@
           ]
         },
         {
-          "numero": 12,
-          "profesor": "Gutierrez Montenegro Marco Vinicio",
+          "numero": 9,
+          "profesor": "Alpizar Brenes Geisel",
           "horarios": [
-            { "dia": "M", "hora_inicio": "09:30", "hora_fin": "11:20" },
-            { "dia": "V", "hora_inicio": "09:30", "hora_fin": "11:20" }
+            { "dia": "J", "hora_inicio": "18:00", "hora_fin": "19:50" },
+            { "dia": "K", "hora_inicio": "18:00", "hora_fin": "19:50" }
           ]
         },
         {
-          "numero": 13,
-          "profesor": "Figueroa Mata Geovanni",
+          "numero": 7,
+          "profesor": "Brenes Gomez Randall",
           "horarios": [
-            { "dia": "M", "hora_inicio": "13:00", "hora_fin": "14:50" },
-            { "dia": "V", "hora_inicio": "13:00", "hora_fin": "14:50" }
+            { "dia": "J", "hora_inicio": "16:00", "hora_fin": "17:50" },
+            { "dia": "K", "hora_inicio": "16:00", "hora_fin": "17:50" }
+          ]
+        },
+        {
+          "numero": 18,
+          "profesor": "Brenes Gomez Randall",
+          "horarios": [
+            { "dia": "S", "hora_inicio": "07:30", "hora_fin": "11:20" }
           ]
         },
         {
@@ -1386,14 +1384,6 @@
           ]
         },
         {
-          "numero": 15,
-          "profesor": "Parra Rodriguez Emmanuelle",
-          "horarios": [
-            { "dia": "M", "hora_inicio": "16:00", "hora_fin": "17:50" },
-            { "dia": "V", "hora_inicio": "16:00", "hora_fin": "17:50" }
-          ]
-        },
-        {
           "numero": 16,
           "profesor": "Calderon Solano Manuel",
           "horarios": [
@@ -1402,25 +1392,19 @@
           ]
         },
         {
-          "numero": 17,
-          "profesor": "Mora Picado Luis Fernando",
+          "numero": 1,
+          "profesor": "Chavarria Molina Jeffry",
           "horarios": [
-            { "dia": "M", "hora_inicio": "18:00", "hora_fin": "19:50" },
-            { "dia": "V", "hora_inicio": "18:00", "hora_fin": "19:50" }
+            { "dia": "J", "hora_inicio": "07:30", "hora_fin": "09:20" },
+            { "dia": "K", "hora_inicio": "07:30", "hora_fin": "09:20" }
           ]
         },
         {
-          "numero": 18,
-          "profesor": "Brenes Gomez Randall",
+          "numero": 4,
+          "profesor": "Chavarria Molina Jeffry",
           "horarios": [
-            { "dia": "S", "hora_inicio": "07:30", "hora_fin": "11:20" }
-          ]
-        },
-        {
-          "numero": 19,
-          "profesor": "Jimenez Madrigal Jorge",
-          "horarios": [
-            { "dia": "J", "hora_inicio": "07:30", "hora_fin": "11:20" }
+            { "dia": "J", "hora_inicio": "13:00", "hora_fin": "14:50" },
+            { "dia": "K", "hora_inicio": "13:00", "hora_fin": "14:50" }
           ]
         },
         {
@@ -1440,22 +1424,6 @@
           ]
         },
         {
-          "numero": 4,
-          "profesor": "Chavarria Molina Jeffry",
-          "horarios": [
-            { "dia": "J", "hora_inicio": "13:00", "hora_fin": "14:50" },
-            { "dia": "K", "hora_inicio": "13:00", "hora_fin": "14:50" }
-          ]
-        },
-        {
-          "numero": 5,
-          "profesor": "Jimenez Romero Alejandra",
-          "horarios": [
-            { "dia": "J", "hora_inicio": "13:00", "hora_fin": "14:50" },
-            { "dia": "K", "hora_inicio": "13:00", "hora_fin": "14:50" }
-          ]
-        },
-        {
           "numero": 6,
           "profesor": "Figueroa Mata Geovanni",
           "horarios": [
@@ -1464,11 +1432,19 @@
           ]
         },
         {
-          "numero": 7,
-          "profesor": "Brenes Gomez Randall",
+          "numero": 10,
+          "profesor": "Figueroa Mata Geovanni",
           "horarios": [
-            { "dia": "J", "hora_inicio": "16:00", "hora_fin": "17:50" },
-            { "dia": "K", "hora_inicio": "16:00", "hora_fin": "17:50" }
+            { "dia": "J", "hora_inicio": "18:00", "hora_fin": "19:50" },
+            { "dia": "K", "hora_inicio": "18:00", "hora_fin": "19:50" }
+          ]
+        },
+        {
+          "numero": 13,
+          "profesor": "Figueroa Mata Geovanni",
+          "horarios": [
+            { "dia": "M", "hora_inicio": "13:00", "hora_fin": "14:50" },
+            { "dia": "V", "hora_inicio": "13:00", "hora_fin": "14:50" }
           ]
         },
         {
@@ -1480,11 +1456,42 @@
           ]
         },
         {
-          "numero": 9,
-          "profesor": "Alpizar Brenes Geisel",
+          "numero": 12,
+          "profesor": "Gutierrez Montenegro Marco Vinicio",
           "horarios": [
-            { "dia": "J", "hora_inicio": "18:00", "hora_fin": "19:50" },
-            { "dia": "K", "hora_inicio": "18:00", "hora_fin": "19:50" }
+            { "dia": "M", "hora_inicio": "09:30", "hora_fin": "11:20" },
+            { "dia": "V", "hora_inicio": "09:30", "hora_fin": "11:20" }
+          ]
+        },
+        {
+          "numero": 19,
+          "profesor": "Jimenez Madrigal Jorge",
+          "horarios": [
+            { "dia": "J", "hora_inicio": "07:30", "hora_fin": "11:20" }
+          ]
+        },
+        {
+          "numero": 5,
+          "profesor": "Jimenez Romero Alejandra",
+          "horarios": [
+            { "dia": "J", "hora_inicio": "13:00", "hora_fin": "14:50" },
+            { "dia": "K", "hora_inicio": "13:00", "hora_fin": "14:50" }
+          ]
+        },
+        {
+          "numero": 17,
+          "profesor": "Mora Picado Luis Fernando",
+          "horarios": [
+            { "dia": "M", "hora_inicio": "18:00", "hora_fin": "19:50" },
+            { "dia": "V", "hora_inicio": "18:00", "hora_fin": "19:50" }
+          ]
+        },
+        {
+          "numero": 15,
+          "profesor": "Parra Rodriguez Emmanuelle",
+          "horarios": [
+            { "dia": "M", "hora_inicio": "16:00", "hora_fin": "17:50" },
+            { "dia": "V", "hora_inicio": "16:00", "hora_fin": "17:50" }
           ]
         }
       ],
@@ -1498,12 +1505,13 @@
       "nombre": "Matemática discreta",
       "creditos": 4,
       "semestre": 1,
+      "carrera": "CE",
       "requisitos": [],
       "correquisitos": [],
       "grupos": [
         {
-          "numero": 1,
-          "profesor": "Solis Arguedas Adriana",
+          "numero": 6,
+          "profesor": "Chaves Salas Leonel Rolando",
           "horarios": [
             { "dia": "M", "hora_inicio": "07:30", "hora_fin": "09:20" },
             { "dia": "V", "hora_inicio": "07:30", "hora_fin": "09:20" }
@@ -1518,11 +1526,11 @@
           ]
         },
         {
-          "numero": 3,
-          "profesor": "Soto Quiros Juan Pablo",
+          "numero": 5,
+          "profesor": "Fallas Monge Juan Jose",
           "horarios": [
-            { "dia": "J", "hora_inicio": "18:00", "hora_fin": "19:50" },
-            { "dia": "K", "hora_inicio": "18:00", "hora_fin": "19:50" }
+            { "dia": "J", "hora_inicio": "15:00", "hora_fin": "16:50" },
+            { "dia": "K", "hora_inicio": "15:00", "hora_fin": "16:50" }
           ]
         },
         {
@@ -1534,19 +1542,19 @@
           ]
         },
         {
-          "numero": 5,
-          "profesor": "Fallas Monge Juan Jose",
-          "horarios": [
-            { "dia": "J", "hora_inicio": "15:00", "hora_fin": "16:50" },
-            { "dia": "K", "hora_inicio": "15:00", "hora_fin": "16:50" }
-          ]
-        },
-        {
-          "numero": 6,
-          "profesor": "Chaves Salas Leonel Rolando",
+          "numero": 1,
+          "profesor": "Solis Arguedas Adriana",
           "horarios": [
             { "dia": "M", "hora_inicio": "07:30", "hora_fin": "09:20" },
             { "dia": "V", "hora_inicio": "07:30", "hora_fin": "09:20" }
+          ]
+        },
+        {
+          "numero": 3,
+          "profesor": "Soto Quiros Juan Pablo",
+          "horarios": [
+            { "dia": "J", "hora_inicio": "18:00", "hora_fin": "19:50" },
+            { "dia": "K", "hora_inicio": "18:00", "hora_fin": "19:50" }
           ]
         }
       ],
@@ -1560,17 +1568,10 @@
       "nombre": "Cálculo superior",
       "creditos": 4,
       "semestre": 3,
+      "carrera": "CE",
       "requisitos": ["MA-1103"],
       "correquisitos": [],
       "grupos": [
-        {
-          "numero": 1,
-          "profesor": "Monge Fallas Jorge",
-          "horarios": [
-            { "dia": "M", "hora_inicio": "09:30", "hora_fin": "11:20" },
-            { "dia": "V", "hora_inicio": "09:30", "hora_fin": "11:20" }
-          ]
-        },
         {
           "numero": 2,
           "profesor": "Borbon Alpizar Alexander",
@@ -1580,11 +1581,18 @@
           ]
         },
         {
-          "numero": 3,
-          "profesor": "Valverde Sanchez Samuel",
+          "numero": 7,
+          "profesor": "Chacon Vargas Erick",
           "horarios": [
-            { "dia": "M", "hora_inicio": "15:00", "hora_fin": "16:50" },
-            { "dia": "V", "hora_inicio": "15:00", "hora_fin": "16:50" }
+            { "dia": "J", "hora_inicio": "13:00", "hora_fin": "14:50" },
+            { "dia": "K", "hora_inicio": "13:00", "hora_fin": "14:50" }
+          ]
+        },
+        {
+          "numero": 6,
+          "profesor": "Esquivel Samudio Jeison",
+          "horarios": [
+            { "dia": "S", "hora_inicio": "07:30", "hora_fin": "11:20" }
           ]
         },
         {
@@ -1596,6 +1604,14 @@
           ]
         },
         {
+          "numero": 1,
+          "profesor": "Monge Fallas Jorge",
+          "horarios": [
+            { "dia": "M", "hora_inicio": "09:30", "hora_fin": "11:20" },
+            { "dia": "V", "hora_inicio": "09:30", "hora_fin": "11:20" }
+          ]
+        },
+        {
           "numero": 5,
           "profesor": "Oviedo Ugalde Norberto",
           "horarios": [
@@ -1604,18 +1620,11 @@
           ]
         },
         {
-          "numero": 6,
-          "profesor": "Esquivel Samudio Jeison",
+          "numero": 3,
+          "profesor": "Valverde Sanchez Samuel",
           "horarios": [
-            { "dia": "S", "hora_inicio": "07:30", "hora_fin": "11:20" }
-          ]
-        },
-        {
-          "numero": 7,
-          "profesor": "Chacon Vargas Erick",
-          "horarios": [
-            { "dia": "J", "hora_inicio": "13:00", "hora_fin": "14:50" },
-            { "dia": "K", "hora_inicio": "13:00", "hora_fin": "14:50" }
+            { "dia": "M", "hora_inicio": "15:00", "hora_fin": "16:50" },
+            { "dia": "V", "hora_inicio": "15:00", "hora_fin": "16:50" }
           ]
         }
       ],
@@ -1629,16 +1638,10 @@
       "nombre": "Probabilidad y estadística",
       "creditos": 2,
       "semestre": 4,
+      "carrera": "CE",
       "requisitos": ["MA-2104"],
       "correquisitos": [],
       "grupos": [
-        {
-          "numero": 1,
-          "profesor": "Solano Leandro Paula",
-          "horarios": [
-            { "dia": "L", "hora_inicio": "07:30", "hora_fin": "10:20" }
-          ]
-        },
         {
           "numero": 2,
           "profesor": "Hasbum Fernandez Ivannia",
@@ -1652,6 +1655,13 @@
           "horarios": [
             { "dia": "J", "hora_inicio": "13:00", "hora_fin": "15:50" }
           ]
+        },
+        {
+          "numero": 1,
+          "profesor": "Solano Leandro Paula",
+          "horarios": [
+            { "dia": "L", "hora_inicio": "07:30", "hora_fin": "10:20" }
+          ]
         }
       ],
       "tiene_choque": true,
@@ -1664,44 +1674,10 @@
       "nombre": "Laboratorio de química básica 1",
       "creditos": 1,
       "semestre": 1,
+      "carrera": "CE",
       "requisitos": [],
       "correquisitos": ["QU-1106"],
       "grupos": [
-        {
-          "numero": 1,
-          "profesor": "Salas Jimenez Juan Carlos",
-          "horarios": [
-            { "dia": "K", "hora_inicio": "07:30", "hora_fin": "09:20" }
-          ]
-        },
-        {
-          "numero": 10,
-          "profesor": "Quiros Bustos Noemi",
-          "horarios": [
-            { "dia": "J", "hora_inicio": "09:30", "hora_fin": "11:20" }
-          ]
-        },
-        {
-          "numero": 11,
-          "profesor": "Calleja Amador Carlos Enrique",
-          "horarios": [
-            { "dia": "J", "hora_inicio": "13:00", "hora_fin": "14:50" }
-          ]
-        },
-        {
-          "numero": 13,
-          "profesor": "Soto Cordoba Silvia",
-          "horarios": [
-            { "dia": "V", "hora_inicio": "07:30", "hora_fin": "09:20" }
-          ]
-        },
-        {
-          "numero": 15,
-          "profesor": "Ledezma Espinoza Aura",
-          "horarios": [
-            { "dia": "V", "hora_inicio": "13:00", "hora_fin": "14:50" }
-          ]
-        },
         {
           "numero": 2,
           "profesor": "Calleja Amador Carlos Enrique",
@@ -1714,6 +1690,27 @@
           "profesor": "Calleja Amador Carlos Enrique",
           "horarios": [
             { "dia": "K", "hora_inicio": "13:00", "hora_fin": "14:50" }
+          ]
+        },
+        {
+          "numero": 11,
+          "profesor": "Calleja Amador Carlos Enrique",
+          "horarios": [
+            { "dia": "J", "hora_inicio": "13:00", "hora_fin": "14:50" }
+          ]
+        },
+        {
+          "numero": 8,
+          "profesor": "Hernandez Alpizar Laura",
+          "horarios": [
+            { "dia": "M", "hora_inicio": "15:00", "hora_fin": "16:50" }
+          ]
+        },
+        {
+          "numero": 15,
+          "profesor": "Ledezma Espinoza Aura",
+          "horarios": [
+            { "dia": "V", "hora_inicio": "13:00", "hora_fin": "14:50" }
           ]
         },
         {
@@ -1745,17 +1742,31 @@
           ]
         },
         {
-          "numero": 8,
-          "profesor": "Hernandez Alpizar Laura",
-          "horarios": [
-            { "dia": "M", "hora_inicio": "15:00", "hora_fin": "16:50" }
-          ]
-        },
-        {
           "numero": 9,
           "profesor": "Quiros Bustos Noemi",
           "horarios": [
             { "dia": "J", "hora_inicio": "07:30", "hora_fin": "09:20" }
+          ]
+        },
+        {
+          "numero": 10,
+          "profesor": "Quiros Bustos Noemi",
+          "horarios": [
+            { "dia": "J", "hora_inicio": "09:30", "hora_fin": "11:20" }
+          ]
+        },
+        {
+          "numero": 1,
+          "profesor": "Salas Jimenez Juan Carlos",
+          "horarios": [
+            { "dia": "K", "hora_inicio": "07:30", "hora_fin": "09:20" }
+          ]
+        },
+        {
+          "numero": 13,
+          "profesor": "Soto Cordoba Silvia",
+          "horarios": [
+            { "dia": "V", "hora_inicio": "07:30", "hora_fin": "09:20" }
           ]
         }
       ],
@@ -1769,55 +1780,32 @@
       "nombre": "Química básica 1",
       "creditos": 3,
       "semestre": 1,
+      "carrera": "CE",
       "requisitos": [],
       "correquisitos": ["QU-1102"],
       "grupos": [
         {
-          "numero": 1,
-          "profesor": "Porras Acosta Maria",
-          "horarios": [
-            { "dia": "J", "hora_inicio": "07:30", "hora_fin": "09:20" },
-            { "dia": "K", "hora_inicio": "07:30", "hora_fin": "09:20" }
-          ]
-        },
-        {
-          "numero": 11,
-          "profesor": "Villalta Romero Fabian",
-          "horarios": [
-            { "dia": "M", "hora_inicio": "13:00", "hora_fin": "14:50" },
-            { "dia": "V", "hora_inicio": "13:00", "hora_fin": "14:50" }
-          ]
-        },
-        {
           "numero": 2,
           "profesor": "Calleja Amador Carlos Enrique",
           "horarios": [
-            { "dia": "J", "hora_inicio": "07:30", "hora_fin": "09:20" },
-            { "dia": "K", "hora_inicio": "07:30", "hora_fin": "09:20" }
+            { "dia": "K", "hora_inicio": "07:30", "hora_fin": "09:20" },
+            { "dia": "J", "hora_inicio": "07:30", "hora_fin": "09:20" }
+          ]
+        },
+        {
+          "numero": 1,
+          "profesor": "Porras Acosta Maria",
+          "horarios": [
+            { "dia": "K", "hora_inicio": "07:30", "hora_fin": "09:20" },
+            { "dia": "J", "hora_inicio": "07:30", "hora_fin": "09:20" }
           ]
         },
         {
           "numero": 3,
           "profesor": "Porras Acosta Maria",
           "horarios": [
-            { "dia": "J", "hora_inicio": "09:30", "hora_fin": "11:20" },
-            { "dia": "K", "hora_inicio": "09:30", "hora_fin": "11:20" }
-          ]
-        },
-        {
-          "numero": 5,
-          "profesor": "Soto Cordoba Silvia",
-          "horarios": [
-            { "dia": "J", "hora_inicio": "13:00", "hora_fin": "14:50" },
-            { "dia": "K", "hora_inicio": "13:00", "hora_fin": "14:50" }
-          ]
-        },
-        {
-          "numero": 7,
-          "profesor": "Quiros Bustos Noemi",
-          "horarios": [
-            { "dia": "J", "hora_inicio": "15:00", "hora_fin": "16:50" },
-            { "dia": "K", "hora_inicio": "15:00", "hora_fin": "16:50" }
+            { "dia": "K", "hora_inicio": "09:30", "hora_fin": "11:20" },
+            { "dia": "J", "hora_inicio": "09:30", "hora_fin": "11:20" }
           ]
         },
         {
@@ -1826,6 +1814,30 @@
           "horarios": [
             { "dia": "M", "hora_inicio": "09:30", "hora_fin": "11:20" },
             { "dia": "V", "hora_inicio": "09:30", "hora_fin": "11:20" }
+          ]
+        },
+        {
+          "numero": 7,
+          "profesor": "Quiros Bustos Noemi",
+          "horarios": [
+            { "dia": "K", "hora_inicio": "15:00", "hora_fin": "16:50" },
+            { "dia": "J", "hora_inicio": "15:00", "hora_fin": "16:50" }
+          ]
+        },
+        {
+          "numero": 5,
+          "profesor": "Soto Cordoba Silvia",
+          "horarios": [
+            { "dia": "K", "hora_inicio": "13:00", "hora_fin": "14:50" },
+            { "dia": "J", "hora_inicio": "13:00", "hora_fin": "14:50" }
+          ]
+        },
+        {
+          "numero": 11,
+          "profesor": "Villalta Romero Fabian",
+          "horarios": [
+            { "dia": "M", "hora_inicio": "13:00", "hora_fin": "14:50" },
+            { "dia": "V", "hora_inicio": "13:00", "hora_fin": "14:50" }
           ]
         }
       ],
@@ -1839,21 +1851,22 @@
       "nombre": "Seguridad y salud ocupacional",
       "creditos": 3,
       "semestre": 4,
+      "carrera": "CE",
       "requisitos": ["FI-1102"],
       "correquisitos": [],
       "grupos": [
-        {
-          "numero": 1,
-          "profesor": "Morales Martinez Gabriela",
-          "horarios": [
-            { "dia": "L", "hora_inicio": "07:30", "hora_fin": "10:20" }
-          ]
-        },
         {
           "numero": 2,
           "profesor": "Carpio Chaves Monica",
           "horarios": [
             { "dia": "J", "hora_inicio": "13:00", "hora_fin": "15:50" }
+          ]
+        },
+        {
+          "numero": 1,
+          "profesor": "Morales Martinez Gabriela",
+          "horarios": [
+            { "dia": "L", "hora_inicio": "07:30", "hora_fin": "10:20" }
           ]
         },
         {

@@ -1,17 +1,44 @@
 [INFO] ============================================================
 [INFO] CONVERSIÓN EXCEL -> CSV
-[INFO] Fecha: 2026-09-17 13:12:42
+[INFO] Fecha: 2026-10-21 17:14:53
 [INFO] ============================================================
-[INFO] Cargando Plan de estudios CE y ATI (1).xlsx...
+[INFO] Cargando Plan de estudios CE y ATI.xlsx...
 [INFO] 
 --- PROCESANDO CE ---
-[OK] Hoja 'CE': 27 cursos leídos
+[OK] Hoja 'CE': 37 cursos leídos
+[WARN] Sin bloques horarios válidos: CE-1107 grupo 1 -> 'Martes - 9:30 , 11:20'
+[WARN] Sin bloques horarios válidos: CE-1107 grupo 1 -> 'Jueves - 9:30 , 11:20'
+[WARN] Sin bloques horarios válidos: CE-3101 grupo 1 -> 'Miércoles - 19:00 , 20:50'
+[WARN] Sin bloques horarios válidos: CE-3101 grupo 1 -> 'Viernes - 19:00 , 20:50'
+[WARN] Sin bloques horarios válidos: CE-3101 grupo 2 -> 'Miércoles - 19:00 , 20:50'
+[WARN] Sin bloques horarios válidos: CE-3101 grupo 2 -> 'Viernes - 19:00 , 20:50'
+[WARN] Sin bloques horarios válidos: CE-3201 grupo 1 -> 'Jueves - 13:00 , 14:50'
+[WARN] Sin bloques horarios válidos: CE-3201 grupo 1 -> 'Sábado - 8:30 , 10:20'
+[WARN] Sin bloques horarios válidos: CE-3201 grupo 2 -> 'Jueves - 13:00 , 14:50'
+[WARN] Sin bloques horarios válidos: CE-3201 grupo 2 -> 'Sábado - 8:30 , 10:20'
+[WARN] Sin bloques horarios válidos: MA-2105 grupo 1 -> 'Martes y Jueves - 7:30 , 9:20'
+[WARN] Sin bloques horarios válidos: MA-2105 grupo 2 -> 'Miércoles y Viernes - 13:00 , 14:50'
+[WARN] Sin bloques horarios válidos: MA-2105 grupo 3 -> 'Martes y Jueves - 9:30 , 11:20'
+[WARN] Sin bloques horarios válidos: MA-2105 grupo 4 -> 'Miércoles y Viernes - 17:00 , 18:50'
+[WARN] Sin bloques horarios válidos: MA-2105 grupo 5 -> 'Sábado - 7:30 , 11:20'
+[WARN] Sin bloques horarios válidos: MA-2105 grupo 6 -> 'Miércoles y Viernes - 15:00 , 16:50'
+[WARN] Sin bloques horarios válidos: MA-2105 grupo 7 -> 'Martes y Jueves - 17:00 , 18:50'
+[WARN] Sin bloques horarios válidos: MA-2105 grupo 8 -> 'Martes y Jueves - 17:00 , 18:50'
+[WARN] Sin bloques horarios válidos: MA-2105 grupo 9 -> 'Sábado - 7:30 , 11:20'
+[WARN] Sin bloques horarios válidos: MA-2106 grupo 10 -> 'Miércoles y Viernes - 9:30 , 11:20'
+[WARN] Sin bloques horarios válidos: CI-3203 grupo 1 -> 'Martes - 13:00 , 15:50'
+[WARN] Sin bloques horarios válidos: PI-5516 grupo 1 -> 'Martes - 17:00 , 20:50'
+[WARN] Sin bloques horarios válidos: PI-5516 grupo 2 -> 'Viernes - 17:00 , 20:50'
+[WARN] Sin bloques horarios válidos: CE-1108 grupo 1 -> 'Miércoles y Viernes - 13:00 , 14:50'
+[WARN] Sin bloques horarios válidos: CE-1109 grupo 1 -> 'Martes y Jueves - 17:00 , 18:50'
+[WARN] Sin bloques horarios válidos: CE-1110 grupo 1 -> 'Miércoles y Viernes - 9:30 , 11:20'
+[WARN] Sin bloques horarios válidos: CE-4301 grupo 1 -> 'Miércoles y Viernes - 15:00 , 16:50'
 [OK] Hoja 'Grupos CE': 26 cursos con horarios leídos
-[WARN] Cursos sin horario en CE: ['CI-0205']
-[OK] CSV escrito: data\catalogo_CE.csv (316 filas)
+[WARN] Cursos sin horario en CE: ['CE-1107', 'CE-1108', 'CE-1109', 'CE-1110', 'CE-3101', 'CE-3201', 'CE-4301', 'CI-0205', 'CI-3203', 'MA-2105', 'PI-5516']
+[OK] CSV escrito: data\catalogo_CE.csv (326 filas)
 [INFO] 
 --- PROCESANDO ATI ---
-[OK] Hoja 'ATI': 27 cursos leídos
+[OK] Hoja 'ATI': 40 cursos leídos
 [WARN] Corrección de código: 'TI4501' -> 'TI-4500'
 [WARN] Corrección de código: 'MA2404' -> 'MA-2404'
 [WARN] Corrección de código: 'MA2405' -> 'MA-2404'
@@ -19,12 +46,16 @@
 [WARN] Corrección de código: 'MA2407' -> 'MA-2404'
 [WARN] Corrección de código: 'MA2408' -> 'MA-2404'
 [WARN] Corrección de código: 'MA2409' -> 'MA-2404'
-[OK] Hoja 'Grupos ATI': 26 cursos con horarios leídos
-[WARN] Cursos sin horario en ATI: ['CI-0200']
-[OK] CSV escrito: data\catalogo_ATI.csv (210 filas)
+[WARN] Sin bloques horarios válidos: MA-3405 grupo 1 -> 'Martes y Jueves - 17:00 , 18:50'
+[WARN] Sin bloques horarios válidos: MA-3405 grupo 2 -> 'Miércoles y Viernes - 13:00 , 14:50'
+[WARN] Sin bloques horarios válidos: TI-5100 grupo 1 -> 'Martes y Jueves - 17:00 , 18:50'
+[WARN] Sin bloques horarios válidos: TI-5501 grupo 1 -> 'Martes y Jueves - 13:00 , 14:50'
+[OK] Hoja 'Grupos ATI': 36 cursos con horarios leídos
+[WARN] Cursos sin horario en ATI: ['CI-0200', 'MA-3405', 'TI-5100', 'TI-5501']
+[OK] CSV escrito: data\catalogo_ATI.csv (235 filas)
 [INFO] 
 ============================================================
 [INFO] RESUMEN
-[INFO] CE  - Cursos: 27, con horario: 26
-[INFO] ATI - Cursos: 27, con horario: 26
+[INFO] CE  - Cursos: 37, con horario: 26
+[INFO] ATI - Cursos: 40, con horario: 36
 [INFO] ============================================================

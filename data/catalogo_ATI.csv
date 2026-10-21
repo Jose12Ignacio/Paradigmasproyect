@@ -1,211 +1,236 @@
-codigo,nombre,creditos,semestre,requisitos,correquisitos,grupo,profesor,dia,hora_inicio,hora_fin
+codigo,nombre,creditos,semestre,carrera,requisitos,correquisitos,grupo,profesor,dia,hora_inicio,hora_fin
 CI-0200,Examen Diagnóstico,0,0,,,,,,,
-CI-0202,Inglés básico,2,0,,,1,Kennedy Russell Ana,L,18:00,20:50
-CI-0202,Inglés básico,2,0,,,10,Albertazzi Osorio Sonia,V,09:30,12:20
-CI-0202,Inglés básico,2,0,,,2,Rivera Vega Katerine,K,17:00,19:50
-CI-0202,Inglés básico,2,0,,,3,Vallecillo Alfaro Johanny,M,13:00,15:50
-CI-0202,Inglés básico,2,0,,,4,Murillo Escalante Rocio,J,09:30,12:20
-CI-0202,Inglés básico,2,0,,,5,Gomez Montoya Carlos Andres,M,15:00,17:50
-CI-0202,Inglés básico,2,0,,,6,Vindas Fernandez Nuria,J,13:00,15:50
-CI-0202,Inglés básico,2,0,,,7,Albertazzi Osorio Sonia,J,18:00,20:50
-CI-0202,Inglés básico,2,0,,,8,Vallecillo Alfaro Johanny,L,09:30,12:20
-CI-0202,Inglés básico,2,0,,,9,Kennedy Russell Ana,K,13:00,15:50
-CI-1106,Comunicación escrita,2,1,,,1,Arce Fuentes Jose Daniel,L,18:00,20:50
-CI-1106,Comunicación escrita,2,1,,,2,Romero Alvarez Ericka,K,13:00,15:50
-CI-1106,Comunicación escrita,2,1,,,3,Rios Sanchez Armando,M,13:00,15:50
-CI-1106,Comunicación escrita,2,1,,,4,Amador Solano Gabriela,J,09:30,12:20
-CI-1106,Comunicación escrita,2,1,,,5,Vargas Castro Ericka,M,10:30,12:20
-CI-1107,Comunicación Oral,1,2,,,1,Castillo Rodriguez Larissa,L,07:30,10:20
-CI-1107,Comunicación Oral,1,2,,,10,Castillo Rodriguez Larissa,K,16:00,18:50
-CI-1107,Comunicación Oral,1,2,,,11,Shiltagh Prada Dimitri,K,18:00,20:50
-CI-1107,Comunicación Oral,1,2,,,12,Castillo Rodriguez Larissa,M,07:30,10:20
-CI-1107,Comunicación Oral,1,2,,,13,Rios Sanchez Armando,M,09:30,12:20
-CI-1107,Comunicación Oral,1,2,,,14,Shiltagh Prada Dimitri,M,13:00,15:50
-CI-1107,Comunicación Oral,1,2,,,15,Rodriguez Herra Natalia,M,13:00,15:50
-CI-1107,Comunicación Oral,1,2,,,16,Sanchez Sanchez Daniela,M,16:00,18:50
-CI-1107,Comunicación Oral,1,2,,,17,Rodriguez Herra Natalia,M,17:00,19:50
-CI-1107,Comunicación Oral,1,2,,,18,Shiltagh Prada Dimitri,M,18:00,20:50
-CI-1107,Comunicación Oral,1,2,,,19,Morales Garay Saray,J,07:30,10:20
-CI-1107,Comunicación Oral,1,2,,,2,Perez Rojas Nelson,L,09:30,12:20
-CI-1107,Comunicación Oral,1,2,,,20,Romero Alvarez Ericka,J,09:30,12:20
-CI-1107,Comunicación Oral,1,2,,,21,Perez Rojas Nelson,J,09:30,12:20
-CI-1107,Comunicación Oral,1,2,,,22,Shiltagh Prada Dimitri,J,13:00,15:50
-CI-1107,Comunicación Oral,1,2,,,23,Romero Alvarez Ericka,J,13:00,15:50
-CI-1107,Comunicación Oral,1,2,,,24,Solano Moraga Sigrid,J,15:00,17:50
-CI-1107,Comunicación Oral,1,2,,,25,Morales Solano Paola Natalia,J,17:00,19:50
-CI-1107,Comunicación Oral,1,2,,,26,Arce Fuentes Jose Daniel,J,18:00,20:50
-CI-1107,Comunicación Oral,1,2,,,27,Morales Garay Saray,V,07:30,10:20
-CI-1107,Comunicación Oral,1,2,,,28,Amador Solano Gabriela,V,09:30,12:20
-CI-1107,Comunicación Oral,1,2,,,29,Shiltagh Prada Dimitri,V,13:00,15:50
-CI-1107,Comunicación Oral,1,2,,,3,Castillo Rodriguez Larissa,L,18:00,20:50
-CI-1107,Comunicación Oral,1,2,,,30,Arce Fuentes Jose Daniel,V,17:00,19:50
-CI-1107,Comunicación Oral,1,2,,,31,Gomez Montoya Carolina,V,18:00,20:50
-CI-1107,Comunicación Oral,1,2,,,32,Morales Solano Paola Natalia,V,16:00,18:50
-CI-1107,Comunicación Oral,1,2,,,33,Romero Alvarez Ericka,V,09:30,12:20
-CI-1107,Comunicación Oral,1,2,,,4,Morales Solano Paola Natalia,L,18:00,20:50
-CI-1107,Comunicación Oral,1,2,,,5,Castillo Rodriguez Larissa,K,07:30,10:20
-CI-1107,Comunicación Oral,1,2,,,6,Morales Garay Saray,K,07:30,10:20
-CI-1107,Comunicación Oral,1,2,,,7,Amador Solano Gabriela,K,09:30,12:20
-CI-1107,Comunicación Oral,1,2,,,8,Castillo Rodriguez Larissa,K,13:00,15:50
-CI-1107,Comunicación Oral,1,2,,,9,Shiltagh Prada Dimitri,K,13:00,15:50
-CI-3400,Inglés ATI 1,2,3,CI-0200;CI-0202,,1,Vindas Fernandez Nuria,M,09:30,12:20
-CI-3400,Inglés ATI 1,2,3,CI-0200;CI-0202,,2,Vindas Fernandez Nuria,M,13:00,15:50
-CI-4401,Inglés ATI 2,2,4,CI-3400,,1,Vindas Fernandez Nuria,J,09:30,12:20
-MA-0101,Matemática general,2,0,,,1,Solis Palma Angie,J,07:30,09:20
-MA-0101,Matemática general,2,0,,,1,Solis Palma Angie,K,07:30,10:20
-MA-0101,Matemática general,2,0,,,10,Azofeifa Cubero Roberto,M,15:00,17:50
-MA-0101,Matemática general,2,0,,,10,Azofeifa Cubero Roberto,V,15:00,16:50
-MA-0101,Matemática general,2,0,,,11,Prendas Rojas Juan Pablo,M,16:00,18:50
-MA-0101,Matemática general,2,0,,,11,Prendas Rojas Juan Pablo,V,17:00,18:50
-MA-0101,Matemática general,2,0,,,12,Solano Varela Daniel Jesus,S,07:30,12:20
-MA-0101,Matemática general,2,0,,,2,Vega Vasquez Arturo,J,09:30,11:20
-MA-0101,Matemática general,2,0,,,2,Vega Vasquez Arturo,K,09:30,12:20
-MA-0101,Matemática general,2,0,,,3,Cordero Quiros Marcial,J,13:00,14:50
-MA-0101,Matemática general,2,0,,,3,Cordero Quiros Marcial,K,13:00,15:50
-MA-0101,Matemática general,2,0,,,4,Jimenez Madrigal Jorge,J,15:00,17:50
-MA-0101,Matemática general,2,0,,,4,Jimenez Madrigal Jorge,K,15:00,16:50
-MA-0101,Matemática general,2,0,,,5,Rodriguez Castro Bryan,J,16:00,17:50
-MA-0101,Matemática general,2,0,,,5,Rodriguez Castro Bryan,K,16:00,18:50
-MA-0101,Matemática general,2,0,,,6,Cordero Quiros Marcial,J,18:00,19:50
-MA-0101,Matemática general,2,0,,,6,Cordero Quiros Marcial,K,18:00,20:50
-MA-0101,Matemática general,2,0,,,7,Sanchez Fernandez Ivonne,M,07:30,09:20
-MA-0101,Matemática general,2,0,,,7,Sanchez Fernandez Ivonne,V,07:30,10:20
-MA-0101,Matemática general,2,0,,,8,Marrero Calvo Marcela,M,09:30,12:20
-MA-0101,Matemática general,2,0,,,8,Marrero Calvo Marcela,V,09:30,11:20
-MA-0101,Matemática general,2,0,,,9,Quesada Villalobos Lourdes,M,13:00,15:50
-MA-0101,Matemática general,2,0,,,9,Quesada Villalobos Lourdes,V,13:00,14:50
-MA-1102,Cálculo diferencial e integral,4,2,MA-0101;MA-1403,,1,Quesada Villalobos Lourdes,J,07:30,09:20
-MA-1102,Cálculo diferencial e integral,4,2,MA-0101;MA-1403,,1,Quesada Villalobos Lourdes,K,07:30,10:20
-MA-1102,Cálculo diferencial e integral,4,2,MA-0101;MA-1403,,10,Fallas Monge Juan Jose,J,18:00,19:50
-MA-1102,Cálculo diferencial e integral,4,2,MA-0101;MA-1403,,10,Fallas Monge Juan Jose,K,18:00,20:50
-MA-1102,Cálculo diferencial e integral,4,2,MA-0101;MA-1403,,11,Paez Paez Cristian,M,07:30,09:20
-MA-1102,Cálculo diferencial e integral,4,2,MA-0101;MA-1403,,11,Paez Paez Cristian,V,07:30,10:20
-MA-1102,Cálculo diferencial e integral,4,2,MA-0101;MA-1403,,12,Jimenez Madrigal Jorge,M,07:30,10:20
-MA-1102,Cálculo diferencial e integral,4,2,MA-0101;MA-1403,,12,Jimenez Madrigal Jorge,V,07:30,09:20
-MA-1102,Cálculo diferencial e integral,4,2,MA-0101;MA-1403,,13,Parra Salazar Edward,M,10:30,12:20
-MA-1102,Cálculo diferencial e integral,4,2,MA-0101;MA-1403,,13,Parra Salazar Edward,V,09:30,12:20
-MA-1102,Cálculo diferencial e integral,4,2,MA-0101;MA-1403,,14,Mora Picado Luis Fernando,M,09:30,12:20
-MA-1102,Cálculo diferencial e integral,4,2,MA-0101;MA-1403,,14,Mora Picado Luis Fernando,V,10:30,12:20
-MA-1102,Cálculo diferencial e integral,4,2,MA-0101;MA-1403,,15,Nuñez Vanegas Felix,M,13:00,15:50
-MA-1102,Cálculo diferencial e integral,4,2,MA-0101;MA-1403,,15,Nuñez Vanegas Felix,V,13:00,14:50
-MA-1102,Cálculo diferencial e integral,4,2,MA-0101;MA-1403,,16,Mora Picado Luis Fernando,M,15:00,17:50
-MA-1102,Cálculo diferencial e integral,4,2,MA-0101;MA-1403,,16,Mora Picado Luis Fernando,V,15:00,16:50
-MA-1102,Cálculo diferencial e integral,4,2,MA-0101;MA-1403,,17,Gutierrez Montenegro Marco Vinicio,M,16:00,18:50
-MA-1102,Cálculo diferencial e integral,4,2,MA-0101;MA-1403,,17,Gutierrez Montenegro Marco Vinicio,V,16:00,17:50
-MA-1102,Cálculo diferencial e integral,4,2,MA-0101;MA-1403,,18,Parra Salazar Edward,M,17:00,19:50
-MA-1102,Cálculo diferencial e integral,4,2,MA-0101;MA-1403,,18,Parra Salazar Edward,V,17:00,18:50
-MA-1102,Cálculo diferencial e integral,4,2,MA-0101;MA-1403,,19,Mora Casasola Maria Fernanda,M,17:00,19:50
-MA-1102,Cálculo diferencial e integral,4,2,MA-0101;MA-1403,,19,Mora Casasola Maria Fernanda,V,17:00,18:50
-MA-1102,Cálculo diferencial e integral,4,2,MA-0101;MA-1403,,2,Cordero Quiros Marcial,J,07:30,10:20
-MA-1102,Cálculo diferencial e integral,4,2,MA-0101;MA-1403,,2,Cordero Quiros Marcial,K,07:30,09:20
-MA-1102,Cálculo diferencial e integral,4,2,MA-0101;MA-1403,,20,Lopez Mora Veronica,M,18:00,20:50
-MA-1102,Cálculo diferencial e integral,4,2,MA-0101;MA-1403,,20,Lopez Mora Veronica,V,18:00,19:50
-MA-1102,Cálculo diferencial e integral,4,2,MA-0101;MA-1403,,21,Jimenez Madrigal Jorge,S,07:30,12:20
-MA-1102,Cálculo diferencial e integral,4,2,MA-0101;MA-1403,,3,Masis Flores David,J,09:30,12:20
-MA-1102,Cálculo diferencial e integral,4,2,MA-0101;MA-1403,,3,Masis Flores David,K,09:30,11:20
-MA-1102,Cálculo diferencial e integral,4,2,MA-0101;MA-1403,,4,Paez Paez Cristian,J,10:30,12:20
-MA-1102,Cálculo diferencial e integral,4,2,MA-0101;MA-1403,,4,Paez Paez Cristian,K,09:30,12:20
-MA-1102,Cálculo diferencial e integral,4,2,MA-0101;MA-1403,,5,Rodriguez Granados Natalia,J,13:00,14:50
-MA-1102,Cálculo diferencial e integral,4,2,MA-0101;MA-1403,,5,Rodriguez Granados Natalia,K,13:00,15:50
-MA-1102,Cálculo diferencial e integral,4,2,MA-0101;MA-1403,,6,Parra Salazar Edward,J,15:00,17:50
-MA-1102,Cálculo diferencial e integral,4,2,MA-0101;MA-1403,,6,Parra Salazar Edward,K,15:00,16:50
-MA-1102,Cálculo diferencial e integral,4,2,MA-0101;MA-1403,,7,Masis Flores David,J,16:00,17:50
-MA-1102,Cálculo diferencial e integral,4,2,MA-0101;MA-1403,,7,Masis Flores David,K,16:00,18:50
-MA-1102,Cálculo diferencial e integral,4,2,MA-0101;MA-1403,,8,Quesada Villalobos Lourdes,J,16:00,17:50
-MA-1102,Cálculo diferencial e integral,4,2,MA-0101;MA-1403,,8,Quesada Villalobos Lourdes,K,15:00,17:50
-MA-1102,Cálculo diferencial e integral,4,2,MA-0101;MA-1403,,9,Esquivel Samudio Jeison,J,17:00,18:50
-MA-1102,Cálculo diferencial e integral,4,2,MA-0101;MA-1403,,9,Esquivel Samudio Jeison,K,17:00,19:50
-MA-1103,Cálculo y álgebra lineal,4,3,MA-1102,,1,Chavarria Molina Jeffry,J,07:30,09:20
-MA-1103,Cálculo y álgebra lineal,4,3,MA-1102,,1,Chavarria Molina Jeffry,K,07:30,09:20
-MA-1103,Cálculo y álgebra lineal,4,3,MA-1102,,10,Figueroa Mata Geovanni,J,18:00,19:50
-MA-1103,Cálculo y álgebra lineal,4,3,MA-1102,,10,Figueroa Mata Geovanni,K,18:00,19:50
-MA-1103,Cálculo y álgebra lineal,4,3,MA-1102,,11,Acuña Prado Luis,M,07:30,09:20
-MA-1103,Cálculo y álgebra lineal,4,3,MA-1102,,11,Acuña Prado Luis,V,07:30,09:20
-MA-1103,Cálculo y álgebra lineal,4,3,MA-1102,,12,Gutierrez Montenegro Marco Vinicio,M,09:30,11:20
-MA-1103,Cálculo y álgebra lineal,4,3,MA-1102,,12,Gutierrez Montenegro Marco Vinicio,V,09:30,11:20
-MA-1103,Cálculo y álgebra lineal,4,3,MA-1102,,13,Figueroa Mata Geovanni,M,13:00,14:50
-MA-1103,Cálculo y álgebra lineal,4,3,MA-1102,,13,Figueroa Mata Geovanni,V,13:00,14:50
-MA-1103,Cálculo y álgebra lineal,4,3,MA-1102,,14,Calderon Solano Manuel,M,15:00,16:50
-MA-1103,Cálculo y álgebra lineal,4,3,MA-1102,,14,Calderon Solano Manuel,V,15:00,16:50
-MA-1103,Cálculo y álgebra lineal,4,3,MA-1102,,15,Parra Rodriguez Emmanuelle,M,16:00,17:50
-MA-1103,Cálculo y álgebra lineal,4,3,MA-1102,,15,Parra Rodriguez Emmanuelle,V,16:00,17:50
-MA-1103,Cálculo y álgebra lineal,4,3,MA-1102,,16,Calderon Solano Manuel,M,17:00,18:50
-MA-1103,Cálculo y álgebra lineal,4,3,MA-1102,,16,Calderon Solano Manuel,V,17:00,18:50
-MA-1103,Cálculo y álgebra lineal,4,3,MA-1102,,17,Mora Picado Luis Fernando,M,18:00,19:50
-MA-1103,Cálculo y álgebra lineal,4,3,MA-1102,,17,Mora Picado Luis Fernando,V,18:00,19:50
-MA-1103,Cálculo y álgebra lineal,4,3,MA-1102,,18,Brenes Gomez Randall,S,07:30,11:20
-MA-1103,Cálculo y álgebra lineal,4,3,MA-1102,,19,Jimenez Madrigal Jorge,J,07:30,11:20
-MA-1103,Cálculo y álgebra lineal,4,3,MA-1102,,2,Chinchilla Valverde Jorge Luis,J,07:30,09:20
-MA-1103,Cálculo y álgebra lineal,4,3,MA-1102,,2,Chinchilla Valverde Jorge Luis,K,07:30,09:20
-MA-1103,Cálculo y álgebra lineal,4,3,MA-1102,,3,Chinchilla Valverde Jorge Luis,J,09:30,11:20
-MA-1103,Cálculo y álgebra lineal,4,3,MA-1102,,3,Chinchilla Valverde Jorge Luis,K,09:30,11:20
-MA-1103,Cálculo y álgebra lineal,4,3,MA-1102,,4,Chavarria Molina Jeffry,J,13:00,14:50
-MA-1103,Cálculo y álgebra lineal,4,3,MA-1102,,4,Chavarria Molina Jeffry,K,13:00,14:50
-MA-1103,Cálculo y álgebra lineal,4,3,MA-1102,,5,Jimenez Romero Alejandra,J,13:00,14:50
-MA-1103,Cálculo y álgebra lineal,4,3,MA-1102,,5,Jimenez Romero Alejandra,K,13:00,14:50
-MA-1103,Cálculo y álgebra lineal,4,3,MA-1102,,6,Figueroa Mata Geovanni,J,15:00,16:50
-MA-1103,Cálculo y álgebra lineal,4,3,MA-1102,,6,Figueroa Mata Geovanni,K,15:00,16:50
-MA-1103,Cálculo y álgebra lineal,4,3,MA-1102,,7,Brenes Gomez Randall,J,16:00,17:50
-MA-1103,Cálculo y álgebra lineal,4,3,MA-1102,,7,Brenes Gomez Randall,K,16:00,17:50
-MA-1103,Cálculo y álgebra lineal,4,3,MA-1102,,8,Gutierrez Montenegro Marco Vinicio,J,17:00,18:50
-MA-1103,Cálculo y álgebra lineal,4,3,MA-1102,,8,Gutierrez Montenegro Marco Vinicio,K,17:00,18:50
-MA-1103,Cálculo y álgebra lineal,4,3,MA-1102,,9,Alpizar Brenes Geisel,J,18:00,19:50
-MA-1103,Cálculo y álgebra lineal,4,3,MA-1102,,9,Alpizar Brenes Geisel,K,18:00,19:50
-MA-1403,Matemática discreta,4,1,,,1,Solis Arguedas Adriana,M,07:30,09:20
-MA-1403,Matemática discreta,4,1,,,1,Solis Arguedas Adriana,V,07:30,09:20
-MA-1403,Matemática discreta,4,1,,,2,Fallas Monge Juan Jose,M,09:30,11:20
-MA-1403,Matemática discreta,4,1,,,2,Fallas Monge Juan Jose,V,09:30,11:20
-MA-1403,Matemática discreta,4,1,,,3,Soto Quiros Juan Pablo,J,18:00,19:50
-MA-1403,Matemática discreta,4,1,,,3,Soto Quiros Juan Pablo,K,18:00,19:50
-MA-1403,Matemática discreta,4,1,,,4,Ramirez Arce Greivin,J,13:00,14:50
-MA-1403,Matemática discreta,4,1,,,4,Ramirez Arce Greivin,K,13:00,14:50
-MA-1403,Matemática discreta,4,1,,,5,Fallas Monge Juan Jose,J,15:00,16:50
-MA-1403,Matemática discreta,4,1,,,5,Fallas Monge Juan Jose,K,15:00,16:50
-MA-1403,Matemática discreta,4,1,,,6,Chaves Salas Leonel Rolando,M,07:30,09:20
-MA-1403,Matemática discreta,4,1,,,6,Chaves Salas Leonel Rolando,V,07:30,09:20
-MA-2404,Probabilidades,4,4,MA-1103,,1,Parra Rodriguez Emmanuelle,M,07:30,09:20
-MA-2404,Probabilidades,4,4,MA-1103,,2,Parra Rodriguez Emmanuelle,V,07:30,09:20
-MA-2404,Probabilidades,4,4,MA-1103,,3,Alvarado Solano Andy,K,17:00,18:50
-MA-2404,Probabilidades,4,4,MA-1103,,4,Alvarado Solano Andy,J,17:00,18:50
-MA-2404,Probabilidades,4,4,MA-1103,,5,Alvarado Solano Andy,K,15:00,16:50
-MA-2404,Probabilidades,4,4,MA-1103,,6,Alvarado Solano Andy,J,15:00,16:50
-TI-1102,Información contable,3,1,,,1,Umaña Centeno Gabriel,L,07:30,11:20
-TI-1103,Modelos Organizacionales y Gestión de TI,3,1,,,1,Chavarria Sanchez Luis Javier,J,15:00,18:50
-TI-1103,Modelos Organizacionales y Gestión de TI,3,1,,,2,Chavarria Sanchez Luis Javier,V,15:00,18:50
-TI-1201,Comportamiento organizacional y talento humano,3,2,TI-1103,,1,Delgado Leandro Gonzalo,M,07:30,09:20
-TI-1201,Comportamiento organizacional y talento humano,3,2,TI-1103,,2,Delgado Leandro Gonzalo,V,07:30,09:20
-TI-1201,Comportamiento organizacional y talento humano,3,2,TI-1103,,3,Delgado Leandro Gonzalo,M,09:30,11:20
-TI-1201,Comportamiento organizacional y talento humano,3,2,TI-1103,,4,Delgado Leandro Gonzalo,V,09:30,11:20
-TI-1400,Introducción a la programación,3,1,,,1,Soto Chaves Luis Pablo,J,07:30,09:20
-TI-1400,Introducción a la programación,3,1,,,1,Soto Chaves Luis Pablo,K,07:30,09:20
-TI-1401,Taller de programación,3,1,,TI-1400,1,Soto Chaves Luis Pablo,J,09:30,11:20
-TI-1401,Taller de programación,3,1,,TI-1400,1,Soto Chaves Luis Pablo,K,09:30,11:20
-TI-2201,Programación orientada a objetos,3,4,TI-3600,,1,Chavarria Sanchez Luis Javier,J,07:30,09:20
-TI-2201,Programación orientada a objetos,3,4,TI-3600,,1,Chavarria Sanchez Luis Javier,K,07:30,09:20
-TI-2201,Programación orientada a objetos,3,4,TI-3600,,2,Chavarria Sanchez Luis Javier,J,09:30,11:20
-TI-2201,Programación orientada a objetos,3,4,TI-3600,,2,Chavarria Sanchez Luis Javier,K,09:30,11:20
-TI-2402,Algoritmos y estructuras de datos,4,2,TI-1400;TI-1401,,1,Soto Chaves Luis Pablo,J,13:00,14:50
-TI-2402,Algoritmos y estructuras de datos,4,2,TI-1400;TI-1401,,1,Soto Chaves Luis Pablo,K,13:00,14:50
-TI-2402,Algoritmos y estructuras de datos,4,2,TI-1400;TI-1401,,2,Solis Cespedes Jacqueline,J,13:00,14:50
-TI-2402,Algoritmos y estructuras de datos,4,2,TI-1400;TI-1401,,2,Solis Cespedes Jacqueline,K,13:00,14:50
-TI-2402,Algoritmos y estructuras de datos,4,2,TI-1400;TI-1401,,3,Artavia Jimenez Maria Jose,J,13:00,14:50
-TI-2402,Algoritmos y estructuras de datos,4,2,TI-1400;TI-1401,,3,Artavia Jimenez Maria Jose,K,13:00,14:50
-TI-2404,Organización y arquitectura de computadoras,3,2,TI-1401,,1,Segreda Johanning Juan Andres,K,15:00,18:50
-TI-2404,Organización y arquitectura de computadoras,3,2,TI-1401,,2,Segreda Johanning Juan Andres,M,15:00,18:50
-TI-2800,Administración de proyectos 1,3,3,TI-4500,,1,Picado Valverde Luis Felipe,K,17:00,20:50
-TI-3103,Costos en ambientes informáticos,3,3,TI-1102,,1,Delgado Leandro Gonzalo,L,07:30,11:20
-TI-3103,Costos en ambientes informáticos,3,3,TI-1102,,2,Morales Rodriguez Nestor,L,07:30,11:20
-TI-3600,Bases de datos,3,3,MA-1403;TI-2402,,1,Solis Cespedes Jacqueline,J,15:00,16:50
-TI-3600,Bases de datos,3,3,MA-1403;TI-2402,,1,Solis Cespedes Jacqueline,K,15:00,16:50
-TI-3801,Administración de proyectos 2,3,4,TI-2800,,1,Picado Valverde Luis Felipe,M,17:00,20:50
-TI-3801,Administración de proyectos 2,3,4,TI-2800,,2,Gamboa Cubero Luis Mauricio,M,17:00,20:50
-TI-4101,Planificación y presupuesto,2,4,TI-3103,,1,Delgado Leandro Gonzalo,L,07:30,11:20
-TI-4101,Planificación y presupuesto,2,4,TI-3103,,2,Tencio Chacon Angela,K,18:00,21:50
-TI-4200,Economía,3,3,MA-1102,,1,Torres Carballo Federico,L,18:00,21:50
-TI-4500,Ingeniería de requerimientos,3,2,TI-1400,,1,Morales Rodriguez Nestor,M,13:00,14:50
-TI-4500,Ingeniería de requerimientos,3,2,TI-1400,,1,Morales Rodriguez Nestor,V,13:00,14:50
-TI-4500,Ingeniería de requerimientos,3,2,TI-1400,,2,Morales Rodriguez Nestor,J,07:30,09:20
-TI-4500,Ingeniería de requerimientos,3,2,TI-1400,,2,Morales Rodriguez Nestor,K,07:30,09:20
-TI-4601,Bases de datos avanzados,4,4,TI-3600,,1,Zuñiga Segura Lorena,M,08:30,12:20
-TI-4601,Bases de datos avanzados,4,4,TI-3600,,2,Zuñiga Segura Lorena,V,08:30,12:20
-TI-4601,Bases de datos avanzados,4,4,TI-3600,,3,Zumbado Corrales Manuel,M,08:30,12:20
+CI-0202,Inglés básico,2,0,ATI,,,7,Albertazzi Osorio Sonia,J,18:00,20:50
+CI-0202,Inglés básico,2,0,ATI,,,10,Albertazzi Osorio Sonia,V,09:30,12:20
+CI-0202,Inglés básico,2,0,ATI,,,5,Gomez Montoya Carlos Andres,M,15:00,17:50
+CI-0202,Inglés básico,2,0,ATI,,,1,Kennedy Russell Ana,L,18:00,20:50
+CI-0202,Inglés básico,2,0,ATI,,,9,Kennedy Russell Ana,K,13:00,15:50
+CI-0202,Inglés básico,2,0,ATI,,,4,Murillo Escalante Rocio,J,09:30,12:20
+CI-0202,Inglés básico,2,0,ATI,,,2,Rivera Vega Katerine,K,17:00,19:50
+CI-0202,Inglés básico,2,0,ATI,,,3,Vallecillo Alfaro Johanny,M,13:00,15:50
+CI-0202,Inglés básico,2,0,ATI,,,8,Vallecillo Alfaro Johanny,L,09:30,12:20
+CI-0202,Inglés básico,2,0,ATI,,,6,Vindas Fernandez Nuria,J,13:00,15:50
+CI-1106,Comunicación escrita,2,1,ATI,,,4,Amador Solano Gabriela,J,09:30,12:20
+CI-1106,Comunicación escrita,2,1,ATI,,,1,Arce Fuentes Jose Daniel,L,18:00,20:50
+CI-1106,Comunicación escrita,2,1,ATI,,,3,Rios Sanchez Armando,M,13:00,15:50
+CI-1106,Comunicación escrita,2,1,ATI,,,2,Romero Alvarez Ericka,K,13:00,15:50
+CI-1106,Comunicación escrita,2,1,ATI,,,5,Vargas Castro Ericka,M,10:30,12:20
+CI-1107,Comunicación Oral,1,2,ATI,,,7,Amador Solano Gabriela,K,09:30,12:20
+CI-1107,Comunicación Oral,1,2,ATI,,,28,Amador Solano Gabriela,V,09:30,12:20
+CI-1107,Comunicación Oral,1,2,ATI,,,26,Arce Fuentes Jose Daniel,J,18:00,20:50
+CI-1107,Comunicación Oral,1,2,ATI,,,30,Arce Fuentes Jose Daniel,V,17:00,19:50
+CI-1107,Comunicación Oral,1,2,ATI,,,1,Castillo Rodriguez Larissa,L,07:30,10:20
+CI-1107,Comunicación Oral,1,2,ATI,,,3,Castillo Rodriguez Larissa,L,18:00,20:50
+CI-1107,Comunicación Oral,1,2,ATI,,,5,Castillo Rodriguez Larissa,K,07:30,10:20
+CI-1107,Comunicación Oral,1,2,ATI,,,8,Castillo Rodriguez Larissa,K,13:00,15:50
+CI-1107,Comunicación Oral,1,2,ATI,,,10,Castillo Rodriguez Larissa,K,16:00,18:50
+CI-1107,Comunicación Oral,1,2,ATI,,,12,Castillo Rodriguez Larissa,M,07:30,10:20
+CI-1107,Comunicación Oral,1,2,ATI,,,31,Gomez Montoya Carolina,V,18:00,20:50
+CI-1107,Comunicación Oral,1,2,ATI,,,6,Morales Garay Saray,K,07:30,10:20
+CI-1107,Comunicación Oral,1,2,ATI,,,19,Morales Garay Saray,J,07:30,10:20
+CI-1107,Comunicación Oral,1,2,ATI,,,27,Morales Garay Saray,V,07:30,10:20
+CI-1107,Comunicación Oral,1,2,ATI,,,4,Morales Solano Paola Natalia,L,18:00,20:50
+CI-1107,Comunicación Oral,1,2,ATI,,,25,Morales Solano Paola Natalia,J,17:00,19:50
+CI-1107,Comunicación Oral,1,2,ATI,,,32,Morales Solano Paola Natalia,V,16:00,18:50
+CI-1107,Comunicación Oral,1,2,ATI,,,2,Perez Rojas Nelson,L,09:30,12:20
+CI-1107,Comunicación Oral,1,2,ATI,,,21,Perez Rojas Nelson,J,09:30,12:20
+CI-1107,Comunicación Oral,1,2,ATI,,,13,Rios Sanchez Armando,M,09:30,12:20
+CI-1107,Comunicación Oral,1,2,ATI,,,15,Rodriguez Herra Natalia,M,13:00,15:50
+CI-1107,Comunicación Oral,1,2,ATI,,,17,Rodriguez Herra Natalia,M,17:00,19:50
+CI-1107,Comunicación Oral,1,2,ATI,,,20,Romero Alvarez Ericka,J,09:30,12:20
+CI-1107,Comunicación Oral,1,2,ATI,,,23,Romero Alvarez Ericka,J,13:00,15:50
+CI-1107,Comunicación Oral,1,2,ATI,,,33,Romero Alvarez Ericka,V,09:30,12:20
+CI-1107,Comunicación Oral,1,2,ATI,,,16,Sanchez Sanchez Daniela,M,16:00,18:50
+CI-1107,Comunicación Oral,1,2,ATI,,,9,Shiltagh Prada Dimitri,K,13:00,15:50
+CI-1107,Comunicación Oral,1,2,ATI,,,11,Shiltagh Prada Dimitri,K,18:00,20:50
+CI-1107,Comunicación Oral,1,2,ATI,,,14,Shiltagh Prada Dimitri,M,13:00,15:50
+CI-1107,Comunicación Oral,1,2,ATI,,,18,Shiltagh Prada Dimitri,M,18:00,20:50
+CI-1107,Comunicación Oral,1,2,ATI,,,22,Shiltagh Prada Dimitri,J,13:00,15:50
+CI-1107,Comunicación Oral,1,2,ATI,,,29,Shiltagh Prada Dimitri,V,13:00,15:50
+CI-1107,Comunicación Oral,1,2,ATI,,,24,Solano Moraga Sigrid,J,15:00,17:50
+CI-3400,Inglés ATI 1,2,3,ATI,CI-0200;CI-0202,,1,Vindas Fernandez Nuria,M,09:30,12:20
+CI-3400,Inglés ATI 1,2,3,ATI,CI-0200;CI-0202,,2,Vindas Fernandez Nuria,M,13:00,15:50
+CI-4401,Inglés ATI 2,2,4,ATI,CI-3400,,1,Vindas Fernandez Nuria,J,09:30,12:20
+CS-2304,Derecho laboral,2,6,ATI,CS-3404,,3,Chacon Mata Alfonso,J,13:00,15:50
+CS-2304,Derecho laboral,2,6,ATI,CS-3404,,1,Hasbun Del Valle Daniel,K,18:00,20:50
+CS-2304,Derecho laboral,2,6,ATI,CS-3404,,2,Pelaez Gil Mara Carolina,V,09:30,12:20
+CS-3404,Seminario de ética para la ingeniería,2,5,ATI,TI-3801,,2,Bojorge Murillo Alexander,L,18:00,20:50
+CS-3404,Seminario de ética para la ingeniería,2,5,ATI,TI-3801,,3,Casasola Rivera Wilmer,K,18:00,20:50
+CS-3404,Seminario de ética para la ingeniería,2,5,ATI,TI-3801,,7,Casasola Rivera Wilmer,M,18:00,20:50
+CS-3404,Seminario de ética para la ingeniería,2,5,ATI,TI-3801,,8,Casasola Rivera Wilmer,L,18:00,20:50
+CS-3404,Seminario de ética para la ingeniería,2,5,ATI,TI-3801,,6,Cedeño Camacho Mauricio,M,18:00,20:50
+CS-3404,Seminario de ética para la ingeniería,2,5,ATI,TI-3801,,4,Garro Reyes Mauricio,M,13:00,15:50
+CS-3404,Seminario de ética para la ingeniería,2,5,ATI,TI-3801,,10,Garro Reyes Mauricio,K,13:00,15:50
+CS-3404,Seminario de ética para la ingeniería,2,5,ATI,TI-3801,,11,Garro Reyes Mauricio,V,09:30,12:20
+CS-3404,Seminario de ética para la ingeniería,2,5,ATI,TI-3801,,5,Prendas Solano Jorge,M,09:30,12:20
+CS-3404,Seminario de ética para la ingeniería,2,5,ATI,TI-3801,,9,Prendas Solano Jorge,K,09:30,12:20
+CS-3404,Seminario de ética para la ingeniería,2,5,ATI,TI-3801,,1,Vargas Elizondo Celso,K,09:30,12:20
+MA-0101,Matemática general,2,0,ATI,,,10,Azofeifa Cubero Roberto,M,15:00,17:50
+MA-0101,Matemática general,2,0,ATI,,,10,Azofeifa Cubero Roberto,V,15:00,16:50
+MA-0101,Matemática general,2,0,ATI,,,3,Cordero Quiros Marcial,J,13:00,14:50
+MA-0101,Matemática general,2,0,ATI,,,3,Cordero Quiros Marcial,K,13:00,15:50
+MA-0101,Matemática general,2,0,ATI,,,6,Cordero Quiros Marcial,J,18:00,19:50
+MA-0101,Matemática general,2,0,ATI,,,6,Cordero Quiros Marcial,K,18:00,20:50
+MA-0101,Matemática general,2,0,ATI,,,4,Jimenez Madrigal Jorge,J,15:00,17:50
+MA-0101,Matemática general,2,0,ATI,,,4,Jimenez Madrigal Jorge,K,15:00,16:50
+MA-0101,Matemática general,2,0,ATI,,,8,Marrero Calvo Marcela,M,09:30,12:20
+MA-0101,Matemática general,2,0,ATI,,,8,Marrero Calvo Marcela,V,09:30,11:20
+MA-0101,Matemática general,2,0,ATI,,,11,Prendas Rojas Juan Pablo,M,16:00,18:50
+MA-0101,Matemática general,2,0,ATI,,,11,Prendas Rojas Juan Pablo,V,17:00,18:50
+MA-0101,Matemática general,2,0,ATI,,,9,Quesada Villalobos Lourdes,M,13:00,15:50
+MA-0101,Matemática general,2,0,ATI,,,9,Quesada Villalobos Lourdes,V,13:00,14:50
+MA-0101,Matemática general,2,0,ATI,,,5,Rodriguez Castro Bryan,J,16:00,17:50
+MA-0101,Matemática general,2,0,ATI,,,5,Rodriguez Castro Bryan,K,16:00,18:50
+MA-0101,Matemática general,2,0,ATI,,,7,Sanchez Fernandez Ivonne,M,07:30,09:20
+MA-0101,Matemática general,2,0,ATI,,,7,Sanchez Fernandez Ivonne,V,07:30,10:20
+MA-0101,Matemática general,2,0,ATI,,,12,Solano Varela Daniel Jesus,S,07:30,12:20
+MA-0101,Matemática general,2,0,ATI,,,1,Solis Palma Angie,J,07:30,09:20
+MA-0101,Matemática general,2,0,ATI,,,1,Solis Palma Angie,K,07:30,10:20
+MA-0101,Matemática general,2,0,ATI,,,2,Vega Vasquez Arturo,J,09:30,11:20
+MA-0101,Matemática general,2,0,ATI,,,2,Vega Vasquez Arturo,K,09:30,12:20
+MA-1102,Cálculo diferencial e integral,4,2,ATI,MA-0101;MA-1403,,2,Cordero Quiros Marcial,J,07:30,10:20
+MA-1102,Cálculo diferencial e integral,4,2,ATI,MA-0101;MA-1403,,2,Cordero Quiros Marcial,K,07:30,09:20
+MA-1102,Cálculo diferencial e integral,4,2,ATI,MA-0101;MA-1403,,9,Esquivel Samudio Jeison,J,17:00,18:50
+MA-1102,Cálculo diferencial e integral,4,2,ATI,MA-0101;MA-1403,,9,Esquivel Samudio Jeison,K,17:00,19:50
+MA-1102,Cálculo diferencial e integral,4,2,ATI,MA-0101;MA-1403,,10,Fallas Monge Juan Jose,J,18:00,19:50
+MA-1102,Cálculo diferencial e integral,4,2,ATI,MA-0101;MA-1403,,10,Fallas Monge Juan Jose,K,18:00,20:50
+MA-1102,Cálculo diferencial e integral,4,2,ATI,MA-0101;MA-1403,,17,Gutierrez Montenegro Marco Vinicio,M,16:00,18:50
+MA-1102,Cálculo diferencial e integral,4,2,ATI,MA-0101;MA-1403,,17,Gutierrez Montenegro Marco Vinicio,V,16:00,17:50
+MA-1102,Cálculo diferencial e integral,4,2,ATI,MA-0101;MA-1403,,12,Jimenez Madrigal Jorge,M,07:30,10:20
+MA-1102,Cálculo diferencial e integral,4,2,ATI,MA-0101;MA-1403,,12,Jimenez Madrigal Jorge,V,07:30,09:20
+MA-1102,Cálculo diferencial e integral,4,2,ATI,MA-0101;MA-1403,,21,Jimenez Madrigal Jorge,S,07:30,12:20
+MA-1102,Cálculo diferencial e integral,4,2,ATI,MA-0101;MA-1403,,20,Lopez Mora Veronica,M,18:00,20:50
+MA-1102,Cálculo diferencial e integral,4,2,ATI,MA-0101;MA-1403,,20,Lopez Mora Veronica,V,18:00,19:50
+MA-1102,Cálculo diferencial e integral,4,2,ATI,MA-0101;MA-1403,,3,Masis Flores David,J,09:30,12:20
+MA-1102,Cálculo diferencial e integral,4,2,ATI,MA-0101;MA-1403,,3,Masis Flores David,K,09:30,11:20
+MA-1102,Cálculo diferencial e integral,4,2,ATI,MA-0101;MA-1403,,7,Masis Flores David,J,16:00,17:50
+MA-1102,Cálculo diferencial e integral,4,2,ATI,MA-0101;MA-1403,,7,Masis Flores David,K,16:00,18:50
+MA-1102,Cálculo diferencial e integral,4,2,ATI,MA-0101;MA-1403,,19,Mora Casasola Maria Fernanda,M,17:00,19:50
+MA-1102,Cálculo diferencial e integral,4,2,ATI,MA-0101;MA-1403,,19,Mora Casasola Maria Fernanda,V,17:00,18:50
+MA-1102,Cálculo diferencial e integral,4,2,ATI,MA-0101;MA-1403,,14,Mora Picado Luis Fernando,M,09:30,12:20
+MA-1102,Cálculo diferencial e integral,4,2,ATI,MA-0101;MA-1403,,14,Mora Picado Luis Fernando,V,10:30,12:20
+MA-1102,Cálculo diferencial e integral,4,2,ATI,MA-0101;MA-1403,,16,Mora Picado Luis Fernando,M,15:00,17:50
+MA-1102,Cálculo diferencial e integral,4,2,ATI,MA-0101;MA-1403,,16,Mora Picado Luis Fernando,V,15:00,16:50
+MA-1102,Cálculo diferencial e integral,4,2,ATI,MA-0101;MA-1403,,15,Nuñez Vanegas Felix,M,13:00,15:50
+MA-1102,Cálculo diferencial e integral,4,2,ATI,MA-0101;MA-1403,,15,Nuñez Vanegas Felix,V,13:00,14:50
+MA-1102,Cálculo diferencial e integral,4,2,ATI,MA-0101;MA-1403,,4,Paez Paez Cristian,J,10:30,12:20
+MA-1102,Cálculo diferencial e integral,4,2,ATI,MA-0101;MA-1403,,4,Paez Paez Cristian,K,09:30,12:20
+MA-1102,Cálculo diferencial e integral,4,2,ATI,MA-0101;MA-1403,,11,Paez Paez Cristian,M,07:30,09:20
+MA-1102,Cálculo diferencial e integral,4,2,ATI,MA-0101;MA-1403,,11,Paez Paez Cristian,V,07:30,10:20
+MA-1102,Cálculo diferencial e integral,4,2,ATI,MA-0101;MA-1403,,6,Parra Salazar Edward,J,15:00,17:50
+MA-1102,Cálculo diferencial e integral,4,2,ATI,MA-0101;MA-1403,,6,Parra Salazar Edward,K,15:00,16:50
+MA-1102,Cálculo diferencial e integral,4,2,ATI,MA-0101;MA-1403,,13,Parra Salazar Edward,M,10:30,12:20
+MA-1102,Cálculo diferencial e integral,4,2,ATI,MA-0101;MA-1403,,13,Parra Salazar Edward,V,09:30,12:20
+MA-1102,Cálculo diferencial e integral,4,2,ATI,MA-0101;MA-1403,,18,Parra Salazar Edward,M,17:00,19:50
+MA-1102,Cálculo diferencial e integral,4,2,ATI,MA-0101;MA-1403,,18,Parra Salazar Edward,V,17:00,18:50
+MA-1102,Cálculo diferencial e integral,4,2,ATI,MA-0101;MA-1403,,1,Quesada Villalobos Lourdes,J,07:30,09:20
+MA-1102,Cálculo diferencial e integral,4,2,ATI,MA-0101;MA-1403,,1,Quesada Villalobos Lourdes,K,07:30,10:20
+MA-1102,Cálculo diferencial e integral,4,2,ATI,MA-0101;MA-1403,,8,Quesada Villalobos Lourdes,J,16:00,17:50
+MA-1102,Cálculo diferencial e integral,4,2,ATI,MA-0101;MA-1403,,8,Quesada Villalobos Lourdes,K,15:00,17:50
+MA-1102,Cálculo diferencial e integral,4,2,ATI,MA-0101;MA-1403,,5,Rodriguez Granados Natalia,J,13:00,14:50
+MA-1102,Cálculo diferencial e integral,4,2,ATI,MA-0101;MA-1403,,5,Rodriguez Granados Natalia,K,13:00,15:50
+MA-1103,Cálculo y álgebra lineal,4,3,ATI,MA-1102,,11,Acuña Prado Luis,M,07:30,09:20
+MA-1103,Cálculo y álgebra lineal,4,3,ATI,MA-1102,,11,Acuña Prado Luis,V,07:30,09:20
+MA-1103,Cálculo y álgebra lineal,4,3,ATI,MA-1102,,9,Alpizar Brenes Geisel,J,18:00,19:50
+MA-1103,Cálculo y álgebra lineal,4,3,ATI,MA-1102,,9,Alpizar Brenes Geisel,K,18:00,19:50
+MA-1103,Cálculo y álgebra lineal,4,3,ATI,MA-1102,,7,Brenes Gomez Randall,J,16:00,17:50
+MA-1103,Cálculo y álgebra lineal,4,3,ATI,MA-1102,,7,Brenes Gomez Randall,K,16:00,17:50
+MA-1103,Cálculo y álgebra lineal,4,3,ATI,MA-1102,,18,Brenes Gomez Randall,S,07:30,11:20
+MA-1103,Cálculo y álgebra lineal,4,3,ATI,MA-1102,,14,Calderon Solano Manuel,M,15:00,16:50
+MA-1103,Cálculo y álgebra lineal,4,3,ATI,MA-1102,,14,Calderon Solano Manuel,V,15:00,16:50
+MA-1103,Cálculo y álgebra lineal,4,3,ATI,MA-1102,,16,Calderon Solano Manuel,M,17:00,18:50
+MA-1103,Cálculo y álgebra lineal,4,3,ATI,MA-1102,,16,Calderon Solano Manuel,V,17:00,18:50
+MA-1103,Cálculo y álgebra lineal,4,3,ATI,MA-1102,,1,Chavarria Molina Jeffry,J,07:30,09:20
+MA-1103,Cálculo y álgebra lineal,4,3,ATI,MA-1102,,1,Chavarria Molina Jeffry,K,07:30,09:20
+MA-1103,Cálculo y álgebra lineal,4,3,ATI,MA-1102,,4,Chavarria Molina Jeffry,J,13:00,14:50
+MA-1103,Cálculo y álgebra lineal,4,3,ATI,MA-1102,,4,Chavarria Molina Jeffry,K,13:00,14:50
+MA-1103,Cálculo y álgebra lineal,4,3,ATI,MA-1102,,2,Chinchilla Valverde Jorge Luis,J,07:30,09:20
+MA-1103,Cálculo y álgebra lineal,4,3,ATI,MA-1102,,2,Chinchilla Valverde Jorge Luis,K,07:30,09:20
+MA-1103,Cálculo y álgebra lineal,4,3,ATI,MA-1102,,3,Chinchilla Valverde Jorge Luis,J,09:30,11:20
+MA-1103,Cálculo y álgebra lineal,4,3,ATI,MA-1102,,3,Chinchilla Valverde Jorge Luis,K,09:30,11:20
+MA-1103,Cálculo y álgebra lineal,4,3,ATI,MA-1102,,6,Figueroa Mata Geovanni,J,15:00,16:50
+MA-1103,Cálculo y álgebra lineal,4,3,ATI,MA-1102,,6,Figueroa Mata Geovanni,K,15:00,16:50
+MA-1103,Cálculo y álgebra lineal,4,3,ATI,MA-1102,,10,Figueroa Mata Geovanni,J,18:00,19:50
+MA-1103,Cálculo y álgebra lineal,4,3,ATI,MA-1102,,10,Figueroa Mata Geovanni,K,18:00,19:50
+MA-1103,Cálculo y álgebra lineal,4,3,ATI,MA-1102,,13,Figueroa Mata Geovanni,M,13:00,14:50
+MA-1103,Cálculo y álgebra lineal,4,3,ATI,MA-1102,,13,Figueroa Mata Geovanni,V,13:00,14:50
+MA-1103,Cálculo y álgebra lineal,4,3,ATI,MA-1102,,8,Gutierrez Montenegro Marco Vinicio,J,17:00,18:50
+MA-1103,Cálculo y álgebra lineal,4,3,ATI,MA-1102,,8,Gutierrez Montenegro Marco Vinicio,K,17:00,18:50
+MA-1103,Cálculo y álgebra lineal,4,3,ATI,MA-1102,,12,Gutierrez Montenegro Marco Vinicio,M,09:30,11:20
+MA-1103,Cálculo y álgebra lineal,4,3,ATI,MA-1102,,12,Gutierrez Montenegro Marco Vinicio,V,09:30,11:20
+MA-1103,Cálculo y álgebra lineal,4,3,ATI,MA-1102,,19,Jimenez Madrigal Jorge,J,07:30,11:20
+MA-1103,Cálculo y álgebra lineal,4,3,ATI,MA-1102,,5,Jimenez Romero Alejandra,J,13:00,14:50
+MA-1103,Cálculo y álgebra lineal,4,3,ATI,MA-1102,,5,Jimenez Romero Alejandra,K,13:00,14:50
+MA-1103,Cálculo y álgebra lineal,4,3,ATI,MA-1102,,17,Mora Picado Luis Fernando,M,18:00,19:50
+MA-1103,Cálculo y álgebra lineal,4,3,ATI,MA-1102,,17,Mora Picado Luis Fernando,V,18:00,19:50
+MA-1103,Cálculo y álgebra lineal,4,3,ATI,MA-1102,,15,Parra Rodriguez Emmanuelle,M,16:00,17:50
+MA-1103,Cálculo y álgebra lineal,4,3,ATI,MA-1102,,15,Parra Rodriguez Emmanuelle,V,16:00,17:50
+MA-1403,Matemática discreta,4,1,ATI,,,6,Chaves Salas Leonel Rolando,M,07:30,09:20
+MA-1403,Matemática discreta,4,1,ATI,,,6,Chaves Salas Leonel Rolando,V,07:30,09:20
+MA-1403,Matemática discreta,4,1,ATI,,,2,Fallas Monge Juan Jose,M,09:30,11:20
+MA-1403,Matemática discreta,4,1,ATI,,,2,Fallas Monge Juan Jose,V,09:30,11:20
+MA-1403,Matemática discreta,4,1,ATI,,,5,Fallas Monge Juan Jose,J,15:00,16:50
+MA-1403,Matemática discreta,4,1,ATI,,,5,Fallas Monge Juan Jose,K,15:00,16:50
+MA-1403,Matemática discreta,4,1,ATI,,,4,Ramirez Arce Greivin,J,13:00,14:50
+MA-1403,Matemática discreta,4,1,ATI,,,4,Ramirez Arce Greivin,K,13:00,14:50
+MA-1403,Matemática discreta,4,1,ATI,,,1,Solis Arguedas Adriana,M,07:30,09:20
+MA-1403,Matemática discreta,4,1,ATI,,,1,Solis Arguedas Adriana,V,07:30,09:20
+MA-1403,Matemática discreta,4,1,ATI,,,3,Soto Quiros Juan Pablo,J,18:00,19:50
+MA-1403,Matemática discreta,4,1,ATI,,,3,Soto Quiros Juan Pablo,K,18:00,19:50
+MA-2404,Probabilidades,4,4,ATI,MA-1103,,3,Alvarado Solano Andy,K,17:00,18:50
+MA-2404,Probabilidades,4,4,ATI,MA-1103,,4,Alvarado Solano Andy,J,17:00,18:50
+MA-2404,Probabilidades,4,4,ATI,MA-1103,,5,Alvarado Solano Andy,K,15:00,16:50
+MA-2404,Probabilidades,4,4,ATI,MA-1103,,6,Alvarado Solano Andy,J,15:00,16:50
+MA-2404,Probabilidades,4,4,ATI,MA-1103,,1,Parra Rodriguez Emmanuelle,M,07:30,09:20
+MA-2404,Probabilidades,4,4,ATI,MA-1103,,2,Parra Rodriguez Emmanuelle,V,07:30,09:20
+MA-3405,Estadística,4,5,MA-2404,,,,,,
+TI-1102,Información contable,3,1,ATI,,,1,Umaña Centeno Gabriel,L,07:30,11:20
+TI-1103,Modelos Organizacionales y Gestión de TI,3,1,ATI,,,1,Chavarria Sanchez Luis Javier,J,15:00,18:50
+TI-1103,Modelos Organizacionales y Gestión de TI,3,1,ATI,,,2,Chavarria Sanchez Luis Javier,V,15:00,18:50
+TI-1201,Comportamiento organizacional y talento humano,3,2,ATI,TI-1103,,1,Delgado Leandro Gonzalo,M,07:30,09:20
+TI-1201,Comportamiento organizacional y talento humano,3,2,ATI,TI-1103,,2,Delgado Leandro Gonzalo,V,07:30,09:20
+TI-1201,Comportamiento organizacional y talento humano,3,2,ATI,TI-1103,,3,Delgado Leandro Gonzalo,M,09:30,11:20
+TI-1201,Comportamiento organizacional y talento humano,3,2,ATI,TI-1103,,4,Delgado Leandro Gonzalo,V,09:30,11:20
+TI-1400,Introducción a la programación,3,1,ATI,,,1,Soto Chaves Luis Pablo,K,07:30,09:20
+TI-1400,Introducción a la programación,3,1,ATI,,,1,Soto Chaves Luis Pablo,J,07:30,09:20
+TI-1401,Taller de programación,3,1,ATI,,TI-1400,1,Soto Chaves Luis Pablo,K,09:30,11:20
+TI-1401,Taller de programación,3,1,ATI,,TI-1400,1,Soto Chaves Luis Pablo,J,09:30,11:20
+TI-2201,Programación orientada a objetos,3,4,ATI,TI-3600,,1,Chavarria Sanchez Luis Javier,K,07:30,09:20
+TI-2201,Programación orientada a objetos,3,4,ATI,TI-3600,,1,Chavarria Sanchez Luis Javier,J,07:30,09:20
+TI-2201,Programación orientada a objetos,3,4,ATI,TI-3600,,2,Chavarria Sanchez Luis Javier,K,09:30,11:20
+TI-2201,Programación orientada a objetos,3,4,ATI,TI-3600,,2,Chavarria Sanchez Luis Javier,J,09:30,11:20
+TI-2402,Algoritmos y estructuras de datos,4,2,ATI,TI-1400;TI-1401,,3,Artavia Jimenez Maria Jose,K,13:00,14:50
+TI-2402,Algoritmos y estructuras de datos,4,2,ATI,TI-1400;TI-1401,,3,Artavia Jimenez Maria Jose,J,13:00,14:50
+TI-2402,Algoritmos y estructuras de datos,4,2,ATI,TI-1400;TI-1401,,2,Solis Cespedes Jacqueline,K,13:00,14:50
+TI-2402,Algoritmos y estructuras de datos,4,2,ATI,TI-1400;TI-1401,,2,Solis Cespedes Jacqueline,J,13:00,14:50
+TI-2402,Algoritmos y estructuras de datos,4,2,ATI,TI-1400;TI-1401,,1,Soto Chaves Luis Pablo,K,13:00,14:50
+TI-2402,Algoritmos y estructuras de datos,4,2,ATI,TI-1400;TI-1401,,1,Soto Chaves Luis Pablo,J,13:00,14:50
+TI-2404,Organización y arquitectura de computadoras,3,2,ATI,TI-1401,,1,Segreda Johanning Juan Andres,K,15:00,18:50
+TI-2404,Organización y arquitectura de computadoras,3,2,ATI,TI-1401,,2,Segreda Johanning Juan Andres,M,15:00,18:50
+TI-2800,Administración de proyectos 1,3,3,ATI,TI-4500,,1,Picado Valverde Luis Felipe,K,17:00,20:50
+TI-3103,Costos en ambientes informáticos,3,3,ATI,TI-1102,,1,Delgado Leandro Gonzalo,L,07:30,11:20
+TI-3103,Costos en ambientes informáticos,3,3,ATI,TI-1102,,2,Morales Rodriguez Nestor,L,07:30,11:20
+TI-3500,Mercadeo en la era digital,3,5,ATI,MA-2404,,1,Picado Valverde Luis Felipe,V,15:00,18:50
+TI-3501,Fundamentos de sistemas operativos,3,5,ATI,TI-2201;TI-2404,,1,Segreda Johanning Juan Andres,L,09:30,12:20
+TI-3600,Bases de datos,3,3,ATI,MA-1403;TI-2402,,1,Solis Cespedes Jacqueline,K,15:00,16:50
+TI-3600,Bases de datos,3,3,ATI,MA-1403;TI-2402,,1,Solis Cespedes Jacqueline,J,15:00,16:50
+TI-3601,Modelo de toma de decisiones,2,6,ATI,MA-3405;TI-5100,,1,Torres Carballo Federico,J,18:00,21:50
+TI-3602,"Producción, logística y calidad",2,6,ATI,MA-3405;TI-5100,,1,Alvarez Solorzano Diogenes,S,07:30,11:20
+TI-3603,Calidad en sistemas de información,3,6,ATI,TI-3801;TI-5501,,1,Morales Rodriguez Nestor,L,17:00,19:50
+TI-3604,Fundamentos de redes,3,6,ATI,TI-3501,,1,Segreda Johanning Juan Andres,J,13:00,16:50
+TI-3801,Administración de proyectos 2,3,4,ATI,TI-2800,,2,Gamboa Cubero Luis Mauricio,M,17:00,20:50
+TI-3801,Administración de proyectos 2,3,4,ATI,TI-2800,,1,Picado Valverde Luis Felipe,M,17:00,20:50
+TI-4101,Planificación y presupuesto,2,4,ATI,TI-3103,,1,Delgado Leandro Gonzalo,L,07:30,11:20
+TI-4101,Planificación y presupuesto,2,4,ATI,TI-3103,,2,Tencio Chacon Angela,K,18:00,21:50
+TI-4200,Economía,3,3,ATI,MA-1102,,1,Torres Carballo Federico,L,18:00,21:50
+TI-4500,Ingeniería de requerimientos,3,2,ATI,TI-1400,,1,Morales Rodriguez Nestor,M,13:00,14:50
+TI-4500,Ingeniería de requerimientos,3,2,ATI,TI-1400,,1,Morales Rodriguez Nestor,V,13:00,14:50
+TI-4500,Ingeniería de requerimientos,3,2,ATI,TI-1400,,2,Morales Rodriguez Nestor,K,07:30,09:20
+TI-4500,Ingeniería de requerimientos,3,2,ATI,TI-1400,,2,Morales Rodriguez Nestor,J,07:30,09:20
+TI-4601,Bases de datos avanzados,4,4,ATI,TI-3600,,3,Zumbado Corrales Manuel,M,08:30,12:20
+TI-4601,Bases de datos avanzados,4,4,ATI,TI-3600,,1,Zuñiga Segura Lorena,M,08:30,12:20
+TI-4601,Bases de datos avanzados,4,4,ATI,TI-3600,,2,Zuñiga Segura Lorena,V,08:30,12:20
+TI-5100,Gestión y toma de decisiones financieras,3,5,TI-4101;TI-4200,,,,,,
+TI-5501,Diseño de software,3,5,TI-2201;TI-4500,,,,,,
+TI-6900,Inteligencia de negocios,3,6,ATI,TI-4601,,1,Sanchez Soto Michael,K,17:00,20:50
+TI-9003,Computación y sociedad,2,6,ATI,CS-3404;TI-1201,,1,Artavia Jimenez Maria Jose,L,07:30,11:20
