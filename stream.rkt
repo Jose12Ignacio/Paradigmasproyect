@@ -35,4 +35,12 @@
                   empty-stream
                   lista-de-streams)))))
 
+(define (calculo-credito lista-cursos)
+( foldr(lambda(g acu)(+ acu (grupo-creditos g))0 lista-grupo)))
 
+
+(define (generar-horarios-validos lista-cursos min-cred max-cred)
+  (let* ((stream-bruto (generar-combinaciones lista-cursos '()))
+         (stream-comb (stream-map (lambda (grupos)(combinacion grupos (calcular-creditos grupos)))stream-bruto)))
+    (stream-filter (lambda (c)
+        (let ((cred (combinacion-creditos-totales c)))(and (>= cred min-cred) (<= cred max-cred)))) stream-comb)))
