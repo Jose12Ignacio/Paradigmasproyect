@@ -8,5 +8,5 @@ int grupo_choque(const Grupo *Gr1, const Grupo *Gr2);
 int cursos_chocan(const Curso *c1, const Curso *c2);
 void detectar_choques_catalogo(Curso catalogo[], int total_cursos);
 void evaluar_elegibilidad_curso(Curso *curso, char historial[][MAX_CODIGO], int total_aprobados);
-
+void imprimir_choques_detallados(const Catalogo *catalogo);
 #endif

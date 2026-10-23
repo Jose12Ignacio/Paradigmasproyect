@@ -48,18 +48,50 @@ int cursos_chocan(const Curso *c1, const Curso *c2) {
 
 // Evalúa todo el catálogo para marcar qué cursos presentan choques de horario
 void detectar_choques_catalogo(Curso catalogo[], int total_cursos) {
-
+    // 1. Limpiar flags y contadores
     for (int i = 0; i < total_cursos; i++) {
         catalogo[i].tiene_choque = 0;
+        catalogo[i].total_choques = 0;
     }
 
+    // 2. Comparar pares de cursos y detallar el choque entre grupos
     for (int i = 0; i < total_cursos; i++) {
-        for (int j = i + 1; j < total_cursos; j++) {
+        Curso *c1 = &catalogo[i];
 
-            // Si los dos cursos chocan, marcamos ambos
-            if (cursos_chocan(&catalogo[i], &catalogo[j])) {
-                catalogo[i].tiene_choque = 1;
-                catalogo[j].tiene_choque = 1;
+        for (int j = i + 1; j < total_cursos; j++) {
+            Curso *c2 = &catalogo[j];
+
+            // Iterar sobre cada grupo de c1 y c2
+            for (int g1 = 0; g1 < c1->total_grupos; g1++) {
+                Grupo *gr1 = &c1->grupos[g1];
+
+                for (int g2 = 0; g2 < c2->total_grupos; g2++) {
+                    Grupo *gr2 = &c2->grupos[g2];
+
+                    // Si hay colisión entre el grupo gr1 y el grupo gr2
+                    if (grupo_choque(gr1, gr2)) {
+                        c1->tiene_choque = 1;
+                        c2->tiene_choque = 1;
+
+                        // Registrar en c1: "G<num> con <codigo_rival> (G<num>)"
+                        if (c1->total_choques < MAX_CHOQUES) {
+                            snprintf(c1->cursos_con_choque[c1->total_choques],
+                                     MAX_TEXTO_CHOQUE,
+                                     "G%d con %s (G%d)",
+                                     gr1->numero_grupo, c2->codigo, gr2->numero_grupo);
+                            c1->total_choques++;
+                        }
+
+                        // Registrar en c2 la relación simétrica
+                        if (c2->total_choques < MAX_CHOQUES) {
+                            snprintf(c2->cursos_con_choque[c2->total_choques],
+                                     MAX_TEXTO_CHOQUE,
+                                     "G%d con %s (G%d)",
+                                     gr2->numero_grupo, c1->codigo, gr1->numero_grupo);
+                            c2->total_choques++;
+                        }
+                    }
+                }
             }
         }
     }
@@ -68,9 +100,8 @@ void detectar_choques_catalogo(Curso catalogo[], int total_cursos) {
 // Determina si el estudiante cumple los requisitos y correquisitos
 void evaluar_elegibilidad_curso(Curso *curso, char historial[][MAX_CODIGO], int total_aprobados) {
     int requisitos_cumplidos = 0;
-    int correquisitos_cumplidos = 0;
 
-    // Confirmación de requisitos
+    // Confirmación de requisitos previos únicamente
     if (curso->total_requisitos == 0) {
         requisitos_cumplidos = 1;
     } else {
@@ -88,29 +119,8 @@ void evaluar_elegibilidad_curso(Curso *curso, char historial[][MAX_CODIGO], int 
         }
     }
 
-    // Confirmación de correquisitos
-    if (curso->total_correquisitos == 0) {
-        correquisitos_cumplidos = 1;
-    } else {
-        int correq_encontrados = 0;
-        for (int i = 0; i < curso->total_correquisitos; i++) {
-            for (int j = 0; j < total_aprobados; j++) {
-                if (strcmp(curso->correquisitos[i], historial[j]) == 0) {
-                    correq_encontrados++;
-                    break;
-                }
-            }
-        }
-        if (correq_encontrados == curso->total_correquisitos) {
-            correquisitos_cumplidos = 1;
-        }
-    }
-
-    if (requisitos_cumplidos && correquisitos_cumplidos) {
-        curso->es_elegible = 1;
-    } else {
-        curso->es_elegible = 0;
-    }
+    // La elegibilidad depende únicamente de los requisitos
+    curso->es_elegible = requisitos_cumplidos;
 
     // Llenar el campo razon_no_matriculable
     if (curso->es_elegible) {
@@ -135,44 +145,14 @@ void evaluar_elegibilidad_curso(Curso *curso, char historial[][MAX_CODIGO], int 
             }
         }
 
-        // Buscar correquisitos faltantes
-        char faltantes_correq[60] = "";
-        int primera_correq = 1;
-        for (int i = 0; i < curso->total_correquisitos; i++) {
-            int encontrado = 0;
-            for (int j = 0; j < total_aprobados; j++) {
-                if (strcmp(curso->correquisitos[i], historial[j]) == 0) {
-                    encontrado = 1;
-                    break;
-                }
-            }
-            if (!encontrado) {
-                if (!primera_correq) strcat(faltantes_correq, ", ");
-                strcat(faltantes_correq, curso->correquisitos[i]);
-                primera_correq = 0;
-            }
-        }
-
-        // Armar el mensaje final según lo que falte
-        if (strlen(faltantes) > 0 && strlen(faltantes_correq) > 0) {
-            snprintf(curso->razon_no_matriculable, MAX_NOMBRE,
-                     "No cumple requisitos: %s; correquisitos: %s",
-                     faltantes, faltantes_correq);
-        } else if (strlen(faltantes) > 0) {
+        // Armar el mensaje final según los requisitos faltantes
+        if (strlen(faltantes) > 0) {
             if (strchr(faltantes, ',') != NULL) {
                 snprintf(curso->razon_no_matriculable, MAX_NOMBRE,
                          "No cumple requisitos: %s", faltantes);
             } else {
                 snprintf(curso->razon_no_matriculable, MAX_NOMBRE,
                          "No cumple requisito: %s", faltantes);
-            }
-        } else if (strlen(faltantes_correq) > 0) {
-            if (strchr(faltantes_correq, ',') != NULL) {
-                snprintf(curso->razon_no_matriculable, MAX_NOMBRE,
-                         "No cumple correquisitos: %s", faltantes_correq);
-            } else {
-                snprintf(curso->razon_no_matriculable, MAX_NOMBRE,
-                         "No cumple correquisito: %s", faltantes_correq);
             }
         } else {
             snprintf(curso->razon_no_matriculable, MAX_NOMBRE,

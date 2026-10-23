@@ -14,5 +14,6 @@
 
 // --- Historial del estudiante ---
 #define MAX_CURSOS_HISTORIAL 60     // 4 semestres * 2 carreras, con margen
-
+#define MAX_CHOQUES 50
+#define MAX_TEXTO_CHOQUE 35
 #endif // CONSTANTS_H
