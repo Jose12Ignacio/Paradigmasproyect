@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 convertir_excel.py
-Script de conversión del Excel 'Plan de estudios CE y ATI (1).xlsx'
+Script de conversión del Excel 'Plan de estudios CE y ATI.xlsx'
 a los CSV de entrada para el programa en C del proyecto CEmestre.
 
 Genera:
@@ -23,7 +23,7 @@ from datetime import datetime
 # CONSTANTES
 # ============================================================
 
-ARCHIVO_EXCEL = "Plan de estudios CE y ATI (1).xlsx"
+ARCHIVO_EXCEL = "Plan de estudios CE y ATI.xlsx"
 DIR_DATA = "data"
 DIR_REPORTES = "reportes"
 
@@ -67,7 +67,7 @@ CORRECCIONES_NOMBRES = {
 
 # Encabezado del CSV
 CSV_HEADER = [
-    "codigo", "nombre", "creditos", "semestre",
+    "codigo", "nombre", "creditos", "semestre", "carrera",  
     "requisitos", "correquisitos",
     "grupo", "profesor", "dia", "hora_inicio", "hora_fin"
 ]
@@ -237,7 +237,7 @@ def separar_requisitos_y_correquisitos(texto):
 # LECTURA DEL PLAN DE ESTUDIOS
 # ============================================================
 
-def leer_plan_estudios(wb, nombre_hoja, fila_inicio):
+def leer_plan_estudios(wb, nombre_hoja, fila_inicio, carrera):
     """
     Lee la hoja del plan de estudios (CE o ATI).
     Retorna un diccionario {codigo: {nombre, creditos, semestre, requisitos, correquisitos}}
@@ -247,7 +247,7 @@ def leer_plan_estudios(wb, nombre_hoja, fila_inicio):
 
     # Columnas: B=Bloque0, C=Req0, D=Bloque1, E=Req1, ..., K=Req4
     for fila in ws.iter_rows(min_row=fila_inicio, values_only=True):
-        for i in range(1, 11, 2):  # 1, 3, 5, 7, 9
+        for i in range(1, 15, 2):  # 1, 3, 5, 7, 9, 11, 13 (Bloques 0 a 6)
             celda_curso = fila[i] if i < len(fila) else None
             celda_reqs = fila[i + 1] if i + 1 < len(fila) else None
 
@@ -281,6 +281,7 @@ def leer_plan_estudios(wb, nombre_hoja, fila_inicio):
                 "nombre": nombre,
                 "creditos": creditos,
                 "semestre": semestre,
+                "carrera": carrera,
                 "requisitos": reqs,
                 "correquisitos": correqs,
             }
@@ -427,6 +428,7 @@ def escribir_csv(ruta, plan, horarios, cursos_sin_horario=None):
                         info["nombre"],
                         info["creditos"],
                         info["semestre"],
+                        info["carrera"],
                         ";".join(info["requisitos"]),
                         ";".join(info["correquisitos"]),
                         num_grupo,
@@ -479,7 +481,7 @@ def main():
 
     # ============ CE ============
     log("\n--- PROCESANDO CE ---")
-    plan_CE = leer_plan_estudios(wb, "CE", fila_inicio=4)
+    plan_CE = leer_plan_estudios(wb, "CE", fila_inicio=4, carrera="CE")
     horarios_CE = leer_horarios(wb, "Grupos CE", fila_inicio=2, es_CE=True)
 
     sin_horario_CE = set(plan_CE.keys()) - set(horarios_CE.keys())
@@ -499,7 +501,7 @@ def main():
 
     # ============ ATI ============
     log("\n--- PROCESANDO ATI ---")
-    plan_ATI = leer_plan_estudios(wb, "ATI", fila_inicio=3)
+    plan_ATI = leer_plan_estudios(wb, "ATI", fila_inicio=3, carrera="ATI")
     horarios_ATI = leer_horarios(wb, "Grupos ATI", fila_inicio=3, es_CE=False)
 
     sin_horario_ATI = set(plan_ATI.keys()) - set(horarios_ATI.keys())

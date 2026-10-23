@@ -130,8 +130,6 @@ La información se recolectó y limpió manualmente en un archivo Excel intermed
 3. **Fidelidad de tipos.** JSON distingue `true`/`false` booleanos de strings, y números de strings. En CSV todo es texto y el consumidor debe convertir. Los flags `tiene_choque` y `es_matriculable` se leen como `#t`/`#f` en Racket sin conversión.
 
 **Esquema del JSON**:
-
-```json
 {
   "metadata": {
     "carrera": "Ingeniería en Computadores",
@@ -305,3 +303,7 @@ Memoria liberada correctamente. Proceso finalizado.
 ==4645== For lists of detected and suppressed errors, rerun with: -s
 ==4645== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
 dilan@Brownie-laptop:/mnt/c/Users/dilan/OneDrive/Desktop/ParadigmasProyecto/ParadigmasProyect$
+### 2.4.6 Testing 
+
+gcc -Wall -Wextra -I. -o tests/test_io tests/test_io.c io.c memoria.c Horarios_choque.c serializar.c
+./tests/test_io

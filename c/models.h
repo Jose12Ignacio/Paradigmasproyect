@@ -54,6 +54,7 @@ typedef struct {
     char nombre[MAX_NOMBRE];
     int  creditos;
     int  semestre;
+    char carrera[MAX_CODIGO];
 
     Grupo grupos[MAX_GRUPOS_POR_CURSO];
     int   total_grupos;

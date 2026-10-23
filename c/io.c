@@ -191,10 +191,10 @@ static int procesar_linea_csv(char *linea, Catalogo *catalogo) {
     if (strncmp(linea, "codigo,", 7) == 0) return 0;
 
     // Dividir en campos
-    char campos[11][MAX_TOKEN];
-    int n = dividir_csv(linea, campos, 11);
-    if (n < 11) {
-        fprintf(stderr, "[WARN] Línea con %d campos (esperados 11): %s\n",
+    char campos[12][MAX_TOKEN];
+    int n = dividir_csv(linea, campos, 12);
+    if (n < 12) {
+        fprintf(stderr, "[WARN] Línea con %d campos (esperados 12): %s\n",
                 n, linea);
         return 0;
     }
@@ -204,13 +204,14 @@ static int procesar_linea_csv(char *linea, Catalogo *catalogo) {
     const char *nombre = campos[1];
     const char *creditos_str = campos[2];
     const char *semestre_str = campos[3];
-    const char *requisitos_str = campos[4];
-    const char *correquisitos_str = campos[5];
-    const char *grupo_str = campos[6];
-    const char *profesor = campos[7];
-    const char *dia_str = campos[8];
-    const char *hora_inicio_str = campos[9];
-    const char *hora_fin_str = campos[10];
+    const char *carrera = campos[4];  
+    const char *requisitos_str = campos[5];
+    const char *correquisitos_str = campos[6];
+    const char *grupo_str = campos[7];
+    const char *profesor = campos[8];
+    const char *dia_str = campos[9];
+    const char *hora_inicio_str = campos[10];
+    const char *hora_fin_str = campos[11];
 
     // --- Buscar o crear el curso ---
     int idx_curso = buscar_curso(catalogo, codigo);
@@ -224,6 +225,7 @@ static int procesar_linea_csv(char *linea, Catalogo *catalogo) {
         strncpy(nuevo.nombre, nombre, MAX_NOMBRE - 1);
         nuevo.creditos = atoi(creditos_str);
         nuevo.semestre = atoi(semestre_str);
+        strncpy(nuevo.carrera, carrera, MAX_CODIGO - 1);
         nuevo.total_requisitos = parsear_lista_codigos(
             requisitos_str, nuevo.requisitos, MAX_REQUISITOS);
         nuevo.total_correquisitos = parsear_lista_codigos(

@@ -183,6 +183,11 @@ static void escribir_curso(FILE *f, const Curso *curso, int indent) {
     // semestre
     fprintf(f, "%*s\"semestre\": %d,\n", indent + 2, "", curso->semestre);
 
+    // carrera
+    fprintf(f, "%*s\"carrera\": ", indent + 2, "");
+    escribir_string_json(f, curso->carrera);
+    fprintf(f, ",\n");
+
     // requisitos
     fprintf(f, "%*s\"requisitos\": ", indent + 2, "");
     escribir_array_strings(f, curso->requisitos, curso->total_requisitos);
