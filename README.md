@@ -34,46 +34,40 @@ Catalogo en memoria (structs de models.h)
 Archivo de salida (contrato para la Etapa 2 en Racket)
 ```
 ## 2.2 Algoritmos de manejo de información y modelo lógico
-Los algoritmos desarollados en Horarios_choques permiten verificar que los cursos que estén en catalogo no choquen por horarios como  `horarios_choque` y `grupo_choque` y se tenga una verificación de los requisitos y correquisitos para poder matricular el curso con `evaluar_elegibilidad_curso`.
-La lógica del programa es encargarse de procesar el catálogo de cursos cargado en memoria para determinar dos aspectos críticos: la colisión de horarios entre asignaturas y la elegibilidad académica del estudiante según su historial.
+Los algoritmos desarrollados en Horarios_choque.c procesan el catálogo cargado en memoria para evaluar dos aspectos críticos de la planificación académica:
+
+Detección de colisiones de horario (horarios_choque y grupo_choque): Comparan numéricamente los bloques de tiempo de los grupos de un curso contra todos los demás grupos disponibles en el catálogo, identificando cuáles cruzan en día y rango de horas.
+
+Evaluación de elegibilidad académica (evaluar_elegibilidad_curso): Revisa el historial de cursos aprobados por el estudiante para validar el cumplimiento estricto de requisitos y correquisitos antes de marcar un curso como apto para matrícula.
 
 
-## 2.3 Estructuras de datos desarrolladas
+## 2.3 Estructuras de datos desarrolladas 
 
-### `Horario`
-Representa un bloque de tiempo (un día y un rango de horas). Las horas se
-almacenan como enteros en minutos desde medianoche en lugar de strings,
-para que la detección de choques se reduzca a comparar intervalos
-numéricos en vez de parsear texto en cada comparación.
+Horario: Representa un bloque de tiempo. Las horas de inicio y fin se almacenan como enteros en minutos transcurridos desde medianoche, reduciendo la detección de choques a comparaciones numéricas de intervalos ($A_{inicio} < B_{fin} \land A_{fin} > B_{inicio}$) e ignorando el parseo de cadenas en tiempo de ejecución.
 
-### `Grupo`
-Una sección específica de un curso, con uno o más `Horario` (un curso puede
-reunirse en varios días) y el nombre del profesor a cargo. Se usó un
-arreglo fijo de bloques (`MAX_BLOQUES_POR_GRUPO`) porque, en el catálogo
-real recolectado (317 filas para Ingeniería en Computadores), ningún grupo
-supera los 2-3 bloques semanales.
+Grupo: Una sección específica de un curso que contiene su número, profesor y sus bloques horarios (Horario). Se usó un arreglo de tamaño fijo (MAX_BLOQUES_POR_GRUPO) respaldado por el análisis del dataset real (317 filas en CE), donde ningún grupo supera 2 a 3 bloques semanales.
 
-### `Curso`
-Agrupa la información oficial del curso (código, nombre, créditos, semestre
-del plan de estudios), sus grupos disponibles, sus requisitos/correquisitos,
-y dos banderas calculadas por el módulo lógico: `tiene_choque` y
-`es_elegible`. Mantener estas banderas dentro de la misma struct evita
-sincronizar estructuras paralelas al momento de exportar.
+Curso: Agrupa la información oficial del curso (código, nombre, créditos, semestre), sus grupos disponibles, listas de requisitos y correquisitos, y los flags calculados tiene_choque y es_matriculable. Mantener estos estados dentro del mismo struct evita gestionar estructuras paralelas durante la serialización.
 
-### `Catalogo`
-Colección de todos los cursos cargados. A diferencia de las structs
-anteriores, `Catalogo.cursos` se reserva dinámicamente con
-`malloc`/`realloc` en lugar de un arreglo de tamaño fijo, porque el número
-real de cursos (dos carreras × 4 semestres) varía según la carrera elegida
-por el grupo y no se conoce en tiempo de compilación.
+Catalogo y ciclo de vida de memoriaEstructura contenedora principal: A diferencia de las anteriores, Catalogo.cursos se gestiona dinámicamente mediante tres funciones interconectadas que coordinan el ciclo de vida completo de la memoria:  crear_catalogo()agregar_curso()     liberar_catalogo()
+[ Reserva inicial ] ────► [ Crecimiento dinámico ] ────► [ Liberación en cascada ]
+  malloc(Catalogo)          realloc(cat->cursos)         free(cursos) -> free(cat)
 
-**Gestión de memoria:** `liberar_catalogo` libera primero el arreglo interno
-y después el catálogo, en ese orden. `agregar_curso` usa una variable
-temporal al hacer `realloc`, para no perder el puntero original si la
-reserva de memoria falla. Se verificó ausencia de fugas con
-`valgrind --leak-check=full`. _(agregar resultado/captura una vez esté
-`main.c` integrado)_
+crear_catalogo(): Reserva espacio dinámico para el contenedor principal (malloc(sizeof(Catalogo))), asigna una capacidad inicial predeterminada e inicializa la memoria para el arreglo de cursos (cat->cursos = malloc(...)).
 
+agregar_curso(Catalogo *cat, Curso curso): Inserta nuevos elementos en la estructura. Cuando cantidad == capacidad, duplica el espacio mediante realloc utilizando un puntero temporal (Curso *tmp = realloc(...)) para prevenir la pérdida del puntero original en caso de fallo de asignación.
+
+liberar_catalogo(Catalogo *cat): Realiza la destrucción limpia en cascada (Bottom-Up). Primero libera las estructuras dinámicas internas de cada curso, luego el arreglo dinámico cat->cursos, y finalmente la estructura contenedora cat. La ausencia total de fugas (0 bytes in 0 blocks) se verificó con Valgrind.
+
+## Decisión de diseño Mapeo y modelado del campo día 
+
+La Guía de Horarios del TEC codifica los días mediante un solo carácter: L (Lunes), K (Martes), M (Miércoles), J (Jueves), V (Viernes) y S (Sábado). En la convención institucional se asigna K a Martes para reservar la letra M a Miércoles.
+
+Para garantizar la robustez del sistema y evitar errores léxicos en comparaciones de cadenas, se tomó la decisión de diseño de desacoplar los caracteres de la lógica de negocio:
+
+Se definió un tipo enumerado formal Dia (LUNES=0, MARTES=1, MIERCOLES=2, etc.) en models.h.
+
+La conversión se centraliza al momento de la lectura con letra_a_dia(char c).De este modo, los algoritmos de detección de choque operan únicamente sobre valores enteros del enum Dia, aislando la lógica interna de cualquier convención de texto de la fuente de datos.
 ---
 
 ### Aporte al caso límite (2.2.2): el campo `dia`
