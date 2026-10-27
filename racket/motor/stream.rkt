@@ -1,5 +1,7 @@
 #lang racket
-
+(require "tipos.rkt"
+         "choque.rkt")
+(provide (all-defined-out))
 (struct grupo (curso carrera creditos horario) #:transparent)
 (struct combinacion (grupos creditos-totales) #:transparent)
 
@@ -13,31 +15,29 @@
 
 
 ;; 2. Validación de cursos
-
-(define (grupo-valido? g acu)
-  #t) 
-
 (define (generar-combinaciones lista-cursos acu)
   (cond ((null? lista-cursos) (stream acu))
         (else
          (let* ((primer-curso (car lista-cursos))
                 (resto-cursos (cdr lista-cursos))
+               
                 (grupos-sin-choque (filter (lambda (g) (grupo-valido? g acu)) 
                                            primer-curso))
-            
                 (lista-de-streams (map (lambda (g) 
                                          (generar-combinaciones resto-cursos (cons g acu)))
                                        grupos-sin-choque)))
-           
            
            (foldr (lambda (st acc)
                     (stream-concat-lazy st (lambda () acc)))
                   empty-stream
                   lista-de-streams)))))
 
-(define (calculo-credito lista-cursos)
-( foldr(lambda(g acu)(+ acu (grupo-creditos g))0 lista-grupo)))
+;; 3. Calculo de creditos
 
+(define (calcular-creditos lista-cursos)
+  (foldr (lambda (g acu) (+ acu (grupo-creditos g))) 0 lista-cursos))
+
+;; 4. Combinaciones de horario
 
 (define (generar-horarios-validos lista-cursos min-cred max-cred)
   (let* ((stream-bruto (generar-combinaciones lista-cursos '()))
