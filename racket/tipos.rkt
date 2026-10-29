@@ -63,3 +63,14 @@
 (define (string->carrera s)
   (cond [(string=? s "CE") "CE"] [(string=? s "ATI") "ATI"]
         [else (error 'string->carrera "carrera desconocida: ~a" s)]))
+
+;; ---- Interfaz entre la preparación y el generador de combinaciones ----
+
+;; Un curso de interés junto con los grupos entre los que se puede elegir (el generador elige UNO por Candidato)
+(struct Candidato ([curso : Curso] [grupos : (Listof Grupo)]) #:transparent)
+
+;; Un curso pedido en las preferencias que no entra al generador, y por qué (útil para el README y el log)
+(struct Descarte ([curso : String] [razon : String]) #:transparent)
+
+(struct Preparacion ([candidatos : (Listof Candidato)]
+                     [descartes : (Listof Descarte)]) #:transparent)
