@@ -102,3 +102,30 @@ Todas están en `racket/tipos.rkt` y son inmutables (`#:transparent`).
 `Candidato` es la interfaz entre la preparación y el generador: el generador no necesita conocer las
 preferencias ni el catálogo, solo recibe qué cursos y qué grupos puede combinar.
 
+### 2.2.2 Decisiones de diseño: Módulo I/O y Contrato de Salida 
+
+**El formato de salida hacia Prolog (JSON).** Se decidió que la salida de la Etapa 2 sea un archivo JSON (`salida_etapa2.json`). Esta decisión se basa en que Prolog puede parsear JSON de forma sencilla mediante librerías estándar, y mantiene la consistencia con la Etapa 1. El archivo incluye un `id_combinacion` para que Prolog pueda referenciar y descartar horarios completos, los `creditos_totales` de esa combinación, y un arreglo de `selecciones`. Cada selección contiene el par exacto `curso`, `grupo` y la `carrera` de origen del curso, cumpliendo así con los requerimientos mínimos exigidos para esta fase.
+
+**Manejo de vectores JSON a listas en Typed Racket.** Al leer el JSON generado por C, la librería `read-json` de Racket interpreta los arreglos como *vectores*, no como listas. Como nuestras estructuras en `tipos.rkt` exigen listas inmutables, el `io/lector.rkt` implementa funciones de conversión seguras (`any->hash-list`, `any->string-list` y `any->num-list`) que transforman los datos respetando el tipado estricto de Typed Racket.
+
+**Lectura tolerante a fallos y descartes.** El módulo `io/lector.rkt` lee el JSON del catálogo y el archivo `preferencias.json`. Para evitar que un archivo de preferencias mal escrito detenga el programa, cualquier curso pedido que no exista, no tenga grupos o no sea matriculable se maneja mediante la estructura `Descarte` en el `pipeline.rkt`, permitiendo que el flujo continúe procesando los cursos válidos.
+
+### 2.2.3 Caso límite real encontrado en la Etapa 2
+
+**El problema del `list->stream` y los tipos estrictos.**
+Durante la integración del motor de combinaciones (que usa streams) con el exportador, nos topamos con un problema de tipos: la función `filtrar-por-creditos` devolvía una secuencia perezosa (Stream) que necesitaba ser convertida a lista para exportarse. Intentamos usar funciones nativas como `stream->list`, pero Typed Racket rechazaba la compilación indicando *"missing type for identifier"*. 
+
+**Solución:** En lugar de forzar un `cast` inseguro, optamos por la solución puramente funcional: utilizar `for/list` nativo de Racket, que es capaz de iterar sobre secuencias perezosas (Streams) y construir la lista final, permitiendo anotar explícitamente el tipo de salida: `(for/list : (Listof Combinacion) ([c stream]) c)`. Esto resolvió el error de tipado y mantuvo el principio de inmutabilidad.
+
+### 2.3.1 Estructuras de datos del módulo I/O
+
+Además de las estructuras principales definidas en `tipos.rkt`, el módulo de lectura maneja internamente:
+- **HashTables genéricos:** Al leer el JSON, los objetos se reciben como `(HashTable Symbol Any)`. Usamos aserciones de tipo (`assert`) para asegurar que campos como `"dia"` o `"hora_inicio"` son strings antes de pasarlos a las funciones de conversión (`string->dia`, `hora->minutos`).
+- **Conversión de preferencias:** El archivo `preferencias.json` se parsea a la estructura `Preferencias`, que contiene una lista de `Interes`. Si un interés no especifica grupos (lista vacía), el `pipeline` asume que se pueden tomar todos los grupos disponibles de ese curso.
+
+### 2.4 Instrucciones de ejecución
+
+Para probar el flujo completo de la Etapa 2 (desde la lectura de C hasta la exportación para Prolog), ejecutar desde la raíz del proyecto:
+
+```bash
+racket racket/test_e2e.rkt
