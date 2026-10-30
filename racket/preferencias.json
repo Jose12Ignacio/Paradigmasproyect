@@ -1,0 +1,9 @@
+{
+  "creditos_min": 6,
+  "creditos_max": 12,
+  "cursos": [
+    { "codigo": "CE-1103", "grupos": [] },
+    { "codigo": "CE-1105", "grupos": [] },
+    { "codigo": "MA-1103", "grupos": [] }
+  ]
+}
