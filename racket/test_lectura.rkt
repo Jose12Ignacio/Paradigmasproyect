@@ -1,25 +1,16 @@
-#lang racket
-(require json)
+#lang typed/racket
+(require "io/lector.rkt" "tipos.rkt")
 
-(define (probar-lectura)
-  ;; RUTA ABSOLUTA DIRECTA
-  (define ruta-json "C:/Users/Sebastián G/OneDrive/Documentos/TEC/IIS 2026/Paradigmasproyect/Paradigmasproyect/c/output/catalogo_CE.json")
-  
-  (displayln "Leyendo el catálogo desde C...")
-  
-  (define catalogo (with-input-from-file ruta-json read-json))
-  
-  (define metadata (hash-ref catalogo 'metadata))
-  (define cursos (hash-ref catalogo 'cursos))
-  
-  (displayln (string-append "Carrera: " (hash-ref metadata 'carrera)))
-  (displayln (string-append "Total de cursos: " (number->string (hash-ref metadata 'total_cursos))))
-  
-  (define primer-curso (first cursos))
-  (displayln "\n--- Primer curso encontrado ---")
-  (displayln (string-append "Código: " (hash-ref primer-curso 'codigo)))
-  (displayln (string-append "Nombre: " (hash-ref primer-curso 'nombre)))
-  (displayln (string-append "Créditos: " (number->string (hash-ref primer-curso 'creditos))))
-  (displayln (string-append "Carrera: " (hash-ref primer-curso 'carrera))))
+(define ruta-catalogo "C:/Users/Sebastián G/OneDrive/Documentos/TEC/IIS 2026/Paradigmasproyect/Paradigmasproyect/c/output/catalogo_CE.json")
+(define ruta-prefs "C:/Users/Sebastián G/OneDrive/Documentos/TEC/IIS 2026/Paradigmasproyect/Paradigmasproyect/racket/preferencias.json")
 
-(probar-lectura)
+(displayln "--- Leyendo Catálogo ---")
+(define cat (leer-catalogo-json ruta-catalogo))
+(displayln (format "Carrera: ~a" (Catalogo-siglas cat)))
+(displayln (format "Total Cursos: ~a" (length (Catalogo-cursos cat))))
+
+(displayln "\n--- Leyendo Preferencias ---")
+(define prefs (leer-preferencias-json ruta-prefs))
+(displayln (format "Créditos Min: ~a" (Preferencias-creditos-min prefs)))
+(displayln (format "Créditos Max: ~a" (Preferencias-creditos-max prefs)))
+(displayln (format "Cursos de interés: ~a" (length (Preferencias-intereses prefs))))
