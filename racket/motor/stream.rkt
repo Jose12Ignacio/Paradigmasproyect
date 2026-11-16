@@ -13,8 +13,14 @@
 
 ;; 2. Generación perezosa de combinaciones de horario
 (define (generar-combinaciones lista-cursos acu)
-  (cond ((null? lista-cursos) (stream acu))
-        (else (por-grupos (car lista-cursos) (cdr lista-cursos) acu))))
+  (cond ((null? lista-cursos)
+         (if (null? acu)
+             empty-stream
+             (stream acu)))
+        (else
+         (stream-concat-lazy
+          (por-grupos (car lista-cursos) (cdr lista-cursos) acu)
+          (lambda () (generar-combinaciones (cdr lista-cursos) acu))))))
 
 (define (por-grupos grupos resto-cursos acu)
   (cond ((null? grupos) empty-stream)

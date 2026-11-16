@@ -16,10 +16,9 @@
 ;; ==========================================
 ;; Rutas (ajusta si es necesario)
 ;; ==========================================
-(define ruta-catalogo "C:/Users/Sebastián G/OneDrive/Documentos/TEC/IIS 2026/Paradigmasproyect/Paradigmasproyect/c/output/catalogo_CE.json")
-(define ruta-prefs "C:/Users/Sebastián G/OneDrive/Documentos/TEC/IIS 2026/Paradigmasproyect/Paradigmasproyect/racket/preferencias.json")
-(define ruta-salida "C:/Users/Sebastián G/OneDrive/Documentos/TEC/IIS 2026/Paradigmasproyect/Paradigmasproyect/racket/salida_etapa2.json")
-
+(define ruta-catalogo "../c/output/catalogo_CE.json")
+(define ruta-prefs "preferencias.json")
+(define ruta-salida "salida_etapa2.json")
 ;; ==========================================
 ;; Función auxiliar para buscar curso por código
 ;; ==========================================
