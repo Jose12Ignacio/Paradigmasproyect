@@ -2,7 +2,8 @@
     cumple_balance_carreras/1,
     cumple_limite_area/1,
     cumple_incompatibilidad/1,
-    son_incompatibles/2
+    son_incompatibles/2,
+    cursos_por_area/3
 ]).
 
 :- use_module(politica).
@@ -10,6 +11,7 @@
 %% =========================================================================
 %% REGLA 1: Balance entre carreras
 %% Ninguna carrera presente puede superar su porcentaje maximo de creditos.
+%% Una combinacion de una sola carrera es valida si su maximo configurado >= 100.
 %% =========================================================================
 
 cumple_balance_carreras(Combinacion) :-
@@ -59,17 +61,9 @@ areas_unicas(Combinacion, AreasUnicas) :-
 
 verificar_areas([], _, _).
 verificar_areas([Area | Resto], Combinacion, MaxN) :-
-    contar_area(Combinacion, Area, Cantidad),
+    cursos_por_area(Combinacion, Area, Cantidad),
     Cantidad =< MaxN,
     verificar_areas(Resto, Combinacion, MaxN).
-
-contar_area([], _, 0).
-contar_area([curso(_, _, _, _, Area) | Resto], Area, Cantidad) :-
-    !,
-    contar_area(Resto, Area, SubCantidad),
-    Cantidad is SubCantidad + 1.
-contar_area([_ | Resto], Area, Cantidad) :-
-    contar_area(Resto, Area, Cantidad).
 
 %% =========================================================================
 %% REGLA 3: Incompatibilidad (relacion simetrica)
@@ -88,3 +82,28 @@ cumple_incompatibilidad(Combinacion) :-
         Cod1 \= Cod2,
         son_incompatibles(Cod1, Cod2)
     ).
+
+%% =========================================================================
+%% PREDICADO MULTI-MODO (Requerimiento funcional 5)
+%% Modo (+, +, -): Calcula cuantos cursos de un area especifica hay.
+%% Modo (+, +, +): Verifica si la combinacion tiene N cursos de un area.
+%% Modo (+, -, -): Genera por backtracking cada area presente y su conteo.
+%% Modo (+, -, +): Busca por backtracking las areas con exactamente N cursos.
+%% =========================================================================
+
+cursos_por_area(Combinacion, Area, Cantidad) :-
+    nonvar(Area), !,
+    contar_area(Combinacion, Area, Cantidad).
+cursos_por_area(Combinacion, Area, Cantidad) :-
+    var(Area),
+    areas_unicas(Combinacion, Areas),
+    member(Area, Areas),
+    contar_area(Combinacion, Area, Cantidad).
+
+contar_area([], _, 0).
+contar_area([curso(_, _, _, _, Area) | Resto], Area, Cantidad) :-
+    !,
+    contar_area(Resto, Area, SubCantidad),
+    Cantidad is SubCantidad + 1.
+contar_area([_ | Resto], Area, Cantidad) :-
+    contar_area(Resto, Area, Cantidad).
