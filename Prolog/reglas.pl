@@ -1,9 +1,11 @@
 :- module(reglas, [
-    cumple_balance_carreras/1
-    cumple_limite_area/1
+    cumple_balance_carreras/1,
+    cumple_limite_area/1,
+    cumple_incompatibilidad/1,
+    son_incompatibles/2
 ]).
 
-:- use_module().
+:- use_module(politica).
 
 %% =========================================================================
 %% REGLA 1: Balance entre carreras
@@ -68,3 +70,21 @@ contar_area([curso(_, _, _, _, Area) | Resto], Area, Cantidad) :-
     Cantidad is SubCantidad + 1.
 contar_area([_ | Resto], Area, Cantidad) :-
     contar_area(Resto, Area, Cantidad).
+
+%% =========================================================================
+%% REGLA 3: Incompatibilidad (relacion simetrica)
+%% Una combinacion no puede incluir ambos cursos de un par incompatible.
+%% =========================================================================
+
+son_incompatibles(CursoA, CursoB) :-
+    par_incompatible(CursoA, CursoB).
+son_incompatibles(CursoA, CursoB) :-
+    par_incompatible(CursoB, CursoA).
+
+cumple_incompatibilidad(Combinacion) :-
+    \+ (
+        member(curso(Cod1, _, _, _, _), Combinacion),
+        member(curso(Cod2, _, _, _, _), Combinacion),
+        Cod1 \= Cod2,
+        son_incompatibles(Cod1, Cod2)
+    ).
