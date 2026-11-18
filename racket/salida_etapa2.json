@@ -316,18 +316,13 @@
             ]
         },
         {
-            "creditos_totales": 11,
+            "creditos_totales": 7,
             "id_combinacion": 16,
             "selecciones": [
                 {
                     "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 11
-                },
-                {
-                    "carrera": "CE",
                     "curso": "CE-1105",
-                    "grupo": 1
+                    "grupo": 3
                 },
                 {
                     "carrera": "CE",
@@ -343,7 +338,7 @@
                 {
                     "carrera": "CE",
                     "curso": "MA-1103",
-                    "grupo": 7
+                    "grupo": 11
                 },
                 {
                     "carrera": "CE",
@@ -364,7 +359,7 @@
                 {
                     "carrera": "CE",
                     "curso": "MA-1103",
-                    "grupo": 18
+                    "grupo": 7
                 },
                 {
                     "carrera": "CE",
@@ -385,7 +380,7 @@
                 {
                     "carrera": "CE",
                     "curso": "MA-1103",
-                    "grupo": 14
+                    "grupo": 18
                 },
                 {
                     "carrera": "CE",
@@ -406,7 +401,7 @@
                 {
                     "carrera": "CE",
                     "curso": "MA-1103",
-                    "grupo": 16
+                    "grupo": 14
                 },
                 {
                     "carrera": "CE",
@@ -427,7 +422,7 @@
                 {
                     "carrera": "CE",
                     "curso": "MA-1103",
-                    "grupo": 1
+                    "grupo": 16
                 },
                 {
                     "carrera": "CE",
@@ -448,7 +443,7 @@
                 {
                     "carrera": "CE",
                     "curso": "MA-1103",
-                    "grupo": 4
+                    "grupo": 1
                 },
                 {
                     "carrera": "CE",
@@ -469,7 +464,7 @@
                 {
                     "carrera": "CE",
                     "curso": "MA-1103",
-                    "grupo": 2
+                    "grupo": 4
                 },
                 {
                     "carrera": "CE",
@@ -490,7 +485,7 @@
                 {
                     "carrera": "CE",
                     "curso": "MA-1103",
-                    "grupo": 6
+                    "grupo": 2
                 },
                 {
                     "carrera": "CE",
@@ -511,7 +506,7 @@
                 {
                     "carrera": "CE",
                     "curso": "MA-1103",
-                    "grupo": 13
+                    "grupo": 6
                 },
                 {
                     "carrera": "CE",
@@ -532,7 +527,7 @@
                 {
                     "carrera": "CE",
                     "curso": "MA-1103",
-                    "grupo": 8
+                    "grupo": 13
                 },
                 {
                     "carrera": "CE",
@@ -553,7 +548,7 @@
                 {
                     "carrera": "CE",
                     "curso": "MA-1103",
-                    "grupo": 12
+                    "grupo": 8
                 },
                 {
                     "carrera": "CE",
@@ -574,7 +569,7 @@
                 {
                     "carrera": "CE",
                     "curso": "MA-1103",
-                    "grupo": 5
+                    "grupo": 12
                 },
                 {
                     "carrera": "CE",
@@ -595,7 +590,7 @@
                 {
                     "carrera": "CE",
                     "curso": "MA-1103",
-                    "grupo": 17
+                    "grupo": 5
                 },
                 {
                     "carrera": "CE",
@@ -616,7 +611,7 @@
                 {
                     "carrera": "CE",
                     "curso": "MA-1103",
-                    "grupo": 15
+                    "grupo": 17
                 },
                 {
                     "carrera": "CE",
@@ -637,12 +632,12 @@
                 {
                     "carrera": "CE",
                     "curso": "MA-1103",
-                    "grupo": 11
+                    "grupo": 15
                 },
                 {
                     "carrera": "CE",
                     "curso": "CE-1105",
-                    "grupo": 2
+                    "grupo": 1
                 },
                 {
                     "carrera": "CE",
@@ -652,18 +647,13 @@
             ]
         },
         {
-            "creditos_totales": 11,
+            "creditos_totales": 7,
             "id_combinacion": 32,
             "selecciones": [
                 {
                     "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 9
-                },
-                {
-                    "carrera": "CE",
                     "curso": "CE-1105",
-                    "grupo": 2
+                    "grupo": 1
                 },
                 {
                     "carrera": "CE",
@@ -679,7 +669,7 @@
                 {
                     "carrera": "CE",
                     "curso": "MA-1103",
-                    "grupo": 7
+                    "grupo": 11
                 },
                 {
                     "carrera": "CE",
@@ -700,7 +690,7 @@
                 {
                     "carrera": "CE",
                     "curso": "MA-1103",
-                    "grupo": 18
+                    "grupo": 9
                 },
                 {
                     "carrera": "CE",
@@ -721,7 +711,7 @@
                 {
                     "carrera": "CE",
                     "curso": "MA-1103",
-                    "grupo": 14
+                    "grupo": 7
                 },
                 {
                     "carrera": "CE",
@@ -742,7 +732,7 @@
                 {
                     "carrera": "CE",
                     "curso": "MA-1103",
-                    "grupo": 1
+                    "grupo": 18
                 },
                 {
                     "carrera": "CE",
@@ -763,7 +753,7 @@
                 {
                     "carrera": "CE",
                     "curso": "MA-1103",
-                    "grupo": 4
+                    "grupo": 14
                 },
                 {
                     "carrera": "CE",
@@ -784,7 +774,7 @@
                 {
                     "carrera": "CE",
                     "curso": "MA-1103",
-                    "grupo": 2
+                    "grupo": 1
                 },
                 {
                     "carrera": "CE",
@@ -805,7 +795,7 @@
                 {
                     "carrera": "CE",
                     "curso": "MA-1103",
-                    "grupo": 6
+                    "grupo": 4
                 },
                 {
                     "carrera": "CE",
@@ -826,7 +816,7 @@
                 {
                     "carrera": "CE",
                     "curso": "MA-1103",
-                    "grupo": 10
+                    "grupo": 2
                 },
                 {
                     "carrera": "CE",
@@ -847,7 +837,7 @@
                 {
                     "carrera": "CE",
                     "curso": "MA-1103",
-                    "grupo": 13
+                    "grupo": 6
                 },
                 {
                     "carrera": "CE",
@@ -868,7 +858,7 @@
                 {
                     "carrera": "CE",
                     "curso": "MA-1103",
-                    "grupo": 8
+                    "grupo": 10
                 },
                 {
                     "carrera": "CE",
@@ -889,7 +879,7 @@
                 {
                     "carrera": "CE",
                     "curso": "MA-1103",
-                    "grupo": 12
+                    "grupo": 13
                 },
                 {
                     "carrera": "CE",
@@ -910,7 +900,7 @@
                 {
                     "carrera": "CE",
                     "curso": "MA-1103",
-                    "grupo": 5
+                    "grupo": 8
                 },
                 {
                     "carrera": "CE",
@@ -931,17 +921,17 @@
                 {
                     "carrera": "CE",
                     "curso": "MA-1103",
-                    "grupo": 11
+                    "grupo": 12
                 },
                 {
                     "carrera": "CE",
                     "curso": "CE-1105",
-                    "grupo": 3
+                    "grupo": 2
                 },
                 {
                     "carrera": "CE",
                     "curso": "CE-1103",
-                    "grupo": 2
+                    "grupo": 3
                 }
             ]
         },
@@ -952,296 +942,39 @@
                 {
                     "carrera": "CE",
                     "curso": "MA-1103",
-                    "grupo": 18
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 3
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 2
-                }
-            ]
-        },
-        {
-            "creditos_totales": 11,
-            "id_combinacion": 47,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 14
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 3
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 2
-                }
-            ]
-        },
-        {
-            "creditos_totales": 11,
-            "id_combinacion": 48,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 16
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 3
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 2
-                }
-            ]
-        },
-        {
-            "creditos_totales": 11,
-            "id_combinacion": 49,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 1
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 3
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 2
-                }
-            ]
-        },
-        {
-            "creditos_totales": 11,
-            "id_combinacion": 50,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 4
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 3
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 2
-                }
-            ]
-        },
-        {
-            "creditos_totales": 11,
-            "id_combinacion": 51,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 2
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 3
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 2
-                }
-            ]
-        },
-        {
-            "creditos_totales": 11,
-            "id_combinacion": 52,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 3
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 3
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 2
-                }
-            ]
-        },
-        {
-            "creditos_totales": 11,
-            "id_combinacion": 53,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 13
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 3
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 2
-                }
-            ]
-        },
-        {
-            "creditos_totales": 11,
-            "id_combinacion": 54,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 8
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 3
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 2
-                }
-            ]
-        },
-        {
-            "creditos_totales": 11,
-            "id_combinacion": 55,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 12
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 3
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 2
-                }
-            ]
-        },
-        {
-            "creditos_totales": 11,
-            "id_combinacion": 56,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 19
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 3
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 2
-                }
-            ]
-        },
-        {
-            "creditos_totales": 11,
-            "id_combinacion": 57,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
                     "grupo": 5
                 },
                 {
                     "carrera": "CE",
                     "curso": "CE-1105",
-                    "grupo": 3
+                    "grupo": 2
                 },
                 {
                     "carrera": "CE",
                     "curso": "CE-1103",
-                    "grupo": 2
+                    "grupo": 3
                 }
             ]
         },
         {
-            "creditos_totales": 11,
-            "id_combinacion": 58,
+            "creditos_totales": 7,
+            "id_combinacion": 47,
             "selecciones": [
                 {
                     "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 17
-                },
-                {
-                    "carrera": "CE",
                     "curso": "CE-1105",
-                    "grupo": 3
+                    "grupo": 2
                 },
                 {
                     "carrera": "CE",
                     "curso": "CE-1103",
-                    "grupo": 2
-                }
-            ]
-        },
-        {
-            "creditos_totales": 11,
-            "id_combinacion": 59,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 15
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1105",
                     "grupo": 3
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 2
                 }
             ]
         },
         {
-            "creditos_totales": 11,
-            "id_combinacion": 60,
+            "creditos_totales": 8,
+            "id_combinacion": 48,
             "selecciones": [
                 {
                     "carrera": "CE",
@@ -1250,19 +983,46 @@
                 },
                 {
                     "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 1
-                },
-                {
-                    "carrera": "CE",
                     "curso": "CE-1103",
-                    "grupo": 2
+                    "grupo": 3
                 }
             ]
         },
         {
-            "creditos_totales": 11,
-            "id_combinacion": 61,
+            "creditos_totales": 8,
+            "id_combinacion": 49,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 9
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 3
+                }
+            ]
+        },
+        {
+            "creditos_totales": 8,
+            "id_combinacion": 50,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 7
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 3
+                }
+            ]
+        },
+        {
+            "creditos_totales": 8,
+            "id_combinacion": 51,
             "selecciones": [
                 {
                     "carrera": "CE",
@@ -1271,19 +1031,14 @@
                 },
                 {
                     "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 1
-                },
-                {
-                    "carrera": "CE",
                     "curso": "CE-1103",
-                    "grupo": 2
+                    "grupo": 3
                 }
             ]
         },
         {
-            "creditos_totales": 11,
-            "id_combinacion": 62,
+            "creditos_totales": 8,
+            "id_combinacion": 52,
             "selecciones": [
                 {
                     "carrera": "CE",
@@ -1292,19 +1047,14 @@
                 },
                 {
                     "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 1
-                },
-                {
-                    "carrera": "CE",
                     "curso": "CE-1103",
-                    "grupo": 2
+                    "grupo": 3
                 }
             ]
         },
         {
-            "creditos_totales": 11,
-            "id_combinacion": 63,
+            "creditos_totales": 8,
+            "id_combinacion": 53,
             "selecciones": [
                 {
                     "carrera": "CE",
@@ -1313,19 +1063,14 @@
                 },
                 {
                     "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 1
-                },
-                {
-                    "carrera": "CE",
                     "curso": "CE-1103",
-                    "grupo": 2
+                    "grupo": 3
                 }
             ]
         },
         {
-            "creditos_totales": 11,
-            "id_combinacion": 64,
+            "creditos_totales": 8,
+            "id_combinacion": 54,
             "selecciones": [
                 {
                     "carrera": "CE",
@@ -1334,13 +1079,168 @@
                 },
                 {
                     "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 1
+                    "curso": "CE-1103",
+                    "grupo": 3
+                }
+            ]
+        },
+        {
+            "creditos_totales": 8,
+            "id_combinacion": 55,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 4
                 },
                 {
                     "carrera": "CE",
                     "curso": "CE-1103",
+                    "grupo": 3
+                }
+            ]
+        },
+        {
+            "creditos_totales": 8,
+            "id_combinacion": 56,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
                     "grupo": 2
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 3
+                }
+            ]
+        },
+        {
+            "creditos_totales": 8,
+            "id_combinacion": 57,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 6
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 3
+                }
+            ]
+        },
+        {
+            "creditos_totales": 8,
+            "id_combinacion": 58,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 10
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 3
+                }
+            ]
+        },
+        {
+            "creditos_totales": 8,
+            "id_combinacion": 59,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 13
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 3
+                }
+            ]
+        },
+        {
+            "creditos_totales": 8,
+            "id_combinacion": 60,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 8
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 3
+                }
+            ]
+        },
+        {
+            "creditos_totales": 8,
+            "id_combinacion": 61,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 12
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 3
+                }
+            ]
+        },
+        {
+            "creditos_totales": 8,
+            "id_combinacion": 62,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 5
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 3
+                }
+            ]
+        },
+        {
+            "creditos_totales": 8,
+            "id_combinacion": 63,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 17
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 3
+                }
+            ]
+        },
+        {
+            "creditos_totales": 8,
+            "id_combinacion": 64,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 15
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 3
                 }
             ]
         },
@@ -1351,12 +1251,12 @@
                 {
                     "carrera": "CE",
                     "curso": "MA-1103",
-                    "grupo": 4
+                    "grupo": 11
                 },
                 {
                     "carrera": "CE",
                     "curso": "CE-1105",
-                    "grupo": 1
+                    "grupo": 3
                 },
                 {
                     "carrera": "CE",
@@ -1372,6 +1272,442 @@
                 {
                     "carrera": "CE",
                     "curso": "MA-1103",
+                    "grupo": 18
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 3
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
+            "id_combinacion": 67,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 14
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 3
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
+            "id_combinacion": 68,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 16
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 3
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
+            "id_combinacion": 69,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 1
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 3
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
+            "id_combinacion": 70,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 4
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 3
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
+            "id_combinacion": 71,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 2
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 3
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
+            "id_combinacion": 72,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 3
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 3
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
+            "id_combinacion": 73,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 13
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 3
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
+            "id_combinacion": 74,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 8
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 3
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
+            "id_combinacion": 75,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 12
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 3
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
+            "id_combinacion": 76,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 19
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 3
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
+            "id_combinacion": 77,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 5
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 3
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
+            "id_combinacion": 78,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 17
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 3
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
+            "id_combinacion": 79,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 15
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 3
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 7,
+            "id_combinacion": 80,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 3
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
+            "id_combinacion": 81,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 11
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 1
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
+            "id_combinacion": 82,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 18
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 1
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
+            "id_combinacion": 83,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 14
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 1
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
+            "id_combinacion": 84,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 16
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 1
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
+            "id_combinacion": 85,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 1
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 1
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
+            "id_combinacion": 86,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 4
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 1
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
+            "id_combinacion": 87,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
                     "grupo": 2
                 },
                 {
@@ -1388,7 +1724,7 @@
         },
         {
             "creditos_totales": 11,
-            "id_combinacion": 67,
+            "id_combinacion": 88,
             "selecciones": [
                 {
                     "carrera": "CE",
@@ -1409,7 +1745,7 @@
         },
         {
             "creditos_totales": 11,
-            "id_combinacion": 68,
+            "id_combinacion": 89,
             "selecciones": [
                 {
                     "carrera": "CE",
@@ -1430,7 +1766,7 @@
         },
         {
             "creditos_totales": 11,
-            "id_combinacion": 69,
+            "id_combinacion": 90,
             "selecciones": [
                 {
                     "carrera": "CE",
@@ -1451,7 +1787,7 @@
         },
         {
             "creditos_totales": 11,
-            "id_combinacion": 70,
+            "id_combinacion": 91,
             "selecciones": [
                 {
                     "carrera": "CE",
@@ -1472,7 +1808,7 @@
         },
         {
             "creditos_totales": 11,
-            "id_combinacion": 71,
+            "id_combinacion": 92,
             "selecciones": [
                 {
                     "carrera": "CE",
@@ -1493,7 +1829,7 @@
         },
         {
             "creditos_totales": 11,
-            "id_combinacion": 72,
+            "id_combinacion": 93,
             "selecciones": [
                 {
                     "carrera": "CE",
@@ -1514,7 +1850,7 @@
         },
         {
             "creditos_totales": 11,
-            "id_combinacion": 73,
+            "id_combinacion": 94,
             "selecciones": [
                 {
                     "carrera": "CE",
@@ -1535,7 +1871,7 @@
         },
         {
             "creditos_totales": 11,
-            "id_combinacion": 74,
+            "id_combinacion": 95,
             "selecciones": [
                 {
                     "carrera": "CE",
@@ -1555,8 +1891,24 @@
             ]
         },
         {
+            "creditos_totales": 7,
+            "id_combinacion": 96,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 1
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
             "creditos_totales": 11,
-            "id_combinacion": 75,
+            "id_combinacion": 97,
             "selecciones": [
                 {
                     "carrera": "CE",
@@ -1577,7 +1929,7 @@
         },
         {
             "creditos_totales": 11,
-            "id_combinacion": 76,
+            "id_combinacion": 98,
             "selecciones": [
                 {
                     "carrera": "CE",
@@ -1598,7 +1950,7 @@
         },
         {
             "creditos_totales": 11,
-            "id_combinacion": 77,
+            "id_combinacion": 99,
             "selecciones": [
                 {
                     "carrera": "CE",
@@ -1619,7 +1971,7 @@
         },
         {
             "creditos_totales": 11,
-            "id_combinacion": 78,
+            "id_combinacion": 100,
             "selecciones": [
                 {
                     "carrera": "CE",
@@ -1640,7 +1992,7 @@
         },
         {
             "creditos_totales": 11,
-            "id_combinacion": 79,
+            "id_combinacion": 101,
             "selecciones": [
                 {
                     "carrera": "CE",
@@ -1661,7 +2013,7 @@
         },
         {
             "creditos_totales": 11,
-            "id_combinacion": 80,
+            "id_combinacion": 102,
             "selecciones": [
                 {
                     "carrera": "CE",
@@ -1682,7 +2034,7 @@
         },
         {
             "creditos_totales": 11,
-            "id_combinacion": 81,
+            "id_combinacion": 103,
             "selecciones": [
                 {
                     "carrera": "CE",
@@ -1703,7 +2055,7 @@
         },
         {
             "creditos_totales": 11,
-            "id_combinacion": 82,
+            "id_combinacion": 104,
             "selecciones": [
                 {
                     "carrera": "CE",
@@ -1724,7 +2076,7 @@
         },
         {
             "creditos_totales": 11,
-            "id_combinacion": 83,
+            "id_combinacion": 105,
             "selecciones": [
                 {
                     "carrera": "CE",
@@ -1745,484 +2097,22 @@
         },
         {
             "creditos_totales": 11,
-            "id_combinacion": 84,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 13
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 2
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 2
-                }
-            ]
-        },
-        {
-            "creditos_totales": 11,
-            "id_combinacion": 85,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 8
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 2
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 2
-                }
-            ]
-        },
-        {
-            "creditos_totales": 11,
-            "id_combinacion": 86,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 12
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 2
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 2
-                }
-            ]
-        },
-        {
-            "creditos_totales": 11,
-            "id_combinacion": 87,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 19
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 2
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 2
-                }
-            ]
-        },
-        {
-            "creditos_totales": 11,
-            "id_combinacion": 88,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 5
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 2
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 2
-                }
-            ]
-        },
-        {
-            "creditos_totales": 11,
-            "id_combinacion": 89,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 11
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 3
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 1
-                }
-            ]
-        },
-        {
-            "creditos_totales": 11,
-            "id_combinacion": 90,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 7
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 3
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 1
-                }
-            ]
-        },
-        {
-            "creditos_totales": 11,
-            "id_combinacion": 91,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 18
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 3
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 1
-                }
-            ]
-        },
-        {
-            "creditos_totales": 11,
-            "id_combinacion": 92,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 14
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 3
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 1
-                }
-            ]
-        },
-        {
-            "creditos_totales": 11,
-            "id_combinacion": 93,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 1
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 3
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 1
-                }
-            ]
-        },
-        {
-            "creditos_totales": 11,
-            "id_combinacion": 94,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 4
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 3
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 1
-                }
-            ]
-        },
-        {
-            "creditos_totales": 11,
-            "id_combinacion": 95,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 2
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 3
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 1
-                }
-            ]
-        },
-        {
-            "creditos_totales": 11,
-            "id_combinacion": 96,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 3
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 3
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 1
-                }
-            ]
-        },
-        {
-            "creditos_totales": 11,
-            "id_combinacion": 97,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 6
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 3
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 1
-                }
-            ]
-        },
-        {
-            "creditos_totales": 11,
-            "id_combinacion": 98,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 13
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 3
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 1
-                }
-            ]
-        },
-        {
-            "creditos_totales": 11,
-            "id_combinacion": 99,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 8
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 3
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 1
-                }
-            ]
-        },
-        {
-            "creditos_totales": 11,
-            "id_combinacion": 100,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 12
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 3
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 1
-                }
-            ]
-        },
-        {
-            "creditos_totales": 11,
-            "id_combinacion": 101,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 19
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 3
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 1
-                }
-            ]
-        },
-        {
-            "creditos_totales": 11,
-            "id_combinacion": 102,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 5
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 3
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 1
-                }
-            ]
-        },
-        {
-            "creditos_totales": 11,
-            "id_combinacion": 103,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 11
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 1
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 1
-                }
-            ]
-        },
-        {
-            "creditos_totales": 11,
-            "id_combinacion": 104,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 7
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 1
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 1
-                }
-            ]
-        },
-        {
-            "creditos_totales": 11,
-            "id_combinacion": 105,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 18
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 1
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 1
-                }
-            ]
-        },
-        {
-            "creditos_totales": 11,
             "id_combinacion": 106,
             "selecciones": [
                 {
                     "carrera": "CE",
                     "curso": "MA-1103",
-                    "grupo": 14
+                    "grupo": 13
                 },
                 {
                     "carrera": "CE",
                     "curso": "CE-1105",
-                    "grupo": 1
+                    "grupo": 2
                 },
                 {
                     "carrera": "CE",
                     "curso": "CE-1103",
-                    "grupo": 1
+                    "grupo": 2
                 }
             ]
         },
@@ -2233,6 +2123,772 @@
                 {
                     "carrera": "CE",
                     "curso": "MA-1103",
+                    "grupo": 8
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 2
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
+            "id_combinacion": 108,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 12
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 2
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
+            "id_combinacion": 109,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 19
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 2
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
+            "id_combinacion": 110,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 5
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 2
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 7,
+            "id_combinacion": 111,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 2
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 8,
+            "id_combinacion": 112,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 11
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 8,
+            "id_combinacion": 113,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 9
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 8,
+            "id_combinacion": 114,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 18
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 8,
+            "id_combinacion": 115,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 14
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 8,
+            "id_combinacion": 116,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 16
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 8,
+            "id_combinacion": 117,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 1
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 8,
+            "id_combinacion": 118,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 4
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 8,
+            "id_combinacion": 119,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 2
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 8,
+            "id_combinacion": 120,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 3
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 8,
+            "id_combinacion": 121,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 10
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 8,
+            "id_combinacion": 122,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 13
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 8,
+            "id_combinacion": 123,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 8
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 8,
+            "id_combinacion": 124,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 12
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 8,
+            "id_combinacion": 125,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 19
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 8,
+            "id_combinacion": 126,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 5
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 8,
+            "id_combinacion": 127,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 17
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 8,
+            "id_combinacion": 128,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 15
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
+            "id_combinacion": 129,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 11
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 3
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 1
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
+            "id_combinacion": 130,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 7
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 3
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 1
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
+            "id_combinacion": 131,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 18
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 3
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 1
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
+            "id_combinacion": 132,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 14
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 3
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 1
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
+            "id_combinacion": 133,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 1
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 3
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 1
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
+            "id_combinacion": 134,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 4
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 3
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 1
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
+            "id_combinacion": 135,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 2
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 3
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 1
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
+            "id_combinacion": 136,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 3
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 3
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 1
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
+            "id_combinacion": 137,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 6
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 3
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 1
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
+            "id_combinacion": 138,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 13
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 3
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 1
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
+            "id_combinacion": 139,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 8
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 3
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 1
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
+            "id_combinacion": 140,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 12
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 3
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 1
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
+            "id_combinacion": 141,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 19
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 3
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 1
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
+            "id_combinacion": 142,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 5
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 3
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 1
+                }
+            ]
+        },
+        {
+            "creditos_totales": 7,
+            "id_combinacion": 143,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 3
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 1
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
+            "id_combinacion": 144,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 11
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 1
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 1
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
+            "id_combinacion": 145,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 7
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 1
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 1
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
+            "id_combinacion": 146,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 18
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 1
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 1
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
+            "id_combinacion": 147,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 14
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 1
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 1
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
+            "id_combinacion": 148,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
                     "grupo": 1
                 },
                 {
@@ -2249,7 +2905,7 @@
         },
         {
             "creditos_totales": 11,
-            "id_combinacion": 108,
+            "id_combinacion": 149,
             "selecciones": [
                 {
                     "carrera": "CE",
@@ -2270,7 +2926,7 @@
         },
         {
             "creditos_totales": 11,
-            "id_combinacion": 109,
+            "id_combinacion": 150,
             "selecciones": [
                 {
                     "carrera": "CE",
@@ -2291,7 +2947,7 @@
         },
         {
             "creditos_totales": 11,
-            "id_combinacion": 110,
+            "id_combinacion": 151,
             "selecciones": [
                 {
                     "carrera": "CE",
@@ -2312,7 +2968,7 @@
         },
         {
             "creditos_totales": 11,
-            "id_combinacion": 111,
+            "id_combinacion": 152,
             "selecciones": [
                 {
                     "carrera": "CE",
@@ -2333,7 +2989,7 @@
         },
         {
             "creditos_totales": 11,
-            "id_combinacion": 112,
+            "id_combinacion": 153,
             "selecciones": [
                 {
                     "carrera": "CE",
@@ -2354,7 +3010,7 @@
         },
         {
             "creditos_totales": 11,
-            "id_combinacion": 113,
+            "id_combinacion": 154,
             "selecciones": [
                 {
                     "carrera": "CE",
@@ -2375,7 +3031,7 @@
         },
         {
             "creditos_totales": 11,
-            "id_combinacion": 114,
+            "id_combinacion": 155,
             "selecciones": [
                 {
                     "carrera": "CE",
@@ -2396,7 +3052,7 @@
         },
         {
             "creditos_totales": 11,
-            "id_combinacion": 115,
+            "id_combinacion": 156,
             "selecciones": [
                 {
                     "carrera": "CE",
@@ -2417,7 +3073,7 @@
         },
         {
             "creditos_totales": 11,
-            "id_combinacion": 116,
+            "id_combinacion": 157,
             "selecciones": [
                 {
                     "carrera": "CE",
@@ -2435,11 +3091,1083 @@
                     "grupo": 1
                 }
             ]
+        },
+        {
+            "creditos_totales": 7,
+            "id_combinacion": 158,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 1
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 1
+                }
+            ]
+        },
+        {
+            "creditos_totales": 8,
+            "id_combinacion": 159,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 11
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 1
+                }
+            ]
+        },
+        {
+            "creditos_totales": 8,
+            "id_combinacion": 160,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 9
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 1
+                }
+            ]
+        },
+        {
+            "creditos_totales": 8,
+            "id_combinacion": 161,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 7
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 1
+                }
+            ]
+        },
+        {
+            "creditos_totales": 8,
+            "id_combinacion": 162,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 18
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 1
+                }
+            ]
+        },
+        {
+            "creditos_totales": 8,
+            "id_combinacion": 163,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 14
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 1
+                }
+            ]
+        },
+        {
+            "creditos_totales": 8,
+            "id_combinacion": 164,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 1
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 1
+                }
+            ]
+        },
+        {
+            "creditos_totales": 8,
+            "id_combinacion": 165,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 4
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 1
+                }
+            ]
+        },
+        {
+            "creditos_totales": 8,
+            "id_combinacion": 166,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 2
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 1
+                }
+            ]
+        },
+        {
+            "creditos_totales": 8,
+            "id_combinacion": 167,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 3
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 1
+                }
+            ]
+        },
+        {
+            "creditos_totales": 8,
+            "id_combinacion": 168,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 6
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 1
+                }
+            ]
+        },
+        {
+            "creditos_totales": 8,
+            "id_combinacion": 169,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 10
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 1
+                }
+            ]
+        },
+        {
+            "creditos_totales": 8,
+            "id_combinacion": 170,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 13
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 1
+                }
+            ]
+        },
+        {
+            "creditos_totales": 8,
+            "id_combinacion": 171,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 8
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 1
+                }
+            ]
+        },
+        {
+            "creditos_totales": 8,
+            "id_combinacion": 172,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 12
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 1
+                }
+            ]
+        },
+        {
+            "creditos_totales": 8,
+            "id_combinacion": 173,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 19
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 1
+                }
+            ]
+        },
+        {
+            "creditos_totales": 8,
+            "id_combinacion": 174,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 5
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1103",
+                    "grupo": 1
+                }
+            ]
+        },
+        {
+            "creditos_totales": 7,
+            "id_combinacion": 175,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 11
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 3
+                }
+            ]
+        },
+        {
+            "creditos_totales": 7,
+            "id_combinacion": 176,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 7
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 3
+                }
+            ]
+        },
+        {
+            "creditos_totales": 7,
+            "id_combinacion": 177,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 18
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 3
+                }
+            ]
+        },
+        {
+            "creditos_totales": 7,
+            "id_combinacion": 178,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 14
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 3
+                }
+            ]
+        },
+        {
+            "creditos_totales": 7,
+            "id_combinacion": 179,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 16
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 3
+                }
+            ]
+        },
+        {
+            "creditos_totales": 7,
+            "id_combinacion": 180,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 1
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 3
+                }
+            ]
+        },
+        {
+            "creditos_totales": 7,
+            "id_combinacion": 181,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 4
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 3
+                }
+            ]
+        },
+        {
+            "creditos_totales": 7,
+            "id_combinacion": 182,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 2
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 3
+                }
+            ]
+        },
+        {
+            "creditos_totales": 7,
+            "id_combinacion": 183,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 3
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 3
+                }
+            ]
+        },
+        {
+            "creditos_totales": 7,
+            "id_combinacion": 184,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 6
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 3
+                }
+            ]
+        },
+        {
+            "creditos_totales": 7,
+            "id_combinacion": 185,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 13
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 3
+                }
+            ]
+        },
+        {
+            "creditos_totales": 7,
+            "id_combinacion": 186,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 8
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 3
+                }
+            ]
+        },
+        {
+            "creditos_totales": 7,
+            "id_combinacion": 187,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 12
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 3
+                }
+            ]
+        },
+        {
+            "creditos_totales": 7,
+            "id_combinacion": 188,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 19
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 3
+                }
+            ]
+        },
+        {
+            "creditos_totales": 7,
+            "id_combinacion": 189,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 5
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 3
+                }
+            ]
+        },
+        {
+            "creditos_totales": 7,
+            "id_combinacion": 190,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 17
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 3
+                }
+            ]
+        },
+        {
+            "creditos_totales": 7,
+            "id_combinacion": 191,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 15
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 3
+                }
+            ]
+        },
+        {
+            "creditos_totales": 7,
+            "id_combinacion": 192,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 11
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 1
+                }
+            ]
+        },
+        {
+            "creditos_totales": 7,
+            "id_combinacion": 193,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 7
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 1
+                }
+            ]
+        },
+        {
+            "creditos_totales": 7,
+            "id_combinacion": 194,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 18
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 1
+                }
+            ]
+        },
+        {
+            "creditos_totales": 7,
+            "id_combinacion": 195,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 14
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 1
+                }
+            ]
+        },
+        {
+            "creditos_totales": 7,
+            "id_combinacion": 196,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 16
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 1
+                }
+            ]
+        },
+        {
+            "creditos_totales": 7,
+            "id_combinacion": 197,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 1
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 1
+                }
+            ]
+        },
+        {
+            "creditos_totales": 7,
+            "id_combinacion": 198,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 4
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 1
+                }
+            ]
+        },
+        {
+            "creditos_totales": 7,
+            "id_combinacion": 199,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 2
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 1
+                }
+            ]
+        },
+        {
+            "creditos_totales": 7,
+            "id_combinacion": 200,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 3
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 1
+                }
+            ]
+        },
+        {
+            "creditos_totales": 7,
+            "id_combinacion": 201,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 6
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 1
+                }
+            ]
+        },
+        {
+            "creditos_totales": 7,
+            "id_combinacion": 202,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 13
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 1
+                }
+            ]
+        },
+        {
+            "creditos_totales": 7,
+            "id_combinacion": 203,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 8
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 1
+                }
+            ]
+        },
+        {
+            "creditos_totales": 7,
+            "id_combinacion": 204,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 12
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 1
+                }
+            ]
+        },
+        {
+            "creditos_totales": 7,
+            "id_combinacion": 205,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 19
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 1
+                }
+            ]
+        },
+        {
+            "creditos_totales": 7,
+            "id_combinacion": 206,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 5
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 1
+                }
+            ]
+        },
+        {
+            "creditos_totales": 7,
+            "id_combinacion": 207,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 17
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 1
+                }
+            ]
+        },
+        {
+            "creditos_totales": 7,
+            "id_combinacion": 208,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 15
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 1
+                }
+            ]
+        },
+        {
+            "creditos_totales": 7,
+            "id_combinacion": 209,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 11
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 7,
+            "id_combinacion": 210,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 9
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 7,
+            "id_combinacion": 211,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 7
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 7,
+            "id_combinacion": 212,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 18
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 7,
+            "id_combinacion": 213,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 14
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 7,
+            "id_combinacion": 214,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 1
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 7,
+            "id_combinacion": 215,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 4
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 7,
+            "id_combinacion": 216,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 2
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 7,
+            "id_combinacion": 217,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 3
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 7,
+            "id_combinacion": 218,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 6
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 7,
+            "id_combinacion": 219,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 10
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 7,
+            "id_combinacion": 220,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 13
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 7,
+            "id_combinacion": 221,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 8
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 7,
+            "id_combinacion": 222,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 12
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 7,
+            "id_combinacion": 223,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 19
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 7,
+            "id_combinacion": 224,
+            "selecciones": [
+                {
+                    "carrera": "CE",
+                    "curso": "MA-1103",
+                    "grupo": 5
+                },
+                {
+                    "carrera": "CE",
+                    "curso": "CE-1105",
+                    "grupo": 2
+                }
+            ]
         }
     ],
     "metadata": {
         "fecha_generacion": "2026-10-29",
-        "total_combinaciones": 116,
+        "total_combinaciones": 224,
         "version_esquema": "2.0"
     }
 }

@@ -5,7 +5,7 @@
     "semestres_incluidos": [0, 1, 2, 3, 4],
     "total_cursos": 26,
     "version_esquema": "1.1",
-    "fecha_generacion": "2026-10-21",
+    "fecha_generacion": "2026-11-17",
     "estudiante_historial": ["MA-0101","CE-1101","CE-1104","MA-1102","MA-1403","QU-1102","QU-1106","CE-1103","CE-1105","CI-1407","CS-1502","FI-1101","FI-1201","MA-1103"]
   },
   "cursos": [
@@ -36,7 +36,7 @@
         }
       ],
       "tiene_choque": true,
-      "cursos_con_choque": [],
+      "cursos_con_choque": ["G2 con CE-1103 (G3)","G1 con CE-1104 (G1)","G1 con CE-2103 (G1)","G2 con CS-1502 (G1)","G2 con CS-2101 (G5)","G2 con CS-2101 (G2)","G2 con EL-2113 (G2)","G2 con EL-2114 (G2)","G1 con EL-2207 (G2)","G1 con FI-1101 (G1)","G1 con FI-1101 (G2)","G2 con FI-1101 (G4)","G2 con FI-1101 (G3)","G2 con FI-1101 (G19)","G1 con FI-1102 (G1)","G1 con FI-1102 (G10)","G2 con FI-1102 (G3)","G2 con FI-1102 (G11)","G2 con FI-1102 (G2)","G1 con FI-1201 (G11)","G1 con FI-1201 (G19)","G2 con FI-1201 (G2)","G2 con FI-1201 (G12)","G2 con FI-1201 (G25)","G2 con FI-1202 (G1)","G2 con FI-1202 (G7)","G1 con MA-0101 (G1)","G2 con MA-0101 (G1)","G2 con MA-0101 (G2)","G1 con MA-1102 (G2)","G1 con MA-1102 (G1)","G2 con MA-1102 (G2)","G2 con MA-1102 (G3)","G2 con MA-1102 (G4)","G2 con MA-1102 (G1)","G1 con MA-1103 (G1)","G1 con MA-1103 (G2)","G1 con MA-1103 (G19)","G2 con MA-1103 (G3)","G2 con MA-1103 (G19)","G2 con MA-2104 (G4)","G1 con QU-1102 (G9)","G1 con QU-1102 (G1)","G2 con QU-1102 (G2)","G2 con QU-1102 (G10)","G1 con QU-1106 (G2)","G1 con QU-1106 (G1)","G2 con QU-1106 (G3)"],
       "es_matriculable": true,
       "razon_no_matriculable": null
     },
@@ -75,7 +75,7 @@
         }
       ],
       "tiene_choque": true,
-      "cursos_con_choque": [],
+      "cursos_con_choque": ["G3 con CE-1101 (G2)","G1 con CE-1105 (G2)","G2 con CI-1407 (G3)","G2 con CI-1407 (G2)","G3 con CS-1502 (G1)","G2 con CS-1502 (G4)","G1 con CS-1502 (G3)","G3 con CS-2101 (G5)","G3 con CS-2101 (G2)","G1 con CS-2101 (G4)","G3 con EL-2113 (G2)","G3 con EL-2114 (G2)","G1 con EL-2114 (G1)","G2 con EL-2207 (G1)","G1 con EL-2207 (G4)","G3 con FI-1101 (G4)","G3 con FI-1101 (G3)","G3 con FI-1101 (G19)","G2 con FI-1101 (G8)","G2 con FI-1101 (G7)","G1 con FI-1101 (G18)","G3 con FI-1102 (G3)","G3 con FI-1102 (G11)","G3 con FI-1102 (G2)","G3 con FI-1201 (G2)","G3 con FI-1201 (G12)","G3 con FI-1201 (G25)","G2 con FI-1201 (G4)","G2 con FI-1201 (G14)","G1 con FI-1201 (G24)","G1 con FI-1201 (G10)","G3 con FI-1202 (G1)","G3 con FI-1202 (G7)","G3 con MA-0101 (G1)","G3 con MA-0101 (G2)","G2 con MA-0101 (G3)","G2 con MA-0101 (G4)","G2 con MA-0101 (G5)","G1 con MA-0101 (G10)","G1 con MA-0101 (G11)","G3 con MA-1102 (G2)","G3 con MA-1102 (G3)","G3 con MA-1102 (G4)","G3 con MA-1102 (G1)","G2 con MA-1102 (G7)","G2 con MA-1102 (G6)","G2 con MA-1102 (G8)","G2 con MA-1102 (G5)","G1 con MA-1102 (G17)","G1 con MA-1102 (G20)"],
       "es_matriculable": true,
       "razon_no_matriculable": null
     },
@@ -98,7 +98,7 @@
         }
       ],
       "tiene_choque": true,
-      "cursos_con_choque": [],
+      "cursos_con_choque": ["G1 con CE-1101 (G1)","G1 con CE-2103 (G1)","G1 con EL-2207 (G2)","G1 con FI-1101 (G1)","G1 con FI-1101 (G2)","G1 con FI-1102 (G1)","G1 con FI-1102 (G10)","G1 con FI-1201 (G11)","G1 con FI-1201 (G19)","G1 con MA-0101 (G1)","G1 con MA-1102 (G2)","G1 con MA-1102 (G1)","G1 con MA-1103 (G1)","G1 con MA-1103 (G2)","G1 con MA-1103 (G19)","G1 con QU-1102 (G9)","G1 con QU-1102 (G1)","G1 con QU-1106 (G2)","G1 con QU-1106 (G1)"],
       "es_matriculable": true,
       "razon_no_matriculable": null
     },
@@ -137,7 +137,7 @@
         }
       ],
       "tiene_choque": true,
-      "cursos_con_choque": [],
+      "cursos_con_choque": ["G2 con CE-1103 (G1)","G2 con CS-1502 (G3)","G3 con CS-2101 (G8)","G1 con CS-2101 (G8)","G2 con CS-2101 (G4)","G2 con EL-2114 (G1)","G2 con EL-2207 (G4)","G2 con FI-1101 (G18)","G2 con FI-1201 (G24)","G2 con FI-1201 (G10)","G3 con MA-0101 (G6)","G1 con MA-0101 (G6)","G2 con MA-0101 (G10)","G2 con MA-0101 (G11)","G3 con MA-1102 (G9)","G3 con MA-1102 (G10)","G1 con MA-1102 (G9)","G1 con MA-1102 (G10)","G2 con MA-1102 (G17)","G2 con MA-1102 (G20)","G2 con MA-1102 (G19)","G2 con MA-1102 (G16)","G2 con MA-1102 (G18)","G3 con MA-1103 (G9)","G3 con MA-1103 (G10)","G1 con MA-1103 (G9)","G1 con MA-1103 (G10)","G2 con MA-1103 (G16)","G2 con MA-1103 (G17)","G2 con MA-1103 (G15)","G3 con MA-1403 (G3)","G1 con MA-1403 (G3)","G3 con MA-2104 (G2)","G1 con MA-2104 (G2)","G2 con MA-2104 (G5)","G3 con SO-4604 (G3)","G1 con SO-4604 (G3)"],
       "es_matriculable": true,
       "razon_no_matriculable": null
     },
@@ -168,7 +168,7 @@
         }
       ],
       "tiene_choque": true,
-      "cursos_con_choque": [],
+      "cursos_con_choque": ["G1 con CI-1407 (G4)","G1 con CS-1502 (G2)","G1 con CS-1502 (G5)","G1 con CS-2101 (G1)","G1 con CS-2101 (G3)","G2 con CS-2101 (G8)","G1 con EL-2113 (G1)","G2 con EL-2114 (G4)","G1 con EL-2207 (G4)","G1 con FI-1101 (G13)","G1 con FI-1101 (G14)","G1 con FI-1101 (G20)","G2 con FI-1101 (G9)","G1 con FI-1102 (G7)","G1 con FI-1201 (G22)","G1 con FI-1201 (G7)","G1 con FI-1201 (G17)","G2 con FI-1201 (G27)","G2 con FI-1201 (G5)","G2 con FI-1201 (G15)","G1 con FI-1202 (G5)","G2 con FI-1202 (G3)","G1 con MA-0101 (G8)","G1 con MA-0101 (G7)","G2 con MA-0101 (G6)","G2 con MA-0101 (G4)","G2 con MA-0101 (G5)","G1 con MA-1102 (G12)","G1 con MA-1102 (G14)","G1 con MA-1102 (G11)","G1 con MA-1102 (G13)","G2 con MA-1102 (G9)","G2 con MA-1102 (G10)","G2 con MA-1102 (G7)","G2 con MA-1102 (G6)","G2 con MA-1102 (G8)","G1 con MA-1103 (G12)","G2 con MA-1103 (G9)","G2 con MA-1103 (G7)","G2 con MA-1103 (G10)","G2 con MA-1103 (G8)","G1 con MA-1403 (G2)","G2 con MA-1403 (G3)","G1 con MA-2104 (G1)","G2 con MA-2104 (G2)","G1 con QU-1102 (G6)","G1 con QU-1106 (G9)","G1 con SO-4604 (G5)","G2 con SO-4604 (G3)"],
       "es_matriculable": false,
       "razon_no_matriculable": "No cumple requisito: CE-2103"
     },
@@ -191,7 +191,7 @@
         }
       ],
       "tiene_choque": true,
-      "cursos_con_choque": [],
+      "cursos_con_choque": ["G1 con CE-1101 (G1)","G1 con CE-1104 (G1)","G1 con EL-2207 (G2)","G1 con FI-1101 (G1)","G1 con FI-1101 (G2)","G1 con FI-1102 (G1)","G1 con FI-1102 (G10)","G1 con FI-1201 (G11)","G1 con FI-1201 (G19)","G1 con MA-0101 (G1)","G1 con MA-1102 (G2)","G1 con MA-1102 (G1)","G1 con MA-1103 (G1)","G1 con MA-1103 (G2)","G1 con MA-1103 (G19)","G1 con QU-1102 (G9)","G1 con QU-1102 (G1)","G1 con QU-1106 (G2)","G1 con QU-1106 (G1)"],
       "es_matriculable": true,
       "razon_no_matriculable": null
     },
@@ -220,7 +220,7 @@
         }
       ],
       "tiene_choque": true,
-      "cursos_con_choque": [],
+      "cursos_con_choque": ["G1 con CI-1407 (G1)","G1 con CS-2101 (G6)","G2 con CS-2101 (G6)","G1 con EL-2113 (G3)","G2 con EL-2113 (G4)","G2 con EL-2113 (G3)","G1 con PI-2609 (G1)","G2 con PI-2609 (G1)","G1 con SO-4604 (G1)","G2 con SO-4604 (G1)"],
       "es_matriculable": false,
       "razon_no_matriculable": "No cumple requisito: FI-1202"
     },
@@ -263,7 +263,7 @@
         }
       ],
       "tiene_choque": true,
-      "cursos_con_choque": [],
+      "cursos_con_choque": ["G3 con CE-1103 (G2)","G2 con CE-1103 (G2)","G4 con CE-1106 (G1)","G1 con CE-2201 (G1)","G3 con CS-1502 (G4)","G1 con CS-2101 (G6)","G4 con CS-2101 (G1)","G1 con EL-2113 (G3)","G4 con EL-2113 (G1)","G4 con EL-2114 (G3)","G3 con EL-2207 (G1)","G2 con EL-2207 (G1)","G4 con EL-2207 (G4)","G3 con FI-1101 (G8)","G3 con FI-1101 (G5)","G3 con FI-1101 (G7)","G3 con FI-1101 (G6)","G2 con FI-1101 (G8)","G2 con FI-1101 (G5)","G2 con FI-1101 (G7)","G2 con FI-1101 (G6)","G4 con FI-1101 (G13)","G4 con FI-1101 (G14)","G4 con FI-1101 (G11)","G4 con FI-1101 (G20)","G3 con FI-1102 (G4)","G3 con FI-1102 (G5)","G2 con FI-1102 (G4)","G2 con FI-1102 (G5)","G4 con FI-1102 (G6)","G4 con FI-1102 (G7)","G3 con FI-1201 (G3)","G3 con FI-1201 (G4)","G3 con FI-1201 (G29)","G2 con FI-1201 (G14)","G2 con FI-1201 (G26)","G4 con FI-1201 (G16)","G4 con FI-1201 (G17)","G3 con FI-1202 (G2)","G3 con MA-0101 (G3)","G3 con MA-0101 (G4)","G2 con MA-0101 (G3)","G2 con MA-0101 (G4)","G4 con MA-0101 (G8)","G4 con MA-0101 (G7)","G3 con MA-1102 (G6)","G3 con MA-1102 (G8)","G3 con MA-1102 (G5)","G2 con MA-1102 (G6)","G2 con MA-1102 (G5)"],
       "es_matriculable": true,
       "razon_no_matriculable": null
     },
@@ -313,7 +313,7 @@
         }
       ],
       "tiene_choque": true,
-      "cursos_con_choque": [],
+      "cursos_con_choque": ["G1 con CE-1101 (G2)","G1 con CE-1103 (G3)","G4 con CE-1103 (G2)","G3 con CE-1103 (G1)","G3 con CE-1105 (G2)","G2 con CE-1106 (G1)","G5 con CE-1106 (G1)","G4 con CI-1407 (G3)","G2 con CS-2101 (G3)","G3 con CS-2101 (G4)","G5 con CS-2101 (G3)","G1 con CS-2101 (G5)","G2 con EL-2113 (G1)","G5 con EL-2113 (G1)","G1 con EL-2113 (G2)","G3 con EL-2114 (G1)","G1 con EL-2114 (G2)","G3 con EL-2207 (G4)","G4 con EL-2207 (G1)","G2 con FI-1101 (G13)","G2 con FI-1101 (G14)","G2 con FI-1101 (G20)","G3 con FI-1101 (G18)","G4 con FI-1101 (G8)","G4 con FI-1101 (G7)","G5 con FI-1101 (G13)","G5 con FI-1101 (G14)","G5 con FI-1101 (G20)","G1 con FI-1101 (G4)","G1 con FI-1101 (G3)","G1 con FI-1101 (G19)","G2 con FI-1102 (G7)","G5 con FI-1102 (G7)","G1 con FI-1102 (G3)","G1 con FI-1102 (G11)","G1 con FI-1102 (G2)","G2 con FI-1201 (G22)","G2 con FI-1201 (G7)","G3 con FI-1201 (G24)","G3 con FI-1201 (G10)","G4 con FI-1201 (G4)","G5 con FI-1201 (G22)","G5 con FI-1201 (G7)","G1 con FI-1201 (G12)","G1 con FI-1201 (G25)","G2 con FI-1202 (G5)","G5 con FI-1202 (G5)","G1 con FI-1202 (G7)","G2 con MA-0101 (G8)","G3 con MA-0101 (G10)"],
       "es_matriculable": true,
       "razon_no_matriculable": null
     },
@@ -384,7 +384,7 @@
         }
       ],
       "tiene_choque": true,
-      "cursos_con_choque": [],
+      "cursos_con_choque": ["G5 con CE-1101 (G2)","G2 con CE-1101 (G2)","G5 con CE-1103 (G3)","G2 con CE-1103 (G3)","G4 con CE-1103 (G1)","G8 con CE-1105 (G3)","G8 con CE-1105 (G1)","G4 con CE-1105 (G2)","G1 con CE-1106 (G1)","G3 con CE-1106 (G1)","G8 con CE-1106 (G2)","G6 con CE-2201 (G1)","G6 con CE-2201 (G2)","G6 con CI-1407 (G1)","G1 con CI-1407 (G4)","G3 con CS-1502 (G2)","G4 con CS-1502 (G3)","G3 con CS-1502 (G5)","G5 con CS-1502 (G1)","G5 con EL-2113 (G2)","G1 con EL-2113 (G1)","G3 con EL-2113 (G1)","G2 con EL-2113 (G2)","G6 con EL-2113 (G4)","G6 con EL-2113 (G3)","G5 con EL-2114 (G2)","G4 con EL-2114 (G1)","G2 con EL-2114 (G2)","G8 con EL-2114 (G4)","G1 con EL-2207 (G4)","G4 con EL-2207 (G4)","G4 con EL-2207 (G3)","G5 con FI-1101 (G4)","G5 con FI-1101 (G3)","G5 con FI-1101 (G19)","G1 con FI-1101 (G13)","G1 con FI-1101 (G14)","G1 con FI-1101 (G20)","G3 con FI-1101 (G13)","G3 con FI-1101 (G14)","G3 con FI-1101 (G20)","G4 con FI-1101 (G17)","G4 con FI-1101 (G18)","G2 con FI-1101 (G4)","G2 con FI-1101 (G3)","G2 con FI-1101 (G19)","G8 con FI-1101 (G9)","G5 con FI-1102 (G3)","G5 con FI-1102 (G11)","G5 con FI-1102 (G2)"],
       "es_matriculable": true,
       "razon_no_matriculable": null
     },
@@ -430,7 +430,7 @@
         }
       ],
       "tiene_choque": true,
-      "cursos_con_choque": [],
+      "cursos_con_choque": ["G2 con CE-1101 (G2)","G2 con CE-1103 (G3)","G1 con CE-1106 (G1)","G3 con CE-2201 (G1)","G4 con CE-2201 (G2)","G3 con CE-2201 (G2)","G3 con CI-1407 (G1)","G1 con CI-1407 (G4)","G1 con CS-1502 (G2)","G1 con CS-1502 (G5)","G2 con CS-1502 (G1)","G2 con CS-2101 (G5)","G1 con CS-2101 (G1)","G1 con CS-2101 (G3)","G2 con CS-2101 (G2)","G4 con CS-2101 (G6)","G3 con CS-2101 (G6)","G4 con EL-2114 (G3)","G2 con EL-2114 (G2)","G1 con EL-2207 (G4)","G4 con FI-1101 (G11)","G2 con FI-1101 (G4)","G2 con FI-1101 (G3)","G2 con FI-1101 (G19)","G1 con FI-1101 (G13)","G1 con FI-1101 (G14)","G1 con FI-1101 (G20)","G4 con FI-1102 (G6)","G2 con FI-1102 (G3)","G2 con FI-1102 (G11)","G2 con FI-1102 (G2)","G1 con FI-1102 (G7)","G4 con FI-1201 (G6)","G2 con FI-1201 (G2)","G2 con FI-1201 (G12)","G2 con FI-1201 (G25)","G1 con FI-1201 (G22)","G1 con FI-1201 (G7)","G1 con FI-1201 (G17)","G4 con FI-1202 (G4)","G2 con FI-1202 (G1)","G2 con FI-1202 (G7)","G1 con FI-1202 (G5)","G4 con MA-0101 (G7)","G2 con MA-0101 (G1)","G2 con MA-0101 (G2)","G1 con MA-0101 (G8)","G1 con MA-0101 (G7)","G4 con MA-1102 (G12)","G4 con MA-1102 (G11)"],
       "es_matriculable": true,
       "razon_no_matriculable": null
     },
@@ -477,9 +477,9 @@
         }
       ],
       "tiene_choque": true,
-      "cursos_con_choque": [],
+      "cursos_con_choque": ["G2 con CE-1101 (G2)","G2 con CE-1103 (G3)","G1 con CE-1103 (G1)","G1 con CE-1105 (G2)","G4 con CE-1106 (G2)","G3 con CI-1407 (G4)","G1 con CS-1502 (G3)","G2 con CS-1502 (G1)","G2 con CS-2101 (G5)","G1 con CS-2101 (G4)","G2 con CS-2101 (G2)","G4 con CS-2101 (G8)","G3 con EL-2113 (G4)","G2 con EL-2113 (G2)","G1 con EL-2207 (G4)","G1 con FI-1101 (G18)","G4 con FI-1101 (G9)","G2 con FI-1101 (G4)","G2 con FI-1101 (G3)","G2 con FI-1101 (G19)","G3 con FI-1101 (G11)","G2 con FI-1102 (G3)","G2 con FI-1102 (G11)","G2 con FI-1102 (G2)","G3 con FI-1102 (G6)","G1 con FI-1201 (G24)","G1 con FI-1201 (G10)","G4 con FI-1201 (G27)","G4 con FI-1201 (G5)","G4 con FI-1201 (G15)","G2 con FI-1201 (G2)","G2 con FI-1201 (G12)","G2 con FI-1201 (G25)","G3 con FI-1201 (G16)","G3 con FI-1201 (G6)","G4 con FI-1202 (G3)","G2 con FI-1202 (G1)","G2 con FI-1202 (G7)","G3 con FI-1202 (G4)","G1 con MA-0101 (G10)","G1 con MA-0101 (G11)","G4 con MA-0101 (G6)","G4 con MA-0101 (G4)","G4 con MA-0101 (G5)","G2 con MA-0101 (G1)","G2 con MA-0101 (G2)","G3 con MA-0101 (G7)","G1 con MA-1102 (G17)","G1 con MA-1102 (G20)","G1 con MA-1102 (G19)"],
       "es_matriculable": false,
-      "razon_no_matriculable": "No cumple requisitos: EL-2113; correquisitos: EL-2207"
+      "razon_no_matriculable": "No cumple requisito: EL-2113"
     },
     {
       "codigo": "EL-2207",
@@ -524,7 +524,7 @@
         }
       ],
       "tiene_choque": true,
-      "cursos_con_choque": [],
+      "cursos_con_choque": ["G2 con CE-1101 (G1)","G1 con CE-1103 (G2)","G4 con CE-1103 (G1)","G2 con CE-1104 (G1)","G4 con CE-1105 (G2)","G4 con CE-1106 (G1)","G2 con CE-2103 (G1)","G1 con CI-1407 (G3)","G1 con CI-1407 (G2)","G4 con CI-1407 (G4)","G4 con CS-1502 (G3)","G1 con CS-1502 (G4)","G4 con CS-2101 (G1)","G4 con CS-2101 (G4)","G3 con CS-2101 (G4)","G4 con EL-2113 (G1)","G4 con EL-2114 (G1)","G2 con FI-1101 (G1)","G2 con FI-1101 (G2)","G4 con FI-1101 (G13)","G4 con FI-1101 (G14)","G4 con FI-1101 (G18)","G4 con FI-1101 (G20)","G1 con FI-1101 (G8)","G1 con FI-1101 (G7)","G3 con FI-1101 (G17)","G2 con FI-1102 (G1)","G2 con FI-1102 (G10)","G4 con FI-1102 (G7)","G3 con FI-1102 (G9)","G2 con FI-1201 (G11)","G2 con FI-1201 (G19)","G4 con FI-1201 (G24)","G4 con FI-1201 (G10)","G4 con FI-1201 (G17)","G1 con FI-1201 (G4)","G1 con FI-1201 (G14)","G3 con FI-1201 (G23)","G3 con FI-1201 (G9)","G3 con FI-1202 (G6)","G2 con MA-0101 (G1)","G4 con MA-0101 (G10)","G4 con MA-0101 (G8)","G4 con MA-0101 (G11)","G4 con MA-0101 (G7)","G1 con MA-0101 (G3)","G1 con MA-0101 (G4)","G1 con MA-0101 (G5)","G3 con MA-0101 (G10)","G3 con MA-0101 (G11)"],
       "es_matriculable": false,
       "razon_no_matriculable": "No cumple requisito: EL-2113"
     },
@@ -675,7 +675,7 @@
         }
       ],
       "tiene_choque": true,
-      "cursos_con_choque": [],
+      "cursos_con_choque": ["G1 con CE-1101 (G1)","G2 con CE-1101 (G1)","G4 con CE-1101 (G2)","G3 con CE-1101 (G2)","G19 con CE-1101 (G2)","G4 con CE-1103 (G3)","G3 con CE-1103 (G3)","G19 con CE-1103 (G3)","G8 con CE-1103 (G2)","G7 con CE-1103 (G2)","G18 con CE-1103 (G1)","G1 con CE-1104 (G1)","G2 con CE-1104 (G1)","G18 con CE-1105 (G2)","G13 con CE-1106 (G1)","G14 con CE-1106 (G1)","G20 con CE-1106 (G1)","G9 con CE-1106 (G2)","G1 con CE-2103 (G1)","G2 con CE-2103 (G1)","G8 con CI-1407 (G3)","G5 con CI-1407 (G3)","G7 con CI-1407 (G3)","G6 con CI-1407 (G3)","G8 con CI-1407 (G2)","G5 con CI-1407 (G2)","G7 con CI-1407 (G2)","G6 con CI-1407 (G2)","G13 con CI-1407 (G4)","G14 con CI-1407 (G4)","G11 con CI-1407 (G4)","G20 con CI-1407 (G4)","G13 con CS-1502 (G2)","G14 con CS-1502 (G2)","G20 con CS-1502 (G2)","G18 con CS-1502 (G3)","G8 con CS-1502 (G4)","G7 con CS-1502 (G4)","G13 con CS-1502 (G5)","G14 con CS-1502 (G5)","G20 con CS-1502 (G5)","G4 con CS-1502 (G1)","G3 con CS-1502 (G1)","G19 con CS-1502 (G1)","G4 con CS-2101 (G5)","G3 con CS-2101 (G5)","G19 con CS-2101 (G5)","G13 con CS-2101 (G1)","G14 con CS-2101 (G1)","G20 con CS-2101 (G1)"],
       "es_matriculable": true,
       "razon_no_matriculable": null
     },
@@ -778,7 +778,7 @@
         }
       ],
       "tiene_choque": true,
-      "cursos_con_choque": [],
+      "cursos_con_choque": ["G1 con CE-1101 (G1)","G10 con CE-1101 (G1)","G3 con CE-1101 (G2)","G11 con CE-1101 (G2)","G2 con CE-1101 (G2)","G3 con CE-1103 (G3)","G11 con CE-1103 (G3)","G2 con CE-1103 (G3)","G1 con CE-1104 (G1)","G10 con CE-1104 (G1)","G7 con CE-1106 (G1)","G1 con CE-2103 (G1)","G10 con CE-2103 (G1)","G4 con CI-1407 (G3)","G5 con CI-1407 (G3)","G4 con CI-1407 (G2)","G5 con CI-1407 (G2)","G6 con CI-1407 (G4)","G7 con CI-1407 (G4)","G7 con CS-1502 (G2)","G7 con CS-1502 (G5)","G3 con CS-1502 (G1)","G11 con CS-1502 (G1)","G2 con CS-1502 (G1)","G3 con CS-2101 (G5)","G11 con CS-2101 (G5)","G2 con CS-2101 (G5)","G7 con CS-2101 (G1)","G7 con CS-2101 (G3)","G9 con CS-2101 (G4)","G3 con CS-2101 (G2)","G11 con CS-2101 (G2)","G2 con CS-2101 (G2)","G6 con EL-2113 (G4)","G3 con EL-2113 (G2)","G11 con EL-2113 (G2)","G2 con EL-2113 (G2)","G7 con EL-2113 (G1)","G3 con EL-2114 (G2)","G11 con EL-2114 (G2)","G2 con EL-2114 (G2)","G6 con EL-2114 (G3)","G1 con EL-2207 (G2)","G10 con EL-2207 (G2)","G7 con EL-2207 (G4)","G9 con EL-2207 (G3)","G7 con FI-1101 (G13)","G3 con FI-1101 (G4)","G11 con FI-1101 (G4)","G2 con FI-1101 (G4)"],
       "es_matriculable": true,
       "razon_no_matriculable": null
     },
@@ -961,7 +961,7 @@
         }
       ],
       "tiene_choque": true,
-      "cursos_con_choque": [],
+      "cursos_con_choque": ["G11 con CE-1101 (G1)","G19 con CE-1101 (G1)","G2 con CE-1101 (G2)","G12 con CE-1101 (G2)","G25 con CE-1101 (G2)","G2 con CE-1103 (G3)","G12 con CE-1103 (G3)","G25 con CE-1103 (G3)","G4 con CE-1103 (G2)","G14 con CE-1103 (G2)","G24 con CE-1103 (G1)","G10 con CE-1103 (G1)","G11 con CE-1104 (G1)","G19 con CE-1104 (G1)","G24 con CE-1105 (G2)","G10 con CE-1105 (G2)","G22 con CE-1106 (G1)","G7 con CE-1106 (G1)","G17 con CE-1106 (G1)","G27 con CE-1106 (G2)","G5 con CE-1106 (G2)","G15 con CE-1106 (G2)","G11 con CE-2103 (G1)","G19 con CE-2103 (G1)","G3 con CI-1407 (G3)","G4 con CI-1407 (G3)","G29 con CI-1407 (G3)","G14 con CI-1407 (G2)","G26 con CI-1407 (G2)","G16 con CI-1407 (G4)","G17 con CI-1407 (G4)","G22 con CS-1502 (G2)","G7 con CS-1502 (G2)","G24 con CS-1502 (G3)","G10 con CS-1502 (G3)","G4 con CS-1502 (G4)","G22 con CS-1502 (G5)","G7 con CS-1502 (G5)","G12 con CS-1502 (G1)","G25 con CS-1502 (G1)","G12 con CS-2101 (G5)","G25 con CS-2101 (G5)","G17 con CS-2101 (G1)","G22 con CS-2101 (G3)","G7 con CS-2101 (G3)","G23 con CS-2101 (G4)","G24 con CS-2101 (G4)","G10 con CS-2101 (G4)","G9 con CS-2101 (G4)","G2 con CS-2101 (G2)"],
       "es_matriculable": true,
       "razon_no_matriculable": null
     },
@@ -1039,9 +1039,9 @@
         }
       ],
       "tiene_choque": true,
-      "cursos_con_choque": [],
-      "es_matriculable": false,
-      "razon_no_matriculable": "No cumple correquisito: FI-1102"
+      "cursos_con_choque": ["G1 con CE-1101 (G2)","G7 con CE-1101 (G2)","G1 con CE-1103 (G3)","G7 con CE-1103 (G3)","G5 con CE-1106 (G1)","G3 con CE-1106 (G2)","G2 con CI-1407 (G3)","G5 con CS-1502 (G2)","G5 con CS-1502 (G5)","G7 con CS-1502 (G1)","G7 con CS-2101 (G5)","G5 con CS-2101 (G3)","G6 con CS-2101 (G4)","G1 con CS-2101 (G2)","G3 con CS-2101 (G8)","G4 con EL-2113 (G4)","G1 con EL-2113 (G2)","G7 con EL-2113 (G2)","G5 con EL-2113 (G1)","G3 con EL-2114 (G4)","G1 con EL-2114 (G2)","G7 con EL-2114 (G2)","G4 con EL-2114 (G3)","G6 con EL-2207 (G3)","G5 con FI-1101 (G13)","G3 con FI-1101 (G9)","G1 con FI-1101 (G4)","G7 con FI-1101 (G4)","G2 con FI-1101 (G5)","G5 con FI-1101 (G14)","G4 con FI-1101 (G11)","G1 con FI-1101 (G3)","G7 con FI-1101 (G3)","G6 con FI-1101 (G17)","G1 con FI-1101 (G19)","G7 con FI-1101 (G19)","G8 con FI-1101 (G15)","G9 con FI-1101 (G15)","G5 con FI-1101 (G20)","G2 con FI-1101 (G6)","G1 con FI-1102 (G3)","G7 con FI-1102 (G3)","G6 con FI-1102 (G9)","G4 con FI-1102 (G6)","G1 con FI-1102 (G11)","G7 con FI-1102 (G11)","G8 con FI-1102 (G8)","G9 con FI-1102 (G8)","G5 con FI-1102 (G7)","G2 con FI-1102 (G4)"],
+      "es_matriculable": true,
+      "razon_no_matriculable": null
     },
     {
       "codigo": "MA-0101",
@@ -1149,7 +1149,7 @@
         }
       ],
       "tiene_choque": true,
-      "cursos_con_choque": [],
+      "cursos_con_choque": ["G1 con CE-1101 (G1)","G1 con CE-1101 (G2)","G2 con CE-1101 (G2)","G1 con CE-1103 (G3)","G2 con CE-1103 (G3)","G3 con CE-1103 (G2)","G4 con CE-1103 (G2)","G5 con CE-1103 (G2)","G10 con CE-1103 (G1)","G11 con CE-1103 (G1)","G1 con CE-1104 (G1)","G6 con CE-1105 (G3)","G6 con CE-1105 (G1)","G10 con CE-1105 (G2)","G11 con CE-1105 (G2)","G8 con CE-1106 (G1)","G7 con CE-1106 (G1)","G6 con CE-1106 (G2)","G4 con CE-1106 (G2)","G5 con CE-1106 (G2)","G1 con CE-2103 (G1)","G3 con CI-1407 (G3)","G4 con CI-1407 (G3)","G3 con CI-1407 (G2)","G4 con CI-1407 (G2)","G8 con CI-1407 (G4)","G7 con CI-1407 (G4)","G8 con CS-1502 (G2)","G10 con CS-1502 (G3)","G11 con CS-1502 (G3)","G3 con CS-1502 (G4)","G4 con CS-1502 (G4)","G5 con CS-1502 (G4)","G8 con CS-1502 (G5)","G2 con CS-1502 (G1)","G2 con CS-2101 (G5)","G8 con CS-2101 (G1)","G7 con CS-2101 (G1)","G8 con CS-2101 (G3)","G10 con CS-2101 (G4)","G11 con CS-2101 (G4)","G9 con CS-2101 (G4)","G1 con CS-2101 (G2)","G2 con CS-2101 (G2)","G6 con CS-2101 (G8)","G5 con CS-2101 (G8)","G7 con EL-2113 (G4)","G1 con EL-2113 (G2)","G2 con EL-2113 (G2)","G8 con EL-2113 (G1)"],
       "es_matriculable": true,
       "razon_no_matriculable": null
     },
@@ -1331,7 +1331,7 @@
         }
       ],
       "tiene_choque": true,
-      "cursos_con_choque": [],
+      "cursos_con_choque": ["G2 con CE-1101 (G1)","G1 con CE-1101 (G1)","G2 con CE-1101 (G2)","G3 con CE-1101 (G2)","G4 con CE-1101 (G2)","G1 con CE-1101 (G2)","G2 con CE-1103 (G3)","G3 con CE-1103 (G3)","G4 con CE-1103 (G3)","G1 con CE-1103 (G3)","G7 con CE-1103 (G2)","G6 con CE-1103 (G2)","G8 con CE-1103 (G2)","G5 con CE-1103 (G2)","G17 con CE-1103 (G1)","G20 con CE-1103 (G1)","G19 con CE-1103 (G1)","G16 con CE-1103 (G1)","G18 con CE-1103 (G1)","G2 con CE-1104 (G1)","G1 con CE-1104 (G1)","G9 con CE-1105 (G3)","G10 con CE-1105 (G3)","G9 con CE-1105 (G1)","G10 con CE-1105 (G1)","G17 con CE-1105 (G2)","G20 con CE-1105 (G2)","G19 con CE-1105 (G2)","G16 con CE-1105 (G2)","G18 con CE-1105 (G2)","G12 con CE-1106 (G1)","G14 con CE-1106 (G1)","G11 con CE-1106 (G1)","G13 con CE-1106 (G1)","G9 con CE-1106 (G2)","G10 con CE-1106 (G2)","G7 con CE-1106 (G2)","G6 con CE-1106 (G2)","G8 con CE-1106 (G2)","G2 con CE-2103 (G1)","G1 con CE-2103 (G1)","G6 con CI-1407 (G3)","G8 con CI-1407 (G3)","G5 con CI-1407 (G3)","G6 con CI-1407 (G2)","G5 con CI-1407 (G2)","G12 con CI-1407 (G4)","G11 con CI-1407 (G4)","G13 con CI-1407 (G4)","G12 con CS-1502 (G2)"],
       "es_matriculable": true,
       "razon_no_matriculable": null
     },
@@ -1496,7 +1496,7 @@
         }
       ],
       "tiene_choque": true,
-      "cursos_con_choque": [],
+      "cursos_con_choque": ["G1 con CE-1101 (G1)","G2 con CE-1101 (G1)","G19 con CE-1101 (G1)","G3 con CE-1101 (G2)","G19 con CE-1101 (G2)","G3 con CE-1103 (G3)","G19 con CE-1103 (G3)","G7 con CE-1103 (G2)","G6 con CE-1103 (G2)","G16 con CE-1103 (G1)","G17 con CE-1103 (G1)","G15 con CE-1103 (G1)","G1 con CE-1104 (G1)","G2 con CE-1104 (G1)","G19 con CE-1104 (G1)","G9 con CE-1105 (G3)","G10 con CE-1105 (G3)","G9 con CE-1105 (G1)","G10 con CE-1105 (G1)","G16 con CE-1105 (G2)","G17 con CE-1105 (G2)","G15 con CE-1105 (G2)","G12 con CE-1106 (G1)","G9 con CE-1106 (G2)","G7 con CE-1106 (G2)","G10 con CE-1106 (G2)","G8 con CE-1106 (G2)","G1 con CE-2103 (G1)","G2 con CE-2103 (G1)","G19 con CE-2103 (G1)","G4 con CI-1407 (G3)","G6 con CI-1407 (G3)","G5 con CI-1407 (G3)","G4 con CI-1407 (G2)","G6 con CI-1407 (G2)","G5 con CI-1407 (G2)","G11 con CI-1407 (G4)","G12 con CI-1407 (G4)","G12 con CS-1502 (G2)","G16 con CS-1502 (G3)","G17 con CS-1502 (G3)","G15 con CS-1502 (G3)","G7 con CS-1502 (G4)","G6 con CS-1502 (G4)","G12 con CS-1502 (G5)","G3 con CS-1502 (G1)","G19 con CS-1502 (G1)","G3 con CS-2101 (G5)","G19 con CS-2101 (G5)","G12 con CS-2101 (G1)"],
       "es_matriculable": true,
       "razon_no_matriculable": null
     },
@@ -1559,7 +1559,7 @@
         }
       ],
       "tiene_choque": true,
-      "cursos_con_choque": [],
+      "cursos_con_choque": ["G5 con CE-1103 (G2)","G3 con CE-1105 (G3)","G3 con CE-1105 (G1)","G2 con CE-1106 (G1)","G3 con CE-1106 (G2)","G5 con CI-1407 (G3)","G4 con CI-1407 (G3)","G5 con CI-1407 (G2)","G4 con CI-1407 (G2)","G6 con CI-1407 (G4)","G2 con CI-1407 (G4)","G1 con CI-1407 (G4)","G2 con CS-1502 (G2)","G5 con CS-1502 (G4)","G2 con CS-1502 (G5)","G2 con CS-2101 (G1)","G2 con CS-2101 (G3)","G3 con CS-2101 (G8)","G6 con EL-2113 (G4)","G1 con EL-2113 (G4)","G2 con EL-2113 (G1)","G3 con EL-2114 (G4)","G6 con EL-2114 (G3)","G1 con EL-2114 (G3)","G2 con EL-2207 (G4)","G5 con EL-2207 (G1)","G2 con FI-1101 (G13)","G5 con FI-1101 (G8)","G3 con FI-1101 (G9)","G4 con FI-1101 (G5)","G2 con FI-1101 (G14)","G6 con FI-1101 (G11)","G1 con FI-1101 (G11)","G5 con FI-1101 (G7)","G2 con FI-1101 (G20)","G4 con FI-1101 (G6)","G6 con FI-1102 (G6)","G1 con FI-1102 (G6)","G2 con FI-1102 (G7)","G4 con FI-1102 (G4)","G4 con FI-1102 (G5)","G3 con FI-1201 (G27)","G4 con FI-1201 (G3)","G5 con FI-1201 (G4)","G2 con FI-1201 (G22)","G2 con FI-1201 (G7)","G5 con FI-1201 (G14)","G6 con FI-1201 (G16)","G1 con FI-1201 (G16)","G2 con FI-1201 (G17)"],
       "es_matriculable": true,
       "razon_no_matriculable": null
     },
@@ -1629,7 +1629,7 @@
         }
       ],
       "tiene_choque": true,
-      "cursos_con_choque": [],
+      "cursos_con_choque": ["G4 con CE-1101 (G2)","G4 con CE-1103 (G3)","G5 con CE-1103 (G1)","G2 con CE-1105 (G3)","G2 con CE-1105 (G1)","G5 con CE-1105 (G2)","G1 con CE-1106 (G1)","G2 con CE-1106 (G2)","G7 con CI-1407 (G3)","G7 con CI-1407 (G2)","G1 con CI-1407 (G4)","G1 con CS-1502 (G2)","G5 con CS-1502 (G3)","G1 con CS-1502 (G5)","G4 con CS-1502 (G1)","G4 con CS-2101 (G5)","G1 con CS-2101 (G1)","G1 con CS-2101 (G3)","G3 con CS-2101 (G4)","G4 con CS-2101 (G2)","G2 con CS-2101 (G8)","G4 con EL-2113 (G2)","G1 con EL-2113 (G1)","G5 con EL-2114 (G1)","G2 con EL-2114 (G4)","G4 con EL-2114 (G2)","G1 con EL-2207 (G4)","G5 con EL-2207 (G4)","G3 con EL-2207 (G3)","G1 con FI-1101 (G13)","G2 con FI-1101 (G9)","G4 con FI-1101 (G4)","G7 con FI-1101 (G5)","G1 con FI-1101 (G14)","G4 con FI-1101 (G3)","G3 con FI-1101 (G17)","G4 con FI-1101 (G19)","G5 con FI-1101 (G18)","G1 con FI-1101 (G20)","G7 con FI-1101 (G6)","G4 con FI-1102 (G3)","G3 con FI-1102 (G9)","G4 con FI-1102 (G11)","G1 con FI-1102 (G7)","G7 con FI-1102 (G4)","G7 con FI-1102 (G5)","G4 con FI-1102 (G2)","G2 con FI-1201 (G27)","G3 con FI-1201 (G23)","G5 con FI-1201 (G24)"],
       "es_matriculable": true,
       "razon_no_matriculable": null
     },
@@ -1665,7 +1665,7 @@
         }
       ],
       "tiene_choque": true,
-      "cursos_con_choque": [],
+      "cursos_con_choque": ["G3 con CE-1103 (G2)","G1 con CE-2201 (G1)","G1 con CE-2201 (G2)","G1 con CI-1407 (G1)","G3 con CI-1407 (G2)","G2 con CS-2101 (G4)","G1 con CS-2101 (G6)","G1 con EL-2113 (G4)","G1 con EL-2113 (G3)","G3 con EL-2207 (G1)","G2 con EL-2207 (G3)","G3 con FI-1101 (G8)","G3 con FI-1101 (G5)","G3 con FI-1101 (G7)","G2 con FI-1101 (G17)","G2 con FI-1101 (G15)","G3 con FI-1101 (G6)","G2 con FI-1102 (G9)","G2 con FI-1102 (G8)","G3 con FI-1102 (G4)","G3 con FI-1102 (G5)","G2 con FI-1201 (G23)","G2 con FI-1201 (G8)","G3 con FI-1201 (G14)","G3 con FI-1201 (G26)","G2 con FI-1201 (G9)","G2 con FI-1202 (G6)","G2 con FI-1202 (G9)","G2 con MA-0101 (G10)","G3 con MA-0101 (G3)","G3 con MA-0101 (G4)","G2 con MA-0101 (G9)","G2 con MA-1102 (G16)","G2 con MA-1102 (G15)","G3 con MA-1102 (G6)","G3 con MA-1102 (G5)","G2 con MA-1103 (G14)","G3 con MA-1103 (G4)","G3 con MA-1103 (G6)","G2 con MA-1103 (G13)","G3 con MA-1103 (G5)","G3 con MA-1403 (G5)","G3 con MA-1403 (G4)","G3 con MA-2104 (G7)","G2 con MA-2104 (G3)","G2 con QU-1102 (G8)","G2 con QU-1102 (G7)","G3 con QU-1102 (G11)","G2 con QU-1106 (G11)","G3 con QU-1106 (G7)"],
       "es_matriculable": false,
       "razon_no_matriculable": "No cumple requisito: MA-2104"
     },
@@ -1771,7 +1771,7 @@
         }
       ],
       "tiene_choque": true,
-      "cursos_con_choque": [],
+      "cursos_con_choque": ["G9 con CE-1101 (G1)","G1 con CE-1101 (G1)","G2 con CE-1101 (G2)","G10 con CE-1101 (G2)","G2 con CE-1103 (G3)","G10 con CE-1103 (G3)","G4 con CE-1103 (G2)","G9 con CE-1104 (G1)","G1 con CE-1104 (G1)","G6 con CE-1106 (G1)","G9 con CE-2103 (G1)","G1 con CE-2103 (G1)","G3 con CI-1407 (G3)","G4 con CI-1407 (G3)","G11 con CI-1407 (G2)","G13 con CI-1407 (G4)","G6 con CS-1502 (G2)","G4 con CS-1502 (G4)","G6 con CS-1502 (G5)","G10 con CS-1502 (G1)","G10 con CS-2101 (G5)","G6 con CS-2101 (G3)","G8 con CS-2101 (G4)","G2 con CS-2101 (G2)","G5 con EL-2113 (G4)","G2 con EL-2113 (G2)","G10 con EL-2113 (G2)","G6 con EL-2113 (G1)","G2 con EL-2114 (G2)","G10 con EL-2114 (G2)","G5 con EL-2114 (G3)","G13 con EL-2114 (G3)","G9 con EL-2207 (G2)","G1 con EL-2207 (G2)","G4 con EL-2207 (G1)","G8 con EL-2207 (G3)","G6 con FI-1101 (G13)","G4 con FI-1101 (G8)","G2 con FI-1101 (G4)","G10 con FI-1101 (G4)","G3 con FI-1101 (G5)","G11 con FI-1101 (G5)","G6 con FI-1101 (G14)","G5 con FI-1101 (G11)","G13 con FI-1101 (G11)","G9 con FI-1101 (G1)","G1 con FI-1101 (G1)","G9 con FI-1101 (G2)","G1 con FI-1101 (G2)","G2 con FI-1101 (G3)"],
       "es_matriculable": true,
       "razon_no_matriculable": null
     },
@@ -1842,7 +1842,7 @@
         }
       ],
       "tiene_choque": true,
-      "cursos_con_choque": [],
+      "cursos_con_choque": ["G2 con CE-1101 (G1)","G1 con CE-1101 (G1)","G3 con CE-1101 (G2)","G3 con CE-1103 (G3)","G7 con CE-1103 (G2)","G2 con CE-1104 (G1)","G1 con CE-1104 (G1)","G9 con CE-1106 (G1)","G2 con CE-2103 (G1)","G1 con CE-2103 (G1)","G7 con CI-1407 (G3)","G5 con CI-1407 (G3)","G7 con CI-1407 (G2)","G5 con CI-1407 (G2)","G9 con CI-1407 (G4)","G9 con CS-1502 (G2)","G7 con CS-1502 (G4)","G9 con CS-1502 (G5)","G3 con CS-1502 (G1)","G3 con CS-2101 (G5)","G9 con CS-2101 (G1)","G9 con CS-2101 (G3)","G3 con CS-2101 (G2)","G3 con EL-2113 (G2)","G9 con EL-2113 (G1)","G3 con EL-2114 (G2)","G2 con EL-2207 (G2)","G1 con EL-2207 (G2)","G9 con EL-2207 (G4)","G7 con EL-2207 (G1)","G9 con FI-1101 (G13)","G7 con FI-1101 (G8)","G3 con FI-1101 (G4)","G5 con FI-1101 (G5)","G9 con FI-1101 (G14)","G2 con FI-1101 (G1)","G1 con FI-1101 (G1)","G2 con FI-1101 (G2)","G1 con FI-1101 (G2)","G3 con FI-1101 (G3)","G7 con FI-1101 (G7)","G3 con FI-1101 (G19)","G11 con FI-1101 (G15)","G9 con FI-1101 (G20)","G5 con FI-1101 (G6)","G3 con FI-1102 (G3)","G2 con FI-1102 (G1)","G1 con FI-1102 (G1)","G3 con FI-1102 (G11)","G11 con FI-1102 (G8)"],
       "es_matriculable": true,
       "razon_no_matriculable": null
     },
@@ -1892,7 +1892,7 @@
         }
       ],
       "tiene_choque": true,
-      "cursos_con_choque": [],
+      "cursos_con_choque": ["G2 con CE-1103 (G2)","G3 con CE-1105 (G3)","G3 con CE-1105 (G1)","G5 con CE-1106 (G1)","G3 con CE-1106 (G2)","G1 con CE-2201 (G1)","G1 con CE-2201 (G2)","G1 con CI-1407 (G1)","G2 con CI-1407 (G2)","G5 con CI-1407 (G4)","G5 con CS-2101 (G1)","G4 con CS-2101 (G4)","G1 con CS-2101 (G6)","G1 con EL-2113 (G4)","G1 con EL-2113 (G3)","G5 con EL-2113 (G1)","G3 con EL-2114 (G4)","G5 con EL-2114 (G3)","G5 con EL-2207 (G4)","G2 con EL-2207 (G1)","G4 con EL-2207 (G3)","G5 con FI-1101 (G13)","G2 con FI-1101 (G8)","G3 con FI-1101 (G9)","G2 con FI-1101 (G5)","G5 con FI-1101 (G14)","G5 con FI-1101 (G11)","G2 con FI-1101 (G7)","G4 con FI-1101 (G17)","G4 con FI-1101 (G15)","G5 con FI-1101 (G20)","G2 con FI-1101 (G6)","G4 con FI-1102 (G9)","G5 con FI-1102 (G6)","G4 con FI-1102 (G8)","G5 con FI-1102 (G7)","G2 con FI-1102 (G4)","G2 con FI-1102 (G5)","G3 con FI-1201 (G27)","G4 con FI-1201 (G23)","G4 con FI-1201 (G8)","G2 con FI-1201 (G14)","G5 con FI-1201 (G16)","G5 con FI-1201 (G17)","G2 con FI-1201 (G26)","G4 con FI-1201 (G9)","G3 con FI-1201 (G15)","G4 con FI-1202 (G6)","G4 con FI-1202 (G9)","G4 con MA-0101 (G10)"],
       "es_matriculable": false,
       "razon_no_matriculable": "No cumple requisito: FI-1102"
     }
