@@ -4,11 +4,8 @@
 #include "constants.h"
 
 /*
-
  *  DIA: enum en vez de texto, porque Logic.h compara
  *  h1->dia != h2->dia directamente (comparación por valor).
- *  Si esto se define como texto, esa comparación se rompe.
-
  */
 typedef enum {
     LUNES,
@@ -20,34 +17,26 @@ typedef enum {
 } Dia;
 
 /*
-
- *  HORARIO: un bloque de tiempo (nombres exactos que usa
- *  horarios_choque en Horarios_choque.C)
-
+ *  HORARIO: un bloque de tiempo.
  */
 typedef struct {
     Dia dia;
-    int hora_inicio;   // minutos desde medianoche, ej. 07:00 -> 420
+    int hora_inicio;   // minutos desde medianoche
     int hora_fin;
 } Horario;
 
 /*
-
- *  GRUPO: nombres exactos que usa grupo_choque
-
+ *  GRUPO: una sección de un curso.
  */
 typedef struct {
     int     numero_grupo;
     char    profesor[MAX_PROFESOR];
     Horario horarios[MAX_BLOQUES_POR_GRUPO];
-    int     Totalhorarios;   
+    int     Totalhorarios;
 } Grupo;
 
 /*
-
- *  CURSO: nombres exactos que usa detectar_choques_catalogo
- *  y evaluar_elegibilidad_curso
-
+ *  CURSO: información completa de un curso.
  */
 typedef struct {
     char codigo[MAX_CODIGO];
@@ -55,6 +44,7 @@ typedef struct {
     int  creditos;
     int  semestre;
     char carrera[MAX_CODIGO];
+    char area[MAX_AREA];              // <-- NUEVO
 
     Grupo grupos[MAX_GRUPOS_POR_CURSO];
     int   total_grupos;
@@ -65,21 +55,16 @@ typedef struct {
     char correquisitos[MAX_CORREQUISITOS][MAX_CODIGO];
     int  total_correquisitos;
 
-    int tiene_choque;   // 0 o 1, tal como lo asigna Horarios_choque.C
-    char cursos_con_choque[MAX_CHOQUES][MAX_TEXTO_CHOQUE]; // Lista de códigos rivales
+    int tiene_choque;
+    char cursos_con_choque[MAX_CHOQUES][MAX_TEXTO_CHOQUE];
     int  total_choques;
-    int es_elegible;    // 0 o 1
+    int es_elegible;
 
-    // Motivo por el cual el curso no es matriculable.
-    // Cadena vacía si es_elegible == 1.
-    // Ej: "No cumple requisito: MA-1001"
     char razon_no_matriculable[MAX_NOMBRE];
 } Curso;
 
 /*
-
- *  CATALOGO: colección dinámica de cursos (tu parte: malloc/realloc)
-
+ *  CATALOGO: colección dinámica de cursos.
  */
 typedef struct {
     Curso *cursos;

@@ -20,10 +20,6 @@
  * ============================================================
  */
 
-/**
- * Convierte una hora "HH:MM" a minutos desde medianoche.
- * Retorna -1 si el formato es inválido.
- */
 static int hora_a_minutos(const char *hora) {
     if (hora == NULL || strlen(hora) != 5) return -1;
     if (hora[2] != ':') return -1;
@@ -37,11 +33,6 @@ static int hora_a_minutos(const char *hora) {
     return hh * 60 + mm;
 }
 
-/**
- * Convierte la letra del CSV (L, K, M, J, V, S) al enum Dia.
- * Reutiliza letra_a_dia() de memoria.c pero de forma segura:
- * retorna -1 si la letra no es válida.
- */
 static int dia_valido(const char *letra) {
     if (letra == NULL || strlen(letra) != 1) return -1;
     char c = letra[0];
@@ -54,10 +45,6 @@ static int dia_valido(const char *letra) {
     }
 }
 
-/**
- * Busca un curso por código en el catálogo.
- * Retorna el índice en catalogo->cursos, o -1 si no existe.
- */
 static int buscar_curso(const Catalogo *catalogo, const char *codigo) {
     for (int i = 0; i < catalogo->cantidad; i++) {
         if (strcmp(catalogo->cursos[i].codigo, codigo) == 0) {
@@ -67,10 +54,6 @@ static int buscar_curso(const Catalogo *catalogo, const char *codigo) {
     return -1;
 }
 
-/**
- * Busca un grupo por número dentro de un curso.
- * Retorna el índice en curso->grupos, o -1 si no existe.
- */
 static int buscar_grupo(const Curso *curso, int numero_grupo) {
     for (int i = 0; i < curso->total_grupos; i++) {
         if (curso->grupos[i].numero_grupo == numero_grupo) {
@@ -80,12 +63,6 @@ static int buscar_grupo(const Curso *curso, int numero_grupo) {
     return -1;
 }
 
-/**
- * Parsea una lista de códigos separados por ';' y los mete en un
- * arreglo de strings. Retorna la cantidad de códigos parseados.
- *
- * Ejemplo: "CE-1101;CE-1104;MA-1403" -> ["CE-1101","CE-1104","MA-1403"]
- */
 static int parsear_lista_codigos(const char *texto,
                                  char destino[][MAX_CODIGO],
                                  int max_items) {
@@ -98,7 +75,6 @@ static int parsear_lista_codigos(const char *texto,
 
     char *token = strtok(copia, ";");
     while (token != NULL && count < max_items) {
-        // Quitar espacios al inicio y final
         while (*token == ' ' || *token == '\t') token++;
         char *fin = token + strlen(token) - 1;
         while (fin > token && (*fin == ' ' || *fin == '\t')) {
@@ -116,16 +92,10 @@ static int parsear_lista_codigos(const char *texto,
     return count;
 }
 
-/**
- * Inicializa un curso en cero.
- */
 static void inicializar_curso(Curso *c) {
     memset(c, 0, sizeof(Curso));
 }
 
-/**
- * Inicializa un grupo en cero.
- */
 static void inicializar_grupo(Grupo *g) {
     memset(g, 0, sizeof(Grupo));
 }
@@ -136,12 +106,6 @@ static void inicializar_grupo(Grupo *g) {
  * ============================================================
  */
 
-/**
- * Divide una línea CSV por comas, respetando comillas dobles.
- * Retorna la cantidad de campos parseados.
- *
- * Soporta: "campo con coma, adentro" que se parsea como un solo campo.
- */
 static int dividir_csv(char *linea, char campos[][MAX_TOKEN], int max_campos) {
     int count = 0;
     int en_comillas = 0;
@@ -151,7 +115,6 @@ static int dividir_csv(char *linea, char campos[][MAX_TOKEN], int max_campos) {
     while (*p != '\0' && count < max_campos) {
         if (*p == '"') {
             en_comillas = !en_comillas;
-            // Mover el contenido para saltar la comilla
             memmove(p, p + 1, strlen(p));
             continue;
         }
@@ -166,7 +129,6 @@ static int dividir_csv(char *linea, char campos[][MAX_TOKEN], int max_campos) {
         p++;
     }
 
-    // Último campo (después de la última coma o si no hay comas)
     if (count < max_campos) {
         strncpy(campos[count], inicio_campo, MAX_TOKEN - 1);
         campos[count][MAX_TOKEN - 1] = '\0';
@@ -176,35 +138,27 @@ static int dividir_csv(char *linea, char campos[][MAX_TOKEN], int max_campos) {
     return count;
 }
 
-/**
- * Procesa una línea del CSV y actualiza el catálogo.
- * Retorna 1 si tuvo éxito, 0 si la línea debe ignorarse.
- */
 static int procesar_linea_csv(char *linea, Catalogo *catalogo) {
-    // Ignorar líneas vacías
     if (strlen(linea) == 0) return 0;
 
-    // Quitar \n y \r
     linea[strcspn(linea, "\r\n")] = '\0';
 
-    // Ignorar encabezado
     if (strncmp(linea, "codigo,", 7) == 0) return 0;
 
-    // Dividir en campos
-    char campos[12][MAX_TOKEN];
-    int n = dividir_csv(linea, campos, 12);
-    if (n < 12) {
-        fprintf(stderr, "[WARN] Línea con %d campos (esperados 12): %s\n",
+    // 13 columnas ahora (se agregó 'area' al final)
+    char campos[13][MAX_TOKEN];
+    int n = dividir_csv(linea, campos, 13);
+    if (n < 13) {
+        fprintf(stderr, "[WARN] Línea con %d campos (esperados 13): %s\n",
                 n, linea);
         return 0;
     }
 
-    // Extraer campos
     const char *codigo = campos[0];
     const char *nombre = campos[1];
     const char *creditos_str = campos[2];
     const char *semestre_str = campos[3];
-    const char *carrera = campos[4];  
+    const char *carrera = campos[4];
     const char *requisitos_str = campos[5];
     const char *correquisitos_str = campos[6];
     const char *grupo_str = campos[7];
@@ -212,12 +166,11 @@ static int procesar_linea_csv(char *linea, Catalogo *catalogo) {
     const char *dia_str = campos[9];
     const char *hora_inicio_str = campos[10];
     const char *hora_fin_str = campos[11];
+    const char *area = campos[12];                       // <-- NUEVO
 
-    // --- Buscar o crear el curso ---
     int idx_curso = buscar_curso(catalogo, codigo);
 
     if (idx_curso < 0) {
-        // Curso nuevo: crear
         Curso nuevo;
         inicializar_curso(&nuevo);
 
@@ -226,6 +179,7 @@ static int procesar_linea_csv(char *linea, Catalogo *catalogo) {
         nuevo.creditos = atoi(creditos_str);
         nuevo.semestre = atoi(semestre_str);
         strncpy(nuevo.carrera, carrera, MAX_CODIGO - 1);
+        strncpy(nuevo.area, area, MAX_AREA - 1);         // <-- NUEVO
         nuevo.total_requisitos = parsear_lista_codigos(
             requisitos_str, nuevo.requisitos, MAX_REQUISITOS);
         nuevo.total_correquisitos = parsear_lista_codigos(
@@ -240,12 +194,10 @@ static int procesar_linea_csv(char *linea, Catalogo *catalogo) {
 
     Curso *curso = &catalogo->cursos[idx_curso];
 
-    // --- Si la fila no tiene grupo, no hay horario que agregar ---
     if (strlen(grupo_str) == 0) {
-        return 1;  // curso sin grupos, ya quedó registrado
+        return 1;
     }
 
-    // --- Parsear número de grupo ---
     int numero_grupo = atoi(grupo_str);
     if (numero_grupo <= 0) {
         fprintf(stderr, "[WARN] Número de grupo inválido: %s (curso %s)\n",
@@ -253,11 +205,9 @@ static int procesar_linea_csv(char *linea, Catalogo *catalogo) {
         return 0;
     }
 
-    // --- Buscar o crear el grupo ---
     int idx_grupo = buscar_grupo(curso, numero_grupo);
 
     if (idx_grupo < 0) {
-        // Grupo nuevo
         if (curso->total_grupos >= MAX_GRUPOS_POR_CURSO) {
             fprintf(stderr, "[ERROR] Curso %s excede MAX_GRUPOS_POR_CURSO (%d)\n",
                     codigo, MAX_GRUPOS_POR_CURSO);
@@ -277,14 +227,12 @@ static int procesar_linea_csv(char *linea, Catalogo *catalogo) {
 
     Grupo *grupo = &curso->grupos[idx_grupo];
 
-    // --- Validar y parsear el día ---
     if (dia_valido(dia_str) != 1) {
         fprintf(stderr, "[WARN] Día inválido: '%s' (curso %s grupo %d)\n",
                 dia_str, codigo, numero_grupo);
         return 0;
     }
 
-    // --- Validar y parsear las horas ---
     int hi = hora_a_minutos(hora_inicio_str);
     int hf = hora_a_minutos(hora_fin_str);
 
@@ -294,7 +242,6 @@ static int procesar_linea_csv(char *linea, Catalogo *catalogo) {
         return 0;
     }
 
-    // --- Agregar el bloque horario al grupo ---
     if (grupo->Totalhorarios >= MAX_BLOQUES_POR_GRUPO) {
         fprintf(stderr, "[WARN] Grupo %d de %s excede MAX_BLOQUES_POR_GRUPO\n",
                 numero_grupo, codigo);
@@ -362,34 +309,24 @@ int cargar_historial(const char *ruta_historial,
         return -1;
     }
 
-    // Buffer de lectura amplio para permitir comentarios largos.
-    // Si se usara MAX_CODIGO + 16, los comentarios largos se cortarían
-    // en pedazos y sus fragmentos se interpretarían como códigos válidos.
     char linea[256];
     int count = 0;
 
     while (fgets(linea, sizeof(linea), f) != NULL && count < max_cursos) {
-        // Quitar \n y \r
         linea[strcspn(linea, "\r\n")] = '\0';
 
-        // Quitar espacios al inicio
         char *inicio = linea;
         while (*inicio == ' ' || *inicio == '\t') inicio++;
 
-        // Quitar espacios al final
         char *fin = inicio + strlen(inicio) - 1;
         while (fin > inicio && (*fin == ' ' || *fin == '\t')) {
             *fin = '\0';
             fin--;
         }
 
-        // Ignorar líneas vacías
         if (strlen(inicio) == 0) continue;
-
-        // Ignorar comentarios (líneas que empiezan con #)
         if (inicio[0] == '#') continue;
 
-        // Guardar el código en el historial
         strncpy(historial[count], inicio, MAX_CODIGO - 1);
         historial[count][MAX_CODIGO - 1] = '\0';
         count++;
