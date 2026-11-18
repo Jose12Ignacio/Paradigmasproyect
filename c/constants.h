@@ -5,7 +5,7 @@
 #define MAX_CODIGO 10
 #define MAX_NOMBRE 200
 #define MAX_PROFESOR 60
-#define MAX_AREA 64            // <-- NUEVO
+#define MAX_AREA 64            
 
 // --- Límites por curso/grupo ---
 #define MAX_GRUPOS_POR_CURSO 50

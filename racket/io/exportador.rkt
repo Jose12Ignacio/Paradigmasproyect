@@ -14,7 +14,8 @@
 (define (seleccion->hash s)
   (hash 'curso (Seleccion-curso s)
         'grupo (Seleccion-grupo s)
-        'carrera (Seleccion-carrera s)))
+        'carrera (Seleccion-carrera s)
+        'area (Seleccion-area s)))
 
 ;; 2. Convertir una Combinación a un HashTable
 (: combinacion->hash (-> Natural Combinacion (HashTable Symbol Any)))

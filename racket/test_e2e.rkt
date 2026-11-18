@@ -7,7 +7,7 @@
          "io/exportador.rkt"
          "pipeline.rkt"
          "tipos.rkt"
-         racket/stream) ; Para manejar los streams
+         racket/stream)
 
 ;; Declaramos las funciones del motor de tu compañero para que Typed Racket no se queje
 (require/typed "motor/stream.rkt"
@@ -19,6 +19,7 @@
 (define ruta-catalogo "../c/output/catalogo_CE.json")
 (define ruta-prefs "preferencias.json")
 (define ruta-salida "salida_etapa2.json")
+
 ;; ==========================================
 ;; Función auxiliar para buscar curso por código
 ;; ==========================================
@@ -60,7 +61,8 @@
     (define selecciones
       (for/list : (Listof Seleccion) ([g grupos])
         (define c (assert (buscar-curso (Grupo-curso g) (Catalogo-cursos cat)) Curso?))
-        (Seleccion (Grupo-curso g) (Grupo-numero g) (Curso-carrera c))))
+        ;; AHORA incluye area
+        (Seleccion (Grupo-curso g) (Grupo-numero g) (Curso-carrera c) (Curso-area c))))
     
     (define creditos
       (for/sum : Natural ([s selecciones])
@@ -70,13 +72,16 @@
     (Combinacion selecciones creditos)))
 
 (displayln "5. Filtrando por rango de créditos...")
-(define combinaciones-filtradas (for/list : (Listof Combinacion) ([c (filtrar-por-creditos prefs (in-list combinaciones-finales))]) c))(displayln (format "   -> Combinaciones finales válidas: ~a" (length combinaciones-filtradas)))
+(define combinaciones-filtradas 
+  (for/list : (Listof Combinacion) ([c (filtrar-por-creditos prefs (in-list combinaciones-finales))]) c))
+
+(displayln (format "   -> Combinaciones finales válidas: ~a" (length combinaciones-filtradas)))
 
 (displayln "6. Exportando a JSON")
 (exportar-combinaciones ruta-salida combinaciones-filtradas)
 
-(displayln "7   -> Razones de descarte:")
+(displayln "7. Razones de descarte:")
 (for ([d (Preparacion-descartes prep)])
   (displayln (format "      * ~a: ~a" (Descarte-curso d) (Descarte-razon d))))
 
-(displayln "¡Flujo End-to-End completado exitosamente!")    
+(displayln "¡Flujo End-to-End completado exitosamente!")
