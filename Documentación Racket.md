@@ -1,144 +1,131 @@
-Este documento detalla la arquitectura, el diseño de tipos y las optimizaciones introducidas en el módulo de Pipeline de Datos (racket/pipeline.rkt) y la extensión del Contrato de Tipos (racket/tipos.rkt).
+2.1 Arquitectura del proyecto (Etapa 2: Racket)
 
-El módulo de pipeline actúa como la capa intermedia entre la ingesta de datos JSON y el motor perezoso de generación de combinaciones de horarios . Asimismo, se documenta la revisión de código realizada sobre las componentes del motor, logrando reducir el tiempo de respuesta inicial de combinaciones de 28.7 segundos a 0 milisegundos.
+El módulo de Racket es un programa independiente: lee el JSON que produjo la Etapa 1 (C) y el archivo de
+preferencias del estudiante, genera las combinaciones de horario sin choques, las filtra por el rango de
+créditos y exporta el archivo que leerá la Etapa 3 (Prolog).
 
-2. Estructura del Repositorio y Componentes
+```
+catalogo_CE.json (Etapa 1, C)              preferencias del estudiante
+            │                                          │
+            └────── io/lectura · io/preferencias ──────┘
+                                  │  Catalogo + Preferencias           (tipos.rkt)
+                                  ▼
+                  pipeline.rkt · preparar-candidatos
+                                  │  (Listof Candidato) + descartes
+                                  ▼
+                  motor/ · generar-combinaciones   (stream perezoso, sin choques)
+                                  │  (Sequenceof Combinacion)
+                                  ▼
+                  pipeline.rkt · filtrar-por-creditos   (genericos.rkt)
+                                  ▼
+                  io/exportador → archivo de salida → Etapa 3 (Prolog)
+```
 
-La estructura actualizada del módulo en Racket dentro del repositorio es la siguiente:
+- `racket/tipos.rkt` (Typed Racket): estructuras de datos compartidas y conversiones del JSON.
+- `racket/genericos.rkt` (Typed Racket): funciones con polimorfismo paramétrico (`filtrar-por`, `criterio-rango`).
+- `racket/pipeline.rkt` (Typed Racket): preparación de candidatos y filtro de créditos.
+- `racket/main.rkt` (Typed Racket): integra el pipeline y declara el contrato de cada módulo.
+- `racket/io/` ([completar: Persona 1]): lectura del catálogo y de las preferencias, y exportador.
+- `racket/motor/` (Racket sin tipos): `stream.rkt` (combinaciones perezosas), `choque.rkt` (choques calculados desde los horarios) y `combinaciones.rkt` (adaptador al contrato de `main.rkt`).
+- `racket/tests/` (Typed Racket): `test-pipeline.rkt` y la demostración del filtro genérico.
 
-racket/
-├── tipos.rkt                ← Extendido (agrega Candidato, Descarte, Preparacion)
-├── genericos.rkt            ← Filtros genéricos y funciones de orden superior
-├── pipeline.rkt             ← NUEVO: Preparación de datos y filtrado
-├── main.rkt                 ← Punto de entrada del sistema
-├── io/                      ← Capa de lectura/escritura JSON 
-├── motor/                   ← Motor de combinaciones y choques 
-│   ├── choque.rkt           ← Algoritmo de detección de traslapes de horario
-│   └── stream.rkt           ← Generador de combinaciones perezoso
-└── tests/
-    ├── demo-genericos.rkt
-    └── test-pipeline.rkt    ← NUEVO: Pruebas unitarias del pipeline
+Frontera entre módulos tipados y no tipados. `main.rkt` importa cada módulo de sus compañeros con
+`require/typed`, de modo que esas cuatro declaraciones son el contrato que cada módulo debe cumplir
+(por ejemplo, `generar-combinaciones : (Listof Candidato) -> (Sequenceof Combinacion)`). Si un módulo no
+respeta su tipo, el error aparece en la frontera y con el nombre de la función, no más adentro.
 
+2.2.1 Decisiones de diseño propias
 
-3. Especificación del Contrato de Datos (tipos.rkt)
+Typed Racket en el núcleo y sin tipos en el generador. Se eligió Typed Racket para modelar los datos y
+para escribir las funciones genéricas, porque permite expresar el polimorfismo paramétrico con `All`.
+Al probarlo (Racket 8.10) se encontró que `racket/stream` no trae tipos en Typed Racket y que `stream-cons`
+no se puede usar desde código tipado. Las funciones como `stream-filter` sí se importan con
+`require/typed`, que es lo que hace `genericos.rkt`; el generador, que necesita `stream-cons`, se escribe
+en Racket sin tipos y se conecta a través del contrato de `main.rkt`.
 
-Para posibilitar un acoplamiento débil entre la entrada de datos y el motor de generación, se agregaron tres estructuras principales a tipos.rkt:
+Días y carreras como tipos literales. `Dia` y `Carrera` son uniones de strings literales
+(`"L" "K" "M" "J" "V" "S"` y `"CE" "ATI"`), idénticos a los valores del JSON. Los valores inválidos se
+rechazan al leer (`string->dia`, `string->carrera`) con un mensaje claro, en lugar de propagarse.
+Ejemplo real del plan de estudios: `K` es martes y `M` es miércoles.
 
-3.1 Novedades en el Sistema de Tipos
+Horas como minutos desde medianoche. El JSON trae `"07:30"`; `hora->minutos` la convierte una sola vez
+a un `Natural` (450), así que comparar horarios es aritmética y no manipulación de texto.
 
-Candidato: Representa un curso apto para matricular junto con la lista de grupos habilitados según los intereses del estudiante.
+La preparación no falla: descarta y explica. `preparar-candidatos` convierte los cursos de interés en
+`Candidato` (un curso y los grupos entre los que se puede elegir). Lo que no puede entrar al generador
+se devuelve como `Descarte` con su razón, en vez de abortar el programa:
 
-Descarte: Contiene la información de un curso no matriculable y el motivo formal de descarte (e.g., requisitos no cumplidos).
+- El curso no existe en el catálogo: se descarta con la razón "no existe en el catalogo".
+- El estudiante no cumple los requisitos: se descarta con la razón que calculó la Etapa 1.
+- El curso no tiene grupos con horario (por ejemplo `CI-0205`): se descarta con "no tiene grupos con horario".
+- Se pidieron grupos que no existen: se descarta con "ninguno de los grupos pedidos existe".
+- El curso aparece repetido en las preferencias: se descarta con "repetido en las preferencias".
+- La lista de grupos viene vacía: se consideran todos los grupos del curso.
+- La lista trae varios grupos: se consideran solo esos grupos.
 
-Preparacion: Contenedor final de la fase de preparación que separa la lista de candidatos válidos de la lista de descartes.
+Polimorfismo paramétrico. Hay dos funciones genéricas en `genericos.rkt`:
 
-3.2 Interfaz de Datos Resumida
+```racket
+(: filtrar-por (All (A) (-> (-> A Boolean) (Sequenceof A) (Sequenceof A))))
+(: criterio-rango (All (A) (-> (-> A Natural) Natural Natural (-> A Boolean))))
+```
 
-;; Estratificación de la oferta académica procesada
-(struct Candidato ([curso : Curso]
-                   [grupos-disponibles : (Listof Grupo)]) #:transparent)
+`filtrar-por` filtra cualquier secuencia perezosa con cualquier predicado; `criterio-rango` construye el
+predicado "el número que extrae `medida` está entre un mínimo y un máximo". Como `A` es abstracto, la
+función no puede depender de la forma de los elementos, y una sola definición sirve para todos los casos.
+En el pipeline se usa con `A = Combinacion` para filtrar por créditos totales, y en
+`tests/demo-genericos.rkt` con `A = String`, con exactamente las mismas funciones.
 
-(struct Descarte ([curso : String]
-                  [razon : String]) #:transparent)
+Inmutabilidad y recursión. Todas las structs y listas son inmutables y no se usa `set!` en ningún
+archivo. El recorrido de las preferencias en `preparar-candidatos` se hace con recursión (`let` con nombre)
+y acumuladores que se pasan como argumentos.
 
-(struct Preparacion ([candidatos : (Listof Candidato)]
-                     [descartes : (Listof Descarte)]) #:transparent)
+Pruebas. `tests/test-pipeline.rkt` cubre los casos de la tabla anterior y el filtro de créditos
+(extremos incluidos). Se ejecuta con `racket racket/tests/test-pipeline.rkt`.
 
+2.3 Estructuras de datos desarrolladas
 
-4. Diseño del Pipeline (pipeline.rkt)
+Todas están en `racket/tipos.rkt` y son inmutables (`#:transparent`).
 
-El archivo pipeline.rkt expone las funciones encargadas de procesar la entrada cruda del catálogo de cursos y aplicar las reglas de negocio antes de invocar la resolución de combinaciones.
+- `Horario` (`dia`, `inicio`, `fin`): un bloque de tiempo; las horas van en minutos.
+- `Grupo` (`curso`, `numero`, `profesor`, `horarios`): una sección de un curso.
+- `Curso` (`codigo`, `nombre`, `creditos`, `semestre`, `carrera`, `requisitos`, `correquisitos`, `grupos`, `matriculable`, `razon`): un curso del catálogo de la Etapa 1. `razon` es `#f` cuando el JSON trae `null`.
+- `Catalogo` (`siglas`, `cursos`, `historial`): el catálogo leído, con el historial del estudiante.
+- `Interes` (`curso`, `grupos`): un curso que el estudiante quiere, con los grupos que acepta.
+- `Preferencias` (`intereses`, `creditos-min`, `creditos-max`): contenido del archivo de preferencias.
+- `Candidato` (`curso`, `grupos`): entrada del generador; de aquí se elige un solo grupo.
+- `Descarte` (`curso`, `razon`): un curso pedido que no entra, y por qué.
+- `Preparacion` (`candidatos`, `descartes`): resultado de `preparar-candidatos`.
+- `Seleccion` (`curso`, `grupo`, `carrera`): un par curso-grupo dentro de una combinación.
+- `Combinacion` (`selecciones`, `creditos-totales`): un horario posible, listo para exportar.
 
-## 4.1 Flujo de Procesamiento
+`Candidato` es la interfaz entre la preparación y el generador: el generador no necesita conocer las
+preferencias ni el catálogo, solo recibe qué cursos y qué grupos puede combinar.
 
-  [ Catálogo JSON / Cursos ] + [ Preferencias Estudiante ]
-                                │
-                                ▼
-                   (preparar-candidatos)
-                                │
-             ┌──────────────────┴──────────────────┐
-             ▼                                     ▼
-   [ Lista de Candidatos ]               [ Lista de Descartes ]
-             │
-             ▼
- (generar-combinaciones)  ──►  Streams Perezosos
-                                │
-                                ▼
-                     (filtrar-por-creditos)
-                                │
-                                ▼
-                   [ Combinaciones Finales ]
+### 2.2.2 Decisiones de diseño: Módulo I/O y Contrato de Salida 
 
+**El formato de salida hacia Prolog (JSON).** Se decidió que la salida de la Etapa 2 sea un archivo JSON (`salida_etapa2.json`). Esta decisión se basa en que Prolog puede parsear JSON de forma sencilla mediante librerías estándar, y mantiene la consistencia con la Etapa 1. El archivo incluye un `id_combinacion` para que Prolog pueda referenciar y descartar horarios completos, los `creditos_totales` de esa combinación, y un arreglo de `selecciones`. Cada selección contiene el par exacto `curso`, `grupo` y la `carrera` de origen del curso, cumpliendo así con los requerimientos mínimos exigidos para esta fase.
 
-4.2 Funciones Principales
+**Manejo de vectores JSON a listas en Typed Racket.** Al leer el JSON generado por C, la librería `read-json` de Racket interpreta los arreglos como *vectores*, no como listas. Como nuestras estructuras en `tipos.rkt` exigen listas inmutables, el `io/lector.rkt` implementa funciones de conversión seguras (`any->hash-list`, `any->string-list` y `any->num-list`) que transforman los datos respetando el tipado estricto de Typed Racket.
 
-preparar-candidatos: Filtra los cursos matriculables (Curso-matriculable), cruza la oferta con las preferencias del estudiante (Interes-grupos) y retorna una estructura Preparacion.
+**Lectura tolerante a fallos y descartes.** El módulo `io/lector.rkt` lee el JSON del catálogo y el archivo `preferencias.json`. Para evitar que un archivo de preferencias mal escrito detenga el programa, cualquier curso pedido que no exista, no tenga grupos o no sea matriculable se maneja mediante la estructura `Descarte` en el `pipeline.rkt`, permitiendo que el flujo continúe procesando los cursos válidos.
 
-filtrar-por-creditos: Aplica la función genérica de filtrado definida en genericos.rkt sobre la secuencia de combinaciones generadas, asegurando que los créditos totales de cada combinación se encuentren dentro del rango [creditos-min, creditos-max].
+### 2.2.3 Caso límite real encontrado en la Etapa 2
 
-5. Módulo de Generación y Validación de Horarios (motor/)
+**El problema del `list->stream` y los tipos estrictos.**
+Durante la integración del motor de combinaciones (que usa streams) con el exportador, nos topamos con un problema de tipos: la función `filtrar-por-creditos` devolvía una secuencia perezosa (Stream) que necesitaba ser convertida a lista para exportarse. Intentamos usar funciones nativas como `stream->list`, pero Typed Racket rechazaba la compilación indicando *"missing type for identifier"*. 
 
-El módulo motor/ se encarga de explorar el espacio de soluciones de horarios y filtrar las opciones inviables mediante dos componentes principales: stream.rkt y choque.rkt.
+**Solución:** En lugar de forzar un `cast` inseguro, optamos por la solución puramente funcional: utilizar `for/list` nativo de Racket, que es capaz de iterar sobre secuencias perezosas (Streams) y construir la lista final, permitiendo anotar explícitamente el tipo de salida: `(for/list : (Listof Combinacion) ([c stream]) c)`. Esto resolvió el error de tipado y mantuvo el principio de inmutabilidad.
 
-5.1 Generación Perezosa de Combinaciones (stream.rkt)
+### 2.3.1 Estructuras de datos del módulo I/O
 
-La generación de combinaciones se implementa mediante Streams Perezosos (Lazy Streams). Esto permite construir el árbol de combinaciones bajo demanda sin necesidad de calcular todas las posibilidades en memoria.
+Además de las estructuras principales definidas en `tipos.rkt`, el módulo de lectura maneja internamente:
+- **HashTables genéricos:** Al leer el JSON, los objetos se reciben como `(HashTable Symbol Any)`. Usamos aserciones de tipo (`assert`) para asegurar que campos como `"dia"` o `"hora_inicio"` son strings antes de pasarlos a las funciones de conversión (`string->dia`, `hora->minutos`).
+- **Conversión de preferencias:** El archivo `preferencias.json` se parsea a la estructura `Preferencias`, que contiene una lista de `Interes`. Si un interés no especifica grupos (lista vacía), el `pipeline` asume que se pueden tomar todos los grupos disponibles de ese curso.
 
-Concatenación Suspendida (stream-concat-lazy)
+### 2.4 Instrucciones de ejecución
 
-Para evitar la evaluación ansiosa de ramas no exploradas, se utiliza un thunk (lambda () ...) que suspende el cómputo de la siguiente rama hasta que el consumidor solicite el siguiente elemento:
+Para probar el flujo completo de la Etapa 2 (desde la lectura de C hasta la exportación para Prolog), ejecutar desde la raíz del proyecto:
 
-(define (stream-concat-lazy s1 s2-thunk)
-  (cond ((stream-empty? s1) (s2-thunk))
-        (else (stream-cons (stream-first s1)
-                           (stream-concat-lazy (stream-rest s1) s2-thunk)))))
-
-
-Exploración Recursiva (generar-combinaciones y por-grupos)
-
-El algoritmo recorre la lista de cursos candidato evaluando grupo por grupo contra el acumulador actual (acu). Únicamente si el grupo no presenta choques de horario, se procede con la recursión sobre los cursos restantes:
-
-(define (generar-combinaciones lista-cursos acu)
-  (cond ((null? lista-cursos) (stream acu))
-        (else (por-grupos (car lista-cursos) (cdr lista-cursos) acu))))
-
-(define (por-grupos grupos resto-cursos acu)
-  (cond ((null? grupos) empty-stream)
-        ((grupo-valido? (car grupos) acu)
-         (stream-concat-lazy
-          (generar-combinaciones resto-cursos (cons (car grupos) acu))
-          (lambda () (por-grupos (cdr grupos) resto-cursos acu))))
-        (else (por-grupos (cdr grupos) resto-cursos acu))))
-
-
-Gracias a este esquema perezoso, la obtención del primer horario válido responde con complejidad espacial $O(1)$ en la primera iteración, diferiendo el cálculo del resto de combinaciones hasta que sean requeridas.
-
-5.2 Detección de Traslapes Horarios (choque.rkt)
-
-La validación de compatibilidad horaria entre dos grupos se basa en la comparación directa de los bloques de tiempo (Horario) almacenados en las estructuras Grupo importadas de tipos.rkt.
-
-Criterio Matemático de Traslape
-
-Dos lecciones o bloques de horario $h_1$ y $h_2$ se traslapan en el tiempo si coinciden en el mismo día de la semana y existe una intersección no vacía en sus rangos en minutos $[ \text{inicio}, \text{fin} )$:
-
-$$\text{Chocan}(h_1, h_2) \iff \text{Dia}(h_1) = \text{Dia}(h_2) \land \text{Inicio}(h_1) < \text{Fin}(h_2) \land \text{Inicio}(h_2) < \text{Fin}(h_1)$$
-
-Implementación en Racket
-
-;; Verifica si dos estructuras Horario se traslapan en tiempo
-(define (horarios-chocan? h1 h2)
-  (and (string=? (Horario-dia h1) (Horario-dia h2))
-       (< (Horario-inicio h1) (Horario-fin h2))
-       (< (Horario-inicio h2) (Horario-fin h1))))
-
-;; Verifica si dos grupos tienen al menos un choque horario entre sus clases
-(define (grupos-chocan? g1 g2)
-  (ormap (lambda (h1)
-           (ormap (lambda (h2)
-                    (horarios-chocan? h1 h2))
-                  (Grupo-horarios g2)))
-         (Grupo-horarios g1)))
-
-;; Un grupo es válido si no choca con ningún grupo seleccionado en el acumulador
-(define (grupo-valido? g acu)
-  (not (ormap (lambda (g-acu) (grupos-chocan? g g-acu)) acu)))
+```bash
+racket racket/test_e2e.rkt
