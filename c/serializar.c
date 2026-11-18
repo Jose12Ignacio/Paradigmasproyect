@@ -10,7 +10,7 @@
  * ============================================================
  */
 
-#define VERSION_ESQUEMA "1.1"
+#define VERSION_ESQUEMA "1.2"
 
 /*
  * ============================================================
@@ -18,10 +18,6 @@
  * ============================================================
  */
 
-/**
- * Convierte un valor del enum Dia a su letra correspondiente
- * según la convención del TEC: L, K, M, J, V, S.
- */
 static const char* dia_a_letra(Dia dia) {
     switch (dia) {
         case LUNES:     return "L";
@@ -34,9 +30,6 @@ static const char* dia_a_letra(Dia dia) {
     }
 }
 
-/**
- * Convierte minutos desde medianoche a formato "HH:MM".
- */
 static void minutos_a_hora(int minutos, char *buffer, int tam) {
     if (minutos < 0 || minutos >= 24 * 60) {
         snprintf(buffer, tam, "??:??");
@@ -47,10 +40,6 @@ static void minutos_a_hora(int minutos, char *buffer, int tam) {
     snprintf(buffer, tam, "%02d:%02d", hh, mm);
 }
 
-/**
- * Escribe un string JSON escapado. Escapa comillas dobles y
- * backslashes. Los caracteres UTF-8 (tildes, ñ) se emiten tal cual.
- */
 static void escribir_string_json(FILE *f, const char *texto) {
     if (texto == NULL) {
         fprintf(f, "null");
@@ -75,10 +64,6 @@ static void escribir_string_json(FILE *f, const char *texto) {
     fputc('"', f);
 }
 
-/**
- * Escribe un arreglo JSON de strings a partir de un arreglo de códigos (MAX_CODIGO).
- * Ej: ["CE-1101","CE-1104"]
- */
 static void escribir_array_strings(FILE *f,
                                    const char arreglo[][MAX_CODIGO],
                                    int total) {
@@ -90,9 +75,6 @@ static void escribir_array_strings(FILE *f,
     fputc(']', f);
 }
 
-/**
- * Escribe un arreglo JSON de strings para el detalle de choques (MAX_TEXTO_CHOQUE).
- */
 static void escribir_array_choques(FILE *f,
                                    const char arreglo[][MAX_TEXTO_CHOQUE],
                                    int total) {
@@ -104,10 +86,6 @@ static void escribir_array_choques(FILE *f,
     fputc(']', f);
 }
 
-/**
- * Escribe el bloque de horarios de un grupo.
- * Ej: [{"dia":"K","hora_inicio":"07:30","hora_fin":"09:20"}, ...]
- */
 static void escribir_horarios(FILE *f, const Grupo *grupo, int indent) {
     fputc('[', f);
     for (int i = 0; i < grupo->Totalhorarios; i++) {
@@ -132,9 +110,6 @@ static void escribir_horarios(FILE *f, const Grupo *grupo, int indent) {
     fputc(']', f);
 }
 
-/**
- * Escribe el arreglo de grupos de un curso.
- */
 static void escribir_grupos(FILE *f, const Curso *curso, int indent) {
     fputc('[', f);
     for (int g = 0; g < curso->total_grupos; g++) {
@@ -161,64 +136,73 @@ static void escribir_grupos(FILE *f, const Curso *curso, int indent) {
     fputc(']', f);
 }
 
-/**
- * Escribe un curso completo en formato JSON.
- */
+static int calcular_max_semestre(const Catalogo *catalogo) {
+    int max_sem = 0;
+    for (int i = 0; i < catalogo->cantidad; i++) {
+        if (catalogo->cursos[i].semestre > max_sem) {
+            max_sem = catalogo->cursos[i].semestre;
+        }
+    }
+    return max_sem;
+}
+
+static void escribir_semestres_incluidos(FILE *f, int max_semestre) {
+    fputc('[', f);
+    for (int s = 0; s <= max_semestre; s++) {
+        if (s > 0) fputc(',', f);
+        fprintf(f, "%d", s);
+    }
+    fputc(']', f);
+}
+
 static void escribir_curso(FILE *f, const Curso *curso, int indent) {
     fprintf(f, "%*s{\n", indent, "");
 
-    // codigo
     fprintf(f, "%*s\"codigo\": ", indent + 2, "");
     escribir_string_json(f, curso->codigo);
     fprintf(f, ",\n");
 
-    // nombre
     fprintf(f, "%*s\"nombre\": ", indent + 2, "");
     escribir_string_json(f, curso->nombre);
     fprintf(f, ",\n");
 
-    // creditos
     fprintf(f, "%*s\"creditos\": %d,\n", indent + 2, "", curso->creditos);
 
-    // semestre
     fprintf(f, "%*s\"semestre\": %d,\n", indent + 2, "", curso->semestre);
 
-    // carrera
     fprintf(f, "%*s\"carrera\": ", indent + 2, "");
     escribir_string_json(f, curso->carrera);
     fprintf(f, ",\n");
 
-    // requisitos
+    // NUEVO: area
+    fprintf(f, "%*s\"area\": ", indent + 2, "");
+    escribir_string_json(f, curso->area);
+    fprintf(f, ",\n");
+
     fprintf(f, "%*s\"requisitos\": ", indent + 2, "");
     escribir_array_strings(f, curso->requisitos, curso->total_requisitos);
     fprintf(f, ",\n");
 
-    // correquisitos
     fprintf(f, "%*s\"correquisitos\": ", indent + 2, "");
     escribir_array_strings(f, curso->correquisitos, curso->total_correquisitos);
     fprintf(f, ",\n");
 
-    // grupos
     fprintf(f, "%*s\"grupos\": ", indent + 2, "");
     escribir_grupos(f, curso, indent + 2);
     fprintf(f, ",\n");
 
-    // tiene_choque
     fprintf(f, "%*s\"tiene_choque\": %s,\n",
             indent + 2, "",
             curso->tiene_choque ? "true" : "false");
 
-    // cursos_con_choque (detallado con grupo)
     fprintf(f, "%*s\"cursos_con_choque\": ", indent + 2, "");
     escribir_array_choques(f, curso->cursos_con_choque, curso->total_choques);
     fprintf(f, ",\n");
 
-    // es_matriculable
     fprintf(f, "%*s\"es_matriculable\": %s,\n",
             indent + 2, "",
             curso->es_elegible ? "true" : "false");
 
-    // razon_no_matriculable
     fprintf(f, "%*s\"razon_no_matriculable\": ", indent + 2, "");
     if (curso->es_elegible || strlen(curso->razon_no_matriculable) == 0) {
         fprintf(f, "null");
@@ -230,9 +214,6 @@ static void escribir_curso(FILE *f, const Curso *curso, int indent) {
     fprintf(f, "%*s}", indent, "");
 }
 
-/**
- * Escribe la fecha en formato YYYY-MM-DD.
- */
 static void escribir_fecha_actual(FILE *f) {
     time_t t = time(NULL);
     struct tm *tm_info = localtime(&t);
@@ -267,7 +248,8 @@ int exportar_json(const char *ruta_salida,
         return 0;
     }
 
-    // --- metadata ---
+    int max_sem = calcular_max_semestre(catalogo);
+
     fprintf(f, "{\n");
     fprintf(f, "  \"metadata\": {\n");
 
@@ -279,7 +261,9 @@ int exportar_json(const char *ruta_salida,
     escribir_string_json(f, siglas);
     fprintf(f, ",\n");
 
-    fprintf(f, "    \"semestres_incluidos\": [0, 1, 2, 3, 4],\n");
+    fprintf(f, "    \"semestres_incluidos\": ");
+    escribir_semestres_incluidos(f, max_sem);
+    fprintf(f, ",\n");
 
     fprintf(f, "    \"total_cursos\": %d,\n", catalogo->cantidad);
 
@@ -297,7 +281,6 @@ int exportar_json(const char *ruta_salida,
 
     fprintf(f, "  },\n");
 
-    // --- cursos ---
     fprintf(f, "  \"cursos\": [");
     for (int i = 0; i < catalogo->cantidad; i++) {
         if (i > 0) fprintf(f, ",");
@@ -311,8 +294,8 @@ int exportar_json(const char *ruta_salida,
 
     fclose(f);
 
-    printf("[OK] JSON exportado: %s (%d cursos)\n",
-           ruta_salida, catalogo->cantidad);
+    printf("[OK] JSON exportado: %s (%d cursos, semestres 0..%d)\n",
+           ruta_salida, catalogo->cantidad, max_sem);
 
     return 1;
 }

@@ -20,23 +20,42 @@ import re
 from datetime import datetime
 
 # ============================================================
+# RUTAS (resueltas relativas al script, para funcionar desde cualquier CWD)
+# ============================================================
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))       # .../c/scripts
+PROYECTO_DIR = os.path.dirname(BASE_DIR)                    # .../c
+
+ARCHIVO_EXCEL = os.path.join(PROYECTO_DIR, "Plan de estudios CE y ATI.xlsx")
+DIR_DATA = os.path.join(PROYECTO_DIR, "data")
+DIR_REPORTES = os.path.join(PROYECTO_DIR, "reportes")
+
+# ============================================================
 # CONSTANTES
 # ============================================================
 
-ARCHIVO_EXCEL = "Plan de estudios CE y ATI.xlsx"
-DIR_DATA = "data"
-DIR_REPORTES = "reportes"
-
-# Mapa de días en español / abreviaturas -> letra única
 MAPA_DIAS = {
-    # Abreviaturas CE
     "LUN": "L", "MAR": "K", "MIE": "M", "JUE": "J", "VIE": "V", "SAB": "S",
-    # Nombres completos ATI (con y sin tilde)
     "LUNES": "L", "MARTES": "K", "MIERCOLES": "M", "MIÉRCOLES": "M",
     "JUEVES": "J", "VIERNES": "V", "SABADO": "S", "SÁBADO": "S",
 }
 
-# Correcciones específicas de códigos (typos del Excel)
+MAPA_AREAS = {
+    "CE": "Computación",
+    "TI": "Tecnologías de Información",
+    "MA": "Matemática",
+    "FI": "Física",
+    "QU": "Química",
+    "EL": "Electrónica",
+    "CI": "Comunicación e Idiomas",
+    "CS": "Ciencias Sociales",
+    "SO": "Salud Ocupacional",
+    "PI": "Producción Industrial",
+    "AE": "Administración y Emprendimiento",
+}
+
+AREA_DEFAULT = "Otra"
+
 CORRECCIONES_CODIGOS = {
     "F1 1101": "FI-1101",
     "F1-1101": "FI-1101",
@@ -49,9 +68,10 @@ CORRECCIONES_CODIGOS = {
     "MA2407": "MA-2404",
     "MA2408": "MA-2404",
     "MA2409": "MA-2404",
+    "MA2106": "MA-2105",
+    "MA-2106": "MA-2105",
 }
 
-# Correcciones específicas de nombres de cursos (typos del Excel)
 CORRECCIONES_NOMBRES = {
     "Habilidades de comunicación en ingenieía": "Habilidades de Comunicación en Ingeniería",
     "Habilidades de comunicación en ingeniería": "Habilidades de Comunicación en Ingeniería",
@@ -63,13 +83,22 @@ CORRECCIONES_NOMBRES = {
     "Modelos organizacionales y gestión de TI": "Modelos Organizacionales y Gestión de TI",
     "Circuitos eléctricos en corriente contínua": "Circuitos Eléctricos en Corriente Continua",
     "Circuitos eléctricos en corriente continua": "Circuitos Eléctricos en Corriente Continua",
+    "Fundamentos de Arquitectura de Computadores": "Fundamentos de Arquitectura de Computadores",
+    "Laboratorio física general 1": "Laboratorio de Física General 1",
+    "Laboratorio física general 2": "Laboratorio de Física General 2",
+    "Introducción a la técnica ciencia y tecnología": "Introducción a la Técnica, Ciencia y Tecnología",
+    "Introducción a la técnica, ciencia y tecnología": "Introducción a la Técnica, Ciencia y Tecnología",
+    "Formulación y evaluación de proyectos de ti": "Formulación y Evaluación de Proyectos de TI",
+    "Adquisición de ti": "Adquisición de TI",
+    "Auditoría de ti": "Auditoría de TI",
+    "Administración de servicios de tecnologías de información i": "Administración de Servicios de Tecnologías de Información I",
 }
 
-# Encabezado del CSV
 CSV_HEADER = [
-    "codigo", "nombre", "creditos", "semestre", "carrera",  
+    "codigo", "nombre", "creditos", "semestre", "carrera",
     "requisitos", "correquisitos",
-    "grupo", "profesor", "dia", "hora_inicio", "hora_fin"
+    "grupo", "profesor", "dia", "hora_inicio", "hora_fin",
+    "area",
 ]
 
 # ============================================================
@@ -79,7 +108,6 @@ CSV_HEADER = [
 reporte_lineas = []
 
 def log(mensaje, nivel="INFO"):
-    """Agrega una línea al reporte y la imprime en consola."""
     prefijo = {
         "INFO": "[INFO]",
         "WARN": "[WARN]",
@@ -95,40 +123,28 @@ def log(mensaje, nivel="INFO"):
 # ============================================================
 
 def normalizar_codigo(codigo_raw):
-    """
-    Convierte 'CE 1101', 'CE1101', 'CE-1101' -> 'CE-1101'.
-    Aplica correcciones específicas primero.
-    """
     if codigo_raw is None:
         return None
     codigo = str(codigo_raw).strip()
 
-    # Correcciones específicas (typos conocidos)
     if codigo in CORRECCIONES_CODIGOS:
         log(f"Corrección de código: '{codigo}' -> '{CORRECCIONES_CODIGOS[codigo]}'", "WARN")
         return CORRECCIONES_CODIGOS[codigo]
 
-    # Patrón general: 2 letras + número de 4 dígitos (con o sin guion/espacio)
     match = re.match(r"^([A-Z]{2})\s*-?\s*(\d{4})$", codigo.upper())
     if match:
         return f"{match.group(1)}-{match.group(2)}"
 
-    # Si no matchea, devolver tal cual (y reportar)
     log(f"Código no reconocido: '{codigo}'", "WARN")
     return codigo
 
 def normalizar_dia(dia_raw):
-    """Convierte 'MAR', 'Lunes', 'MIE' -> 'K', 'L', 'M'."""
     if dia_raw is None:
         return None
     dia = str(dia_raw).strip().upper()
     return MAPA_DIAS.get(dia)
 
 def normalizar_hora(hora_raw):
-    """
-    Convierte '7:30' -> '07:30'.
-    Retorna None si no se puede parsear.
-    """
     if hora_raw is None:
         return None
     hora = str(hora_raw).strip()
@@ -142,68 +158,29 @@ def normalizar_hora(hora_raw):
     return None
 
 def normalizar_profesor(nombre_raw):
-    """
-    Convierte 'SCHMIDT PERALTA JEFF' -> 'Schmidt Peralta Jeff'.
-    Mantiene tildes.
-    """
     if nombre_raw is None:
         return None
     nombre = str(nombre_raw).strip()
     if not nombre:
         return None
-    # Capitalizar cada palabra manteniendo tildes
     return " ".join(p.capitalize() for p in nombre.split())
 
 def normalizar_nombre_curso(nombre_raw):
-    """
-    Limpia el nombre del curso:
-    - Quita el paréntesis con créditos al final: 'Introducción (3)' -> 'Introducción'
-    - Aplica correcciones específicas
-    """
     if nombre_raw is None:
         return None
     nombre = str(nombre_raw).strip()
-
-    # Quitar el paréntesis con créditos al final
     nombre = re.sub(r"\s*\(\s*\d+\s*\)\s*$", "", nombre).strip()
-
-    # Aplicar correcciones específicas
     if nombre in CORRECCIONES_NOMBRES:
         nombre = CORRECCIONES_NOMBRES[nombre]
-
     return nombre
 
-def separar_lista_codigos(texto):
-    """
-    Separa 'CE 1101, CE 1104, MA 1403' -> ['CE-1101', 'CE-1104', 'MA-1403'].
-    También separa por 2+ espacios consecutivos.
-    """
-    if texto is None:
-        return []
-    t = str(texto).strip()
-    if not t or t == "-":
-        return []
-    # Separar por coma, salto de línea, punto y coma, o 2+ espacios
-    partes = re.split(r"[,\n;]+|\s{2,}", t)
-    resultado = []
-    for p in partes:
-        p = p.strip()
-        if not p or p == "-":
-            continue
-        # Ignorar anotaciones tipo "(Correquisito)"
-        p = re.sub(r"\(Correquisito\)", "", p, flags=re.IGNORECASE).strip()
-        if p:
-            codigo = normalizar_codigo(p)
-            if codigo and codigo not in resultado:
-                resultado.append(codigo)
-    return resultado
+def asignar_area(codigo):
+    if codigo is None or "-" not in codigo:
+        return AREA_DEFAULT
+    prefijo = codigo.split("-")[0].upper()
+    return MAPA_AREAS.get(prefijo, AREA_DEFAULT)
 
 def separar_requisitos_y_correquisitos(texto):
-    """
-    Dada una celda con mezcla, separa requisitos normales y correquisitos.
-    Retorna (requisitos, correquisitos).
-    Soporta separación por coma, salto de línea, punto y coma, o 2+ espacios.
-    """
     if texto is None:
         return [], []
     t = str(texto).strip()
@@ -212,8 +189,6 @@ def separar_requisitos_y_correquisitos(texto):
 
     reqs = []
     correqs = []
-
-    # Separar por coma, salto de línea, punto y coma, o 2+ espacios
     partes = re.split(r"[,\n;]+|\s{2,}", t)
     for p in partes:
         p = p.strip()
@@ -238,16 +213,11 @@ def separar_requisitos_y_correquisitos(texto):
 # ============================================================
 
 def leer_plan_estudios(wb, nombre_hoja, fila_inicio, carrera):
-    """
-    Lee la hoja del plan de estudios (CE o ATI).
-    Retorna un diccionario {codigo: {nombre, creditos, semestre, requisitos, correquisitos}}
-    """
     ws = wb[nombre_hoja]
     cursos = {}
 
-    # Columnas: B=Bloque0, C=Req0, D=Bloque1, E=Req1, ..., K=Req4
     for fila in ws.iter_rows(min_row=fila_inicio, values_only=True):
-        for i in range(1, 15, 2):  # 1, 3, 5, 7, 9, 11, 13 (Bloques 0 a 6)
+        for i in range(1, 19, 2):  # 1,3,...,17 -> Bloques 0 a 8
             celda_curso = fila[i] if i < len(fila) else None
             celda_reqs = fila[i + 1] if i + 1 < len(fila) else None
 
@@ -258,7 +228,6 @@ def leer_plan_estudios(wb, nombre_hoja, fila_inicio, carrera):
             if not curso_txt or curso_txt == "-":
                 continue
 
-            # Parsear: "CE 1101 - Introducción a la programación (3)"
             match = re.match(r"^(.+?)\s*-\s*(.+?)\s*\(\s*(\d+)\s*\)\s*$", curso_txt)
             if not match:
                 log(f"No se pudo parsear curso: '{curso_txt}'", "WARN")
@@ -270,8 +239,7 @@ def leer_plan_estudios(wb, nombre_hoja, fila_inicio, carrera):
 
             codigo = normalizar_codigo(codigo_raw)
             nombre = normalizar_nombre_curso(nombre_raw)
-
-            # Semestre: según el índice del par
+            area = asignar_area(codigo)
             semestre = (i - 1) // 2
 
             reqs, correqs = separar_requisitos_y_correquisitos(celda_reqs)
@@ -282,6 +250,7 @@ def leer_plan_estudios(wb, nombre_hoja, fila_inicio, carrera):
                 "creditos": creditos,
                 "semestre": semestre,
                 "carrera": carrera,
+                "area": area,
                 "requisitos": reqs,
                 "correquisitos": correqs,
             }
@@ -294,9 +263,7 @@ def leer_plan_estudios(wb, nombre_hoja, fila_inicio, carrera):
 # ============================================================
 
 def parsear_horario_CE(texto):
-    """
-    Parsea 'MAR[07:30-09:20] JUE[07:30-09:20]' -> [('K','07:30','09:20'), ('J','07:30','09:20')]
-    """
+    """Parsea 'MAR[07:30-09:20] JUE[07:30-09:20]'."""
     if texto is None:
         return []
     t = str(texto).strip()
@@ -311,15 +278,15 @@ def parsear_horario_CE(texto):
         hf = normalizar_hora(hf_raw)
         if dia and hi and hf:
             bloques.append((dia, hi, hf))
-        else:
-            log(f"Bloque horario no parseable: {dia_raw}[{hi_raw}-{hf_raw}]", "WARN")
     return bloques
 
 def parsear_horario_ATI(texto):
     """
-    Parsea 'Lunes - 18:00 , 20:50' -> [('L','18:00','20:50')]
-    Soporta variantes con errores.
-    NO emite warnings: si falla, retorna [] y el caller prueba otro formato.
+    Parsea formatos ATI:
+      - 'Lunes - 18:00 , 20:50'
+      - 'Martes y Jueves - 9:30 , 11:20'  (día compuesto)
+      - 'Miercoles - 15:00 18:50'         (sin coma)
+      - 'Miercoles - 17:0:20:50'          (hora mal formada)
     """
     if texto is None:
         return []
@@ -327,12 +294,12 @@ def parsear_horario_ATI(texto):
     if not t:
         return []
 
-    # Normalizar separadores problemáticos
-    # Caso 'Miercoles - 17:0:20:50' -> 'Miercoles - 17:00 , 20:50'
+    # Normalizar 'Miercoles - 17:0:20:50' -> 'Miercoles - 17:00 , 20:50'
     t = re.sub(r"(\d{1,2}):(\d):(\d{2}):(\d{2})", r"\1:0\2 , \3:\4", t)
-    # Caso 'Miercoles - 15:00 18:50' -> 'Miercoles - 15:00 , 18:50'
+    # Normalizar 'Miercoles - 15:00 18:50' -> 'Miercoles - 15:00 , 18:50'
     t = re.sub(r"(\d{1,2}:\d{2})\s+(\d{1,2}:\d{2})", r"\1 , \2", t)
 
+    # Caso 1: día simple 'Lunes - 18:00 , 20:50'
     match = re.match(
         r"^([A-Za-zÁÉÍÓÚáéíóúñÑ]+)\s*-\s*(\d{1,2}:\d{2})\s*,\s*(\d{1,2}:\d{2})$",
         t
@@ -344,18 +311,30 @@ def parsear_horario_ATI(texto):
         hf = normalizar_hora(hf_raw)
         if dia and hi and hf:
             return [(dia, hi, hf)]
+
+    # Caso 2: día compuesto 'Martes y Jueves - 9:30 , 11:20'
+    match = re.match(
+        r"^([A-Za-zÁÉÍÓÚáéíóúñÑ]+)\s+y\s+([A-Za-zÁÉÍÓÚáéíóúñÑ]+)\s*-\s*(\d{1,2}:\d{2})\s*,\s*(\d{1,2}:\d{2})$",
+        t
+    )
+    if match:
+        dia1_raw, dia2_raw, hi_raw, hf_raw = match.groups()
+        dia1 = normalizar_dia(dia1_raw)
+        dia2 = normalizar_dia(dia2_raw)
+        hi = normalizar_hora(hi_raw)
+        hf = normalizar_hora(hf_raw)
+        if dia1 and dia2 and hi and hf:
+            return [(dia1, hi, hf), (dia2, hi, hf)]
+
     return []
 
 def leer_horarios(wb, nombre_hoja, fila_inicio, es_CE):
-    """
-    Lee la hoja de horarios.
-    Retorna {codigo: {grupo: {'profesor': str, 'horarios': [(dia, hi, hf)]}}}
-    """
     ws = wb[nombre_hoja]
     cursos = {}
 
     for fila in ws.iter_rows(min_row=fila_inicio, values_only=True):
         codigo_raw = fila[1] if len(fila) > 1 else None
+        nombre_raw = fila[2] if len(fila) > 2 else None
         grupo_raw = fila[3] if len(fila) > 3 else None
         horario_raw = fila[4] if len(fila) > 4 else None
         profesor_raw = fila[6] if len(fila) > 6 else None
@@ -364,6 +343,7 @@ def leer_horarios(wb, nombre_hoja, fila_inicio, es_CE):
             continue
 
         codigo = normalizar_codigo(codigo_raw)
+        nombre = normalizar_nombre_curso(nombre_raw)
         try:
             grupo = int(grupo_raw)
         except (ValueError, TypeError):
@@ -372,12 +352,12 @@ def leer_horarios(wb, nombre_hoja, fila_inicio, es_CE):
 
         profesor = normalizar_profesor(profesor_raw)
 
-        # Parsear horario según carrera
+        # Parsear horario: probar ambos formatos (fallback cruzado)
         if es_CE:
             bloques = parsear_horario_CE(horario_raw)
+            if not bloques:
+                bloques = parsear_horario_ATI(horario_raw)
         else:
-            # ATI: intentar formato ATI primero, si falla probar formato CE
-            # (algunos cursos compartidos como MA-* vienen en formato CE)
             bloques = parsear_horario_ATI(horario_raw)
             if not bloques:
                 bloques = parsear_horario_CE(horario_raw)
@@ -386,18 +366,18 @@ def leer_horarios(wb, nombre_hoja, fila_inicio, es_CE):
             log(f"Sin bloques horarios válidos: {codigo} grupo {grupo} -> {horario_raw!r}", "WARN")
             continue
 
-        # Inicializar estructura
         if codigo not in cursos:
-            cursos[codigo] = {}
+            cursos[codigo] = {"nombre": nombre, "grupos": {}}
 
-        # Consolidar grupos (mismo grupo, mismo profesor -> agregar días)
-        if grupo in cursos[codigo]:
-            grupo_data = cursos[codigo][grupo]
+        if grupo in cursos[codigo]["grupos"]:
+            gdata = cursos[codigo]["grupos"][grupo]
             for b in bloques:
-                if b not in grupo_data["horarios"]:
-                    grupo_data["horarios"].append(b)
+                if b not in gdata["horarios"]:
+                    gdata["horarios"].append(b)
+            if not gdata["profesor"] and profesor:
+                gdata["profesor"] = profesor
         else:
-            cursos[codigo][grupo] = {
+            cursos[codigo]["grupos"][grupo] = {
                 "profesor": profesor,
                 "horarios": list(bloques),
             }
@@ -406,14 +386,72 @@ def leer_horarios(wb, nombre_hoja, fila_inicio, es_CE):
     return cursos
 
 # ============================================================
+# RECONCILIACIÓN DE CÓDIGOS
+# ============================================================
+
+def reconciliar_codigos(plan, horarios, carrera):
+    nombre_a_codigos = {}
+    for cod, info in plan.items():
+        nombre_norm = info["nombre"].strip().lower()
+        nombre_a_codigos.setdefault(nombre_norm, []).append(cod)
+
+    codigo_sin_guion = {cod.replace("-", "").upper(): cod for cod in plan.keys()}
+
+    horarios_reconciliados = {}
+    descartados = []
+    reconciliados = []
+
+    for cod_grupo, info_grupo in horarios.items():
+        cod_final = None
+        razon = None
+
+        if cod_grupo in plan:
+            cod_final = cod_grupo
+        elif cod_grupo.replace("-", "").upper() in codigo_sin_guion:
+            cod_final = codigo_sin_guion[cod_grupo.replace("-", "").upper()]
+            razon = "match por código sin guion"
+        else:
+            nombre_norm = (info_grupo["nombre"] or "").strip().lower()
+            candidatos = nombre_a_codigos.get(nombre_norm, [])
+            if len(candidatos) == 1:
+                cod_final = candidatos[0]
+                razon = f"match por nombre '{info_grupo['nombre']}'"
+            elif len(candidatos) > 1:
+                log(f"[{carrera}] Ambigüedad: código '{cod_grupo}' con nombre "
+                    f"'{info_grupo['nombre']}' coincide con {candidatos}. Se descarta.", "WARN")
+                descartados.append((cod_grupo, info_grupo["nombre"], "ambiguo por nombre"))
+                continue
+
+        if cod_final is None:
+            log(f"[{carrera}] Código '{cod_grupo}' (nombre '{info_grupo['nombre']}') "
+                f"no está en el plan y no se pudo reconciliar. Se DESCARTA.", "WARN")
+            descartados.append((cod_grupo, info_grupo["nombre"], "sin match"))
+            continue
+
+        if cod_final != cod_grupo:
+            log(f"[{carrera}] Reconciliado: '{cod_grupo}' -> '{cod_final}' ({razon})", "WARN")
+            reconciliados.append((cod_grupo, cod_final, razon))
+
+        if cod_final in horarios_reconciliados:
+            for num, gdata in info_grupo["grupos"].items():
+                if num in horarios_reconciliados[cod_final]:
+                    for b in gdata["horarios"]:
+                        if b not in horarios_reconciliados[cod_final][num]["horarios"]:
+                            horarios_reconciliados[cod_final][num]["horarios"].append(b)
+                else:
+                    horarios_reconciliados[cod_final][num] = gdata
+        else:
+            horarios_reconciliados[cod_final] = info_grupo["grupos"]
+
+    log(f"[{carrera}] Reconciliación: {len(reconciliados)} mapeados, "
+        f"{len(descartados)} descartados", "INFO")
+    return horarios_reconciliados, reconciliados, descartados
+
+# ============================================================
 # ESCRITURA DEL CSV
 # ============================================================
 
 def escribir_csv(ruta, plan, horarios, cursos_sin_horario=None):
-    """
-    Escribe el CSV combinando plan de estudios + horarios.
-    Una fila por bloque horario.
-    """
     cursos_sin_horario = cursos_sin_horario or set()
     filas = []
 
@@ -424,35 +462,26 @@ def escribir_csv(ruta, plan, horarios, cursos_sin_horario=None):
                 gdata = grupos[num_grupo]
                 for dia, hi, hf in gdata["horarios"]:
                     filas.append([
-                        info["codigo"],
-                        info["nombre"],
-                        info["creditos"],
-                        info["semestre"],
-                        info["carrera"],
+                        info["codigo"], info["nombre"], info["creditos"],
+                        info["semestre"], info["carrera"],
                         ";".join(info["requisitos"]),
                         ";".join(info["correquisitos"]),
-                        num_grupo,
-                        gdata["profesor"] or "",
-                        dia,
-                        hi,
-                        hf,
+                        num_grupo, gdata["profesor"] or "",
+                        dia, hi, hf,
+                        info["area"],
                     ])
         else:
-            # Curso sin horario (diagnóstico)
             filas.append([
-                info["codigo"],
-                info["nombre"],
-                info["creditos"],
-                info["semestre"],
+                info["codigo"], info["nombre"], info["creditos"],
+                info["semestre"], info["carrera"],
                 ";".join(info["requisitos"]),
                 ";".join(info["correquisitos"]),
                 "", "", "", "", "",
+                info["area"],
             ])
 
-    # Ordenar por código, luego grupo, luego día
-    filas.sort(key=lambda f: (f[0], str(f[6]), str(f[8])))
+    filas.sort(key=lambda f: (f[0], str(f[7]), str(f[9])))
 
-    # Escribir
     with open(ruta, "w", encoding="utf-8", newline="") as f:
         writer = csv.writer(f)
         writer.writerow(CSV_HEADER)
@@ -469,64 +498,52 @@ def main():
     log("=" * 60)
     log("CONVERSIÓN EXCEL -> CSV", "INFO")
     log(f"Fecha: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    log(f"Excel: {ARCHIVO_EXCEL}")
     log("=" * 60)
 
-    # Crear carpetas de salida
     os.makedirs(DIR_DATA, exist_ok=True)
     os.makedirs(DIR_REPORTES, exist_ok=True)
 
-    # Cargar Excel
     log(f"Cargando {ARCHIVO_EXCEL}...")
     wb = openpyxl.load_workbook(ARCHIVO_EXCEL)
 
     # ============ CE ============
     log("\n--- PROCESANDO CE ---")
     plan_CE = leer_plan_estudios(wb, "CE", fila_inicio=4, carrera="CE")
-    horarios_CE = leer_horarios(wb, "Grupos CE", fila_inicio=2, es_CE=True)
+    horarios_CE_raw = leer_horarios(wb, "Grupos CE", fila_inicio=2, es_CE=True)
+    horarios_CE, reconc_CE, descart_CE = reconciliar_codigos(plan_CE, horarios_CE_raw, "CE")
 
     sin_horario_CE = set(plan_CE.keys()) - set(horarios_CE.keys())
     if sin_horario_CE:
-        log(f"Cursos sin horario en CE: {sorted(sin_horario_CE)}", "WARN")
-
-    for cod in horarios_CE:
-        if cod not in plan_CE:
-            log(f"Curso en horarios pero no en plan (CE): {cod}", "ERROR")
+        log(f"Cursos del plan sin horario en CE: {sorted(sin_horario_CE)}", "WARN")
 
     escribir_csv(
         os.path.join(DIR_DATA, "catalogo_CE.csv"),
-        plan_CE,
-        horarios_CE,
-        cursos_sin_horario=sin_horario_CE,
+        plan_CE, horarios_CE, cursos_sin_horario=sin_horario_CE,
     )
 
     # ============ ATI ============
     log("\n--- PROCESANDO ATI ---")
     plan_ATI = leer_plan_estudios(wb, "ATI", fila_inicio=3, carrera="ATI")
-    horarios_ATI = leer_horarios(wb, "Grupos ATI", fila_inicio=3, es_CE=False)
+    horarios_ATI_raw = leer_horarios(wb, "Grupos ATI", fila_inicio=3, es_CE=False)
+    horarios_ATI, reconc_ATI, descart_ATI = reconciliar_codigos(plan_ATI, horarios_ATI_raw, "ATI")
 
     sin_horario_ATI = set(plan_ATI.keys()) - set(horarios_ATI.keys())
     if sin_horario_ATI:
-        log(f"Cursos sin horario en ATI: {sorted(sin_horario_ATI)}", "WARN")
-
-    for cod in horarios_ATI:
-        if cod not in plan_ATI:
-            log(f"Curso en horarios pero no en plan (ATI): {cod}", "ERROR")
+        log(f"Cursos del plan sin horario en ATI: {sorted(sin_horario_ATI)}", "WARN")
 
     escribir_csv(
         os.path.join(DIR_DATA, "catalogo_ATI.csv"),
-        plan_ATI,
-        horarios_ATI,
-        cursos_sin_horario=sin_horario_ATI,
+        plan_ATI, horarios_ATI, cursos_sin_horario=sin_horario_ATI,
     )
 
     # ============ RESUMEN ============
     log("\n" + "=" * 60)
     log("RESUMEN", "INFO")
-    log(f"CE  - Cursos: {len(plan_CE)}, con horario: {len(horarios_CE)}")
-    log(f"ATI - Cursos: {len(plan_ATI)}, con horario: {len(horarios_ATI)}")
+    log(f"CE  - Cursos plan: {len(plan_CE)}, con horario: {len(horarios_CE)}")
+    log(f"ATI - Cursos plan: {len(plan_ATI)}, con horario: {len(horarios_ATI)}")
     log("=" * 60)
 
-    # Guardar reporte
     ruta_reporte = os.path.join(DIR_REPORTES, "reporte_limpieza.txt")
     with open(ruta_reporte, "w", encoding="utf-8") as f:
         f.write("\n".join(reporte_lineas))

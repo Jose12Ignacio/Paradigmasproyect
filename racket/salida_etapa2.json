@@ -5,19 +5,25 @@
             "id_combinacion": 1,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 11
+                    "grupo": 1
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 3
+                    "grupo": 1
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 3
+                    "grupo": 1
                 }
             ]
         },
@@ -26,19 +32,25 @@
             "id_combinacion": 2,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 7
+                    "grupo": 11
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 3
+                    "grupo": 1
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 3
+                    "grupo": 1
                 }
             ]
         },
@@ -47,19 +59,25 @@
             "id_combinacion": 3,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 18
+                    "grupo": 12
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 3
+                    "grupo": 1
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 3
+                    "grupo": 1
                 }
             ]
         },
@@ -68,19 +86,25 @@
             "id_combinacion": 4,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 14
+                    "grupo": 13
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 3
+                    "grupo": 1
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 3
+                    "grupo": 1
                 }
             ]
         },
@@ -89,19 +113,25 @@
             "id_combinacion": 5,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 16
+                    "grupo": 14
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 3
+                    "grupo": 1
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 3
+                    "grupo": 1
                 }
             ]
         },
@@ -110,19 +140,25 @@
             "id_combinacion": 6,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
+                    "grupo": 18
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 3,
+                    "curso": "CE-1105",
                     "grupo": 1
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 3
-                },
-                {
-                    "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 3
+                    "grupo": 1
                 }
             ]
         },
@@ -131,19 +167,25 @@
             "id_combinacion": 7,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 4
+                    "grupo": 19
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 3
+                    "grupo": 1
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 3
+                    "grupo": 1
                 }
             ]
         },
@@ -152,19 +194,25 @@
             "id_combinacion": 8,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
                     "grupo": 2
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 3
+                    "grupo": 1
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 3
+                    "grupo": 1
                 }
             ]
         },
@@ -173,19 +221,25 @@
             "id_combinacion": 9,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 6
+                    "grupo": 3
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 3
+                    "grupo": 1
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 3
+                    "grupo": 1
                 }
             ]
         },
@@ -194,19 +248,25 @@
             "id_combinacion": 10,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 13
+                    "grupo": 4
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 3
+                    "grupo": 1
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 3
+                    "grupo": 1
                 }
             ]
         },
@@ -215,19 +275,25 @@
             "id_combinacion": 11,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 8
+                    "grupo": 5
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 3
+                    "grupo": 1
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 3
+                    "grupo": 1
                 }
             ]
         },
@@ -236,19 +302,25 @@
             "id_combinacion": 12,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 12
+                    "grupo": 6
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 3
+                    "grupo": 1
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 3
+                    "grupo": 1
                 }
             ]
         },
@@ -257,19 +329,25 @@
             "id_combinacion": 13,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 5
+                    "grupo": 7
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 3
+                    "grupo": 1
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 3
+                    "grupo": 1
                 }
             ]
         },
@@ -278,56 +356,72 @@
             "id_combinacion": 14,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 17
+                    "grupo": 8
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 3
+                    "grupo": 1
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 3
-                }
-            ]
-        },
-        {
-            "creditos_totales": 11,
-            "id_combinacion": 15,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 15
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 3
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 3
+                    "grupo": 1
                 }
             ]
         },
         {
             "creditos_totales": 7,
+            "id_combinacion": 15,
+            "selecciones": [
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 3,
+                    "curso": "CE-1105",
+                    "grupo": 1
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "CE-1103",
+                    "grupo": 1
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
             "id_combinacion": 16,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "MA-1103",
+                    "grupo": 1
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
                     "grupo": 3
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 3
+                    "grupo": 1
                 }
             ]
         },
@@ -336,19 +430,25 @@
             "id_combinacion": 17,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
                     "grupo": 11
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 1
+                    "grupo": 3
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 3
+                    "grupo": 1
                 }
             ]
         },
@@ -357,19 +457,25 @@
             "id_combinacion": 18,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 7
+                    "grupo": 12
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 1
+                    "grupo": 3
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 3
+                    "grupo": 1
                 }
             ]
         },
@@ -378,19 +484,25 @@
             "id_combinacion": 19,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 18
+                    "grupo": 13
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 1
+                    "grupo": 3
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 3
+                    "grupo": 1
                 }
             ]
         },
@@ -399,19 +511,25 @@
             "id_combinacion": 20,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
                     "grupo": 14
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 1
+                    "grupo": 3
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 3
+                    "grupo": 1
                 }
             ]
         },
@@ -420,19 +538,25 @@
             "id_combinacion": 21,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 16
+                    "grupo": 18
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 1
+                    "grupo": 3
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 3
+                    "grupo": 1
                 }
             ]
         },
@@ -441,19 +565,25 @@
             "id_combinacion": 22,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 1
+                    "grupo": 19
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 1
+                    "grupo": 3
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 3
+                    "grupo": 1
                 }
             ]
         },
@@ -462,19 +592,25 @@
             "id_combinacion": 23,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 4
+                    "grupo": 2
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 1
+                    "grupo": 3
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 3
+                    "grupo": 1
                 }
             ]
         },
@@ -483,19 +619,25 @@
             "id_combinacion": 24,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 2
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 1
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
                     "grupo": 3
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 3,
+                    "curso": "CE-1105",
+                    "grupo": 3
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "CE-1103",
+                    "grupo": 1
                 }
             ]
         },
@@ -504,19 +646,25 @@
             "id_combinacion": 25,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 6
+                    "grupo": 4
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 1
+                    "grupo": 3
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 3
+                    "grupo": 1
                 }
             ]
         },
@@ -525,19 +673,25 @@
             "id_combinacion": 26,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 13
+                    "grupo": 5
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 1
+                    "grupo": 3
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 3
+                    "grupo": 1
                 }
             ]
         },
@@ -546,19 +700,25 @@
             "id_combinacion": 27,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 8
+                    "grupo": 6
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 1
+                    "grupo": 3
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 3
+                    "grupo": 1
                 }
             ]
         },
@@ -567,19 +727,25 @@
             "id_combinacion": 28,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 12
+                    "grupo": 7
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 1
+                    "grupo": 3
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 3
+                    "grupo": 1
                 }
             ]
         },
@@ -588,659 +754,844 @@
             "id_combinacion": 29,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 5
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 1
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 3
-                }
-            ]
-        },
-        {
-            "creditos_totales": 11,
-            "id_combinacion": 30,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 17
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 1
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 3
-                }
-            ]
-        },
-        {
-            "creditos_totales": 11,
-            "id_combinacion": 31,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 15
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 1
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 3
-                }
-            ]
-        },
-        {
-            "creditos_totales": 7,
-            "id_combinacion": 32,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 1
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 3
-                }
-            ]
-        },
-        {
-            "creditos_totales": 11,
-            "id_combinacion": 33,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 11
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 2
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 3
-                }
-            ]
-        },
-        {
-            "creditos_totales": 11,
-            "id_combinacion": 34,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 9
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 2
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 3
-                }
-            ]
-        },
-        {
-            "creditos_totales": 11,
-            "id_combinacion": 35,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 7
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 2
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 3
-                }
-            ]
-        },
-        {
-            "creditos_totales": 11,
-            "id_combinacion": 36,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 18
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 2
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 3
-                }
-            ]
-        },
-        {
-            "creditos_totales": 11,
-            "id_combinacion": 37,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 14
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 2
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 3
-                }
-            ]
-        },
-        {
-            "creditos_totales": 11,
-            "id_combinacion": 38,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 1
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 2
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 3
-                }
-            ]
-        },
-        {
-            "creditos_totales": 11,
-            "id_combinacion": 39,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 4
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 2
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 3
-                }
-            ]
-        },
-        {
-            "creditos_totales": 11,
-            "id_combinacion": 40,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 2
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 2
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 3
-                }
-            ]
-        },
-        {
-            "creditos_totales": 11,
-            "id_combinacion": 41,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 6
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 2
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 3
-                }
-            ]
-        },
-        {
-            "creditos_totales": 11,
-            "id_combinacion": 42,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 10
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 2
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 3
-                }
-            ]
-        },
-        {
-            "creditos_totales": 11,
-            "id_combinacion": 43,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 13
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 2
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 3
-                }
-            ]
-        },
-        {
-            "creditos_totales": 11,
-            "id_combinacion": 44,
-            "selecciones": [
-                {
-                    "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
                     "grupo": 8
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 2
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
                     "grupo": 3
-                }
-            ]
-        },
-        {
-            "creditos_totales": 11,
-            "id_combinacion": 45,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 12
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 2
-                },
-                {
-                    "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 3
-                }
-            ]
-        },
-        {
-            "creditos_totales": 11,
-            "id_combinacion": 46,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 5
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 2
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 3
+                    "grupo": 1
                 }
             ]
         },
         {
             "creditos_totales": 7,
-            "id_combinacion": 47,
+            "id_combinacion": 30,
             "selecciones": [
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 2
+                    "grupo": 3
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 3
+                    "grupo": 1
                 }
             ]
         },
         {
             "creditos_totales": 8,
-            "id_combinacion": 48,
+            "id_combinacion": 31,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "MA-1103",
+                    "grupo": 1
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "CE-1103",
+                    "grupo": 1
+                }
+            ]
+        },
+        {
+            "creditos_totales": 8,
+            "id_combinacion": 32,
+            "selecciones": [
+                {
+                    "area": "Matemática",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "MA-1103",
+                    "grupo": 10
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "CE-1103",
+                    "grupo": 1
+                }
+            ]
+        },
+        {
+            "creditos_totales": 8,
+            "id_combinacion": 33,
+            "selecciones": [
+                {
+                    "area": "Matemática",
+                    "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
                     "grupo": 11
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 3
+                    "grupo": 1
                 }
             ]
         },
         {
             "creditos_totales": 8,
-            "id_combinacion": 49,
+            "id_combinacion": 34,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 9
+                    "grupo": 12
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 3
+                    "grupo": 1
                 }
             ]
         },
         {
             "creditos_totales": 8,
-            "id_combinacion": 50,
+            "id_combinacion": 35,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 7
+                    "grupo": 13
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 3
+                    "grupo": 1
                 }
             ]
         },
         {
             "creditos_totales": 8,
-            "id_combinacion": 51,
+            "id_combinacion": 36,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 18
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 3
-                }
-            ]
-        },
-        {
-            "creditos_totales": 8,
-            "id_combinacion": 52,
-            "selecciones": [
-                {
-                    "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
                     "grupo": 14
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 3
+                    "grupo": 1
                 }
             ]
         },
         {
             "creditos_totales": 8,
+            "id_combinacion": 37,
+            "selecciones": [
+                {
+                    "area": "Matemática",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "MA-1103",
+                    "grupo": 18
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "CE-1103",
+                    "grupo": 1
+                }
+            ]
+        },
+        {
+            "creditos_totales": 8,
+            "id_combinacion": 38,
+            "selecciones": [
+                {
+                    "area": "Matemática",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "MA-1103",
+                    "grupo": 19
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "CE-1103",
+                    "grupo": 1
+                }
+            ]
+        },
+        {
+            "creditos_totales": 8,
+            "id_combinacion": 39,
+            "selecciones": [
+                {
+                    "area": "Matemática",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "MA-1103",
+                    "grupo": 2
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "CE-1103",
+                    "grupo": 1
+                }
+            ]
+        },
+        {
+            "creditos_totales": 8,
+            "id_combinacion": 40,
+            "selecciones": [
+                {
+                    "area": "Matemática",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "MA-1103",
+                    "grupo": 3
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "CE-1103",
+                    "grupo": 1
+                }
+            ]
+        },
+        {
+            "creditos_totales": 8,
+            "id_combinacion": 41,
+            "selecciones": [
+                {
+                    "area": "Matemática",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "MA-1103",
+                    "grupo": 4
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "CE-1103",
+                    "grupo": 1
+                }
+            ]
+        },
+        {
+            "creditos_totales": 8,
+            "id_combinacion": 42,
+            "selecciones": [
+                {
+                    "area": "Matemática",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "MA-1103",
+                    "grupo": 5
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "CE-1103",
+                    "grupo": 1
+                }
+            ]
+        },
+        {
+            "creditos_totales": 8,
+            "id_combinacion": 43,
+            "selecciones": [
+                {
+                    "area": "Matemática",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "MA-1103",
+                    "grupo": 6
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "CE-1103",
+                    "grupo": 1
+                }
+            ]
+        },
+        {
+            "creditos_totales": 8,
+            "id_combinacion": 44,
+            "selecciones": [
+                {
+                    "area": "Matemática",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "MA-1103",
+                    "grupo": 7
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "CE-1103",
+                    "grupo": 1
+                }
+            ]
+        },
+        {
+            "creditos_totales": 8,
+            "id_combinacion": 45,
+            "selecciones": [
+                {
+                    "area": "Matemática",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "MA-1103",
+                    "grupo": 8
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "CE-1103",
+                    "grupo": 1
+                }
+            ]
+        },
+        {
+            "creditos_totales": 8,
+            "id_combinacion": 46,
+            "selecciones": [
+                {
+                    "area": "Matemática",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "MA-1103",
+                    "grupo": 9
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "CE-1103",
+                    "grupo": 1
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
+            "id_combinacion": 47,
+            "selecciones": [
+                {
+                    "area": "Matemática",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "MA-1103",
+                    "grupo": 1
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 3,
+                    "curso": "CE-1105",
+                    "grupo": 1
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "CE-1103",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
+            "id_combinacion": 48,
+            "selecciones": [
+                {
+                    "area": "Matemática",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "MA-1103",
+                    "grupo": 11
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 3,
+                    "curso": "CE-1105",
+                    "grupo": 1
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "CE-1103",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
+            "id_combinacion": 49,
+            "selecciones": [
+                {
+                    "area": "Matemática",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "MA-1103",
+                    "grupo": 12
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 3,
+                    "curso": "CE-1105",
+                    "grupo": 1
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "CE-1103",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
+            "id_combinacion": 50,
+            "selecciones": [
+                {
+                    "area": "Matemática",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "MA-1103",
+                    "grupo": 13
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 3,
+                    "curso": "CE-1105",
+                    "grupo": 1
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "CE-1103",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
+            "id_combinacion": 51,
+            "selecciones": [
+                {
+                    "area": "Matemática",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "MA-1103",
+                    "grupo": 14
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 3,
+                    "curso": "CE-1105",
+                    "grupo": 1
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "CE-1103",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
+            "id_combinacion": 52,
+            "selecciones": [
+                {
+                    "area": "Matemática",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "MA-1103",
+                    "grupo": 15
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 3,
+                    "curso": "CE-1105",
+                    "grupo": 1
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "CE-1103",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
             "id_combinacion": 53,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
                     "grupo": 16
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 3
-                }
-            ]
-        },
-        {
-            "creditos_totales": 8,
-            "id_combinacion": 54,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
+                    "creditos": 3,
+                    "curso": "CE-1105",
                     "grupo": 1
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 3
-                }
-            ]
-        },
-        {
-            "creditos_totales": 8,
-            "id_combinacion": 55,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 4
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 3
-                }
-            ]
-        },
-        {
-            "creditos_totales": 8,
-            "id_combinacion": 56,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
                     "grupo": 2
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 3
                 }
             ]
         },
         {
-            "creditos_totales": 8,
-            "id_combinacion": 57,
+            "creditos_totales": 11,
+            "id_combinacion": 54,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 6
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 3
-                }
-            ]
-        },
-        {
-            "creditos_totales": 8,
-            "id_combinacion": 58,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 10
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 3
-                }
-            ]
-        },
-        {
-            "creditos_totales": 8,
-            "id_combinacion": 59,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 13
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 3
-                }
-            ]
-        },
-        {
-            "creditos_totales": 8,
-            "id_combinacion": 60,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 8
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 3
-                }
-            ]
-        },
-        {
-            "creditos_totales": 8,
-            "id_combinacion": 61,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 12
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 3
-                }
-            ]
-        },
-        {
-            "creditos_totales": 8,
-            "id_combinacion": 62,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 5
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 3
-                }
-            ]
-        },
-        {
-            "creditos_totales": 8,
-            "id_combinacion": 63,
-            "selecciones": [
-                {
-                    "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
                     "grupo": 17
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
+                    "curso": "CE-1105",
+                    "grupo": 1
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 3
+                    "grupo": 2
                 }
             ]
         },
         {
-            "creditos_totales": 8,
+            "creditos_totales": 11,
+            "id_combinacion": 55,
+            "selecciones": [
+                {
+                    "area": "Matemática",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "MA-1103",
+                    "grupo": 18
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 3,
+                    "curso": "CE-1105",
+                    "grupo": 1
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "CE-1103",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
+            "id_combinacion": 56,
+            "selecciones": [
+                {
+                    "area": "Matemática",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "MA-1103",
+                    "grupo": 19
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 3,
+                    "curso": "CE-1105",
+                    "grupo": 1
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "CE-1103",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
+            "id_combinacion": 57,
+            "selecciones": [
+                {
+                    "area": "Matemática",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "MA-1103",
+                    "grupo": 2
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 3,
+                    "curso": "CE-1105",
+                    "grupo": 1
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "CE-1103",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
+            "id_combinacion": 58,
+            "selecciones": [
+                {
+                    "area": "Matemática",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "MA-1103",
+                    "grupo": 3
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 3,
+                    "curso": "CE-1105",
+                    "grupo": 1
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "CE-1103",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
+            "id_combinacion": 59,
+            "selecciones": [
+                {
+                    "area": "Matemática",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "MA-1103",
+                    "grupo": 4
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 3,
+                    "curso": "CE-1105",
+                    "grupo": 1
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "CE-1103",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
+            "id_combinacion": 60,
+            "selecciones": [
+                {
+                    "area": "Matemática",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "MA-1103",
+                    "grupo": 5
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 3,
+                    "curso": "CE-1105",
+                    "grupo": 1
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "CE-1103",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
+            "id_combinacion": 61,
+            "selecciones": [
+                {
+                    "area": "Matemática",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "MA-1103",
+                    "grupo": 8
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 3,
+                    "curso": "CE-1105",
+                    "grupo": 1
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "CE-1103",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 7,
+            "id_combinacion": 62,
+            "selecciones": [
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 3,
+                    "curso": "CE-1105",
+                    "grupo": 1
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "CE-1103",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
+            "id_combinacion": 63,
+            "selecciones": [
+                {
+                    "area": "Matemática",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "MA-1103",
+                    "grupo": 1
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 3,
+                    "curso": "CE-1105",
+                    "grupo": 2
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "CE-1103",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
             "id_combinacion": 64,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 15
+                    "grupo": 10
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
+                    "curso": "CE-1105",
+                    "grupo": 2
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 3
+                    "grupo": 2
                 }
             ]
         },
@@ -1249,17 +1600,23 @@
             "id_combinacion": 65,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
                     "grupo": 11
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 3
+                    "grupo": 2
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
                     "grupo": 2
                 }
@@ -1270,17 +1627,23 @@
             "id_combinacion": 66,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 18
+                    "grupo": 12
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 3
+                    "grupo": 2
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
                     "grupo": 2
                 }
@@ -1291,17 +1654,23 @@
             "id_combinacion": 67,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 14
+                    "grupo": 13
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 3
+                    "grupo": 2
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
                     "grupo": 2
                 }
@@ -1312,17 +1681,23 @@
             "id_combinacion": 68,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 16
+                    "grupo": 14
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 3
+                    "grupo": 2
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
                     "grupo": 2
                 }
@@ -1333,17 +1708,23 @@
             "id_combinacion": 69,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 1
+                    "grupo": 18
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 3
+                    "grupo": 2
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
                     "grupo": 2
                 }
@@ -1354,17 +1735,23 @@
             "id_combinacion": 70,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 4
+                    "grupo": 19
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 3
+                    "grupo": 2
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
                     "grupo": 2
                 }
@@ -1375,17 +1762,23 @@
             "id_combinacion": 71,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
                     "grupo": 2
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 3
+                    "grupo": 2
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
                     "grupo": 2
                 }
@@ -1396,17 +1789,23 @@
             "id_combinacion": 72,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
                     "grupo": 3
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 3
+                    "grupo": 2
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
                     "grupo": 2
                 }
@@ -1417,17 +1816,23 @@
             "id_combinacion": 73,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 13
+                    "grupo": 4
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 3
+                    "grupo": 2
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
                     "grupo": 2
                 }
@@ -1438,17 +1843,23 @@
             "id_combinacion": 74,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 8
+                    "grupo": 5
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 3
+                    "grupo": 2
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
                     "grupo": 2
                 }
@@ -1459,17 +1870,23 @@
             "id_combinacion": 75,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 12
+                    "grupo": 8
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 3
+                    "grupo": 2
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
                     "grupo": 2
                 }
@@ -1480,38 +1897,43 @@
             "id_combinacion": 76,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 19
+                    "grupo": 9
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 3
+                    "grupo": 2
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
                     "grupo": 2
                 }
             ]
         },
         {
-            "creditos_totales": 11,
+            "creditos_totales": 7,
             "id_combinacion": 77,
             "selecciones": [
                 {
+                    "area": "Computación",
                     "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 5
-                },
-                {
-                    "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 3
+                    "grupo": 2
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
                     "grupo": 2
                 }
@@ -1522,17 +1944,23 @@
             "id_combinacion": 78,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 17
+                    "grupo": 1
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
                     "grupo": 3
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
                     "grupo": 2
                 }
@@ -1543,33 +1971,50 @@
             "id_combinacion": 79,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 15
+                    "grupo": 11
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
                     "grupo": 3
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
                     "grupo": 2
                 }
             ]
         },
         {
-            "creditos_totales": 7,
+            "creditos_totales": 11,
             "id_combinacion": 80,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "MA-1103",
+                    "grupo": 12
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
                     "grupo": 3
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
                     "grupo": 2
                 }
@@ -1580,17 +2025,23 @@
             "id_combinacion": 81,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 11
+                    "grupo": 13
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 1
+                    "grupo": 3
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
                     "grupo": 2
                 }
@@ -1601,17 +2052,23 @@
             "id_combinacion": 82,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 18
+                    "grupo": 14
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 1
+                    "grupo": 3
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
                     "grupo": 2
                 }
@@ -1622,17 +2079,23 @@
             "id_combinacion": 83,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 14
+                    "grupo": 15
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 1
+                    "grupo": 3
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
                     "grupo": 2
                 }
@@ -1643,17 +2106,23 @@
             "id_combinacion": 84,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
                     "grupo": 16
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 1
+                    "grupo": 3
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
                     "grupo": 2
                 }
@@ -1664,17 +2133,23 @@
             "id_combinacion": 85,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 1
+                    "grupo": 17
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 1
+                    "grupo": 3
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
                     "grupo": 2
                 }
@@ -1685,17 +2160,23 @@
             "id_combinacion": 86,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 4
+                    "grupo": 18
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 1
+                    "grupo": 3
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
                     "grupo": 2
                 }
@@ -1706,17 +2187,23 @@
             "id_combinacion": 87,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 2
+                    "grupo": 19
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 1
+                    "grupo": 3
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
                     "grupo": 2
                 }
@@ -1727,17 +2214,23 @@
             "id_combinacion": 88,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
+                    "grupo": 2
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 3,
+                    "curso": "CE-1105",
                     "grupo": 3
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 1
-                },
-                {
-                    "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
                     "grupo": 2
                 }
@@ -1748,17 +2241,23 @@
             "id_combinacion": 89,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 13
+                    "grupo": 3
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 1
+                    "grupo": 3
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
                     "grupo": 2
                 }
@@ -1769,17 +2268,23 @@
             "id_combinacion": 90,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 8
+                    "grupo": 4
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 1
+                    "grupo": 3
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
                     "grupo": 2
                 }
@@ -1790,17 +2295,23 @@
             "id_combinacion": 91,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 12
+                    "grupo": 5
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 1
+                    "grupo": 3
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
                     "grupo": 2
                 }
@@ -1811,390 +2322,23 @@
             "id_combinacion": 92,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 19
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 1
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 2
-                }
-            ]
-        },
-        {
-            "creditos_totales": 11,
-            "id_combinacion": 93,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 5
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 1
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 2
-                }
-            ]
-        },
-        {
-            "creditos_totales": 11,
-            "id_combinacion": 94,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 17
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 1
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 2
-                }
-            ]
-        },
-        {
-            "creditos_totales": 11,
-            "id_combinacion": 95,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 15
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 1
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 2
-                }
-            ]
-        },
-        {
-            "creditos_totales": 7,
-            "id_combinacion": 96,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 1
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 2
-                }
-            ]
-        },
-        {
-            "creditos_totales": 11,
-            "id_combinacion": 97,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 11
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 2
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 2
-                }
-            ]
-        },
-        {
-            "creditos_totales": 11,
-            "id_combinacion": 98,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 9
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 2
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 2
-                }
-            ]
-        },
-        {
-            "creditos_totales": 11,
-            "id_combinacion": 99,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 18
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 2
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 2
-                }
-            ]
-        },
-        {
-            "creditos_totales": 11,
-            "id_combinacion": 100,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 14
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 2
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 2
-                }
-            ]
-        },
-        {
-            "creditos_totales": 11,
-            "id_combinacion": 101,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 1
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 2
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 2
-                }
-            ]
-        },
-        {
-            "creditos_totales": 11,
-            "id_combinacion": 102,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 4
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 2
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 2
-                }
-            ]
-        },
-        {
-            "creditos_totales": 11,
-            "id_combinacion": 103,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 2
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 2
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 2
-                }
-            ]
-        },
-        {
-            "creditos_totales": 11,
-            "id_combinacion": 104,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 3
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 2
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 2
-                }
-            ]
-        },
-        {
-            "creditos_totales": 11,
-            "id_combinacion": 105,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 10
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 2
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 2
-                }
-            ]
-        },
-        {
-            "creditos_totales": 11,
-            "id_combinacion": 106,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 13
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 2
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 2
-                }
-            ]
-        },
-        {
-            "creditos_totales": 11,
-            "id_combinacion": 107,
-            "selecciones": [
-                {
-                    "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
                     "grupo": 8
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 2
+                    "grupo": 3
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 2
-                }
-            ]
-        },
-        {
-            "creditos_totales": 11,
-            "id_combinacion": 108,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 12
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 2
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 2
-                }
-            ]
-        },
-        {
-            "creditos_totales": 11,
-            "id_combinacion": 109,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 19
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 2
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 2
-                }
-            ]
-        },
-        {
-            "creditos_totales": 11,
-            "id_combinacion": 110,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 5
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 2
-                },
-                {
-                    "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
                     "grupo": 2
                 }
@@ -2202,15 +2346,19 @@
         },
         {
             "creditos_totales": 7,
-            "id_combinacion": 111,
+            "id_combinacion": 93,
             "selecciones": [
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 2
+                    "grupo": 3
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
                     "grupo": 2
                 }
@@ -2218,15 +2366,59 @@
         },
         {
             "creditos_totales": 8,
-            "id_combinacion": 112,
+            "id_combinacion": 94,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "MA-1103",
+                    "grupo": 1
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "CE-1103",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 8,
+            "id_combinacion": 95,
+            "selecciones": [
+                {
+                    "area": "Matemática",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "MA-1103",
+                    "grupo": 10
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "CE-1103",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 8,
+            "id_combinacion": 96,
+            "selecciones": [
+                {
+                    "area": "Matemática",
+                    "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
                     "grupo": 11
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
                     "grupo": 2
                 }
@@ -2234,15 +2426,19 @@
         },
         {
             "creditos_totales": 8,
-            "id_combinacion": 113,
+            "id_combinacion": 97,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 9
+                    "grupo": 12
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
                     "grupo": 2
                 }
@@ -2250,15 +2446,19 @@
         },
         {
             "creditos_totales": 8,
-            "id_combinacion": 114,
+            "id_combinacion": 98,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 18
+                    "grupo": 13
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
                     "grupo": 2
                 }
@@ -2266,15 +2466,19 @@
         },
         {
             "creditos_totales": 8,
-            "id_combinacion": 115,
+            "id_combinacion": 99,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
                     "grupo": 14
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
                     "grupo": 2
                 }
@@ -2282,15 +2486,39 @@
         },
         {
             "creditos_totales": 8,
-            "id_combinacion": 116,
+            "id_combinacion": 100,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "MA-1103",
+                    "grupo": 15
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "CE-1103",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 8,
+            "id_combinacion": 101,
+            "selecciones": [
+                {
+                    "area": "Matemática",
+                    "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
                     "grupo": 16
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
                     "grupo": 2
                 }
@@ -2298,175 +2526,19 @@
         },
         {
             "creditos_totales": 8,
-            "id_combinacion": 117,
+            "id_combinacion": 102,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 1
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 2
-                }
-            ]
-        },
-        {
-            "creditos_totales": 8,
-            "id_combinacion": 118,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 4
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 2
-                }
-            ]
-        },
-        {
-            "creditos_totales": 8,
-            "id_combinacion": 119,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 2
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 2
-                }
-            ]
-        },
-        {
-            "creditos_totales": 8,
-            "id_combinacion": 120,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 3
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 2
-                }
-            ]
-        },
-        {
-            "creditos_totales": 8,
-            "id_combinacion": 121,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 10
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 2
-                }
-            ]
-        },
-        {
-            "creditos_totales": 8,
-            "id_combinacion": 122,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 13
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 2
-                }
-            ]
-        },
-        {
-            "creditos_totales": 8,
-            "id_combinacion": 123,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 8
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 2
-                }
-            ]
-        },
-        {
-            "creditos_totales": 8,
-            "id_combinacion": 124,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 12
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 2
-                }
-            ]
-        },
-        {
-            "creditos_totales": 8,
-            "id_combinacion": 125,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 19
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 2
-                }
-            ]
-        },
-        {
-            "creditos_totales": 8,
-            "id_combinacion": 126,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 5
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 2
-                }
-            ]
-        },
-        {
-            "creditos_totales": 8,
-            "id_combinacion": 127,
-            "selecciones": [
-                {
-                    "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
                     "grupo": 17
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
                     "grupo": 2
                 }
@@ -2474,17 +2546,640 @@
         },
         {
             "creditos_totales": 8,
-            "id_combinacion": 128,
+            "id_combinacion": 103,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "MA-1103",
+                    "grupo": 18
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "CE-1103",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 8,
+            "id_combinacion": 104,
+            "selecciones": [
+                {
+                    "area": "Matemática",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "MA-1103",
+                    "grupo": 19
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "CE-1103",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 8,
+            "id_combinacion": 105,
+            "selecciones": [
+                {
+                    "area": "Matemática",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "MA-1103",
+                    "grupo": 2
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "CE-1103",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 8,
+            "id_combinacion": 106,
+            "selecciones": [
+                {
+                    "area": "Matemática",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "MA-1103",
+                    "grupo": 3
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "CE-1103",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 8,
+            "id_combinacion": 107,
+            "selecciones": [
+                {
+                    "area": "Matemática",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "MA-1103",
+                    "grupo": 4
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "CE-1103",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 8,
+            "id_combinacion": 108,
+            "selecciones": [
+                {
+                    "area": "Matemática",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "MA-1103",
+                    "grupo": 5
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "CE-1103",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 8,
+            "id_combinacion": 109,
+            "selecciones": [
+                {
+                    "area": "Matemática",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "MA-1103",
+                    "grupo": 8
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "CE-1103",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 8,
+            "id_combinacion": 110,
+            "selecciones": [
+                {
+                    "area": "Matemática",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "MA-1103",
+                    "grupo": 9
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "CE-1103",
+                    "grupo": 2
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
+            "id_combinacion": 111,
+            "selecciones": [
+                {
+                    "area": "Matemática",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "MA-1103",
+                    "grupo": 1
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 3,
+                    "curso": "CE-1105",
+                    "grupo": 1
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "CE-1103",
+                    "grupo": 3
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
+            "id_combinacion": 112,
+            "selecciones": [
+                {
+                    "area": "Matemática",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "MA-1103",
+                    "grupo": 11
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 3,
+                    "curso": "CE-1105",
+                    "grupo": 1
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "CE-1103",
+                    "grupo": 3
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
+            "id_combinacion": 113,
+            "selecciones": [
+                {
+                    "area": "Matemática",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "MA-1103",
+                    "grupo": 12
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 3,
+                    "curso": "CE-1105",
+                    "grupo": 1
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "CE-1103",
+                    "grupo": 3
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
+            "id_combinacion": 114,
+            "selecciones": [
+                {
+                    "area": "Matemática",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "MA-1103",
+                    "grupo": 13
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 3,
+                    "curso": "CE-1105",
+                    "grupo": 1
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "CE-1103",
+                    "grupo": 3
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
+            "id_combinacion": 115,
+            "selecciones": [
+                {
+                    "area": "Matemática",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "MA-1103",
+                    "grupo": 14
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 3,
+                    "curso": "CE-1105",
+                    "grupo": 1
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "CE-1103",
+                    "grupo": 3
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
+            "id_combinacion": 116,
+            "selecciones": [
+                {
+                    "area": "Matemática",
+                    "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
                     "grupo": 15
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
+                    "curso": "CE-1105",
+                    "grupo": 1
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
+                    "grupo": 3
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
+            "id_combinacion": 117,
+            "selecciones": [
+                {
+                    "area": "Matemática",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "MA-1103",
+                    "grupo": 16
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 3,
+                    "curso": "CE-1105",
+                    "grupo": 1
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "CE-1103",
+                    "grupo": 3
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
+            "id_combinacion": 118,
+            "selecciones": [
+                {
+                    "area": "Matemática",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "MA-1103",
+                    "grupo": 17
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 3,
+                    "curso": "CE-1105",
+                    "grupo": 1
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "CE-1103",
+                    "grupo": 3
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
+            "id_combinacion": 119,
+            "selecciones": [
+                {
+                    "area": "Matemática",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "MA-1103",
+                    "grupo": 18
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 3,
+                    "curso": "CE-1105",
+                    "grupo": 1
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "CE-1103",
+                    "grupo": 3
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
+            "id_combinacion": 120,
+            "selecciones": [
+                {
+                    "area": "Matemática",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "MA-1103",
                     "grupo": 2
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 3,
+                    "curso": "CE-1105",
+                    "grupo": 1
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "CE-1103",
+                    "grupo": 3
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
+            "id_combinacion": 121,
+            "selecciones": [
+                {
+                    "area": "Matemática",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "MA-1103",
+                    "grupo": 4
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 3,
+                    "curso": "CE-1105",
+                    "grupo": 1
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "CE-1103",
+                    "grupo": 3
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
+            "id_combinacion": 122,
+            "selecciones": [
+                {
+                    "area": "Matemática",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "MA-1103",
+                    "grupo": 5
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 3,
+                    "curso": "CE-1105",
+                    "grupo": 1
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "CE-1103",
+                    "grupo": 3
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
+            "id_combinacion": 123,
+            "selecciones": [
+                {
+                    "area": "Matemática",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "MA-1103",
+                    "grupo": 6
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 3,
+                    "curso": "CE-1105",
+                    "grupo": 1
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "CE-1103",
+                    "grupo": 3
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
+            "id_combinacion": 124,
+            "selecciones": [
+                {
+                    "area": "Matemática",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "MA-1103",
+                    "grupo": 7
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 3,
+                    "curso": "CE-1105",
+                    "grupo": 1
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "CE-1103",
+                    "grupo": 3
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
+            "id_combinacion": 125,
+            "selecciones": [
+                {
+                    "area": "Matemática",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "MA-1103",
+                    "grupo": 8
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 3,
+                    "curso": "CE-1105",
+                    "grupo": 1
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "CE-1103",
+                    "grupo": 3
+                }
+            ]
+        },
+        {
+            "creditos_totales": 7,
+            "id_combinacion": 126,
+            "selecciones": [
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 3,
+                    "curso": "CE-1105",
+                    "grupo": 1
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "CE-1103",
+                    "grupo": 3
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
+            "id_combinacion": 127,
+            "selecciones": [
+                {
+                    "area": "Matemática",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "MA-1103",
+                    "grupo": 1
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 3,
+                    "curso": "CE-1105",
+                    "grupo": 2
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "CE-1103",
+                    "grupo": 3
+                }
+            ]
+        },
+        {
+            "creditos_totales": 11,
+            "id_combinacion": 128,
+            "selecciones": [
+                {
+                    "area": "Matemática",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "MA-1103",
+                    "grupo": 10
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 3,
+                    "curso": "CE-1105",
+                    "grupo": 2
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "CE-1103",
+                    "grupo": 3
                 }
             ]
         },
@@ -2493,19 +3188,25 @@
             "id_combinacion": 129,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
                     "grupo": 11
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 3
+                    "grupo": 2
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 1
+                    "grupo": 3
                 }
             ]
         },
@@ -2514,19 +3215,25 @@
             "id_combinacion": 130,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 7
+                    "grupo": 12
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 3
+                    "grupo": 2
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 1
+                    "grupo": 3
                 }
             ]
         },
@@ -2535,19 +3242,25 @@
             "id_combinacion": 131,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 18
+                    "grupo": 13
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 3
+                    "grupo": 2
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 1
+                    "grupo": 3
                 }
             ]
         },
@@ -2556,19 +3269,25 @@
             "id_combinacion": 132,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
                     "grupo": 14
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 3
+                    "grupo": 2
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 1
+                    "grupo": 3
                 }
             ]
         },
@@ -2577,19 +3296,25 @@
             "id_combinacion": 133,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 1
+                    "grupo": 18
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 3
+                    "grupo": 2
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 1
+                    "grupo": 3
                 }
             ]
         },
@@ -2598,19 +3323,25 @@
             "id_combinacion": 134,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 4
+                    "grupo": 2
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 3
+                    "grupo": 2
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 1
+                    "grupo": 3
                 }
             ]
         },
@@ -2619,19 +3350,25 @@
             "id_combinacion": 135,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
+                    "grupo": 4
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 3,
+                    "curso": "CE-1105",
                     "grupo": 2
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 3
-                },
-                {
-                    "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 1
+                    "grupo": 3
                 }
             ]
         },
@@ -2640,19 +3377,25 @@
             "id_combinacion": 136,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 3
+                    "grupo": 5
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 3
+                    "grupo": 2
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 1
+                    "grupo": 3
                 }
             ]
         },
@@ -2661,19 +3404,25 @@
             "id_combinacion": 137,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
                     "grupo": 6
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 3
+                    "grupo": 2
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 1
+                    "grupo": 3
                 }
             ]
         },
@@ -2682,19 +3431,25 @@
             "id_combinacion": 138,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 13
+                    "grupo": 7
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 3
+                    "grupo": 2
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 1
+                    "grupo": 3
                 }
             ]
         },
@@ -2703,19 +3458,25 @@
             "id_combinacion": 139,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
                     "grupo": 8
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 3
+                    "grupo": 2
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 1
+                    "grupo": 3
                 }
             ]
         },
@@ -2724,40 +3485,45 @@
             "id_combinacion": 140,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 12
+                    "grupo": 9
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 3
+                    "grupo": 2
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 1
+                    "grupo": 3
                 }
             ]
         },
         {
-            "creditos_totales": 11,
+            "creditos_totales": 7,
             "id_combinacion": 141,
             "selecciones": [
                 {
+                    "area": "Computación",
                     "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 19
-                },
-                {
-                    "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 3
+                    "grupo": 2
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 1
+                    "grupo": 3
                 }
             ]
         },
@@ -2766,35 +3532,52 @@
             "id_combinacion": 142,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 5
+                    "grupo": 1
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
                     "grupo": 3
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 1
+                    "grupo": 3
                 }
             ]
         },
         {
-            "creditos_totales": 7,
+            "creditos_totales": 11,
             "id_combinacion": 143,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "MA-1103",
+                    "grupo": 11
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
                     "grupo": 3
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 1
+                    "grupo": 3
                 }
             ]
         },
@@ -2803,19 +3586,25 @@
             "id_combinacion": 144,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 11
+                    "grupo": 12
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 1
+                    "grupo": 3
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 1
+                    "grupo": 3
                 }
             ]
         },
@@ -2824,19 +3613,25 @@
             "id_combinacion": 145,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 7
+                    "grupo": 13
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 1
+                    "grupo": 3
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 1
+                    "grupo": 3
                 }
             ]
         },
@@ -2845,19 +3640,25 @@
             "id_combinacion": 146,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 18
+                    "grupo": 14
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 1
+                    "grupo": 3
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 1
+                    "grupo": 3
                 }
             ]
         },
@@ -2866,19 +3667,25 @@
             "id_combinacion": 147,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 14
+                    "grupo": 15
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 1
+                    "grupo": 3
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 1
+                    "grupo": 3
                 }
             ]
         },
@@ -2887,19 +3694,25 @@
             "id_combinacion": 148,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 1
+                    "grupo": 16
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 1
+                    "grupo": 3
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 1
+                    "grupo": 3
                 }
             ]
         },
@@ -2908,19 +3721,25 @@
             "id_combinacion": 149,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 4
+                    "grupo": 17
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 1
+                    "grupo": 3
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 1
+                    "grupo": 3
                 }
             ]
         },
@@ -2929,19 +3748,25 @@
             "id_combinacion": 150,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 2
+                    "grupo": 18
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 1
+                    "grupo": 3
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 1
+                    "grupo": 3
                 }
             ]
         },
@@ -2950,19 +3775,25 @@
             "id_combinacion": 151,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
+                    "grupo": 2
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 3,
+                    "curso": "CE-1105",
                     "grupo": 3
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 1
-                },
-                {
-                    "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 1
+                    "grupo": 3
                 }
             ]
         },
@@ -2971,19 +3802,25 @@
             "id_combinacion": 152,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 6
+                    "grupo": 4
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 1
+                    "grupo": 3
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 1
+                    "grupo": 3
                 }
             ]
         },
@@ -2992,19 +3829,25 @@
             "id_combinacion": 153,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 13
+                    "grupo": 5
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 1
+                    "grupo": 3
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 1
+                    "grupo": 3
                 }
             ]
         },
@@ -3013,19 +3856,25 @@
             "id_combinacion": 154,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 8
+                    "grupo": 6
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 1
+                    "grupo": 3
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 1
+                    "grupo": 3
                 }
             ]
         },
@@ -3034,19 +3883,25 @@
             "id_combinacion": 155,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 12
+                    "grupo": 7
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 1
+                    "grupo": 3
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 1
+                    "grupo": 3
                 }
             ]
         },
@@ -3055,56 +3910,65 @@
             "id_combinacion": 156,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 19
+                    "grupo": 8
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 1
+                    "grupo": 3
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 1
-                }
-            ]
-        },
-        {
-            "creditos_totales": 11,
-            "id_combinacion": 157,
-            "selecciones": [
-                {
-                    "carrera": "CE",
-                    "curso": "MA-1103",
-                    "grupo": 5
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1105",
-                    "grupo": 1
-                },
-                {
-                    "carrera": "CE",
-                    "curso": "CE-1103",
-                    "grupo": 1
+                    "grupo": 3
                 }
             ]
         },
         {
             "creditos_totales": 7,
+            "id_combinacion": 157,
+            "selecciones": [
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 3,
+                    "curso": "CE-1105",
+                    "grupo": 3
+                },
+                {
+                    "area": "Computación",
+                    "carrera": "CE",
+                    "creditos": 4,
+                    "curso": "CE-1103",
+                    "grupo": 3
+                }
+            ]
+        },
+        {
+            "creditos_totales": 8,
             "id_combinacion": 158,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
-                    "curso": "CE-1105",
+                    "creditos": 4,
+                    "curso": "MA-1103",
                     "grupo": 1
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 1
+                    "grupo": 3
                 }
             ]
         },
@@ -3113,14 +3977,18 @@
             "id_combinacion": 159,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 11
+                    "grupo": 10
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 1
+                    "grupo": 3
                 }
             ]
         },
@@ -3129,14 +3997,18 @@
             "id_combinacion": 160,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 9
+                    "grupo": 11
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 1
+                    "grupo": 3
                 }
             ]
         },
@@ -3145,14 +4017,18 @@
             "id_combinacion": 161,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 7
+                    "grupo": 12
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 1
+                    "grupo": 3
                 }
             ]
         },
@@ -3161,14 +4037,18 @@
             "id_combinacion": 162,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 18
+                    "grupo": 13
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 1
+                    "grupo": 3
                 }
             ]
         },
@@ -3177,14 +4057,18 @@
             "id_combinacion": 163,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
                     "grupo": 14
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 1
+                    "grupo": 3
                 }
             ]
         },
@@ -3193,14 +4077,18 @@
             "id_combinacion": 164,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 1
+                    "grupo": 15
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 1
+                    "grupo": 3
                 }
             ]
         },
@@ -3209,14 +4097,18 @@
             "id_combinacion": 165,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 4
+                    "grupo": 16
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 1
+                    "grupo": 3
                 }
             ]
         },
@@ -3225,14 +4117,18 @@
             "id_combinacion": 166,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 2
+                    "grupo": 17
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 1
+                    "grupo": 3
                 }
             ]
         },
@@ -3241,14 +4137,18 @@
             "id_combinacion": 167,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 3
+                    "grupo": 18
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 1
+                    "grupo": 3
                 }
             ]
         },
@@ -3257,14 +4157,18 @@
             "id_combinacion": 168,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 6
+                    "grupo": 2
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 1
+                    "grupo": 3
                 }
             ]
         },
@@ -3273,14 +4177,18 @@
             "id_combinacion": 169,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 10
+                    "grupo": 4
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 1
+                    "grupo": 3
                 }
             ]
         },
@@ -3289,14 +4197,18 @@
             "id_combinacion": 170,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 13
+                    "grupo": 5
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 1
+                    "grupo": 3
                 }
             ]
         },
@@ -3305,14 +4217,18 @@
             "id_combinacion": 171,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 8
+                    "grupo": 6
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 1
+                    "grupo": 3
                 }
             ]
         },
@@ -3321,14 +4237,18 @@
             "id_combinacion": 172,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 12
+                    "grupo": 7
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 1
+                    "grupo": 3
                 }
             ]
         },
@@ -3337,14 +4257,18 @@
             "id_combinacion": 173,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 19
+                    "grupo": 8
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 1
+                    "grupo": 3
                 }
             ]
         },
@@ -3353,14 +4277,18 @@
             "id_combinacion": 174,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 5
+                    "grupo": 9
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "CE-1103",
-                    "grupo": 1
+                    "grupo": 3
                 }
             ]
         },
@@ -3369,14 +4297,18 @@
             "id_combinacion": 175,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 11
+                    "grupo": 1
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 3
+                    "grupo": 1
                 }
             ]
         },
@@ -3385,14 +4317,18 @@
             "id_combinacion": 176,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 7
+                    "grupo": 11
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 3
+                    "grupo": 1
                 }
             ]
         },
@@ -3401,14 +4337,18 @@
             "id_combinacion": 177,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 18
+                    "grupo": 12
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 3
+                    "grupo": 1
                 }
             ]
         },
@@ -3417,14 +4357,18 @@
             "id_combinacion": 178,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 14
+                    "grupo": 13
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 3
+                    "grupo": 1
                 }
             ]
         },
@@ -3433,14 +4377,18 @@
             "id_combinacion": 179,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 16
+                    "grupo": 14
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 3
+                    "grupo": 1
                 }
             ]
         },
@@ -3449,14 +4397,18 @@
             "id_combinacion": 180,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 1
+                    "grupo": 15
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 3
+                    "grupo": 1
                 }
             ]
         },
@@ -3465,14 +4417,18 @@
             "id_combinacion": 181,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 4
+                    "grupo": 16
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 3
+                    "grupo": 1
                 }
             ]
         },
@@ -3481,14 +4437,18 @@
             "id_combinacion": 182,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 2
+                    "grupo": 17
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 3
+                    "grupo": 1
                 }
             ]
         },
@@ -3497,14 +4457,18 @@
             "id_combinacion": 183,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 3
+                    "grupo": 18
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 3
+                    "grupo": 1
                 }
             ]
         },
@@ -3513,14 +4477,18 @@
             "id_combinacion": 184,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 6
+                    "grupo": 19
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 3
+                    "grupo": 1
                 }
             ]
         },
@@ -3529,14 +4497,18 @@
             "id_combinacion": 185,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 13
+                    "grupo": 2
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 3
+                    "grupo": 1
                 }
             ]
         },
@@ -3545,14 +4517,18 @@
             "id_combinacion": 186,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 8
+                    "grupo": 3
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 3
+                    "grupo": 1
                 }
             ]
         },
@@ -3561,14 +4537,18 @@
             "id_combinacion": 187,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 12
+                    "grupo": 4
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 3
+                    "grupo": 1
                 }
             ]
         },
@@ -3577,14 +4557,18 @@
             "id_combinacion": 188,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 19
+                    "grupo": 5
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 3
+                    "grupo": 1
                 }
             ]
         },
@@ -3593,14 +4577,18 @@
             "id_combinacion": 189,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 5
+                    "grupo": 6
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 3
+                    "grupo": 1
                 }
             ]
         },
@@ -3609,14 +4597,18 @@
             "id_combinacion": 190,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 17
+                    "grupo": 7
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 3
+                    "grupo": 1
                 }
             ]
         },
@@ -3625,14 +4617,18 @@
             "id_combinacion": 191,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 15
+                    "grupo": 8
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 3
+                    "grupo": 1
                 }
             ]
         },
@@ -3641,14 +4637,18 @@
             "id_combinacion": 192,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 11
+                    "grupo": 1
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 1
+                    "grupo": 2
                 }
             ]
         },
@@ -3657,14 +4657,18 @@
             "id_combinacion": 193,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 7
+                    "grupo": 10
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 1
+                    "grupo": 2
                 }
             ]
         },
@@ -3673,14 +4677,18 @@
             "id_combinacion": 194,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 18
+                    "grupo": 11
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 1
+                    "grupo": 2
                 }
             ]
         },
@@ -3689,14 +4697,18 @@
             "id_combinacion": 195,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 14
+                    "grupo": 12
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 1
+                    "grupo": 2
                 }
             ]
         },
@@ -3705,14 +4717,18 @@
             "id_combinacion": 196,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 16
+                    "grupo": 13
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 1
+                    "grupo": 2
                 }
             ]
         },
@@ -3721,14 +4737,18 @@
             "id_combinacion": 197,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 1
+                    "grupo": 14
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 1
+                    "grupo": 2
                 }
             ]
         },
@@ -3737,14 +4757,18 @@
             "id_combinacion": 198,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 4
+                    "grupo": 18
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 1
+                    "grupo": 2
                 }
             ]
         },
@@ -3753,14 +4777,18 @@
             "id_combinacion": 199,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 2
+                    "grupo": 19
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 1
+                    "grupo": 2
                 }
             ]
         },
@@ -3769,14 +4797,18 @@
             "id_combinacion": 200,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 3
+                    "grupo": 2
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 1
+                    "grupo": 2
                 }
             ]
         },
@@ -3785,14 +4817,18 @@
             "id_combinacion": 201,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 6
+                    "grupo": 3
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 1
+                    "grupo": 2
                 }
             ]
         },
@@ -3801,14 +4837,18 @@
             "id_combinacion": 202,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 13
+                    "grupo": 4
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 1
+                    "grupo": 2
                 }
             ]
         },
@@ -3817,14 +4857,18 @@
             "id_combinacion": 203,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 8
+                    "grupo": 5
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 1
+                    "grupo": 2
                 }
             ]
         },
@@ -3833,14 +4877,18 @@
             "id_combinacion": 204,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 12
+                    "grupo": 6
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 1
+                    "grupo": 2
                 }
             ]
         },
@@ -3849,14 +4897,18 @@
             "id_combinacion": 205,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 19
+                    "grupo": 7
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 1
+                    "grupo": 2
                 }
             ]
         },
@@ -3865,14 +4917,18 @@
             "id_combinacion": 206,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 5
+                    "grupo": 8
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 1
+                    "grupo": 2
                 }
             ]
         },
@@ -3881,14 +4937,18 @@
             "id_combinacion": 207,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 17
+                    "grupo": 9
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 1
+                    "grupo": 2
                 }
             ]
         },
@@ -3897,14 +4957,18 @@
             "id_combinacion": 208,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 15
+                    "grupo": 1
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 1
+                    "grupo": 3
                 }
             ]
         },
@@ -3913,14 +4977,18 @@
             "id_combinacion": 209,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
                     "grupo": 11
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 2
+                    "grupo": 3
                 }
             ]
         },
@@ -3929,14 +4997,18 @@
             "id_combinacion": 210,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 9
+                    "grupo": 12
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 2
+                    "grupo": 3
                 }
             ]
         },
@@ -3945,14 +5017,18 @@
             "id_combinacion": 211,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 7
+                    "grupo": 13
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 2
+                    "grupo": 3
                 }
             ]
         },
@@ -3961,14 +5037,18 @@
             "id_combinacion": 212,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 18
+                    "grupo": 14
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 2
+                    "grupo": 3
                 }
             ]
         },
@@ -3977,14 +5057,18 @@
             "id_combinacion": 213,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 14
+                    "grupo": 15
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 2
+                    "grupo": 3
                 }
             ]
         },
@@ -3993,14 +5077,18 @@
             "id_combinacion": 214,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 1
+                    "grupo": 16
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 2
+                    "grupo": 3
                 }
             ]
         },
@@ -4009,14 +5097,18 @@
             "id_combinacion": 215,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 4
+                    "grupo": 17
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 2
+                    "grupo": 3
                 }
             ]
         },
@@ -4025,14 +5117,18 @@
             "id_combinacion": 216,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 2
+                    "grupo": 18
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 2
+                    "grupo": 3
                 }
             ]
         },
@@ -4041,14 +5137,18 @@
             "id_combinacion": 217,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 3
+                    "grupo": 19
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 2
+                    "grupo": 3
                 }
             ]
         },
@@ -4057,14 +5157,18 @@
             "id_combinacion": 218,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 6
+                    "grupo": 2
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 2
+                    "grupo": 3
                 }
             ]
         },
@@ -4073,14 +5177,18 @@
             "id_combinacion": 219,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 10
+                    "grupo": 3
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 2
+                    "grupo": 3
                 }
             ]
         },
@@ -4089,14 +5197,18 @@
             "id_combinacion": 220,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 13
+                    "grupo": 4
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 2
+                    "grupo": 3
                 }
             ]
         },
@@ -4105,14 +5217,18 @@
             "id_combinacion": 221,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 8
+                    "grupo": 5
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 2
+                    "grupo": 3
                 }
             ]
         },
@@ -4121,14 +5237,18 @@
             "id_combinacion": 222,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 12
+                    "grupo": 6
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 2
+                    "grupo": 3
                 }
             ]
         },
@@ -4137,14 +5257,18 @@
             "id_combinacion": 223,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 19
+                    "grupo": 7
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 2
+                    "grupo": 3
                 }
             ]
         },
@@ -4153,21 +5277,25 @@
             "id_combinacion": 224,
             "selecciones": [
                 {
+                    "area": "Matemática",
                     "carrera": "CE",
+                    "creditos": 4,
                     "curso": "MA-1103",
-                    "grupo": 5
+                    "grupo": 8
                 },
                 {
+                    "area": "Computación",
                     "carrera": "CE",
+                    "creditos": 3,
                     "curso": "CE-1105",
-                    "grupo": 2
+                    "grupo": 3
                 }
             ]
         }
     ],
     "metadata": {
-        "fecha_generacion": "2026-10-29",
+        "fecha_generacion": "2026-11-18",
         "total_combinaciones": 224,
-        "version_esquema": "2.0"
+        "version_esquema": "2.1"
     }
 }

@@ -1,6 +1,6 @@
 #lang typed/racket
 ;; tipos.rkt — contrato de datos entre los 3 módulos (equivalente al models.h de C).
-;; Refleja el JSON real de la Etapa 1 (version_esquema 1.1). Todas las structs y listas son inmutables.
+;; Refleja el JSON real de la Etapa 1 (version_esquema 1.2). Todas las structs y listas son inmutables.
 
 (provide (all-defined-out))
 
@@ -8,9 +8,9 @@
 (define-type Carrera (U "CE" "ATI"))
 (define-type Dia (U "L" "K" "M" "J" "V" "S"))   ; K = Martes, M = Miércoles
 
-(struct Horario ([dia : Dia] [inicio : Natural] [fin : Natural]) #:transparent) ; minutos desde medianoche
+(struct Horario ([dia : Dia] [inicio : Natural] [fin : Natural]) #:transparent)
 
-(struct Grupo ([curso : String]            ; código del curso al que pertenece (el JSON lo trae anidado; se agrega al leer)
+(struct Grupo ([curso : String]
                [numero : Natural]
                [profesor : String]
                [horarios : (Listof Horario)]) #:transparent)
@@ -20,28 +20,33 @@
                [creditos : Natural]
                [semestre : Natural]
                [carrera : Carrera]
+               [area : String]
                [requisitos : (Listof String)]
                [correquisitos : (Listof String)]
                [grupos : (Listof Grupo)]
-               [matriculable : Boolean]          ; es_matriculable
-               [razon : (Option String)]) #:transparent) ; razon_no_matriculable (null -> #f)
+               [matriculable : Boolean]
+               [razon : (Option String)]) #:transparent)
 
 (struct Catalogo ([siglas : Carrera]
                   [cursos : (Listof Curso)]
-                  [historial : (Listof String)]) #:transparent) ; metadata.estudiante_historial
+                  [historial : (Listof String)]) #:transparent)
 
-;; Preferencias del estudiante (archivo nuevo de la Etapa 2; formato a confirmar con Persona 1)
 (struct Interes ([curso : String] [grupos : (Listof Natural)]) #:transparent)
+
 (struct Preferencias ([intereses : (Listof Interes)]
                       [creditos-min : Natural]
                       [creditos-max : Natural]) #:transparent)
 
-;; Salida: una combinación = un grupo por curso
-(struct Seleccion ([curso : String] [grupo : Natural] [carrera : Carrera]) #:transparent)
+(struct Seleccion ([curso : String]
+                   [grupo : Natural]
+                   [creditos : Natural]
+                   [carrera : Carrera]
+                   [area : String]) #:transparent)
+
 (struct Combinacion ([selecciones : (Listof Seleccion)]
                      [creditos-totales : Natural]) #:transparent)
 
-;; ---- Conversiones de la frontera JSON -> tipos (las usa el lector de Persona 1) ----
+;; ---- Conversiones de la frontera JSON -> tipos ----
 
 (: hora->minutos (-> String Natural))
 (define (hora->minutos s)
@@ -66,11 +71,7 @@
 
 ;; ---- Interfaz entre la preparación y el generador de combinaciones ----
 
-;; Un curso de interés junto con los grupos entre los que se puede elegir (el generador elige UNO por Candidato)
 (struct Candidato ([curso : Curso] [grupos : (Listof Grupo)]) #:transparent)
-
-;; Un curso pedido en las preferencias que no entra al generador, y por qué (útil para el README y el log)
 (struct Descarte ([curso : String] [razon : String]) #:transparent)
-
 (struct Preparacion ([candidatos : (Listof Candidato)]
                      [descartes : (Listof Descarte)]) #:transparent)

@@ -1,0 +1,2138 @@
+{
+  "orden_reglas": ["balance_carreras", "limite_area", "incompatibilidad" ],
+  "resultados": [
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":1},
+	{"curso":"CE-1105","grupo":1},
+	{"curso":"CE-1103","grupo":1}
+      ],
+      "id":1,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":11},
+	{"curso":"CE-1105","grupo":1},
+	{"curso":"CE-1103","grupo":1}
+      ],
+      "id":2,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":12},
+	{"curso":"CE-1105","grupo":1},
+	{"curso":"CE-1103","grupo":1}
+      ],
+      "id":3,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":13},
+	{"curso":"CE-1105","grupo":1},
+	{"curso":"CE-1103","grupo":1}
+      ],
+      "id":4,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":14},
+	{"curso":"CE-1105","grupo":1},
+	{"curso":"CE-1103","grupo":1}
+      ],
+      "id":5,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":18},
+	{"curso":"CE-1105","grupo":1},
+	{"curso":"CE-1103","grupo":1}
+      ],
+      "id":6,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":19},
+	{"curso":"CE-1105","grupo":1},
+	{"curso":"CE-1103","grupo":1}
+      ],
+      "id":7,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":2},
+	{"curso":"CE-1105","grupo":1},
+	{"curso":"CE-1103","grupo":1}
+      ],
+      "id":8,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":3},
+	{"curso":"CE-1105","grupo":1},
+	{"curso":"CE-1103","grupo":1}
+      ],
+      "id":9,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":4},
+	{"curso":"CE-1105","grupo":1},
+	{"curso":"CE-1103","grupo":1}
+      ],
+      "id":10,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":5},
+	{"curso":"CE-1105","grupo":1},
+	{"curso":"CE-1103","grupo":1}
+      ],
+      "id":11,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":6},
+	{"curso":"CE-1105","grupo":1},
+	{"curso":"CE-1103","grupo":1}
+      ],
+      "id":12,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":7},
+	{"curso":"CE-1105","grupo":1},
+	{"curso":"CE-1103","grupo":1}
+      ],
+      "id":13,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":8},
+	{"curso":"CE-1105","grupo":1},
+	{"curso":"CE-1103","grupo":1}
+      ],
+      "id":14,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"CE-1105","grupo":1},
+	{"curso":"CE-1103","grupo":1}
+      ],
+      "id":15,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":1},
+	{"curso":"CE-1105","grupo":3},
+	{"curso":"CE-1103","grupo":1}
+      ],
+      "id":16,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":11},
+	{"curso":"CE-1105","grupo":3},
+	{"curso":"CE-1103","grupo":1}
+      ],
+      "id":17,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":12},
+	{"curso":"CE-1105","grupo":3},
+	{"curso":"CE-1103","grupo":1}
+      ],
+      "id":18,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":13},
+	{"curso":"CE-1105","grupo":3},
+	{"curso":"CE-1103","grupo":1}
+      ],
+      "id":19,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":14},
+	{"curso":"CE-1105","grupo":3},
+	{"curso":"CE-1103","grupo":1}
+      ],
+      "id":20,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":18},
+	{"curso":"CE-1105","grupo":3},
+	{"curso":"CE-1103","grupo":1}
+      ],
+      "id":21,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":19},
+	{"curso":"CE-1105","grupo":3},
+	{"curso":"CE-1103","grupo":1}
+      ],
+      "id":22,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":2},
+	{"curso":"CE-1105","grupo":3},
+	{"curso":"CE-1103","grupo":1}
+      ],
+      "id":23,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":3},
+	{"curso":"CE-1105","grupo":3},
+	{"curso":"CE-1103","grupo":1}
+      ],
+      "id":24,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":4},
+	{"curso":"CE-1105","grupo":3},
+	{"curso":"CE-1103","grupo":1}
+      ],
+      "id":25,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":5},
+	{"curso":"CE-1105","grupo":3},
+	{"curso":"CE-1103","grupo":1}
+      ],
+      "id":26,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":6},
+	{"curso":"CE-1105","grupo":3},
+	{"curso":"CE-1103","grupo":1}
+      ],
+      "id":27,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":7},
+	{"curso":"CE-1105","grupo":3},
+	{"curso":"CE-1103","grupo":1}
+      ],
+      "id":28,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":8},
+	{"curso":"CE-1105","grupo":3},
+	{"curso":"CE-1103","grupo":1}
+      ],
+      "id":29,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"CE-1105","grupo":3},
+	{"curso":"CE-1103","grupo":1}
+      ],
+      "id":30,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":1},
+	{"curso":"CE-1103","grupo":1}
+      ],
+      "id":31,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":10},
+	{"curso":"CE-1103","grupo":1}
+      ],
+      "id":32,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":11},
+	{"curso":"CE-1103","grupo":1}
+      ],
+      "id":33,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":12},
+	{"curso":"CE-1103","grupo":1}
+      ],
+      "id":34,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":13},
+	{"curso":"CE-1103","grupo":1}
+      ],
+      "id":35,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":14},
+	{"curso":"CE-1103","grupo":1}
+      ],
+      "id":36,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":18},
+	{"curso":"CE-1103","grupo":1}
+      ],
+      "id":37,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":19},
+	{"curso":"CE-1103","grupo":1}
+      ],
+      "id":38,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":2},
+	{"curso":"CE-1103","grupo":1}
+      ],
+      "id":39,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":3},
+	{"curso":"CE-1103","grupo":1}
+      ],
+      "id":40,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":4},
+	{"curso":"CE-1103","grupo":1}
+      ],
+      "id":41,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":5},
+	{"curso":"CE-1103","grupo":1}
+      ],
+      "id":42,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":6},
+	{"curso":"CE-1103","grupo":1}
+      ],
+      "id":43,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":7},
+	{"curso":"CE-1103","grupo":1}
+      ],
+      "id":44,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":8},
+	{"curso":"CE-1103","grupo":1}
+      ],
+      "id":45,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":9},
+	{"curso":"CE-1103","grupo":1}
+      ],
+      "id":46,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":1},
+	{"curso":"CE-1105","grupo":1},
+	{"curso":"CE-1103","grupo":2}
+      ],
+      "id":47,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":11},
+	{"curso":"CE-1105","grupo":1},
+	{"curso":"CE-1103","grupo":2}
+      ],
+      "id":48,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":12},
+	{"curso":"CE-1105","grupo":1},
+	{"curso":"CE-1103","grupo":2}
+      ],
+      "id":49,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":13},
+	{"curso":"CE-1105","grupo":1},
+	{"curso":"CE-1103","grupo":2}
+      ],
+      "id":50,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":14},
+	{"curso":"CE-1105","grupo":1},
+	{"curso":"CE-1103","grupo":2}
+      ],
+      "id":51,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":15},
+	{"curso":"CE-1105","grupo":1},
+	{"curso":"CE-1103","grupo":2}
+      ],
+      "id":52,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":16},
+	{"curso":"CE-1105","grupo":1},
+	{"curso":"CE-1103","grupo":2}
+      ],
+      "id":53,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":17},
+	{"curso":"CE-1105","grupo":1},
+	{"curso":"CE-1103","grupo":2}
+      ],
+      "id":54,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":18},
+	{"curso":"CE-1105","grupo":1},
+	{"curso":"CE-1103","grupo":2}
+      ],
+      "id":55,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":19},
+	{"curso":"CE-1105","grupo":1},
+	{"curso":"CE-1103","grupo":2}
+      ],
+      "id":56,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":2},
+	{"curso":"CE-1105","grupo":1},
+	{"curso":"CE-1103","grupo":2}
+      ],
+      "id":57,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":3},
+	{"curso":"CE-1105","grupo":1},
+	{"curso":"CE-1103","grupo":2}
+      ],
+      "id":58,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":4},
+	{"curso":"CE-1105","grupo":1},
+	{"curso":"CE-1103","grupo":2}
+      ],
+      "id":59,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":5},
+	{"curso":"CE-1105","grupo":1},
+	{"curso":"CE-1103","grupo":2}
+      ],
+      "id":60,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":8},
+	{"curso":"CE-1105","grupo":1},
+	{"curso":"CE-1103","grupo":2}
+      ],
+      "id":61,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"CE-1105","grupo":1},
+	{"curso":"CE-1103","grupo":2}
+      ],
+      "id":62,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":1},
+	{"curso":"CE-1105","grupo":2},
+	{"curso":"CE-1103","grupo":2}
+      ],
+      "id":63,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":10},
+	{"curso":"CE-1105","grupo":2},
+	{"curso":"CE-1103","grupo":2}
+      ],
+      "id":64,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":11},
+	{"curso":"CE-1105","grupo":2},
+	{"curso":"CE-1103","grupo":2}
+      ],
+      "id":65,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":12},
+	{"curso":"CE-1105","grupo":2},
+	{"curso":"CE-1103","grupo":2}
+      ],
+      "id":66,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":13},
+	{"curso":"CE-1105","grupo":2},
+	{"curso":"CE-1103","grupo":2}
+      ],
+      "id":67,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":14},
+	{"curso":"CE-1105","grupo":2},
+	{"curso":"CE-1103","grupo":2}
+      ],
+      "id":68,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":18},
+	{"curso":"CE-1105","grupo":2},
+	{"curso":"CE-1103","grupo":2}
+      ],
+      "id":69,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":19},
+	{"curso":"CE-1105","grupo":2},
+	{"curso":"CE-1103","grupo":2}
+      ],
+      "id":70,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":2},
+	{"curso":"CE-1105","grupo":2},
+	{"curso":"CE-1103","grupo":2}
+      ],
+      "id":71,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":3},
+	{"curso":"CE-1105","grupo":2},
+	{"curso":"CE-1103","grupo":2}
+      ],
+      "id":72,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":4},
+	{"curso":"CE-1105","grupo":2},
+	{"curso":"CE-1103","grupo":2}
+      ],
+      "id":73,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":5},
+	{"curso":"CE-1105","grupo":2},
+	{"curso":"CE-1103","grupo":2}
+      ],
+      "id":74,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":8},
+	{"curso":"CE-1105","grupo":2},
+	{"curso":"CE-1103","grupo":2}
+      ],
+      "id":75,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":9},
+	{"curso":"CE-1105","grupo":2},
+	{"curso":"CE-1103","grupo":2}
+      ],
+      "id":76,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"CE-1105","grupo":2},
+	{"curso":"CE-1103","grupo":2}
+      ],
+      "id":77,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":1},
+	{"curso":"CE-1105","grupo":3},
+	{"curso":"CE-1103","grupo":2}
+      ],
+      "id":78,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":11},
+	{"curso":"CE-1105","grupo":3},
+	{"curso":"CE-1103","grupo":2}
+      ],
+      "id":79,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":12},
+	{"curso":"CE-1105","grupo":3},
+	{"curso":"CE-1103","grupo":2}
+      ],
+      "id":80,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":13},
+	{"curso":"CE-1105","grupo":3},
+	{"curso":"CE-1103","grupo":2}
+      ],
+      "id":81,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":14},
+	{"curso":"CE-1105","grupo":3},
+	{"curso":"CE-1103","grupo":2}
+      ],
+      "id":82,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":15},
+	{"curso":"CE-1105","grupo":3},
+	{"curso":"CE-1103","grupo":2}
+      ],
+      "id":83,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":16},
+	{"curso":"CE-1105","grupo":3},
+	{"curso":"CE-1103","grupo":2}
+      ],
+      "id":84,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":17},
+	{"curso":"CE-1105","grupo":3},
+	{"curso":"CE-1103","grupo":2}
+      ],
+      "id":85,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":18},
+	{"curso":"CE-1105","grupo":3},
+	{"curso":"CE-1103","grupo":2}
+      ],
+      "id":86,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":19},
+	{"curso":"CE-1105","grupo":3},
+	{"curso":"CE-1103","grupo":2}
+      ],
+      "id":87,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":2},
+	{"curso":"CE-1105","grupo":3},
+	{"curso":"CE-1103","grupo":2}
+      ],
+      "id":88,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":3},
+	{"curso":"CE-1105","grupo":3},
+	{"curso":"CE-1103","grupo":2}
+      ],
+      "id":89,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":4},
+	{"curso":"CE-1105","grupo":3},
+	{"curso":"CE-1103","grupo":2}
+      ],
+      "id":90,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":5},
+	{"curso":"CE-1105","grupo":3},
+	{"curso":"CE-1103","grupo":2}
+      ],
+      "id":91,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":8},
+	{"curso":"CE-1105","grupo":3},
+	{"curso":"CE-1103","grupo":2}
+      ],
+      "id":92,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"CE-1105","grupo":3},
+	{"curso":"CE-1103","grupo":2}
+      ],
+      "id":93,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":1},
+	{"curso":"CE-1103","grupo":2}
+      ],
+      "id":94,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":10},
+	{"curso":"CE-1103","grupo":2}
+      ],
+      "id":95,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":11},
+	{"curso":"CE-1103","grupo":2}
+      ],
+      "id":96,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":12},
+	{"curso":"CE-1103","grupo":2}
+      ],
+      "id":97,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":13},
+	{"curso":"CE-1103","grupo":2}
+      ],
+      "id":98,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":14},
+	{"curso":"CE-1103","grupo":2}
+      ],
+      "id":99,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":15},
+	{"curso":"CE-1103","grupo":2}
+      ],
+      "id":100,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":16},
+	{"curso":"CE-1103","grupo":2}
+      ],
+      "id":101,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":17},
+	{"curso":"CE-1103","grupo":2}
+      ],
+      "id":102,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":18},
+	{"curso":"CE-1103","grupo":2}
+      ],
+      "id":103,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":19},
+	{"curso":"CE-1103","grupo":2}
+      ],
+      "id":104,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":2},
+	{"curso":"CE-1103","grupo":2}
+      ],
+      "id":105,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":3},
+	{"curso":"CE-1103","grupo":2}
+      ],
+      "id":106,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":4},
+	{"curso":"CE-1103","grupo":2}
+      ],
+      "id":107,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":5},
+	{"curso":"CE-1103","grupo":2}
+      ],
+      "id":108,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":8},
+	{"curso":"CE-1103","grupo":2}
+      ],
+      "id":109,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":9},
+	{"curso":"CE-1103","grupo":2}
+      ],
+      "id":110,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":1},
+	{"curso":"CE-1105","grupo":1},
+	{"curso":"CE-1103","grupo":3}
+      ],
+      "id":111,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":11},
+	{"curso":"CE-1105","grupo":1},
+	{"curso":"CE-1103","grupo":3}
+      ],
+      "id":112,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":12},
+	{"curso":"CE-1105","grupo":1},
+	{"curso":"CE-1103","grupo":3}
+      ],
+      "id":113,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":13},
+	{"curso":"CE-1105","grupo":1},
+	{"curso":"CE-1103","grupo":3}
+      ],
+      "id":114,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":14},
+	{"curso":"CE-1105","grupo":1},
+	{"curso":"CE-1103","grupo":3}
+      ],
+      "id":115,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":15},
+	{"curso":"CE-1105","grupo":1},
+	{"curso":"CE-1103","grupo":3}
+      ],
+      "id":116,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":16},
+	{"curso":"CE-1105","grupo":1},
+	{"curso":"CE-1103","grupo":3}
+      ],
+      "id":117,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":17},
+	{"curso":"CE-1105","grupo":1},
+	{"curso":"CE-1103","grupo":3}
+      ],
+      "id":118,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":18},
+	{"curso":"CE-1105","grupo":1},
+	{"curso":"CE-1103","grupo":3}
+      ],
+      "id":119,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":2},
+	{"curso":"CE-1105","grupo":1},
+	{"curso":"CE-1103","grupo":3}
+      ],
+      "id":120,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":4},
+	{"curso":"CE-1105","grupo":1},
+	{"curso":"CE-1103","grupo":3}
+      ],
+      "id":121,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":5},
+	{"curso":"CE-1105","grupo":1},
+	{"curso":"CE-1103","grupo":3}
+      ],
+      "id":122,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":6},
+	{"curso":"CE-1105","grupo":1},
+	{"curso":"CE-1103","grupo":3}
+      ],
+      "id":123,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":7},
+	{"curso":"CE-1105","grupo":1},
+	{"curso":"CE-1103","grupo":3}
+      ],
+      "id":124,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":8},
+	{"curso":"CE-1105","grupo":1},
+	{"curso":"CE-1103","grupo":3}
+      ],
+      "id":125,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"CE-1105","grupo":1},
+	{"curso":"CE-1103","grupo":3}
+      ],
+      "id":126,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":1},
+	{"curso":"CE-1105","grupo":2},
+	{"curso":"CE-1103","grupo":3}
+      ],
+      "id":127,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":10},
+	{"curso":"CE-1105","grupo":2},
+	{"curso":"CE-1103","grupo":3}
+      ],
+      "id":128,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":11},
+	{"curso":"CE-1105","grupo":2},
+	{"curso":"CE-1103","grupo":3}
+      ],
+      "id":129,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":12},
+	{"curso":"CE-1105","grupo":2},
+	{"curso":"CE-1103","grupo":3}
+      ],
+      "id":130,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":13},
+	{"curso":"CE-1105","grupo":2},
+	{"curso":"CE-1103","grupo":3}
+      ],
+      "id":131,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":14},
+	{"curso":"CE-1105","grupo":2},
+	{"curso":"CE-1103","grupo":3}
+      ],
+      "id":132,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":18},
+	{"curso":"CE-1105","grupo":2},
+	{"curso":"CE-1103","grupo":3}
+      ],
+      "id":133,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":2},
+	{"curso":"CE-1105","grupo":2},
+	{"curso":"CE-1103","grupo":3}
+      ],
+      "id":134,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":4},
+	{"curso":"CE-1105","grupo":2},
+	{"curso":"CE-1103","grupo":3}
+      ],
+      "id":135,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":5},
+	{"curso":"CE-1105","grupo":2},
+	{"curso":"CE-1103","grupo":3}
+      ],
+      "id":136,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":6},
+	{"curso":"CE-1105","grupo":2},
+	{"curso":"CE-1103","grupo":3}
+      ],
+      "id":137,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":7},
+	{"curso":"CE-1105","grupo":2},
+	{"curso":"CE-1103","grupo":3}
+      ],
+      "id":138,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":8},
+	{"curso":"CE-1105","grupo":2},
+	{"curso":"CE-1103","grupo":3}
+      ],
+      "id":139,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":9},
+	{"curso":"CE-1105","grupo":2},
+	{"curso":"CE-1103","grupo":3}
+      ],
+      "id":140,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"CE-1105","grupo":2},
+	{"curso":"CE-1103","grupo":3}
+      ],
+      "id":141,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":1},
+	{"curso":"CE-1105","grupo":3},
+	{"curso":"CE-1103","grupo":3}
+      ],
+      "id":142,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":11},
+	{"curso":"CE-1105","grupo":3},
+	{"curso":"CE-1103","grupo":3}
+      ],
+      "id":143,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":12},
+	{"curso":"CE-1105","grupo":3},
+	{"curso":"CE-1103","grupo":3}
+      ],
+      "id":144,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":13},
+	{"curso":"CE-1105","grupo":3},
+	{"curso":"CE-1103","grupo":3}
+      ],
+      "id":145,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":14},
+	{"curso":"CE-1105","grupo":3},
+	{"curso":"CE-1103","grupo":3}
+      ],
+      "id":146,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":15},
+	{"curso":"CE-1105","grupo":3},
+	{"curso":"CE-1103","grupo":3}
+      ],
+      "id":147,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":16},
+	{"curso":"CE-1105","grupo":3},
+	{"curso":"CE-1103","grupo":3}
+      ],
+      "id":148,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":17},
+	{"curso":"CE-1105","grupo":3},
+	{"curso":"CE-1103","grupo":3}
+      ],
+      "id":149,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":18},
+	{"curso":"CE-1105","grupo":3},
+	{"curso":"CE-1103","grupo":3}
+      ],
+      "id":150,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":2},
+	{"curso":"CE-1105","grupo":3},
+	{"curso":"CE-1103","grupo":3}
+      ],
+      "id":151,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":4},
+	{"curso":"CE-1105","grupo":3},
+	{"curso":"CE-1103","grupo":3}
+      ],
+      "id":152,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":5},
+	{"curso":"CE-1105","grupo":3},
+	{"curso":"CE-1103","grupo":3}
+      ],
+      "id":153,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":6},
+	{"curso":"CE-1105","grupo":3},
+	{"curso":"CE-1103","grupo":3}
+      ],
+      "id":154,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":7},
+	{"curso":"CE-1105","grupo":3},
+	{"curso":"CE-1103","grupo":3}
+      ],
+      "id":155,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":8},
+	{"curso":"CE-1105","grupo":3},
+	{"curso":"CE-1103","grupo":3}
+      ],
+      "id":156,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"CE-1105","grupo":3},
+	{"curso":"CE-1103","grupo":3}
+      ],
+      "id":157,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":1},
+	{"curso":"CE-1103","grupo":3}
+      ],
+      "id":158,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":10},
+	{"curso":"CE-1103","grupo":3}
+      ],
+      "id":159,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":11},
+	{"curso":"CE-1103","grupo":3}
+      ],
+      "id":160,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":12},
+	{"curso":"CE-1103","grupo":3}
+      ],
+      "id":161,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":13},
+	{"curso":"CE-1103","grupo":3}
+      ],
+      "id":162,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":14},
+	{"curso":"CE-1103","grupo":3}
+      ],
+      "id":163,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":15},
+	{"curso":"CE-1103","grupo":3}
+      ],
+      "id":164,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":16},
+	{"curso":"CE-1103","grupo":3}
+      ],
+      "id":165,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":17},
+	{"curso":"CE-1103","grupo":3}
+      ],
+      "id":166,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":18},
+	{"curso":"CE-1103","grupo":3}
+      ],
+      "id":167,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":2},
+	{"curso":"CE-1103","grupo":3}
+      ],
+      "id":168,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":4},
+	{"curso":"CE-1103","grupo":3}
+      ],
+      "id":169,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":5},
+	{"curso":"CE-1103","grupo":3}
+      ],
+      "id":170,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":6},
+	{"curso":"CE-1103","grupo":3}
+      ],
+      "id":171,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":7},
+	{"curso":"CE-1103","grupo":3}
+      ],
+      "id":172,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":8},
+	{"curso":"CE-1103","grupo":3}
+      ],
+      "id":173,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":9},
+	{"curso":"CE-1103","grupo":3}
+      ],
+      "id":174,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":1},
+	{"curso":"CE-1105","grupo":1}
+      ],
+      "id":175,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":11},
+	{"curso":"CE-1105","grupo":1}
+      ],
+      "id":176,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":12},
+	{"curso":"CE-1105","grupo":1}
+      ],
+      "id":177,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":13},
+	{"curso":"CE-1105","grupo":1}
+      ],
+      "id":178,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":14},
+	{"curso":"CE-1105","grupo":1}
+      ],
+      "id":179,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":15},
+	{"curso":"CE-1105","grupo":1}
+      ],
+      "id":180,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":16},
+	{"curso":"CE-1105","grupo":1}
+      ],
+      "id":181,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":17},
+	{"curso":"CE-1105","grupo":1}
+      ],
+      "id":182,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":18},
+	{"curso":"CE-1105","grupo":1}
+      ],
+      "id":183,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":19},
+	{"curso":"CE-1105","grupo":1}
+      ],
+      "id":184,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":2},
+	{"curso":"CE-1105","grupo":1}
+      ],
+      "id":185,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":3},
+	{"curso":"CE-1105","grupo":1}
+      ],
+      "id":186,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":4},
+	{"curso":"CE-1105","grupo":1}
+      ],
+      "id":187,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":5},
+	{"curso":"CE-1105","grupo":1}
+      ],
+      "id":188,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":6},
+	{"curso":"CE-1105","grupo":1}
+      ],
+      "id":189,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":7},
+	{"curso":"CE-1105","grupo":1}
+      ],
+      "id":190,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":8},
+	{"curso":"CE-1105","grupo":1}
+      ],
+      "id":191,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":1},
+	{"curso":"CE-1105","grupo":2}
+      ],
+      "id":192,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":10},
+	{"curso":"CE-1105","grupo":2}
+      ],
+      "id":193,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":11},
+	{"curso":"CE-1105","grupo":2}
+      ],
+      "id":194,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":12},
+	{"curso":"CE-1105","grupo":2}
+      ],
+      "id":195,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":13},
+	{"curso":"CE-1105","grupo":2}
+      ],
+      "id":196,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":14},
+	{"curso":"CE-1105","grupo":2}
+      ],
+      "id":197,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":18},
+	{"curso":"CE-1105","grupo":2}
+      ],
+      "id":198,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":19},
+	{"curso":"CE-1105","grupo":2}
+      ],
+      "id":199,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":2},
+	{"curso":"CE-1105","grupo":2}
+      ],
+      "id":200,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":3},
+	{"curso":"CE-1105","grupo":2}
+      ],
+      "id":201,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":4},
+	{"curso":"CE-1105","grupo":2}
+      ],
+      "id":202,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":5},
+	{"curso":"CE-1105","grupo":2}
+      ],
+      "id":203,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":6},
+	{"curso":"CE-1105","grupo":2}
+      ],
+      "id":204,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":7},
+	{"curso":"CE-1105","grupo":2}
+      ],
+      "id":205,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":8},
+	{"curso":"CE-1105","grupo":2}
+      ],
+      "id":206,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":9},
+	{"curso":"CE-1105","grupo":2}
+      ],
+      "id":207,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":1},
+	{"curso":"CE-1105","grupo":3}
+      ],
+      "id":208,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":11},
+	{"curso":"CE-1105","grupo":3}
+      ],
+      "id":209,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":12},
+	{"curso":"CE-1105","grupo":3}
+      ],
+      "id":210,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":13},
+	{"curso":"CE-1105","grupo":3}
+      ],
+      "id":211,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":14},
+	{"curso":"CE-1105","grupo":3}
+      ],
+      "id":212,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":15},
+	{"curso":"CE-1105","grupo":3}
+      ],
+      "id":213,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":16},
+	{"curso":"CE-1105","grupo":3}
+      ],
+      "id":214,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":17},
+	{"curso":"CE-1105","grupo":3}
+      ],
+      "id":215,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":18},
+	{"curso":"CE-1105","grupo":3}
+      ],
+      "id":216,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":19},
+	{"curso":"CE-1105","grupo":3}
+      ],
+      "id":217,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":2},
+	{"curso":"CE-1105","grupo":3}
+      ],
+      "id":218,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":3},
+	{"curso":"CE-1105","grupo":3}
+      ],
+      "id":219,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":4},
+	{"curso":"CE-1105","grupo":3}
+      ],
+      "id":220,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":5},
+	{"curso":"CE-1105","grupo":3}
+      ],
+      "id":221,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":6},
+	{"curso":"CE-1105","grupo":3}
+      ],
+      "id":222,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":7},
+	{"curso":"CE-1105","grupo":3}
+      ],
+      "id":223,
+      "razon":"balance_carreras"
+    },
+    {
+      "cumple":false,
+      "cursos": [
+	{"curso":"MA-1103","grupo":8},
+	{"curso":"CE-1105","grupo":3}
+      ],
+      "id":224,
+      "razon":"balance_carreras"
+    }
+  ],
+  "total":224
+}

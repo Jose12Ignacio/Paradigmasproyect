@@ -71,6 +71,7 @@
          (assert (hash-ref c 'creditos) exact-nonnegative-integer?)
          (assert (hash-ref c 'semestre) exact-nonnegative-integer?)
          (string->carrera (assert (hash-ref c 'carrera) string?))
+         (assert (hash-ref c 'area) string?)
          (any->string-list (hash-ref c 'requisitos))
          (any->string-list (hash-ref c 'correquisitos))
          (parsear-grupos codigo (any->hash-list (hash-ref c 'grupos)))
