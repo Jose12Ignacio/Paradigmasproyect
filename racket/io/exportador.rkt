@@ -2,7 +2,7 @@
 
 ;; exportador.rkt — Módulo de Salida (Persona 1)
 ;; Escribe las combinaciones finales en el JSON que consumirá Prolog.
-;; Utiliza indentación para que el archivo generado sea legible por humanos.
+;; Incluye curso, grupo, creditos, carrera y area por cada selección.
 
 (require typed/json
          "../tipos.rkt")
@@ -14,6 +14,7 @@
 (define (seleccion->hash s)
   (hash 'curso (Seleccion-curso s)
         'grupo (Seleccion-grupo s)
+        'creditos (Seleccion-creditos s)      ; <-- NUEVO
         'carrera (Seleccion-carrera s)
         'area (Seleccion-area s)))
 
@@ -39,9 +40,9 @@
 
   ;; Armamos el hash final con la metadata
   (define json-final
-    (hash 'metadata (hash 'version_esquema "2.0"
+    (hash 'metadata (hash 'version_esquema "2.1"           ; subimos versión
                           'total_combinaciones (length combinaciones)
-                          'fecha_generacion "2026-10-29")
+                          'fecha_generacion "2026-11-18")
           'combinaciones lista-combinaciones))
   
   ;; Escribimos el archivo con formato "Pretty Print" (indentado con 4 espacios)

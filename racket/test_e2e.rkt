@@ -62,7 +62,7 @@
       (for/list : (Listof Seleccion) ([g grupos])
         (define c (assert (buscar-curso (Grupo-curso g) (Catalogo-cursos cat)) Curso?))
         ;; AHORA incluye area
-        (Seleccion (Grupo-curso g) (Grupo-numero g) (Curso-carrera c) (Curso-area c))))
+        (Seleccion (Grupo-curso g) (Grupo-numero g) (Curso-creditos c) (Curso-carrera c) (Curso-area c))))
     
     (define creditos
       (for/sum : Natural ([s selecciones])

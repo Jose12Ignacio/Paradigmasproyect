@@ -39,6 +39,7 @@
 
 (struct Seleccion ([curso : String]
                    [grupo : Natural]
+                   [creditos : Natural]
                    [carrera : Carrera]
                    [area : String]) #:transparent)
 
