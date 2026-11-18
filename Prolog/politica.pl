@@ -7,6 +7,10 @@
 %   - max_cursos_area/1
 %   - par_incompatible/2
 %
+% IMPORTANTE: carreras y códigos de curso se escriben EXACTAMENTE como vienen en
+% los datos ('CE', 'ATI', 'CE-1103', con guion). Si no coinciden, la regla no se
+% activa (regla 3) o rechaza todo (regla 1).
+%
 % La relación de incompatibilidad es SIMÉTRICA (la maneja son_incompatibles/2
 % en reglas.pl), así que solo hay que declarar cada par una vez.
 % =====================================================================
@@ -33,27 +37,29 @@ max_cursos_area(3).
 % ---------------------------------------------------------------------
 % REGLA 3: Incompatibilidad
 % Pares de cursos que NO deberían matricularse juntos en el mismo semestre.
-%
 % Nota: la relación es simétrica, así que solo se declara una dirección.
 % ---------------------------------------------------------------------
 
+% Entre las dos carreras
+% CE-1103 (Algoritmos y estructuras de datos 1, CE) y TI-2402 (Algoritmos y
+% estructuras de datos, ATI): es el mismo contenido en las dos carreras, así que
+% llevar ambos en el mismo semestre no aporta nada y duplica la carga.
+par_incompatible('CE-1103', 'TI-2402').
+
 % --- Ingeniería en Computadores ---
 
-% Mantiene compatibilidad con tests_reglas.pl (test existente)
-par_incompatible('CE1106', 'CE3101').
-% Paradicmas vs. Arquitectura de Computadores I
-% Justificación: ambos tienen carga alta de proyectos de programación
-% simultáneos (4 paradigmas + programación a bajo nivel/simulación),
-% disparando sobrecarga operativa en semanas de entrega.
-par_incompatible('CE1106', 'CE2103').
+% CE-1106 (Paradigmas de programación) y CE-2103 (Algoritmos y estructuras de
+% datos 2): ambos tienen proyectos de programación extensos, y llevarlos juntos
+% concentra las entregas del semestre (decisión del equipo).
+par_incompatible('CE-1106', 'CE-2103').
 
 % --- Administración de Tecnologías de Información (ATI) ---
 
-% Nota: los pares de abajo son de ejemplo, ajusta los códigos a los
-% cursos reales de ATI que estén en el catálogo.
-par_incompatible('TI1400', 'MA1102').   % Intro programación vs. Cálculo
-% Justificación: ambos son de primer/segundo semestre con alta carga
-% de laboratorio y evaluaciones paralelas, sobrecargando el inicio.
-par_incompatible('CI1106', 'CI1107').    % Comunicación escrita vs. oral
-% Justificación: ambos implican producción de textos/presentaciones
-% simultáneas con entregas semanales, compitiendo por tiempo del estudiante.
+% TI-1400 (Introducción a la programación) y MA-1102 (Cálculo diferencial e
+% integral): ambos son de los primeros semestres y con evaluaciones frecuentes
+% (decisión del equipo).
+par_incompatible('TI-1400', 'MA-1102').
+
+% CI-1106 (Comunicación escrita) y CI-1107 (Comunicación oral): ambos exigen
+% producir textos o presentaciones con entregas semanales (decisión del equipo).
+par_incompatible('CI-1106', 'CI-1107').

@@ -30,7 +30,10 @@ cargar_combinaciones(Ruta) :-
     retractall(combinacion(_, _)),
     setup_call_cleanup(
         open(Ruta, read, In, [encoding(utf8)]),
-        json_read_dict(In, Dict),
+        % value_string_as(atom): los textos del JSON ("CE", "CE-1105") se leen como atomos
+        % ('CE', 'CE-1105'), igual que en politica.pl. Con strings no unifican y la regla 1
+        % rechaza todas las combinaciones sin ningun error.
+        json_read_dict(In, Dict, [value_string_as(atom)]),
         close(In)),
     dict_get_required(Dict, combinaciones, Combinaciones),
     forall(member(Comb, Combinaciones), agregar_combinacion(Comb)).
