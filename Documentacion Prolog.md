@@ -1,3 +1,32 @@
+# Módulo de Evaluación de Políticas Académicas (Prolog)
+
+Subsistema de validación y control de restricciones institucionales desarrollado para la Etapa 3 del proyecto integrador de Paradigmas de Programación. Este módulo procesa las combinaciones de horarios generadas por el pipeline en Racket (`salida_etapa2.json`), evalúa declarativamente las reglas de negocio y exporta un informe estructurado en formato JSON para su consumo en la siguiente etapa del sistema (Java).
+
+---
+
+## 1. Arquitectura del Subsistema
+
+En cumplimiento con los requerimientos del paradigma lógico, el estado y las operaciones de filtrado se resuelven exclusivamente mediante **recursión, acumuladores y unificación**, evitando por completo el uso de predicados dinámicos (`assert`/`retract`) o variables globales en las reglas de negocio.
+
+El flujo de datos e interacción entre los componentes sigue la siguiente estructura:
+
+```text
+Combinaciones de Racket ──► carga.pl ──► Hechos combinacion(Id, Cursos)
+                                                   │
+         politica.pl ──► reglas.pl                 ▼
+         (parámetros)    (3 reglas)  ──►  evaluador.pl  evaluar/3
+                                                   │
+                                                   ▼
+                                          exportador.pl  (recorre todas)
+                                                   │
+                                                   ▼
+                                        resultado.json ──► Etapa 4 (Java)
+
+2. Componentes Principales2.1.
+ Hechos de Política Académica (politica.pl)Centraliza los parámetros institucionales configurables, permitiendo realizar modificaciones rápidas y dinámicas durante la ejecución o defensa del proyecto sin alterar el código base de las reglas:
+ Balance de Carreras (max_porcentaje_carrera/2): Define el porcentaje máximo de créditos que una carrera específica puede aportar a una combinación de matrícula.Límite por Área (max_cursos_area/1): Restringe la cantidad máxima de asignaturas pertenecientes a un mismo área temática que pueden coincidir en el mismo periodo (configurado por defecto en N = 3).
+ 
+ Incompatibilidades (par_incompatible/2): Declara pares de asignaturas que comparten contenidos excesivos o generan sobrecarga de entregas en paralelo. La simetría de esta relación es administrada transparentemente por el motor.
 ### Motor de Reglas de Política Académica (`reglas.pl`)
 
 El módulo `reglas` valida de forma declarativa cada combinación de horario frente a los parámetros definidos en `politica.pl`[cite: 3]. En cumplimiento con las restricciones del paradigma lógico, el estado y los cálculos intermedios se resuelven exclusivamente mediante recursión, acumuladores y unificación, sin recurrir a predicados dinámicos (`assert`/`retract`) ni variables globales[cite: 4].
