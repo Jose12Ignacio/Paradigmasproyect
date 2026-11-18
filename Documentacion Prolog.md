@@ -113,7 +113,7 @@ Archivos de esta parte (carpeta `Prolog/`):
 - `main.pl`: script que une los pasos y se ejecuta con `swipl`.
 - `tests/test_evaluador.pl`: pruebas de la parte anterior, con reglas provisionales para no depender de otros módulos.
 
-#Cómo se ejecuta
+ Cómo se ejecuta
 
 ```
 swipl Prolog/main.pl <combinaciones_de_racket.json> <resultado.json>
@@ -137,7 +137,7 @@ extensión, hay que escribir `--` antes de los argumentos.
 
 2.2 Decisiones de diseño
 
-#2.2.1 Razón de rechazo y orden de las reglas
+ 2.2.1 Razón de rechazo y orden de las reglas
 
 La razón de rechazo es la primera regla violada, según una lista de orden:
 
@@ -177,7 +177,7 @@ las tres reglas a la vez: CE tiene 63,6 % de los créditos, hay tres cursos de p
 El veredicto es el mismo (`cumple: false`); solo cambia cuál de las tres violaciones se informa. [Reemplazar el
 ejemplo por una combinación real de la salida de Racket cuando esté disponible.]
 
-#Formato de salida: JSON
+ Formato de salida: JSON
 
 ```json
 {
@@ -197,7 +197,7 @@ las listas de pares tienen largo variable y en CSV habría que inventar una conv
 Java sepa cuántas combinaciones hay y con qué orden se evaluó cada razón. Si la entrada no tiene ninguna
 combinación, el archivo sale con `total: 0` y una lista vacía, y el programa avisa por pantalla.
 
-#2.2.2 Casos límite reales
+ 2.2.2 Casos límite reales
 
 **Combinación de una sola carrera.** La política dice que una combinación de una sola carrera es válida mientras
 no supere su máximo, y una sola carrera ocupa el 100 % de los créditos. Por eso el resultado depende del valor
@@ -212,7 +212,7 @@ de Racket traen `CE` y `ATI`), la consulta falla, la regla se considera incumpli
 que incluyan esa carrera se rechazan con `balance_carreras`, sin ningún mensaje de error. Se comprobó con tres
 combinaciones: con la política correcta cumplía una; con los nombres equivocados se rechazaban las tres.
 `main.pl` imprime ahora un aviso (`advertir_carreras_sin_politica`) cuando una carrera de los datos no tiene
-porcentaje, para que el problema sea visible antes de evaluar. [Indicar cómo quedó en la política real del equipo.]
+porcentaje, para que el problema sea visible antes de evaluar. Esto ocurrió de verdad al integrar los módulos: `carga.pl` leía el JSON con `json_read_dict/2`, que devuelve *strings* (`"CE"`), mientras que `politica.pl` declara *átomos* (`'CE'`). Ambos se ven iguales con `write/1`, pero no unifican, así que las tres combinaciones de prueba se rechazaban con `balance_carreras` aunque la política sí definía `CE` y `ATI`. El aviso de `main.pl` lo hizo visible y se corrigió leyendo el JSON con la opción `value_string_as(atom)`: con ese único cambio, de las tres combinaciones cumplieron dos y la tercera (solo cursos de CE) se rechazó por el balance. [Confirmar con Integrante 1 que el cambio quedó en `carga.pl`.]
 
 2.3 Predicados principales y consultas
 
@@ -250,7 +250,7 @@ análisis de la sección 2.2.1.
 `findall/3`, que explora `combinacion/2` por backtracking, y escribe el JSON. No se usa `assert` ni `retract` para
 guardar resultados: la lista de resultados se pasa como argumento.
 
-#Pruebas
+ Pruebas
 
 `Prolog/tests/test_evaluador.pl` (14 pruebas) cubre una combinación válida, una que viola cada regla, una que
 viola las tres con tres órdenes distintos, las consultas en modo verificación y la exportación leída de vuelta.
